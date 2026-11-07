@@ -5,8 +5,8 @@
       "data": "2026-11-07"
     },
     "whatsapp": {
-      "status": "pendente",
-      "tentativas": 0
+      "status": "confirmado_pelo_usuario",
+      "confirmado_em": "2026-11-07T14:48:59.499116-03:00"
     }
   },
   "pncp:78640489000153/2026/1018": {
@@ -15,8 +15,8 @@
       "data": "2026-11-07"
     },
     "whatsapp": {
-      "status": "pendente",
-      "tentativas": 0
+      "status": "confirmado_pelo_usuario",
+      "confirmado_em": "2026-11-07T14:48:59.499116-03:00"
     }
   },
   "pncp:78640489000153/2026/1017": {
@@ -25,8 +25,8 @@
       "data": "2026-11-07"
     },
     "whatsapp": {
-      "status": "pendente",
-      "tentativas": 0
+      "status": "confirmado_pelo_usuario",
+      "confirmado_em": "2026-11-07T14:48:59.499116-03:00"
     }
   },
   "pncp:11816419000132/2026/6": {
@@ -35,8 +35,8 @@
       "data": "2026-11-07"
     },
     "whatsapp": {
-      "status": "pendente",
-      "tentativas": 0
+      "status": "confirmado_pelo_usuario",
+      "confirmado_em": "2026-11-07T14:48:59.499116-03:00"
     }
   }
 }

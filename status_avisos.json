@@ -1,12 +1,13 @@
 {
-  "atualizado": "2026-11-07T13:04:21.805089-03:00",
+  "atualizado": "2026-11-07T14:48:59.499116-03:00",
   "canais": {
     "email": {
       "status": "enviado"
     },
     "whatsapp": {
-      "status": "pendente",
-      "observacao": "Entrega não recebida pelo usuário; ativação confirmada por ele."
+      "status": "confirmado_pelo_usuario",
+      "confirmado_em": "2026-11-07T14:48:59.499116-03:00",
+      "observacao": "Recebimento confirmado pelo usuário após o envio inicial."
     }
   }
 }
