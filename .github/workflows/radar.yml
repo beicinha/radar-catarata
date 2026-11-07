@@ -1,10 +1,10 @@
 # Roda o Radar Catarata a cada hora, avisa por e-mail/WhatsApp
-# quando há licitação nova e publica o painel no GitHub Pages.
+# após cada procura, mesmo sem novidades, e publica o painel no GitHub Pages.
 name: Radar Catarata
 
 on:
   schedule:
-    - cron: "17 * * * *"      # minuto 17 de cada hora, todos os dias
+    - cron: "27 * * * *"      # minuto 27 de cada hora; reagendado em 07/11
   workflow_dispatch:           # botão "Run workflow" para rodar na hora
 
 permissions:
@@ -42,17 +42,19 @@ jobs:
         id: coleta
         run: python coletor.py
 
-      - name: Avisar por e-mail e WhatsApp
+      - name: Informar procura e novidades por e-mail e WhatsApp
+        if: ${{ always() && !cancelled() }}
         id: avisos
         continue-on-error: true
         env:
+          COLETA_RESULTADO: ${{ steps.coleta.outcome }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
           CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
           PAINEL_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: python avisar.py
+        run: python avisar.py --informe
 
       - name: Atualizar situação dos avisos no painel
         if: ${{ !cancelled() && steps.coleta.outcome == 'success' }}
@@ -63,7 +65,7 @@ jobs:
         run: |
           git config user.name "radar-catarata"
           git config user.email "radar-catarata@users.noreply.github.com"
-          for arquivo in dados.json radar.html cache_*.json vistos_oss.json avisados.json status_avisos.json; do
+          for arquivo in dados.json radar.html cache_*.json vistos_oss.json avisados.json status_avisos.json informes.json; do
             if [ -f "$arquivo" ]; then git add -- "$arquivo"; fi
           done
           git diff --cached --quiet || git commit -m "Radar: atualização $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')"

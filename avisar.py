@@ -27,6 +27,7 @@ AGORA = datetime.now(timezone(timedelta(hours=-3)))
 HOJE = AGORA.strftime("%Y-%m-%d")
 
 from regras import cirurgia_ofertada, credenciamento, diario_contratacao
+import informes
 
 
 def relevante(i):
@@ -77,13 +78,13 @@ def linha(i):
     return " · ".join(partes)
 
 
-def enviar_email(novos, texto):
+def enviar_email(novos, texto, assunto=None):
     user, senha = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASSWORD")
     if not (user and senha):
         print("e-mail não configurado (faltam GMAIL_USER/GMAIL_APP_PASSWORD)")
         return False
     msg = EmailMessage()
-    msg["Subject"] = f"[Radar Catarata] {len(novos)} caso(s) novo(s) – {data_br(HOJE)}"
+    msg["Subject"] = assunto or f"[Radar Catarata] {len(novos)} caso(s) novo(s) – {data_br(HOJE)}"
     msg["From"], msg["To"] = user, os.environ.get("EMAIL_TO") or user
     msg.set_content(texto)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=45) as s:
@@ -172,6 +173,7 @@ def textos(itens, painel):
 
 def main():
     teste = "--teste" in sys.argv
+    modo_informe = "--informe" in sys.argv
     if "--teste-whatsapp" in sys.argv:
         mensagem = "Radar Catarata: teste de funcionamento do WhatsApp."
         if teste:
@@ -182,8 +184,13 @@ def main():
         if status != "aceito_sem_confirmacao":
             raise SystemExit(1)
         return
-    with open(P("dados.json"), encoding="utf-8") as arquivo:
-        dados = json.load(arquivo)
+    try:
+        with open(P("dados.json"), encoding="utf-8") as arquivo:
+            dados = json.load(arquivo)
+    except FileNotFoundError:
+        if not modo_informe:
+            raise
+        dados = {}
     try:
         with open(P("avisados.json"), encoding="utf-8") as arquivo:
             avisados = json.load(arquivo)
@@ -202,12 +209,38 @@ def main():
     candidatos = sorted([i for i in dados.get("itens", [])
                          if i["id"] not in ids_anteriores and relevante(i)], key=ordem)
     painel = os.environ.get("PAINEL_URL", "https://beicinha.github.io/radar-catarata/")
+    historico_informes = {"proximo": 0, "rodadas": {}}
+    informe = ""
+    chave_rodada = os.environ.get("GITHUB_RUN_ID") or "local:" + AGORA.isoformat()
+    if modo_informe:
+        try:
+            with open(P("informes.json"), encoding="utf-8") as arquivo:
+                historico_informes = json.load(arquivo)
+        except FileNotFoundError:
+            pass
+        rodadas = historico_informes["rodadas"]
+        if chave_rodada not in rodadas:
+            rodadas[chave_rodada] = {"indice": historico_informes["proximo"], "canais": {}}
+            historico_informes["proximo"] += 1
+        registro_informe = rodadas[chave_rodada]
+        with open(os.path.join(os.path.dirname(__file__), "repertorio_informes.json"), encoding="utf-8") as arquivo:
+            repertorio = json.load(arquivo)
+        informe, tema = informes.criar(dados, [i for i in dados.get("itens", []) if relevante(i)],
+                                     repertorio, registro_informe["indice"],
+                                     os.environ.get("COLETA_RESULTADO", "nao_informado"),
+                                     os.environ.get("GITHUB_RUN_ID"), AGORA, painel)
+        registro_informe["tema"] = tema
+        if os.environ.get("COLETA_RESULTADO") != "success":
+            candidatos = []
     saude = {"atualizado": AGORA.isoformat(), "canais": {}}
     for canal, limite in (("email", 15), ("whatsapp", 5)):
         pendencias = [i for i in candidatos if pendente(avisados.get(i["id"], {}), canal)]
         lote = pendencias[:limite]
         print(f"{canal}: {len(pendencias)} pendente(s); lote de {len(lote)}")
-        if not lote:
+        if modo_informe and registro_informe["canais"].get(canal) in ("enviado", "aceito_sem_confirmacao"):
+            saude["canais"][canal] = {"status": registro_informe["canais"][canal], "informe": "ja_processado"}
+            continue
+        if not lote and not modo_informe:
             anteriores = [v.get(canal, {}) for v in avisados.values()]
             estado = "aceito_sem_confirmacao" if canal == "whatsapp" and any(
                 v.get("status") == "aceito_sem_confirmacao" for v in anteriores) else ("confirmado_pelo_usuario" if canal == "whatsapp" and any(
@@ -215,11 +248,18 @@ def main():
             saude["canais"][canal] = {"status": estado, "pendentes": 0}
             continue
         email, zap = textos(lote, painel)
+        assunto = None
+        if modo_informe:
+            complemento = (f"Avisos novos ou pendentes nesta mensagem: {len(lote)}."
+                           if lote else "Sem novos avisos pendentes na base disponível.")
+            email = informe + "\n\n" + complemento + ("\n\n" + email if lote else "")
+            zap = informe + "\n\n" + complemento + ("\n\n" + zap if lote else "")
+            assunto = f"[Radar Catarata] Informe {AGORA.strftime('%d/%m %H:%M')} — {len(lote)} aviso(s)"
         if teste:
             print(email if canal == "email" else zap)
             continue
         try:
-            status = ("enviado" if enviar_email(lote, email) else "nao_configurado") if canal == "email" else enviar_whatsapp(zap)
+            status = ("enviado" if enviar_email(lote, email, **({"assunto": assunto} if assunto else {})) else "nao_configurado") if canal == "email" else enviar_whatsapp(zap)
         except Exception:
             # A falha de um canal não interrompe o outro nem expõe credenciais.
             status = "falha_envio"
@@ -234,6 +274,13 @@ def main():
             registro[canal] = {"status": status, "ultima_tentativa": AGORA.isoformat(),
                                "tentativas": anterior.get("tentativas", 0) + 1,
                                "aceitas": anterior.get("aceitas", 0) + int(status == "aceito_sem_confirmacao")}
+        if modo_informe:
+            registro_informe["canais"][canal] = status
+            registro_informe["atualizado"] = AGORA.isoformat()
+            # Manter no máximo 100 rodadas para deduplicar repetições da execução.
+            while len(historico_informes["rodadas"]) > 100:
+                del historico_informes["rodadas"][next(iter(historico_informes["rodadas"]))]
+            salvar_json("informes.json", historico_informes)
         # Guardar cada canal imediatamente, inclusive quando o outro falhar.
         salvar_json("avisados.json", avisados)
         saude["canais"][canal] = {"status": status, "pendentes": len(pendencias), "lote": len(lote)}

@@ -507,7 +507,9 @@ def main():
     print("4/4 Varrendo sites de OSS/AMEs...", flush=True)
     oss, status_oss = coletar_oss(vistos)
     dados = revisar_dados({"atualizado": AGORA.strftime("%Y-%m-%d %H:%M"), "base": "Monte Alto/SP",
-                           "itens": pncp + diarios + oss, "fontes_status": status + status_oss})
+                           "itens": pncp + diarios + oss, "fontes_status": status + status_oss,
+                           "rodada": os.environ.get("GITHUB_RUN_ID"),
+                           "concluido": datetime.now(BRT).strftime("%Y-%m-%d %H:%M")})
     json.dump(cache, open(P("cache_pncp.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(vistos, open(P("vistos_oss.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(dados, open(P("dados.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

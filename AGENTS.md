@@ -9,7 +9,7 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
   - O campo `primeira_vez` de cada item marca quando ele apareceu pela primeira vez.
 - `avisar.py`: seleciona os itens relevantes (catarata ou cirurgia oftalmológica, sem compras nem prazo vencido) que não estão em `avisados.json` e manda e-mail (Gmail SMTP) e WhatsApp (CallMeBot).
   - `python3 avisar.py --teste` só mostra o que enviaria.
-- `.github/workflows/radar.yml`: roda a cada hora, no minuto 17 (24 horas por dia); coleta, avisa, faz commit dos caches e publica no GitHub Pages.
+- `.github/workflows/radar.yml`: roda a cada hora, no minuto 27 (24 horas por dia); coleta, envia informe mesmo sem novidades, faz commit dos caches e publica no GitHub Pages.
 - `.github/workflows/painel.yml`: só republica o `radar.html`.
 - Painel: https://beicinha.github.io/radar-catarata/
 - Secrets usados (configurados no GitHub, nunca no código): `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `CALLMEBOT_PHONE`, `CALLMEBOT_APIKEY`, opcional `EMAIL_TO`.
@@ -27,6 +27,9 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - Solicitações WhatsApp aceitas pelo serviço não são repetidas automaticamente, mesmo sem confirmação de entrega. Erros de conexão/configuração continuam pendentes. A API gratuita não fornece aqui confirmação de entrega.
 - Em 07/11, o usuário confirmou também o recebimento dos cinco itens da rodada das 15h19 e pediu monitoramento horário com avisos somente de novidades. `inicio_monitoramento.json` registra os IDs existentes no momento da configuração: continuam no painel, mas não geram alertas históricos. Novos IDs relevantes entram na fila por canal; falhas de envio são retomadas. Não apagar esse arquivo nem marcar itens antigos como enviados sem terem sido enviados.
 - `status_avisos.json` informa a situação geral no painel, sem dados pessoais ou credenciais.
+- O usuário pediu informes após cada procura, mesmo sem novidades, e autorizou repetir informações anteriores como lembretes. Usar `python avisar.py --informe` no fluxo do GitHub. Simulação: `python3 avisar.py --informe --teste`.
+- `repertorio_informes.json` contém oito temas; a descrição está em `REPERTORIO_INFORMES.md`. `informes.py` monta as mensagens e `informes.json` guarda a rotação e evita duplicação na mesma execução.
+- Não afirmar procura concluída se o arquivo de dados não tiver o identificador daquela execução e a etapa de coleta não tiver terminado. Informar falhas de fontes, data da base e rótulo explícito nos lembretes. O próprio fluxo não avisa se o GitHub não chegar a iniciá-lo.
 - Para revisar os dados existentes e regenerar o painel **sem rede ou envio**: `python3 coletor.py --revisar-dados`. A cópia para `~/RadarCatarata` agora exige `--copiar-local`; não usar sem autorização para escrever fora do repositório.
 - Testes de regressão sem envio: `python3 -m unittest discover -s tests -v`.
 - O painel apresenta exigências como indícios para conferência, usa a data atual para prazos e avisa sobre coleta antiga. Falhas de fontes preservam os dados anteriores e devem aparecer como falha.
