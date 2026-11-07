@@ -1,0 +1,118 @@
+[
+ {
+  "nome": "Grupo Santa Casa de Franca (AMEs Avaré, Franca e outros)",
+  "uf": "SP",
+  "url": "https://www.gruposantacasadefranca.com.br/editais/"
+ },
+ {
+  "nome": "Fundação do ABC (FUABC)",
+  "uf": "SP",
+  "url": "https://editais.fuabc.org.br/publicacoes"
+ },
+ {
+  "nome": "FAMESP (Botucatu)",
+  "uf": "SP",
+  "url": "https://www.famesp.org.br/fornecedores/"
+ },
+ {
+  "nome": "SECONCI-SP",
+  "uf": "SP",
+  "url": "https://www.seconci-sp.org.br/compras"
+ },
+ {
+  "nome": "AME Ituverava (Santa Casa de Ituverava)",
+  "uf": "SP",
+  "url": "https://ameituverava.com.br/wp-json/wp/v2/posts?per_page=30",
+  "tipo": "wp"
+ },
+ {
+  "nome": "AME Catanduva (FUNFARME)",
+  "uf": "SP",
+  "url": "https://amecatanduva.com.br/institucional/transparencia"
+ },
+ {
+  "nome": "AME Dracena",
+  "uf": "SP",
+  "url": "https://www.amedracena.com.br/contPJuridica.php"
+ },
+ {
+  "nome": "Santa Casa de Assis (AMEs Assis/Botucatu)",
+  "uf": "SP",
+  "url": "https://santacasadeassis.org.br/transparencia"
+ },
+ {
+  "nome": "Santa Casa de Ourinhos (AME Ourinhos)",
+  "uf": "SP",
+  "url": "https://www.santacasadeourinhos.com.br/portal/transparencia"
+ },
+ {
+  "nome": "Santa Casa de Votuporanga (AMEs Jales/Santa Fé/Votuporanga)",
+  "uf": "SP",
+  "url": "https://www.santacasavotuporanga.com.br/"
+ },
+ {
+  "nome": "FUNFARME (Rio Preto)",
+  "uf": "SP",
+  "url": "https://www.funfarme.com.br/"
+ },
+ {
+  "nome": "CIS-AVH (Cravinhos)",
+  "uf": "SP",
+  "url": "https://www.cisavh.com.br/"
+ },
+ {
+  "nome": "CEJAM",
+  "uf": "SP",
+  "url": "https://cejam.org.br/"
+ },
+ {
+  "nome": "SPDM",
+  "uf": "SP",
+  "url": "https://www.spdm.org.br/"
+ },
+ {
+  "nome": "ISG Saúde (AME Pariquera-Açu)",
+  "uf": "SP",
+  "url": "https://www.isgsaude.org.br/"
+ },
+ {
+  "nome": "AGIR (Goiás)",
+  "uf": "GO",
+  "url": "https://www.agirsaude.org.br/"
+ },
+ {
+  "nome": "INDSH",
+  "uf": "MG",
+  "url": "https://www.indsh.org.br/"
+ },
+ {
+  "nome": "AME Barretos (Fundação Pio XII)",
+  "uf": "SP",
+  "url": "https://amebarretos.com.br/editais/"
+ },
+ {
+  "nome": "FUNCAMP (AME Limeira)",
+  "uf": "SP",
+  "url": "https://www.funcamp.unicamp.br/portal/Aquisicoes/Credenciamentos"
+ },
+ {
+  "nome": "FAEPA (AME Taquaritinga)",
+  "uf": "SP",
+  "url": "https://faepa.br/transparencia-lista/"
+ },
+ {
+  "nome": "AME Taquaritinga",
+  "uf": "SP",
+  "url": "https://www.ametaquaritinga.com.br/transparencia-ambulatorio-de-especialidade-taquaritinga"
+ },
+ {
+  "nome": "ISG Saúde – transparência",
+  "uf": "SP",
+  "url": "https://isgsaude.org.br/transparencia/"
+ },
+ {
+  "nome": "FAMESP – transparência",
+  "uf": "SP",
+  "url": "https://www.famesp.org.br/transparencia/"
+ }
+]

@@ -1,0 +1,679 @@
+<meta charset="utf-8">
+<title>Radar Catarata</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,750&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: barra lateral escura com as visões e os filtros; área principal com lista enxuta (uma linha por oportunidade) e gaveta de detalhes à direita */
+:root{
+  --bg:#f4f5f8; --surface:#ffffff; --surface-2:#f0f1f6; --ink:#181b2e; --muted:#62667c; --line:#e1e3ec;
+  --side:#191c33; --side-2:#232745; --side-ink:#e9eaf5; --side-muted:#9a9ec0; --side-line:#2d3254;
+  --accent:#3640b8; --accent-soft:#e7e8fa; --on-accent:#ffffff;
+  --gold:#c98a12; --gold-soft:#fbf0d9;
+  --ok:#23835a; --ok-soft:#e2f3ea; --warn:#b06a0c; --warn-soft:#faeedb; --bad:#c03b31; --bad-soft:#fbe5e2; --dia:#7b4fb0; --dia-soft:#f0e8fa; --oss:#2c7da0; --oss-soft:#e1f0f6;
+  --shadow:0 10px 40px -18px rgba(20,24,52,.35);
+  --f-display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10121f; --surface:#171a2b; --surface-2:#1e2236; --ink:#e8e9f3; --muted:#9a9eb8; --line:#2a2e47;
+  --side:#0b0d18; --side-2:#171a2e; --side-ink:#e8e9f3; --side-muted:#8a8eae; --side-line:#22263f;
+  --accent:#8f97ff; --accent-soft:#262b54; --on-accent:#0f1120;
+  --gold:#f0b440; --gold-soft:#3a2e14;
+  --ok:#5dd09a; --ok-soft:#173527; --warn:#eeac55; --warn-soft:#3a2b14; --bad:#ff8a7e; --bad-soft:#3d1c19; --dia:#c39bf0; --dia-soft:#2e2142; --oss:#6cc3e4; --oss-soft:#163444;
+  --shadow:0 10px 40px -18px rgba(0,0,0,.7); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10121f; --surface:#171a2b; --surface-2:#1e2236; --ink:#e8e9f3; --muted:#9a9eb8; --line:#2a2e47;
+  --side:#0b0d18; --side-2:#171a2e; --side-ink:#e8e9f3; --side-muted:#8a8eae; --side-line:#22263f;
+  --accent:#8f97ff; --accent-soft:#262b54; --on-accent:#0f1120;
+  --gold:#f0b440; --gold-soft:#3a2e14;
+  --ok:#5dd09a; --ok-soft:#173527; --warn:#eeac55; --warn-soft:#3a2b14; --bad:#ff8a7e; --bad-soft:#3d1c19; --dia:#c39bf0; --dia-soft:#2e2142; --oss:#6cc3e4; --oss-soft:#163444;
+  --shadow:0 10px 40px -18px rgba(0,0,0,.7); color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.app{display:grid;grid-template-columns:264px minmax(0,1fr);min-height:100%}
+
+/* ---------- Barra lateral ---------- */
+.side{background:var(--side);color:var(--side-ink);position:sticky;top:0;height:100vh;overflow:auto;display:flex;flex-direction:column;gap:18px;padding:20px 14px 20px max(14px, env(safe-area-inset-left, 0px))}
+.marca{display:flex;align-items:center;gap:10px;padding:0 6px}
+.marca svg{width:34px;height:34px;flex:none}
+.marca b{font-family:var(--f-display);font-weight:750;font-size:20px;letter-spacing:-.01em;line-height:1}
+.marca small{display:block;font-size:11.5px;color:var(--side-muted);margin-top:3px}
+.nav{display:grid;gap:2px}
+.nav h4,.side h4{margin:10px 8px 4px;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--side-muted);font-weight:600}
+.vis{display:flex;align-items:center;gap:10px;width:100%;background:none;border:none;color:var(--side-ink);padding:8px 10px;border-radius:8px;cursor:pointer;text-align:left;font-size:14px}
+.vis:hover{background:var(--side-2)}
+.vis[aria-current="true"]{background:var(--side-2);box-shadow:inset 3px 0 0 var(--gold)}
+.vis .ic{width:8px;height:8px;border-radius:50%;flex:none;background:var(--side-muted)}
+.vis .c{margin-left:auto;font-family:var(--f-mono);font-size:12px;color:var(--side-muted)}
+.side .rodape{margin-top:auto;font-size:12px;color:var(--side-muted);padding:10px 8px 0;border-top:1px solid var(--side-line);display:grid;gap:6px}
+.side .rodape b{color:var(--side-ink);font-family:var(--f-mono);font-weight:500}
+.side .rodape button{background:none;border:none;color:var(--side-ink);text-decoration:underline;cursor:pointer;padding:0;text-align:left;font-size:12px}
+
+/* ---------- Área principal ---------- */
+.main{min-width:0;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:22px 48px}
+.main-in{max-width:980px;margin:0 auto}
+.topo{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between}
+.topo h1{font-family:var(--f-display);font-weight:700;font-size:clamp(22px,3vw,30px);letter-spacing:-.015em;margin:0;line-height:1.1}
+.topo p{margin:4px 0 0;color:var(--muted);font-size:13.5px}
+.ferr{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.ferr input[type=search]{flex:1 1 240px;min-width:0;font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+.ferr select{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 10px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 14px;cursor:pointer;font-size:14px;font-weight:500;display:inline-flex;gap:8px;align-items:center}
+.btn .n{background:var(--accent);color:var(--on-accent);border-radius:999px;font-size:11px;padding:1px 7px;font-family:var(--f-mono)}
+.btn-menu{display:none}
+.ativos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.ativos:empty{display:none}
+.ativo{font-size:12px;background:var(--accent-soft);color:var(--accent);border:none;border-radius:999px;padding:4px 10px;cursor:pointer}
+.ativo::after{content:" ×";font-weight:600}
+
+/* Cartões de edital */
+.atalhos{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.atalho{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
+.atalho[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.eds{display:grid;gap:12px;margin-top:14px}
+.ed{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;gap:12px;cursor:pointer;transition:border-color .15s,box-shadow .15s;position:relative}
+.ed:hover{border-color:var(--accent);box-shadow:var(--shadow)}
+.ed.descartado{opacity:.5}
+.ed::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:4px;border-radius:0 4px 4px 0;background:var(--muted)}
+.ed[data-sit="aberto"]::before{background:var(--ok)} .ed[data-sit="vencedor"]::before{background:var(--warn)}
+.ed[data-sit="diario"]::before{background:var(--dia)} .ed[data-sit="oss"]::before{background:var(--oss)}
+.ed-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 12px;align-items:flex-start}
+.ed-loc{min-width:0}
+.ed-loc b{font-family:var(--f-display);font-weight:650;font-size:20px;letter-spacing:-.01em;line-height:1.15}
+.ed-loc .uf{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);margin-left:6px}
+.ed-org{font-size:13px;color:var(--muted);margin-top:2px;overflow-wrap:anywhere}
+.ed-pills{display:flex;flex-wrap:wrap;gap:6px}
+.fatos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.fato{background:var(--surface-2);border-radius:10px;padding:10px 12px;min-width:0}
+.fato .k{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fato .v{font-family:var(--f-mono);font-size:16px;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.fato .s{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fato.dest .v{color:var(--ok);font-weight:500}
+.fato.urg .v{color:var(--bad)}
+.ed-obj{margin:0;font-size:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.ed-venc{font-size:13px;color:var(--warn);overflow-wrap:anywhere}
+.ed-acoes{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ed-acoes a,.ed-acoes button{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:9px;padding:7px 12px;font-size:13.5px;font-weight:500;text-decoration:none;cursor:pointer}
+.ed-acoes a.pri{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.ed-acoes button[aria-pressed="true"]{background:var(--gold-soft);border-color:var(--gold);color:var(--gold)}
+.ed-acoes .dir{margin-left:auto}
+@media (max-width:700px){.fatos{grid-template-columns:repeat(2,minmax(0,1fr))} .ed-acoes .dir{margin-left:0}}
+
+/* Requisitos rápidos */
+.req{display:grid;gap:6px;border-top:1px dashed var(--line);padding-top:10px}
+.req-l{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12.5px}
+.req-l > b{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;min-width:96px}
+.tag{border-radius:7px;padding:3px 8px;font-size:12.5px;background:var(--surface-2);color:var(--ink);border:1px solid var(--line)}
+.tag.es{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+.tag.of{background:var(--ok-soft);border-color:transparent;color:var(--ok)}
+.tag.forte{background:var(--warn-soft);border-color:transparent;color:var(--warn);font-weight:600}
+.veredito{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;border-radius:8px;padding:4px 10px}
+.veredito.bom{background:var(--ok-soft);color:var(--ok)}
+.veredito.atn{background:var(--warn-soft);color:var(--warn)}
+.veredito.neu{background:var(--surface-2);color:var(--muted)}
+.reqlist{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.reqlist li{background:var(--surface-2);border-radius:10px;padding:10px 12px;font-size:13.5px}
+.reqlist li b{display:block;margin-bottom:3px}
+.reqlist li q{color:var(--muted);font-size:12.5px;quotes:none}
+
+/* Lista enxuta */
+.lista{margin-top:16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.cab,.row{display:grid;grid-template-columns:14px minmax(0,1fr) 128px 96px 34px;gap:14px;align-items:center;padding:0 16px}
+.cab{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);padding-block:10px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.cab span:nth-child(3),.cab span:nth-child(4){text-align:right}
+.row{padding-block:12px;border-bottom:1px solid var(--line);cursor:pointer;transition:background .12s}
+.row:last-child{border-bottom:none}
+.row:hover{background:var(--surface-2)}
+.row.descartado{opacity:.45}
+.st{width:10px;height:10px;border-radius:50%;background:var(--muted)}
+.st.aberto{background:var(--ok)} .st.vencedor{background:var(--warn)} .st.diario{background:var(--dia)} .st.oss{background:var(--oss)}
+.t1{display:flex;gap:8px;align-items:baseline;min-width:0}
+.t1 b{font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.t1 .uf{font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
+.t1 .novo{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--gold);text-transform:uppercase}
+.t2{font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
+.val{text-align:right;font-family:var(--f-mono);font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.val small{display:block;font-size:11px;color:var(--muted)}
+.val.alto{color:var(--ok)}
+.prz{justify-self:end;font-size:12px;font-weight:600;border-radius:999px;padding:3px 9px;white-space:nowrap;background:var(--surface-2);color:var(--muted)}
+.prz.urg{background:var(--bad-soft);color:var(--bad)}
+.prz.ok{background:var(--ok-soft);color:var(--ok)}
+.estrela{background:none;border:none;cursor:pointer;font-size:18px;line-height:1;color:var(--muted);padding:4px}
+.estrela[aria-pressed="true"]{color:var(--gold)}
+.vazio{padding:48px 16px;text-align:center;color:var(--muted)}
+.mais{display:block;width:100%;border:none;border-top:1px solid var(--line);background:var(--surface-2);padding:12px;cursor:pointer;font-weight:500;color:var(--accent)}
+
+/* Visão geral */
+.resumo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:18px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;cursor:pointer;text-align:left;display:grid;gap:4px;transition:border-color .15s,transform .15s}
+.kpi:hover{border-color:var(--accent);transform:translateY(-1px)}
+.kpi .n{font-family:var(--f-display);font-weight:650;font-size:32px;line-height:1;font-variant-numeric:tabular-nums}
+.kpi .t{font-size:12.5px;color:var(--muted)}
+.paineis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+.painel{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.painel h3{margin:0;padding:12px 16px;font-size:13px;font-weight:600;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.painel h3 button{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12.5px;padding:0}
+.mini{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);cursor:pointer;align-items:center}
+.mini:last-child{border-bottom:none}
+.mini:hover{background:var(--surface-2)}
+.mini b{font-weight:600;font-size:14px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini span{font-size:12px;color:var(--muted)}
+.mini .val{font-size:13.5px}
+
+/* ---------- Painéis deslizantes (filtros e detalhes) ---------- */
+dialog{border:none;padding:0;margin:0 0 0 auto;height:100%;max-height:100%;width:min(520px,100%);background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+dialog.esq{margin:0 auto 0 0;width:min(380px,100%)}
+dialog::backdrop{background:rgba(12,14,30,.5)}
+.dlg{display:grid;gap:16px;padding:calc(18px + env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) 28px max(20px, env(safe-area-inset-left, 0px))}
+.dlg-top{display:flex;justify-content:space-between;align-items:center;gap:10px;position:sticky;top:0;background:var(--surface);padding-block:4px;z-index:1}
+.dlg-top h2{font-family:var(--f-display);font-weight:650;font-size:22px;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.fechar{background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;flex:none}
+.bloco{display:grid;gap:8px}
+.bloco h3{margin:0;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;justify-content:space-between}
+.bloco h3 button{background:none;border:none;color:var(--accent);font-size:11.5px;cursor:pointer;padding:0;text-transform:none;letter-spacing:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface-2);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip .c{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chip[aria-pressed="true"] .c{color:var(--on-accent);opacity:.75}
+.ufs{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
+.ufb{border:1px solid var(--line);background:var(--surface-2);border-radius:8px;padding:6px 4px;cursor:pointer;display:grid;justify-items:center;gap:1px}
+.ufb b{font-family:var(--f-mono);font-weight:500;font-size:13px}
+.ufb span{font-size:11px;color:var(--muted)}
+.ufb[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.ufb[aria-pressed="true"] span{color:var(--on-accent);opacity:.75}
+.faixa-val{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted)}
+.faixa-val b{font-family:var(--f-mono);color:var(--ink);font-weight:500}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.dlg-pe{display:flex;gap:8px;position:sticky;bottom:0;background:var(--surface);padding-top:8px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:10.5px;font-weight:600;letter-spacing:.05em;border-radius:999px;padding:3px 9px;text-transform:uppercase;white-space:nowrap}
+.p-ok{background:var(--ok-soft);color:var(--ok)} .p-warn{background:var(--warn-soft);color:var(--warn)} .p-dia{background:var(--dia-soft);color:var(--dia)} .p-oss{background:var(--oss-soft);color:var(--oss)}
+.p-acc{background:var(--accent-soft);color:var(--accent)} .p-gold{background:var(--gold-soft);color:var(--gold)} .p-bad{background:var(--bad-soft);color:var(--bad)}
+.destaque{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.destaque div{background:var(--surface-2);border-radius:10px;padding:10px 12px;min-width:0}
+.destaque .k{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.destaque .v{font-family:var(--f-mono);font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.destaque .s{font-size:11.5px;color:var(--muted)}
+.medidor{height:6px;border-radius:3px;background:var(--line);position:relative;margin-top:6px;overflow:hidden}
+.medidor i{position:absolute;left:0;top:0;bottom:0;border-radius:3px;background:var(--gold)}
+.dl{display:grid;grid-template-columns:120px minmax(0,1fr);gap:8px 14px;font-size:14px;margin:0}
+.dl dt{color:var(--muted);font-size:12.5px}
+.dl dd{margin:0;overflow-wrap:anywhere}
+.rot{font-size:12.5px;color:var(--muted);margin-bottom:6px}
+.texto{font-size:14px;line-height:1.55;background:var(--surface-2);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.lk{display:inline-flex;align-items:center;gap:6px;border-radius:10px;padding:9px 14px;text-decoration:none;font-weight:500;font-size:14px}
+.lk.pri{background:var(--accent);color:var(--on-accent)}
+.lk.sec{border:1px solid var(--line);color:var(--ink)}
+.dlg-acoes{display:flex;gap:8px;flex-wrap:wrap}
+.dlg-acoes button{border:1px solid var(--line);background:var(--surface-2);border-radius:10px;padding:8px 12px;cursor:pointer}
+.dlg-acoes button[aria-pressed="true"]{background:var(--gold-soft);border-color:var(--gold);color:var(--gold)}
+.fontes{font-size:13px;color:var(--muted);display:grid;gap:10px}
+.fontes ul{margin:0;padding-left:18px}
+
+@media (max-width:900px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .side{position:fixed;inset:0 auto 0 0;width:min(290px,86vw);z-index:20;transform:translateX(-105%);transition:transform .22s ease;padding-top:calc(20px + env(safe-area-inset-top, 0px))}
+  .side.aberta{transform:none;box-shadow:var(--shadow)}
+  .veu{position:fixed;inset:0;background:rgba(12,14,30,.5);z-index:15}
+  .btn-menu{display:inline-flex}
+  .resumo{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .paineis{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:600px){
+  .cab{display:none}
+  .row{grid-template-columns:10px minmax(0,1fr) auto;grid-template-areas:"st tit est" "st inf inf";row-gap:6px}
+  .row .st{grid-area:st;align-self:start;margin-top:6px}
+  .row .tit{grid-area:tit;min-width:0}
+  .row .estrela{grid-area:est}
+  .row .inf{grid-area:inf;display:flex;gap:10px;align-items:center}
+  .row .inf .val{text-align:left}
+  .destaque{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .dl{grid-template-columns:minmax(0,1fr)}
+}
+@media (min-width:601px){ .row .inf{display:contents} }
+@media (prefers-reduced-motion:no-preference){
+  .row.entra,.mini.entra{animation:entra .3s ease both}
+  @keyframes entra{from{opacity:.001;transform:translateY(4px)}to{opacity:1;transform:none}}
+  dialog[open]{animation:gaveta .22s ease}
+  dialog.esq[open]{animation:gavetaE .22s ease}
+  @keyframes gaveta{from{transform:translateX(30px);opacity:.6}to{transform:none;opacity:1}}
+  @keyframes gavetaE{from{transform:translateX(-30px);opacity:.6}to{transform:none;opacity:1}}
+}
+@media (prefers-reduced-motion:reduce){.side{transition:none}}
+</style>
+
+<div class="app">
+  <nav class="side" id="side" aria-label="Menu">
+    <div class="marca">
+      <svg viewBox="0 0 34 34" aria-hidden="true">
+        <circle cx="17" cy="17" r="16" fill="var(--side-2)"/>
+        <circle cx="17" cy="17" r="10" fill="none" stroke="var(--gold)" stroke-width="2.2"/>
+        <circle cx="17" cy="17" r="4.5" fill="var(--side-ink)"/>
+        <circle cx="19.5" cy="14.5" r="1.6" fill="var(--side)"/>
+      </svg>
+      <div><b>Radar Catarata</b><small id="atual">sem atualização</small></div>
+    </div>
+    <div class="nav" id="nav"></div>
+    <div class="rodape">
+      <div>Tabela SUS da faco: <b>R$ 771,60</b></div>
+      <div>Base: <b>Monte Alto/SP</b></div>
+      <button type="button" id="ver-fontes">Fontes e como ler o radar</button>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="main-in">
+      <div class="topo">
+        <div>
+          <button type="button" class="btn btn-menu" id="btn-menu" aria-controls="side" aria-expanded="false">☰ Menu</button>
+          <h1 id="titulo">Visão geral</h1>
+          <p id="desc"></p>
+        </div>
+      </div>
+      <div class="ferr" id="ferr">
+        <input type="search" id="q" placeholder="Buscar município, órgão, empresa…" aria-label="Buscar">
+        <select id="ordem" aria-label="Ordenar">
+          <option value="relev">Mais relevantes</option>
+          <option value="novos">Mais recentes</option>
+          <option value="prazo">Prazo mais próximo</option>
+          <option value="faco">Maior valor por catarata</option>
+          <option value="dist">Mais perto</option>
+          <option value="total">Maior valor total</option>
+        </select>
+        <button type="button" class="btn" id="btn-filtros">Filtros</button>
+      </div>
+      <div class="ativos" id="ativos"></div>
+      <div id="conteudo"></div>
+    </div>
+  </main>
+</div>
+<div class="veu" id="veu" hidden></div>
+
+<dialog id="dlg-filtros" class="esq" aria-label="Filtros">
+  <div class="dlg">
+    <div class="dlg-top"><h2>Filtros</h2><button type="button" class="fechar" data-fechar>Fechar</button></div>
+    <div class="bloco"><h3>Palavras-chave <button type="button" data-limpa="pal">limpar</button></h3><div class="chips" id="g-pal"></div></div>
+    <div class="bloco"><h3>Tipo</h3><div class="chips" id="g-cat"></div></div>
+    <div class="bloco"><h3>Situação no PNCP</h3><div class="chips" id="g-sit"></div></div>
+    <div class="bloco"><h3>Estado <button type="button" data-limpa="uf">todos</button></h3><div class="ufs" id="g-uf"></div></div>
+    <div class="bloco"><h3><label for="vmin">Valor mínimo por catarata</label></h3>
+      <input type="range" id="vmin" min="0" max="2500" step="50" value="0">
+      <div class="faixa-val"><span>R$ 0</span><b id="vmin-v">qualquer valor</b></div></div>
+    <div class="bloco"><h3><label for="dmax">Distância de Monte Alto</label></h3>
+      <input type="range" id="dmax" min="100" max="3000" step="50" value="3000">
+      <div class="faixa-val"><span>100 km</span><b id="dmax-v">sem limite</b></div></div>
+    <div class="dlg-pe"><button type="button" class="btn" id="zerar">Limpar tudo</button><button type="button" class="btn pri" data-fechar id="ver-res">Ver resultados</button></div>
+  </div>
+</dialog>
+
+<dialog id="dlg" aria-label="Detalhes"><div class="dlg" id="dlg-c"></div></dialog>
+
+<dialog id="dlg-fontes" aria-label="Fontes">
+  <div class="dlg">
+    <div class="dlg-top"><h2>Como ler o radar</h2><button type="button" class="fechar" data-fechar>Fechar</button></div>
+    <div class="fontes">
+      <div class="badges"><span class="pill p-ok">PNCP sem vencedor</span><span class="pill p-warn">PNCP com credenciado</span><span class="pill p-dia">Diário oficial</span><span class="pill p-oss">Site OSS/AME</span></div>
+      <p>O ponto colorido de cada linha mostra a fonte e a situação. "Com credenciado" quer dizer que o PNCP já publicou um vencedor ou credenciado; em credenciamentos, novos prestadores ainda podem entrar.</p>
+      <p>O valor por catarata vem do item do edital no PNCP e é comparado com a tabela SUS (SIGTAP 04.05.05.037-2, R$ 771,60). Distâncias em linha reta a partir de Monte Alto/SP. Confira sempre no edital.</p>
+      <p>As palavras-chave aceitam variações de grafia, como "multirão". As estrelas e os descartes ficam salvos neste navegador.</p>
+      <div><b>Fontes desta atualização</b><ul id="fontes"></ul></div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const DADOS = /*__DADOS__*/null;
+const SUS = 771.60, PAG = 50;
+const D = DADOS || {atualizado:"", itens:[], fontes_status:[]};
+const KEY = "radar-catarata-v1";
+let marc = {}; try { marc = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { marc = {}; }
+const salvar = () => { try { localStorage.setItem(KEY, JSON.stringify(marc)); } catch(e) {} };
+const $ = id => document.getElementById(id);
+const brl = (v,c=2) => v==null ? "–" : v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",minimumFractionDigits:c,maximumFractionDigits:c});
+const curto = v => v==null ? "–" : v>=1e6 ? "R$ "+(v/1e6).toLocaleString("pt-BR",{maximumFractionDigits:1})+" mi" : v>=1e3 ? "R$ "+Math.round(v/1e3).toLocaleString("pt-BR")+" mil" : brl(v);
+const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm = s => String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const ref = D.atualizado ? new Date(D.atualizado.replace(" ","T")) : new Date();
+const dias = dt => { if(!dt) return null; const d=new Date(dt.length<=10?dt+"T23:59":dt); return Math.ceil((d-ref)/864e5); };
+const fdata = dt => { if(!dt) return ""; const [a,m,d]=dt.slice(0,10).split("-"); return `${d}/${m}/${a}`; };
+const prazoTxt = d => d==null?"":d<0?"encerrado":d===0?"hoje":d===1?"amanhã":d+" dias";
+
+const PALAVRAS = [
+  ["catarata","Catarata",/catarat/],["faco","Facoemulsificação",/facoem|\bfaco\b|facectom/],
+  ["oftalmo","Oftalmologia",/oftalm/],["olho","Olho / ocular",/\bolhos?\b|ocular/],
+  ["mutirao","Mutirão / multirão",/mutir|multir/],["lio","Lente intraocular",/intraocular|\blio\b/],["pterigio","Pterígio",/pterig/]];
+const CATS = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médico","Material/compra"];
+const CAT0 = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médico"];
+const SITS = [["aberto","Sem vencedor"],["vencedor","Com credenciado"]];
+
+D.itens.forEach(it=>{
+  it.sit = it.fonte==="Diário Oficial" ? "diario" : it.fonte!=="PNCP" ? "oss" :
+    ((it.vencedores&&it.vencedores.length)||(it.docs_resultado&&it.docs_resultado.length)) ? "vencedor" : "aberto";
+  it.novo = !!it.primeira_vez && (ref - new Date(it.primeira_vez+"T00:00"))/864e5 <= 3;
+  it.d = dias(it.encerramento);
+  it.semClinica = !!(it.req&&it.req.status==="ok"&&(it.req.oferece||[]).some(x=>/centro cirúrgico/.test(x.r))&&!(it.req.exige||[]).some(x=>/estrutura própria/.test(x.r)));
+  it.busca = norm([it.municipio,it.uf,it.orgao,it.objeto,it.modalidade,(it.vencedores||[]).join(" "),(it.termos||[]).join(" ")].join(" "));
+});
+
+/* Visões da barra lateral */
+const VISOES = [
+  {id:"editais", nome:"Editais abertos", grupo:"Painel", cor:"var(--accent)", desc:"Editais de catarata e oftalmologia com propostas abertas. Os sem vencedor e de catarata aparecem primeiro.", f:i=>i.fonte==="PNCP", ordem:"relev"},
+  {id:"geral", nome:"Resumo", grupo:"Painel", cor:"var(--gold)", desc:"Números e destaques do que está aberto agora."},
+  {id:"catarata", nome:"Catarata aberta", grupo:"Oportunidades", cor:"var(--ok)", desc:"Editais de catarata no PNCP com propostas abertas.", f:i=>i.fonte==="PNCP"&&i.categoria==="Catarata"},
+  {id:"novos", nome:"Novos (3 dias)", grupo:"Oportunidades", cor:"var(--gold)", desc:"Tudo o que apareceu pela primeira vez nos últimos 3 dias.", f:i=>i.novo},
+  {id:"prazo", nome:"Prazo curto", grupo:"Oportunidades", cor:"var(--bad)", desc:"Editais do PNCP que encerram em até 15 dias.", f:i=>i.d!=null&&i.d>=0&&i.d<=15, ordem:"prazo"},
+  {id:"acomp", nome:"Acompanhando", grupo:"Oportunidades", cor:"var(--gold)", desc:"Os que você marcou com estrela.", f:i=>marc[i.id]==="acomp", mostraDesc:true},
+  {id:"pncp", nome:"PNCP", grupo:"Fontes", cor:"var(--accent)", desc:"Todos os editais de oftalmologia abertos no Portal Nacional de Contratações Públicas.", f:i=>i.fonte==="PNCP"},
+  {id:"diario", nome:"Diários oficiais", grupo:"Fontes", cor:"var(--dia)", desc:"Trechos de diários oficiais municipais que citam o tema. Abra o PDF para ler o ato.", f:i=>i.fonte==="Diário Oficial"},
+  {id:"oss", nome:"Sites de OSS/AME", grupo:"Fontes", cor:"var(--oss)", desc:"Links de editais e chamamentos encontrados nos sites das OSS e dos AMEs.", f:i=>i.fonte==="Site OSS/AME"},
+  {id:"desc", nome:"Descartados", grupo:"Fontes", cor:"var(--muted)", desc:"Itens que você descartou. Abra um item para restaurar.", f:i=>marc[i.id]==="desc", mostraDesc:true}];
+
+const novoF = () => ({q:"",cat:new Set(CAT0),sit:new Set(["aberto","vencedor"]),pal:new Set(),uf:new Set(),vmin:0,dmax:3000,ordem:"relev"});
+let F = novoF(), visao = "editais", limite = PAG;
+try { const v=sessionStorage.getItem("radar-visao"); if(VISOES.some(x=>x.id===v)) visao=v; } catch(e){}
+
+function filtrar(vf, semUf){
+  const q=norm(F.q).split(/\s+/).filter(Boolean); const V=VISOES.find(v=>v.id===vf)||{};
+  return D.itens.filter(i=>{
+    const m=marc[i.id];
+    if(!V.mostraDesc && m==="desc") return false;
+    if(V.f && !V.f(i)) return false;
+    if(!F.cat.has(i.categoria) && vf!=="acomp" && vf!=="desc") return false;
+    if(i.fonte==="PNCP" && !F.sit.has(i.sit)) return false;
+    if(!semUf && F.uf.size && !F.uf.has(i.uf)) return false;
+    if(F.pal.size && !PALAVRAS.some(([k,,re])=>F.pal.has(k)&&re.test(i.busca))) return false;
+    if(F.vmin && !(i.faco && i.faco.valor>=F.vmin)) return false;
+    if(F.dmax<3000 && !(i.dist_km!=null && i.dist_km<=F.dmax)) return false;
+    if(F.semcl && !i.semClinica) return false;
+    if(F.hpub && !(i.estr&&i.estr.publico>0)) return false;
+    return q.every(t=>i.busca.includes(t));
+  });
+}
+function ordenar(r,o){
+  const enc=i=>i.encerramento?new Date(i.encerramento).getTime():9e15;
+  return r.sort({
+    relev:(a,b)=>((a.sit==="aberto"?0:1)-(b.sit==="aberto"?0:1))||((a.categoria==="Catarata"?0:1)-(b.categoria==="Catarata"?0:1))||((b.faco?1:0)-(a.faco?1:0))||((b.faco&&b.faco.valor||0)-(a.faco&&a.faco.valor||0))||(enc(a)-enc(b)),
+    novos:(a,b)=>(b.primeira_vez||"").localeCompare(a.primeira_vez||"")||(b.publicado||"").localeCompare(a.publicado||""),
+    prazo:(a,b)=>enc(a)-enc(b),
+    faco:(a,b)=>((b.faco&&b.faco.valor)||0)-((a.faco&&a.faco.valor)||0),
+    dist:(a,b)=>(a.dist_km??9e9)-(b.dist_km??9e9),
+    total:(a,b)=>(b.valor_total||0)-(a.valor_total||0)}[o]);
+}
+
+/* ---------- Barra lateral ---------- */
+function nav(){
+  let html="", g="";
+  VISOES.forEach(v=>{
+    if(v.grupo!==g){ g=v.grupo; html+=`<h4>${g}</h4>`; }
+    const n=v.id==="geral"?"":filtrar(v.id).length;
+    html+=`<button type="button" class="vis" data-v="${v.id}" aria-current="${visao===v.id}"><i class="ic" style="background:${v.cor}"></i>${v.nome}<span class="c">${n}</span></button>`;
+  });
+  $("nav").innerHTML=html;
+}
+$("nav").addEventListener("click",e=>{
+  const b=e.target.closest(".vis"); if(!b) return;
+  visao=b.dataset.v; limite=PAG; const V=VISOES.find(v=>v.id===visao);
+  F.ordem=V.ordem||"novos"; $("ordem").value=F.ordem;
+  try{ sessionStorage.setItem("radar-visao",visao); }catch(e){}
+  fecharMenu(); tudo(); window.scrollTo({top:0});
+});
+
+/* ---------- Conteúdo ---------- */
+const CURTO={"Órgão cede o centro cirúrgico/hospital":"Centro cirúrgico do órgão","Órgão fornece insumos/lentes":"Órgão dá insumos/LIO","Órgão faz o transporte dos pacientes":"Transporte pelo órgão",
+  "Exige estrutura própria (clínica/centro cirúrgico)":"Clínica própria","Atendimento no município/região":"Atender no município","CNES ativo":"CNES","Licença sanitária/alvará":"Licença sanitária",
+  "Atestado de capacidade técnica":"Atestado técnico","RQE / título de especialista":"RQE","Balanço e índices financeiros":"Balanço","Capital/patrimônio mínimo":"Capital mínimo",
+  "Equipamentos próprios (faco, microscópio)":"Equipamento próprio","Empresa fornece LIO/insumos":"Empresa leva LIO/insumos","Consórcio de empresas vedado":"Sem consórcio","Aceita consórcio de empresas":"Aceita consórcio"};
+const FORTES=/Clínica própria|Atender no município|km do município|CRM-|Capital mínimo|Equipamento próprio/;
+const rotCurto=s=>CURTO[s]||s;
+function veredito(i){
+  const q=i.req; if(!q) return "";
+  if(q.status==="sem_texto") return '<span class="veredito neu">Edital escaneado: abrir o PDF</span>';
+  if(q.status==="sem_arquivo") return '<span class="veredito neu">Sem edital anexado no PNCP</span>';
+  if(q.status!=="ok") return "";
+  if(i.semClinica) return '<span class="veredito bom">✓ Usa a estrutura do órgão: não precisa de clínica própria</span>';
+  if((q.exige||[]).some(x=>/estrutura própria/.test(x.r))) return '<span class="veredito atn">Precisa de clínica/centro cirúrgico próprio</span>';
+  return '<span class="veredito neu">Local de execução não identificado: ver detalhes</span>';
+}
+function linhaEstr(i){
+  const s=i.estr; if(!s) return "";
+  if(!s.total) return `<div class="req-l"><b>Na cidade</b><span class="tag">Nenhum centro cirúrgico no CNES</span></div>`;
+  const pub=s.est.find(e=>e.hosp&&e.nat==="público"), fil=s.est.find(e=>e.hosp&&e.nat==="filantrópico"), olho=s.est.find(e=>e.olho);
+  const tags=[];
+  if(pub) tags.push(`<span class="tag es">Hospital público: ${esc(pub.nome)}</span>`);
+  if(fil) tags.push(`<span class="tag es">Filantrópico: ${esc(fil.nome)}</span>`);
+  if(olho) tags.push(`<span class="tag es">Clínica de olhos: ${esc(olho.nome)}</span>`);
+  if(!tags.length) tags.push(`<span class="tag es">${s.total} com centro cirúrgico (privados)</span>`);
+  else if(s.total>tags.length) tags.push(`<span class="tag">+${s.total-tags.length} com centro cirúrgico</span>`);
+  return `<div class="req-l"><b>Na cidade</b>${tags.join("")}</div>`;
+}
+function blocoReq(i){
+  const q=i.req; if(!q||q.status!=="ok") return (q||i.estr)?`<div class="req">${q?veredito(i):""}${linhaEstr(i)}</div>`:"";
+  const of=(q.oferece||[]).map(x=>`<span class="tag of">${esc(rotCurto(x.r))}</span>`).join("");
+  const ex=(q.exige||[]).map(x=>{const c=rotCurto(x.r);return `<span class="tag ${FORTES.test(c)?"forte":""}">${esc(c)}</span>`;}).join("");
+  return `<div class="req">${veredito(i)}
+    ${of?`<div class="req-l"><b>Órgão oferece</b>${of}</div>`:""}
+    ${ex?`<div class="req-l"><b>Precisa ter</b>${ex}</div>`:""}
+    ${linhaEstr(i)}
+    ${(q.emails||[]).length?`<div class="req-l"><b>Contato</b><span class="tag">${esc(q.emails.join(" · "))}</span></div>`:""}
+  </div>`;
+}
+function cartao(i,idx){
+  const m=marc[i.id], x=i.faco?i.faco.valor/SUS:0;
+  const sit={aberto:'<span class="pill p-ok">Sem vencedor</span>',vencedor:'<span class="pill p-warn">Com credenciado</span>',diario:'<span class="pill p-dia">Diário oficial</span>',oss:'<span class="pill p-oss">Site OSS/AME</span>'}[i.sit];
+  const urg=i.d!=null&&i.d>=0&&i.d<=10;
+  let fatos="";
+  if(i.fonte==="PNCP"){
+    fatos=`<div class="fatos">
+      <div class="fato ${x>=1.8?"dest":""}"><div class="k">Por catarata</div><div class="v">${i.faco?brl(i.faco.valor,0):"–"}</div><div class="s">${i.faco?x.toLocaleString("pt-BR",{maximumFractionDigits:1})+"× tabela SUS":"valor no edital"}</div></div>
+      <div class="fato"><div class="k">Cirurgias</div><div class="v">${i.faco&&i.faco.qtd>1?Math.round(i.faco.qtd).toLocaleString("pt-BR"):"–"}</div><div class="s">${i.valor_total?curto(i.valor_total)+" no total":"previstas"}</div></div>
+      <div class="fato ${urg?"urg":""}"><div class="k">Encerra</div><div class="v">${i.encerramento?fdata(i.encerramento):"–"}</div><div class="s">${i.d!=null?prazoTxt(i.d):"sem data"}</div></div>
+      <div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div>
+    </div>`;
+  } else if(i.fonte==="Diário Oficial"){
+    fatos=`<div class="fatos"><div class="fato"><div class="k">Publicado</div><div class="v">${fdata(i.publicado)}</div><div class="s">diário municipal</div></div><div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div></div>`;
+  }
+  const venc=(i.vencedores||[]).length?`<div class="ed-venc">Já credenciados: ${esc(i.vencedores.slice(0,3).join(" · "))}${i.vencedores.length>3?" e outros":""}</div>`:"";
+  const abrir=i.fonte==="PNCP"?"Abrir edital":i.fonte==="Diário Oficial"?"Abrir diário":"Abrir no site";
+  const plat=i.plataforma&&/^https?:/.test(i.plataforma)?`<a href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma ↗</a>`:"";
+  return `<article class="ed entra ${m==="desc"?"descartado":""}" data-id="${esc(i.id)}" data-sit="${i.sit}" tabindex="0" style="animation-delay:${Math.min(idx,10)*25}ms">
+    <div class="ed-top">
+      <div class="ed-loc"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}<div class="ed-org">${i.municipio?esc(i.orgao)+" · ":""}${esc((i.modalidade||"").replace("Pregão - Eletrônico","Pregão eletrônico"))}</div></div>
+      <div class="ed-pills">${i.novo?'<span class="pill p-gold">Novo</span>':""}${sit}<span class="pill p-acc">${esc(i.categoria)}</span>${urg?'<span class="pill p-bad">Prazo curto</span>':""}</div>
+    </div>
+    ${fatos}
+    <p class="ed-obj">${esc(i.objeto)}</p>
+    ${venc}
+    ${blocoReq(i)}
+    <div class="ed-acoes">
+      <a class="pri" href="${esc(i.link)}" target="_blank" rel="noopener">${abrir} ↗</a>${plat}
+      <button type="button" data-det>Ver detalhes</button>
+      <button type="button" class="dir" data-estrela aria-pressed="${m==="acomp"}">${m==="acomp"?"★ Acompanhando":"☆ Acompanhar"}</button>
+      <button type="button" data-descarta aria-pressed="${m==="desc"}">${m==="desc"?"Restaurar":"Descartar"}</button>
+    </div>
+  </article>`;
+}
+const ATALHOS=[
+  ["semcl","Sem clínica própria",()=>F.semcl,()=>{F.semcl=!F.semcl;}],
+  ["hpub","Hospital público na cidade",()=>F.hpub,()=>{F.hpub=!F.hpub;}],
+  ["cat","Só catarata",()=>F.cat.size===1&&F.cat.has("Catarata"),()=>{F.cat=F.cat.size===1&&F.cat.has("Catarata")?new Set(CAT0):new Set(["Catarata"]);}],
+  ["sit","Sem vencedor",()=>F.sit.size===1&&F.sit.has("aberto"),()=>{F.sit=F.sit.size===1?new Set(["aberto","vencedor"]):new Set(["aberto"]);}],
+  ["d500","Até 500 km",()=>F.dmax===500,()=>{F.dmax=F.dmax===500?3000:500; const el=$("dmax"); if(el) el.value=F.dmax;}],
+  ["v1200","Acima de R$ 1.200",()=>F.vmin===1200,()=>{F.vmin=F.vmin===1200?0:1200; const el=$("vmin"); if(el) el.value=F.vmin;}],
+  ["SP","SP",()=>F.uf.has("SP"),()=>{F.uf.has("SP")?F.uf.delete("SP"):F.uf.add("SP");}],
+  ["MG","MG",()=>F.uf.has("MG"),()=>{F.uf.has("MG")?F.uf.delete("MG"):F.uf.add("MG");}],
+  ["GO","GO",()=>F.uf.has("GO"),()=>{F.uf.has("GO")?F.uf.delete("GO"):F.uf.add("GO");}]];
+function linha(i,idx){
+  const m=marc[i.id], x=i.faco?i.faco.valor/SUS:0;
+  const sub=[i.orgao&&i.municipio?i.orgao:"", i.fonte==="Diário Oficial"?"Diário oficial · "+fdata(i.publicado):"", i.fonte==="Site OSS/AME"?"Site da OSS · "+(i.objeto||"").slice(0,90):""].filter(Boolean)[0]||esc(i.categoria);
+  const prz = i.fonte==="PNCP" ? (i.d==null?'<span class="prz">sem data</span>':`<span class="prz ${i.d<=10?"urg":i.d>60?"ok":""}">${prazoTxt(i.d)}</span>`) : `<span class="prz">${i.fonte==="Diário Oficial"?"diário":"OSS"}</span>`;
+  return `<div class="row entra ${m==="desc"?"descartado":""}" data-id="${esc(i.id)}" tabindex="0" role="button" style="animation-delay:${Math.min(idx,14)*18}ms">
+    <span class="st ${i.sit}"></span>
+    <div class="tit"><div class="t1"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}${i.novo?'<span class="novo">novo</span>':""}</div><div class="t2">${esc(sub)}</div></div>
+    <div class="inf"><div class="val ${x>=1.8?"alto":""}">${i.faco?brl(i.faco.valor,0)+`<small>${x.toLocaleString("pt-BR",{maximumFractionDigits:1})}× SUS</small>`:'<small>–</small>'}</div>${prz}</div>
+    <button type="button" class="estrela" data-estrela aria-pressed="${m==="acomp"}" aria-label="${m==="acomp"?"Deixar de acompanhar":"Acompanhar"}">${m==="acomp"?"★":"☆"}</button>
+  </div>`;
+}
+function geral(){
+  const n=v=>filtrar(v).length;
+  const top=ordenar(filtrar("catarata").filter(i=>i.faco),"faco").slice(0,5);
+  const prox=ordenar(filtrar("pncp").filter(i=>i.d!=null&&i.d>=0),"prazo").slice(0,5);
+  const novos=ordenar(filtrar("novos"),"novos").slice(0,5);
+  const perto=ordenar(filtrar("catarata").filter(i=>i.dist_km!=null),"dist").slice(0,5);
+  const mini=(i,dir)=>`<div class="mini entra" data-id="${esc(i.id)}" tabindex="0" role="button"><div style="min-width:0"><b>${esc(i.municipio||i.orgao)} ${i.uf?`<span>${esc(i.uf)}</span>`:""}</b><span>${dir}</span></div><div class="val">${i.faco?brl(i.faco.valor,0):""}</div></div>`;
+  const vazio='<div class="mini"><span>Nada por aqui com os filtros atuais.</span></div>';
+  return `<div class="resumo">
+      <button type="button" class="kpi" data-ir="catarata"><span class="n">${n("catarata")}</span><span class="t">Catarata aberta no PNCP</span></button>
+      <button type="button" class="kpi" data-ir="novos"><span class="n">${n("novos")}</span><span class="t">Novos em 3 dias</span></button>
+      <button type="button" class="kpi" data-ir="prazo"><span class="n">${n("prazo")}</span><span class="t">Encerram em até 15 dias</span></button>
+      <button type="button" class="kpi" data-ir="diario"><span class="n">${n("diario")+n("oss")}</span><span class="t">Em diários e sites de OSS</span></button>
+    </div>
+    <div class="paineis">
+      <section class="painel"><h3>Maiores valores por catarata <button type="button" data-ir="catarata" data-o="faco">ver todos</button></h3>${top.map(i=>mini(i,`${(i.faco.valor/SUS).toLocaleString("pt-BR",{maximumFractionDigits:1})}× SUS · ${Math.round(i.faco.qtd).toLocaleString("pt-BR")} ${Math.round(i.faco.qtd)===1?"cirurgia":"cirurgias"}`)).join("")||vazio}</section>
+      <section class="painel"><h3>Prazos mais próximos <button type="button" data-ir="prazo">ver todos</button></h3>${prox.map(i=>mini(i,`encerra ${fdata(i.encerramento)} · ${prazoTxt(i.d)}`)).join("")||vazio}</section>
+      <section class="painel"><h3>Catarata mais perto de Monte Alto <button type="button" data-ir="catarata" data-o="dist">ver todos</button></h3>${perto.map(i=>mini(i,`${i.dist_km.toLocaleString("pt-BR")} km · ${i.sit==="aberto"?"sem vencedor":"já tem credenciado"}`)).join("")||vazio}</section>
+      <section class="painel"><h3>Novidades <button type="button" data-ir="novos">ver todas</button></h3>${novos.map(i=>mini(i,`${i.fonte} · ${esc(i.categoria)}`)).join("")||vazio}</section>
+    </div>`;
+}
+function conteudo(){
+  const V=VISOES.find(v=>v.id===visao);
+  $("titulo").textContent=V.nome;
+  $("ferr").querySelector("#ordem").hidden = visao==="geral";
+  if(visao==="geral"){ $("desc").textContent=V.desc; $("conteudo").innerHTML=geral(); return; }
+  const r=ordenar(filtrar(visao),F.ordem);
+  $("desc").textContent=`${r.length} ${r.length===1?"oportunidade":"oportunidades"} · ${V.desc}`;
+  $("conteudo").innerHTML = `<div class="atalhos" role="group" aria-label="Atalhos de filtro">${ATALHOS.map(([k,t,on])=>`<button type="button" class="atalho" data-atalho="${k}" aria-pressed="${on()}">${t}</button>`).join("")}</div>
+    <div class="eds">
+    ${r.length?r.slice(0,limite).map(cartao).join(""):`<div class="vazio lista">${D.itens.length?"Nada com esses filtros. Desligue um atalho ou limpe a busca.":"Ainda não há dados. Rode o coletor para preencher o radar."}</div>`}
+    </div>
+    ${r.length>limite?`<div class="lista"><button type="button" class="mais" id="mais">Mostrar mais ${Math.min(PAG,r.length-limite)} de ${r.length-limite}</button></div>`:""}`;
+}
+
+/* ---------- Filtros ---------- */
+function chips(id, itens, set, contar){
+  $(id).innerHTML=itens.map(([v,t])=>`<button type="button" class="chip" data-v="${esc(v)}" aria-pressed="${set.has(v)}">${esc(t)}<span class="c">${contar(v)}</span></button>`).join("");
+}
+function filtrosUI(){
+  const pool=filtrar(visao==="geral"?"pncp":visao,true);
+  chips("g-pal",PALAVRAS.map(p=>[p[0],p[1]]),F.pal,k=>{const re=PALAVRAS.find(p=>p[0]===k)[2];return D.itens.filter(i=>re.test(i.busca)).length;});
+  chips("g-cat",CATS.map(c=>[c,c]),F.cat,c=>D.itens.filter(i=>i.categoria===c).length);
+  chips("g-sit",SITS,F.sit,s=>D.itens.filter(i=>i.sit===s).length);
+  const porUf={}; pool.forEach(i=>{ if(i.uf) porUf[i.uf]=(porUf[i.uf]||0)+1; }); F.uf.forEach(u=>{ if(!(u in porUf)) porUf[u]=0; });
+  const ufs=Object.entries(porUf).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+  $("g-uf").innerHTML=ufs.map(([u,n])=>`<button type="button" class="ufb" data-uf="${u}" aria-pressed="${F.uf.has(u)}"><b>${u}</b><span>${n}</span></button>`).join("")||'<span class="faixa-val">Nenhum estado nesta visão</span>';
+  $("vmin-v").textContent=F.vmin?brl(F.vmin,0)+" ou mais":"qualquer valor";
+  $("dmax-v").textContent=F.dmax<3000?"até "+F.dmax.toLocaleString("pt-BR")+" km":"sem limite";
+}
+function nFiltros(){ return F.pal.size+F.uf.size+(F.vmin?1:0)+(F.dmax<3000?1:0)+(F.cat.size!==CAT0.length||CAT0.some(c=>!F.cat.has(c))?1:0)+(F.sit.size!==2?1:0); }
+function ativos(){
+  const a=[];
+  if(F.q) a.push(["q",`“${F.q}”`]);
+  F.pal.forEach(k=>a.push(["pal:"+k,PALAVRAS.find(p=>p[0]===k)[1]]));
+  F.uf.forEach(u=>a.push(["uf:"+u,u]));
+  if(F.vmin) a.push(["vmin","Catarata ≥ "+brl(F.vmin,0)]);
+  if(F.dmax<3000) a.push(["dmax","Até "+F.dmax.toLocaleString("pt-BR")+" km"]);
+  $("ativos").innerHTML=a.map(([k,t])=>`<button type="button" class="ativo" data-k="${esc(k)}" title="Remover filtro">${esc(t)}</button>`).join("");
+  const n=nFiltros(); $("btn-filtros").innerHTML="Filtros"+(n?` <span class="n">${n}</span>`:"");
+}
+function tudo(){ nav(); conteudo(); ativos(); if($("dlg-filtros").open) filtrosUI(); }
+
+/* ---------- Detalhes ---------- */
+function detalhe(id){
+  const i=D.itens.find(x=>x.id===id); if(!i) return; const m=marc[i.id];
+  const x=i.faco?i.faco.valor/SUS:0;
+  const sit={aberto:'<span class="pill p-ok">Sem vencedor</span>',vencedor:'<span class="pill p-warn">Com credenciado</span>',diario:'<span class="pill p-dia">Diário oficial</span>',oss:'<span class="pill p-oss">Site OSS/AME</span>'}[i.sit];
+  const ln=(k,v)=>v?`<dt>${k}</dt><dd>${v}</dd>`:"";
+  $("dlg-c").innerHTML=`
+    <div class="dlg-top"><h2>${esc(i.municipio?i.municipio+" / "+i.uf:i.orgao)}</h2><button type="button" class="fechar" data-fechar>Fechar</button></div>
+    <div class="badges">${i.novo?'<span class="pill p-gold">Novo</span>':""}${sit}<span class="pill p-acc">${esc(i.categoria)}</span>${i.d!=null&&i.d>=0&&i.d<=10?'<span class="pill p-bad">Prazo curto</span>':""}</div>
+    ${i.fonte==="PNCP"?`<div class="destaque">
+      <div><div class="k">Catarata</div><div class="v">${i.faco?brl(i.faco.valor):"–"}</div>${i.faco?`<div class="medidor"><i style="width:${Math.min(100,x/3.5*100)}%"></i></div><div class="s">${x.toLocaleString("pt-BR",{maximumFractionDigits:1})}× SUS · ${Math.round(i.faco.qtd).toLocaleString("pt-BR")} un.</div>`:'<div class="s">sem item de faco</div>'}</div>
+      <div><div class="k">Prazo</div><div class="v">${prazoTxt(i.d)||"–"}</div><div class="s">${i.encerramento?fdata(i.encerramento):"não informado"}</div></div>
+      <div><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">${curto(i.valor_total)} no total</div></div>
+    </div>`:""}
+    <dl class="dl">
+      ${ln("Órgão",esc(i.orgao))}
+      ${ln("Modalidade",esc(i.modalidade))}
+      ${ln("Propostas",i.abertura?fdata(i.abertura)+(i.encerramento?" até "+fdata(i.encerramento):""):"")}
+      ${ln("Publicado",i.publicado?fdata(i.publicado):"")}
+      ${ln("Distância",i.fonte!=="PNCP"&&i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km de Monte Alto":"")}
+      ${ln("Credenciados",(i.vencedores||[]).length?esc(i.vencedores.join(" · ")):"")}
+      ${ln("Resultado",(i.docs_resultado||[]).length?esc(i.docs_resultado.join(" · ")):"")}
+      ${ln("Encontrado por",(i.termos||[]).length?esc(i.termos.join(", ")):"")}
+    </dl>
+    ${i.req&&i.req.status==="ok"?`<div><div class="rot">Resumo do edital ${veredito(i)}</div>
+      ${(i.req.oferece||[]).length?`<div class="rot" style="margin-top:8px">O que o órgão oferece</div><ul class="reqlist">${i.req.oferece.map(x=>`<li><b>${esc(x.r)}</b><q>${esc(x.t)}</q></li>`).join("")}</ul>`:""}
+      ${(i.req.exige||[]).length?`<div class="rot" style="margin-top:10px">O que a empresa precisa ter</div><ul class="reqlist">${i.req.exige.map(x=>`<li><b>${esc(x.r)}</b><q>${esc(x.t)}</q></li>`).join("")}</ul>`:""}
+      ${(i.req.emails||[]).length?`<div class="rot" style="margin-top:10px">E-mails citados no edital</div><div class="texto">${esc(i.req.emails.join(" · "))}</div>`:""}
+      <div class="rot" style="margin-top:8px">Leitura automática de: ${esc((i.req.lidos||[]).join(", "))}. Confira sempre no edital.</div></div>`:(i.req?`<div>${veredito(i)}</div>`:"")}
+    ${i.estr?`<div><div class="rot">Estabelecimentos com centro cirúrgico em ${esc(i.municipio)} (CNES, ${fdata(i.estr.data)})</div>${i.estr.total?`<ul class="reqlist">${i.estr.est.map(e=>`<li><b>${esc(e.nome)}</b><q>${esc(e.tipo)} · ${esc(e.nat||"natureza não informada")}${e.olho?" · oftalmologia":""}${e.sus?" · atende SUS":""}${e.tel?" · tel. "+esc(e.tel):""} · CNES ${esc(e.cnes)}</q></li>`).join("")}</ul>`:`<div class="texto">Nenhum estabelecimento com centro cirúrgico cadastrado no CNES.</div>`}</div>`:""}
+    ${i.faco&&i.faco.desc?`<div><div class="rot">Item de catarata no edital</div><div class="texto">${esc(i.faco.desc)}</div></div>`:""}
+    <div><div class="rot">${i.fonte==="Diário Oficial"?"Trechos do diário":i.fonte==="Site OSS/AME"?"Texto do link":"Objeto"}</div><div class="texto">${esc(i.objeto)}</div></div>
+    <div class="links">
+      <a class="lk pri" href="${esc(i.link)}" target="_blank" rel="noopener">${i.fonte==="PNCP"?"Abrir edital no PNCP":i.fonte==="Diário Oficial"?"Abrir o diário (PDF)":"Abrir no site"} ↗</a>
+      ${i.plataforma&&/^https?:/.test(i.plataforma)?`<a class="lk sec" href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma do órgão ↗</a>`:""}
+    </div>
+    <div class="dlg-acoes">
+      <button type="button" data-acao="acomp" data-id="${esc(i.id)}" aria-pressed="${m==="acomp"}">${m==="acomp"?"★ Acompanhando":"☆ Acompanhar"}</button>
+      <button type="button" data-acao="desc" data-id="${esc(i.id)}" aria-pressed="${m==="desc"}">${m==="desc"?"Restaurar":"Descartar"}</button>
+    </div>`;
+  if(!$("dlg").open) $("dlg").showModal();
+}
+function marcar(id,a){ marc[id]=marc[id]===a?undefined:a; if(!marc[id]) delete marc[id]; salvar(); }
+
+/* ---------- Eventos ---------- */
+$("conteudo").addEventListener("click",e=>{
+  const ir=e.target.closest("[data-ir]");
+  if(ir){ visao=ir.dataset.ir; F.ordem=ir.dataset.o||(VISOES.find(v=>v.id===visao).ordem)||"novos"; $("ordem").value=F.ordem; limite=PAG; tudo(); window.scrollTo({top:0}); return; }
+  if(e.target.id==="mais"){ limite+=PAG; conteudo(); return; }
+  const at=e.target.closest("[data-atalho]");
+  if(at){ const a=ATALHOS.find(x=>x[0]===at.dataset.atalho); a[3](); limite=PAG; tudo(); return; }
+  if(e.target.closest("a")) return;
+  const r=e.target.closest("[data-id]"); if(!r) return;
+  if(e.target.closest("[data-estrela]")){ marcar(r.dataset.id,"acomp"); tudo(); return; }
+  if(e.target.closest("[data-descarta]")){ marcar(r.dataset.id,"desc"); tudo(); return; }
+  detalhe(r.dataset.id);
+});
+$("conteudo").addEventListener("keydown",e=>{ if(e.key==="Enter"&&e.target.dataset.id) detalhe(e.target.dataset.id); });
+document.querySelectorAll("dialog").forEach(d=>d.addEventListener("click",e=>{
+  if(e.target===d||e.target.closest("[data-fechar]")){ d.close(); return; }
+  const b=e.target.closest("[data-acao]"); if(b){ marcar(b.dataset.id,b.dataset.acao); detalhe(b.dataset.id); tudo(); }
+}));
+$("dlg-filtros").addEventListener("close",()=>tudo());
+$("btn-filtros").addEventListener("click",()=>{ filtrosUI(); $("dlg-filtros").showModal(); });
+$("ver-fontes").addEventListener("click",()=>{ fecharMenu(); $("dlg-fontes").showModal(); });
+function liga(id,set){ $(id).addEventListener("click",e=>{ const b=e.target.closest(".chip"); if(!b) return; const s=set(), v=b.dataset.v; s.has(v)?s.delete(v):s.add(v); limite=PAG; filtrosUI(); tudo(); }); }
+liga("g-pal",()=>F.pal); liga("g-cat",()=>F.cat); liga("g-sit",()=>F.sit);
+$("g-uf").addEventListener("click",e=>{ const b=e.target.closest(".ufb"); if(!b) return; const u=b.dataset.uf; F.uf.has(u)?F.uf.delete(u):F.uf.add(u); filtrosUI(); tudo(); });
+document.querySelectorAll("[data-limpa]").forEach(b=>b.addEventListener("click",()=>{ F[b.dataset.limpa]=new Set(); filtrosUI(); tudo(); }));
+$("zerar").addEventListener("click",()=>{ const o=F.ordem; F=novoF(); F.ordem=o; $("q").value=""; $("vmin").value=0; $("dmax").value=3000; filtrosUI(); tudo(); });
+$("vmin").addEventListener("input",e=>{ F.vmin=+e.target.value; filtrosUI(); tudo(); });
+$("dmax").addEventListener("input",e=>{ F.dmax=+e.target.value; filtrosUI(); tudo(); });
+$("q").addEventListener("input",e=>{ F.q=e.target.value; limite=PAG; if(visao==="geral"&&F.q){ visao="pncp"; } tudo(); });
+$("ordem").addEventListener("change",e=>{ F.ordem=e.target.value; conteudo(); });
+$("ativos").addEventListener("click",e=>{
+  const b=e.target.closest(".ativo"); if(!b) return; const k=b.dataset.k;
+  if(k==="q"){F.q="";$("q").value="";} else if(k==="vmin"){F.vmin=0;$("vmin").value=0;} else if(k==="dmax"){F.dmax=3000;$("dmax").value=3000;}
+  else if(k.startsWith("pal:")) F.pal.delete(k.slice(4)); else if(k.startsWith("uf:")) F.uf.delete(k.slice(3));
+  tudo();
+});
+function fecharMenu(){ $("side").classList.remove("aberta"); $("veu").hidden=true; $("btn-menu").setAttribute("aria-expanded","false"); }
+$("btn-menu").addEventListener("click",()=>{ $("side").classList.add("aberta"); $("veu").hidden=false; $("btn-menu").setAttribute("aria-expanded","true"); });
+$("veu").addEventListener("click",fecharMenu);
+
+(function inicio(){
+  $("atual").textContent = D.atualizado ? `atualizado ${fdata(D.atualizado)} ${D.atualizado.slice(11)}` : "sem atualização";
+  $("fontes").innerHTML=(D.fontes_status||[]).map(f=>`<li>${esc(f.nome)}: ${f.ok?f.itens+" itens":"falhou nesta coleta"}</li>`).join("")||"<li>PNCP</li>";
+  $("ordem").value=F.ordem; tudo();
+})();
+</script>
