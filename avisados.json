@@ -38,5 +38,155 @@
       "status": "confirmado_pelo_usuario",
       "confirmado_em": "2026-11-07T14:48:59.499116-03:00"
     }
+  },
+  "pncp:17781651000169/2026/8": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "pncp:55750301000124/2026/21": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "pncp:07346147000187/2026/3": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "pncp:11232665000147/2026/107": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "pncp:11258723000101/2026/6": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "pncp:02031332000169/2025/54": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:23804149000129/2026/41": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:18837278000183/2026/14": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:18017442000106/2026/53": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:11301094000155/2026/29": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:11608295000108/2026/12": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:13173908000149/2026/4": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:13904420000144/2026/143": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:04144176000178/2025/42": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:32090677000154/2026/3": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
   }
 }

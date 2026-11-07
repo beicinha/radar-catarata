@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07 12:30",
+ "atualizado": "2026-11-07 15:12",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -7425,7 +7425,27 @@
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2561018,
+      "nome": "Hospital Municipal De Saboeiro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "3526-1253"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:29131075000193/2026/369",
@@ -10430,7 +10450,47 @@
     "oftalmologista",
     "olho",
     "olhos"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 2,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 2715317,
+      "nome": "Hospital Maria Rafael De Siqueira",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(87)38441192"
+     },
+     {
+      "cnes": 2429543,
+      "nome": "Clips Ii",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(81)38441209"
+     },
+     {
+      "cnes": 2635798,
+      "nome": "Clinica Santa Maria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "87 38441942"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:46482840000139/2026/860",
@@ -10511,7 +10571,57 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 1,
+    "olho": 1,
+    "privado": 2,
+    "total": 4,
+    "est": [
+     {
+      "cnes": 8098107,
+      "nome": "Hospital Regional Do Circuito Da Fe E Vale Historico",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "1231973939"
+     },
+     {
+      "cnes": 2024691,
+      "nome": "Santa Casa De Cruzeiro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(12)3184-7005"
+     },
+     {
+      "cnes": 6208940,
+      "nome": "Clinica Saude Ocular",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "12-31448512"
+     },
+     {
+      "cnes": 3815285,
+      "nome": "Clinica De Cirurgia Santo Antonio",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "12-31447558"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:15126437000305/2026/4572",
@@ -10568,7 +10678,57 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 1,
+    "olho": 1,
+    "privado": 2,
+    "total": 4,
+    "est": [
+     {
+      "cnes": 8098107,
+      "nome": "Hospital Regional Do Circuito Da Fe E Vale Historico",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "1231973939"
+     },
+     {
+      "cnes": 2024691,
+      "nome": "Santa Casa De Cruzeiro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(12)3184-7005"
+     },
+     {
+      "cnes": 6208940,
+      "nome": "Clinica Saude Ocular",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "12-31448512"
+     },
+     {
+      "cnes": 3815285,
+      "nome": "Clinica De Cirurgia Santo Antonio",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "12-31447558"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:44959021000104/2026/367",
@@ -12100,7 +12260,27 @@
     "oftalmologista",
     "oftalmo",
     "olho"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2437988,
+      "nome": "Hospital Municipal De Mambai",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(62)34841201"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:09073628000191/2026/64",
@@ -12598,7 +12778,57 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 3,
+    "total": 4,
+    "est": [
+     {
+      "cnes": 2758245,
+      "nome": "Santa Casa De Lins",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(014) 3533-2500"
+     },
+     {
+      "cnes": 3060616,
+      "nome": "Hospital Lins",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(014) 3533-4412"
+     },
+     {
+      "cnes": 3155803,
+      "nome": "Clinica Gabas De Cirurgia Plastica",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(14)35221224"
+     },
+     {
+      "cnes": 3518949,
+      "nome": "Hospital Unimed Lins",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(014) 3533-4835"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:11870726000100/2026/350",
@@ -13260,7 +13490,16 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:18192898000102/2026/211",
@@ -14204,7 +14443,16 @@
     "oftalmo",
     "cirurgia ocular",
     "cirurgias oftalmológicas"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:11232665000147/2026/247",
@@ -14231,7 +14479,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2343509,
+      "nome": "Hospital Municipal Atanazio Ferreira Da Cunha",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(64) 3496-1169"
+     }
+    ],
+    "data": "2026-10-18"
+   }
   },
   {
    "id": "pncp:18239590000175/2026/191",
@@ -14258,7 +14526,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2775972,
+      "nome": "Santa Casa De Misericordia De Boa Esperanca",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(35)38511159"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:88138292000174/2026/124",
@@ -14372,7 +14660,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 6553567,
+      "nome": "Hospital Das Clinicas Do Municipio De Tuntum",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:11511812000118/2026/23",
@@ -14571,7 +14879,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 3017230,
+      "nome": "Hospital Municipal De Buriti De Goias",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "0800 8785 825"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:13675491000112/2026/409",
@@ -14945,7 +15273,37 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 0,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2135930,
+      "nome": "Fhap Fundacao Hospitalar Dr Afonso Pavie",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "38 35211284"
+     },
+     {
+      "cnes": 2135949,
+      "nome": "Hospital De Itamarandiba",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(38)35211000"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:24359333000170/2026/136",
@@ -15079,7 +15437,37 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2715163,
+      "nome": "Unidade Mista Leonidas Pereira De Menezes",
+      "tipo": "Unidade mista",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(87)38841192"
+     },
+     {
+      "cnes": 2639165,
+      "nome": "Hgu",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(81)38841191"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:19875020000134/2026/46",
@@ -15106,7 +15494,47 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 2,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 229385,
+      "nome": "Uti Hospital De Campanha Covid19",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 2140217,
+      "nome": "Hospital E Maternidade Vital Brazil",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "3138499500"
+     },
+     {
+      "cnes": 151270,
+      "nome": "Hospital Dia Especialle",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "31 38482482"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:11352368000135/2026/63",
@@ -15133,7 +15561,16 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:55750301000124/2026/15",
@@ -15371,7 +15808,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 6553567,
+      "nome": "Hospital Das Clinicas Do Municipio De Tuntum",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:60975983000103/2026/7",
@@ -16391,7 +16848,37 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2535238,
+      "nome": "Hospital Municipal Santa Clara Bom Jardim De Goias",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(64) 99648 1403"
+     },
+     {
+      "cnes": 2441446,
+      "nome": "Hospital E Maternidade Menino Jesus",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "36711250"
+     }
+    ],
+    "data": "2026-10-18"
+   }
   },
   {
    "id": "pncp:11301094000155/2026/28",
@@ -16419,7 +16906,27 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmo"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2786095,
+      "nome": "Hospital Regional De Dianopolis",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63) 3692-2899"
+     }
+    ],
+    "data": "2026-10-18"
+   }
   },
   {
    "id": "pncp:11283491000141/2026/71",
@@ -16446,7 +16953,37 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2535238,
+      "nome": "Hospital Municipal Santa Clara Bom Jardim De Goias",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(64) 99648 1403"
+     },
+     {
+      "cnes": 2441446,
+      "nome": "Hospital E Maternidade Menino Jesus",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "36711250"
+     }
+    ],
+    "data": "2026-10-18"
+   }
   },
   {
    "id": "pncp:23444748000189/2027/2",
@@ -17195,7 +17732,37 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2760711,
+      "nome": "Hospital Sao Vicente De Paulo Mutum",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(33) 3312-1358"
+     },
+     {
+      "cnes": 2760649,
+      "nome": "Hospital Sao Manoel",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(33)33121542"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:12094507000130/2026/24",
@@ -17510,7 +18077,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2571218,
+      "nome": "Hospital Municipal Mae Roberta",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(62) 34561394"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:01613309000110/2026/14",
@@ -17637,7 +18224,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2119501,
+      "nome": "Hospital Municipal Gricia Lisboa De Rezende",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(38)99865698"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:01095667000188/2024/18",
@@ -19140,7 +19747,27 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2135108,
+      "nome": "Hospital Sao Vicente Turmalina",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(38)35271234"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:11336672000199/2026/12",
@@ -19304,7 +19931,27 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmo"
-   ]
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2653699,
+      "nome": "Hospital E Maternidade Maria Amelia Menezes Santos",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "7534261252"
+     }
+    ],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:11087455000102/2026/12",
@@ -20214,7 +20861,16 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-07"
+   }
   },
   {
    "id": "pncp:75476556000158/2026/23",
@@ -22450,6 +23106,666 @@
    "termos": []
   },
   {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/06/Contrato-0172022-plantoes-medicos.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Contrato 017-2022 – Credenciamento de Instituição de Saúde para Prestação de serviços de gerenciamento e operacionalização de plantões médicos",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2022/06/Contrato-0172022-plantoes-medicos.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/01/EDITAL-08-2022-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-MEDICOS-ANESTESEOLOGIA-18-01-23.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público nº 08-2022 para Contratação de Serviços Médicos de Anesteseologia",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/01/EDITAL-08-2022-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-MEDICOS-ANESTESEOLOGIA-18-01-23.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2021/02/EDITAL-01-2021-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público nº 01/2021 para Contratação de Serviços Médicos",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2021/02/EDITAL-01-2021-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/12/EDITAL-00-2020-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público para Contratação de Serviços Médicos",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2020/12/EDITAL-00-2020-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2019/12/Edital-HGI-004-2019-Chamamento-Publico-servico-medicina-do-trabalho.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital nº 004/2019 – Chamamento Público – Serviço de Medicina do Trabalho",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2019/12/Edital-HGI-004-2019-Chamamento-Publico-servico-medicina-do-trabalho.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/07/Edital-HGI-005-2022-07-Chamamento-Publico-servs-medicos-Angiologia.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital nº 005/2022 – Chamamento Público – Contratação de Serviços Médicos de Angiologia",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2022/07/Edital-HGI-005-2022-07-Chamamento-Publico-servs-medicos-Angiologia.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/09/Edital-HGT-003-2025-Chamamento-Publico-UTI.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público 003/2025 – Contratação de Empresa Terceirizada para Prestação de Serviços Médicos em UTI",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2025/09/Edital-HGT-003-2025-Chamamento-Publico-UTI.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/07/Edital-de-Chamamento-Publico-003-2024-Contratacao-de-Servicos-de-Terceiros-por-PJ-para-servicos-medicos-de-CIRURGIA-GERAL.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público 003/2024 – Contratação de Serviços de Terceiros por PJ para serviços médicos de Cirurgia Geral",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/07/Edital-de-Chamamento-Publico-003-2024-Contratacao-de-Servicos-de-Terceiros-por-PJ-para-servicos-medicos-de-CIRURGIA-GERAL.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/03/Edital-de-Chamamento-Publico-002.2023-Contratacao-de-servicos-de-terceiros-por-pessoas-juridicas-para-locacao-de-tenda.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público 002/23 – Contratação de Serviços de Terceiros por PJ para Locação de Tenda",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/03/Edital-de-Chamamento-Publico-002.2023-Contratacao-de-servicos-de-terceiros-por-pessoas-juridicas-para-locacao-de-tenda.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/01/Edital-de-Chamamento-Publico-HGT-006.2022-Prestacao-de-servicos-de-medicina-do-trabalho.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público 006/2022 – Contratação de serviços de terceiros por pessoas jurídicas",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/01/Edital-de-Chamamento-Publico-HGT-006.2022-Prestacao-de-servicos-de-medicina-do-trabalho.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/09/EDITAL-CIRURGIAS-ELETIVAS-2025-1.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público 002/2025 – Contratação de Serviços de Cirurgias Eletivas",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2025/09/EDITAL-CIRURGIAS-ELETIVAS-2025-1.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/04/CHAMAMENTO-PUBLICO-PARA-A-ESPECIALIDADE-DE-OFTALMOLOGISTA.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público para Contratação de Oftalmologista",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/04/CHAMAMENTO-PUBLICO-PARA-A-ESPECIALIDADE-DE-OFTALMOLOGISTA.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/11/Edital-HRPC-008-2024-Chamamento-Publico-Servicos-Medicos-de-Clinica-Medica.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital 008/2024 – Chamamento Público para Contratação de Serviços Médicos de Clínica Médica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/11/Edital-HRPC-008-2024-Chamamento-Publico-Servicos-Medicos-de-Clinica-Medica.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2019/05/Edital-de-contrata%C3%A7%C3%A3o-de-m%C3%A9dicos-pessoas-jur%C3%ADdicas-UTI.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Contratação de Médicos para UTI – Pessoa Jurídica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2019/05/Edital-de-contrata%C3%A7%C3%A3o-de-m%C3%A9dicos-pessoas-jur%C3%ADdicas-UTI.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/09/Edital-Contratacao-Medico-Trabalho-pessoas-juridicas-Setembro-2020-convertido.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público nº 006/2020 – Contratação de Médico do Trabalho – Pessoa Jurídica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2020/09/Edital-Contratacao-Medico-Trabalho-pessoas-juridicas-Setembro-2020-convertido.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/10/Prorrogacao-do-prazo-para-apresentacao-de-propostas-PA-INDSH-HRPL-006-2020.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Prorrogação do prazo para apresentação de propostas – Edital de Chamamento Público nº 006/2020 – Contratação de Médico do Trabalho – Pessoa Jurídica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2020/10/Prorrogacao-do-prazo-para-apresentacao-de-propostas-PA-INDSH-HRPL-006-2020.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/10/Edital-Contratacao-Prestacao-de-Servico-Grupo-Gerador-pessoas-juridicas-.._-convertido.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de Chamamento Público nº 007/2020 – Contratação de Serviço Grupo Gerador – Pessoa Jurídica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2020/10/Edital-Contratacao-Prestacao-de-Servico-Grupo-Gerador-pessoas-juridicas-.._-convertido.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/04/Edital-HRPM-003-2024-04-Chamamento-Publico-servicos-medicos-de-Mastologia.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital HRPM nº 003/2024-04 – Chamamento Público – Serviços médicos de Mastologia",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/04/Edital-HRPM-003-2024-04-Chamamento-Publico-servicos-medicos-de-Mastologia.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-005-2024-06-Chamamento-Publico-servicos-medicos-de-Clinica-medica.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital HRPM 005/2024 – Chamamento Público – Contratação de Serviços Médicos de Clínica Médica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-005-2024-06-Chamamento-Publico-servicos-medicos-de-Clinica-medica.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-007-2024-06-Chamamento-Publico-servicos-medicos-de-Intensivista-Adulto-UTI-A.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital HRPM 007/2024 – Chamamento Público – Contatação de Serviços Médicos de Intensivista Adulto UTI A",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-007-2024-06-Chamamento-Publico-servicos-medicos-de-Intensivista-Adulto-UTI-A.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/01/005.2024-POLIMED-CLINICA-MEDICA.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Contrato de prestação de serviços médicos 005/2024",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2025/01/005.2024-POLIMED-CLINICA-MEDICA.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/01/006.2024-POLIMED-CIRURGIA-GERAL.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Contrato de prestação de serviços médicos 006/2024",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2025/01/006.2024-POLIMED-CIRURGIA-GERAL.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Cirurgia-Geral.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Nota de Ato Convocatório – Contratação de Prestação de Serviços Médicos em Cirurgia Geral",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Cirurgia-Geral.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Clinica-Medica-Adulto.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Nota de Ato Convocatório – Contratação de Prestação de Serviços Médicos de Clínica Médica (Urgência/Emergência Adulto)",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Clinica-Medica-Adulto.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/11/Termo-de-Referencia-e-Contratacao-SERVICOS-MEDICOS.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Termo de Referência e Contratação SERVIÇOS MÉDICOS",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2025/11/Termo-de-Referencia-e-Contratacao-SERVICOS-MEDICOS.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Cirurgia-Geral.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Processo de Contratação de Empresa Especializada em Serviços Médicos em Cirurgia Geral",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Cirurgia-Geral.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Clinica-Medica.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Processo de Contratação de Empresa Especializada em Serviços Médicos em Clínica Médica",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Clinica-Medica.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTA-PAULA-1-1.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital Serviços Médicos – Ato Convocatório",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTA-PAULA-1-1.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTA-PAULA-1-1.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital Serviços Médicos – Técnica e Preço",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTA-PAULA-1-1.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTA-PAULA-1.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital Serviços Médicos – Termo de Referência",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTA-PAULA-1.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2026/03/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA-2026-REV-PUBLICACAO.pdf",
    "fonte": "Site OSS/AME",
    "categoria": "Chamamento médico",
@@ -22494,6 +23810,72 @@
    "termos": []
   },
   {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital Serviços Médicos –",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTANA.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital Serviços Médicos – Técnica e Preço",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTANA.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
+   "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTANA.pdf",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "MG",
+   "municipio": "",
+   "orgao": "INDSH",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital Serviços Médicos- Termo de Referência",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTANA.pdf",
+   "dist_km": null,
+   "primeira_vez": "2026-10-17",
+   "termos": []
+  },
+  {
    "id": "oss:https://www.funcamp.unicamp.br/portal/Aquisicoes/Credenciamentos",
    "fonte": "Site OSS/AME",
    "categoria": "Chamamento médico",
@@ -22519,12 +23901,14 @@
  "fontes_status": [
   {
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
-   "ok": true,
+   "ok": false,
+   "erro": "Coleta incompleta; dados anteriores preservados",
    "itens": 238
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 4
   },
   {
@@ -22534,7 +23918,8 @@
   },
   {
    "nome": "Fundação do ABC (FUABC)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 0
   },
   {
@@ -22574,7 +23959,8 @@
   },
   {
    "nome": "Santa Casa de Votuporanga (AMEs Jales/Santa Fé/Votuporanga)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 0
   },
   {
@@ -22610,7 +23996,7 @@
   {
    "nome": "INDSH",
    "ok": true,
-   "itens": 2
+   "itens": 35
   },
   {
    "nome": "AME Barretos (Fundação Pio XII)",
@@ -22624,7 +24010,8 @@
   },
   {
    "nome": "FAEPA (AME Taquaritinga)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 0
   },
   {
