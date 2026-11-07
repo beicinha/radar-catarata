@@ -1,10 +1,10 @@
-# Roda o Radar Catarata às 7h e às 17h (horário de Brasília), avisa por e-mail/WhatsApp
+# Roda o Radar Catarata a cada hora, avisa por e-mail/WhatsApp
 # quando há licitação nova e publica o painel no GitHub Pages.
 name: Radar Catarata
 
 on:
   schedule:
-    - cron: "0 10,20 * * *"   # 10h e 20h UTC = 7h e 17h em Brasília
+    - cron: "17 * * * *"      # minuto 17 de cada hora, todos os dias
   workflow_dispatch:           # botão "Run workflow" para rodar na hora
 
 permissions:

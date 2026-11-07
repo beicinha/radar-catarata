@@ -9,7 +9,7 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
   - O campo `primeira_vez` de cada item marca quando ele apareceu pela primeira vez.
 - `avisar.py`: seleciona os itens relevantes (catarata ou cirurgia oftalmológica, sem compras nem prazo vencido) que não estão em `avisados.json` e manda e-mail (Gmail SMTP) e WhatsApp (CallMeBot).
   - `python3 avisar.py --teste` só mostra o que enviaria.
-- `.github/workflows/radar.yml`: roda às 7h e às 17h (Brasília); coleta, avisa, faz commit dos caches e publica no GitHub Pages.
+- `.github/workflows/radar.yml`: roda a cada hora, no minuto 17 (24 horas por dia); coleta, avisa, faz commit dos caches e publica no GitHub Pages.
 - `.github/workflows/painel.yml`: só republica o `radar.html`.
 - Painel: https://beicinha.github.io/radar-catarata/
 - Secrets usados (configurados no GitHub, nunca no código): `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `CALLMEBOT_PHONE`, `CALLMEBOT_APIKEY`, opcional `EMAIL_TO`.
@@ -24,7 +24,8 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - CallMeBot aceitar/enfileirar uma solicitação **não comprova entrega**. Nunca registrar como entregue sem confirmação. Não expor resposta bruta, telefone, chave ou URL autenticada nos logs públicos.
 - `regras.py` compartilha a triagem entre coleta e avisos. Compras de caixas/instrumentos, turismo e trechos administrativos não devem ser tratados como contratação de cirurgia. Serviços que incluem insumos não devem ser excluídos só por isso.
 - `avisados.json` guarda estado por canal. Registros antigos preservam o e-mail já enviado e deixam o WhatsApp pendente. Falhas são independentes; pendências abertas não expiram só por terem aparecido há mais de dois dias. São processados até 15 itens por e-mail e 5 por WhatsApp a cada rodada.
-- Uma solicitação WhatsApp aceita e não confirmada pode ser tentada novamente depois de 24 horas, até três tentativas aceitas; depois continua sem confirmação, sem reenvios automáticos dessa solicitação. Erros de conexão/configuração continuam pendentes. A API gratuita não fornece aqui confirmação de entrega.
+- Solicitações WhatsApp aceitas pelo serviço não são repetidas automaticamente, mesmo sem confirmação de entrega. Erros de conexão/configuração continuam pendentes. A API gratuita não fornece aqui confirmação de entrega.
+- Em 07/11, o usuário confirmou também o recebimento dos cinco itens da rodada das 15h19 e pediu monitoramento horário com avisos somente de novidades. `inicio_monitoramento.json` registra os IDs existentes no momento da configuração: continuam no painel, mas não geram alertas históricos. Novos IDs relevantes entram na fila por canal; falhas de envio são retomadas. Não apagar esse arquivo nem marcar itens antigos como enviados sem terem sido enviados.
 - `status_avisos.json` informa a situação geral no painel, sem dados pessoais ou credenciais.
 - Para revisar os dados existentes e regenerar o painel **sem rede ou envio**: `python3 coletor.py --revisar-dados`. A cópia para `~/RadarCatarata` agora exige `--copiar-local`; não usar sem autorização para escrever fora do repositório.
 - Testes de regressão sem envio: `python3 -m unittest discover -s tests -v`.

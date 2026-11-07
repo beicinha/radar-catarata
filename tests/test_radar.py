@@ -153,15 +153,34 @@ class Avisos(unittest.TestCase):
             zap.assert_not_called()
         self.assertFalse((self.p/'avisados.json').exists())
 
-    def test_fila_sem_confirmacao_tem_limite_e_intervalo(self):
-        agora = avisar.AGORA
+    def test_whatsapp_aceito_nao_repete_nos_dias_seguintes(self):
         h = {'whatsapp': {'status': 'aceito_sem_confirmacao', 'aceitas': 1,
-                          'ultima_tentativa': (agora - timedelta(hours=25)).isoformat()}}
-        self.assertTrue(avisar.pendente(h, 'whatsapp'))
-        h['whatsapp']['ultima_tentativa'] = agora.isoformat()
+                          'ultima_tentativa': (avisar.AGORA - timedelta(days=3)).isoformat()}}
         self.assertFalse(avisar.pendente(h, 'whatsapp'))
-        h['whatsapp'].update(aceitas=3, ultima_tentativa=(agora - timedelta(days=2)).isoformat())
-        self.assertFalse(avisar.pendente(h, 'whatsapp'))
+
+    def test_monitoramento_horario_so_avisa_oportunidade_nova(self):
+        (self.p/'inicio_monitoramento.json').write_text(json.dumps({'ids_existentes': ['teste']}))
+        with patch.object(avisar, 'enviar_email', return_value=True) as email, \
+                patch.object(avisar, 'enviar_whatsapp', return_value='aceito_sem_confirmacao') as zap:
+            self.rodar()
+            email.assert_not_called()
+            zap.assert_not_called()
+            self.escrever([self.item, dict(self.item, id='novo')])
+            self.rodar()
+            self.rodar()
+            email.assert_called_once()
+            zap.assert_called_once()
+            self.assertEqual([i['id'] for i in email.call_args.args[0]], ['novo'])
+
+    def test_falha_em_item_novo_continua_pendente(self):
+        (self.p/'inicio_monitoramento.json').write_text(json.dumps({'ids_existentes': ['antigo']}))
+        with patch.object(avisar, 'enviar_email', side_effect=[False, True]) as email, \
+                patch.object(avisar, 'enviar_whatsapp', side_effect=['falha_conexao', 'aceito_sem_confirmacao']) as zap:
+            self.rodar()
+            self.rodar()
+            self.rodar()
+            self.assertEqual(email.call_count, 2)
+            self.assertEqual(zap.call_count, 2)
 
     def test_resposta_callmebot_negativa_nao_e_sucesso(self):
         for resposta in ('Message not sent', 'Error: invalid API key', 'Your message was not sent, queued requests failed'):

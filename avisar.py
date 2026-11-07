@@ -2,8 +2,9 @@
 
 Lê o dados.json gerado pelo coletor.py, seleciona os itens relevantes que ainda
 têm pendências por canal e guarda as tentativas em avisados.json. A aceitação
-pelo CallMeBot não comprova entrega. Há até três tentativas aceitas, espaçadas
-por 24 horas, enquanto não existir confirmação. --teste não envia nem grava.
+pelo CallMeBot não comprova entrega. Uma solicitação aceita não é repetida
+automaticamente. --teste não envia nem grava. inicio_monitoramento.json
+define os registros antigos que permanecem no painel, sem disparar avisos.
 
 Configuração por variáveis de ambiente (no GitHub ficam em "Secrets"):
   GMAIL_USER          conta Gmail que envia (ex.: rafaelmqbarbosa@gmail.com)
@@ -148,13 +149,8 @@ def pendente(registro, canal):
     if estado.get("status") == "confirmado_pelo_usuario":
         return False
     if estado.get("status") == "aceito_sem_confirmacao":
-        if estado.get("aceitas", 0) >= 3:
-            return False
-        try:
-            ultima = datetime.fromisoformat(estado["ultima_tentativa"])
-            return AGORA - ultima >= timedelta(hours=24)
-        except (KeyError, ValueError, TypeError):
-            return True
+        # Evitar repetir no celular uma mensagem que já foi aceita pelo serviço.
+        return False
     return True
 
 
@@ -197,7 +193,14 @@ def main():
         avisados = {}
     # Histórico ilegível precisa de correção; não apagar para depois reenviar tudo.
     avisados = migrar_historico(avisados)
-    candidatos = sorted([i for i in dados.get("itens", []) if relevante(i)], key=ordem)
+    try:
+        with open(P("inicio_monitoramento.json"), encoding="utf-8") as arquivo:
+            inicio = json.load(arquivo)
+    except FileNotFoundError:
+        inicio = {"ids_existentes": []}
+    ids_anteriores = set(inicio["ids_existentes"])
+    candidatos = sorted([i for i in dados.get("itens", [])
+                         if i["id"] not in ids_anteriores and relevante(i)], key=ordem)
     painel = os.environ.get("PAINEL_URL", "https://beicinha.github.io/radar-catarata/")
     saude = {"atualizado": AGORA.isoformat(), "canais": {}}
     for canal, limite in (("email", 15), ("whatsapp", 5)):
@@ -207,7 +210,8 @@ def main():
         if not lote:
             anteriores = [v.get(canal, {}) for v in avisados.values()]
             estado = "aceito_sem_confirmacao" if canal == "whatsapp" and any(
-                v.get("status") == "aceito_sem_confirmacao" for v in anteriores) else "sem_pendencias"
+                v.get("status") == "aceito_sem_confirmacao" for v in anteriores) else ("confirmado_pelo_usuario" if canal == "whatsapp" and any(
+                v.get("status") == "confirmado_pelo_usuario" for v in anteriores) else "sem_pendencias")
             saude["canais"][canal] = {"status": estado, "pendentes": 0}
             continue
         email, zap = textos(lote, painel)
@@ -236,7 +240,7 @@ def main():
     if not teste:
         salvar_json("status_avisos.json", saude)
         erros = [e for e in saude["canais"].values()
-                 if e["status"] not in ("enviado", "aceito_sem_confirmacao", "sem_pendencias")]
+                 if e["status"] not in ("enviado", "aceito_sem_confirmacao", "confirmado_pelo_usuario", "sem_pendencias")]
         if erros:
             raise SystemExit(1)
 

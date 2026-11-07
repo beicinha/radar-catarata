@@ -47,10 +47,11 @@
       "aceitas": 0
     },
     "whatsapp": {
-      "status": "aceito_sem_confirmacao",
+      "status": "confirmado_pelo_usuario",
       "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
       "tentativas": 1,
-      "aceitas": 1
+      "aceitas": 1,
+      "confirmado_em": "2026-11-07T15:50:03.377211-03:00"
     }
   },
   "pncp:55750301000124/2026/21": {
@@ -61,10 +62,11 @@
       "aceitas": 0
     },
     "whatsapp": {
-      "status": "aceito_sem_confirmacao",
+      "status": "confirmado_pelo_usuario",
       "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
       "tentativas": 1,
-      "aceitas": 1
+      "aceitas": 1,
+      "confirmado_em": "2026-11-07T15:50:03.377211-03:00"
     }
   },
   "pncp:07346147000187/2026/3": {
@@ -75,10 +77,11 @@
       "aceitas": 0
     },
     "whatsapp": {
-      "status": "aceito_sem_confirmacao",
+      "status": "confirmado_pelo_usuario",
       "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
       "tentativas": 1,
-      "aceitas": 1
+      "aceitas": 1,
+      "confirmado_em": "2026-11-07T15:50:03.377211-03:00"
     }
   },
   "pncp:11232665000147/2026/107": {
@@ -89,10 +92,11 @@
       "aceitas": 0
     },
     "whatsapp": {
-      "status": "aceito_sem_confirmacao",
+      "status": "confirmado_pelo_usuario",
       "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
       "tentativas": 1,
-      "aceitas": 1
+      "aceitas": 1,
+      "confirmado_em": "2026-11-07T15:50:03.377211-03:00"
     }
   },
   "pncp:11258723000101/2026/6": {
@@ -103,10 +107,11 @@
       "aceitas": 0
     },
     "whatsapp": {
-      "status": "aceito_sem_confirmacao",
+      "status": "confirmado_pelo_usuario",
       "ultima_tentativa": "2026-11-07T15:19:04.294714-03:00",
       "tentativas": 1,
-      "aceitas": 1
+      "aceitas": 1,
+      "confirmado_em": "2026-11-07T15:50:03.377211-03:00"
     }
   },
   "pncp:02031332000169/2025/54": {
