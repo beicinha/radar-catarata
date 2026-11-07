@@ -1,0 +1,23 @@
+# Acionamento manual explícito. Envia apenas uma mensagem de teste pelo WhatsApp.
+name: Testar WhatsApp (envia uma mensagem)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Enviar uma mensagem de teste, sem e-mail
+        env:
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+        run: python avisar.py --teste-whatsapp

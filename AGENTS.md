@@ -18,3 +18,16 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - Dependências: só Python 3, `curl` e `pypdf`.
 - Antes de mexer nos filtros de relevância, teste com `python3 avisar.py --teste`.
 - Rodar manualmente: aba Actions → "Radar Catarata" → "Run workflow" (ou `gh workflow run radar.yml -R beicinha/radar-catarata`).
+
+## Correções e validação em 07/11/2026
+- A segunda execução na nuvem concluiu coleta, histórico e publicação; e-mail recebido. O usuário informou que **não recebeu o WhatsApp**, embora tenha recebido a ativação do CallMeBot.
+- CallMeBot aceitar/enfileirar uma solicitação **não comprova entrega**. Nunca registrar como entregue sem confirmação. Não expor resposta bruta, telefone, chave ou URL autenticada nos logs públicos.
+- `regras.py` compartilha a triagem entre coleta e avisos. Compras de caixas/instrumentos, turismo e trechos administrativos não devem ser tratados como contratação de cirurgia. Serviços que incluem insumos não devem ser excluídos só por isso.
+- `avisados.json` guarda estado por canal. Registros antigos preservam o e-mail já enviado e deixam o WhatsApp pendente. Falhas são independentes; pendências abertas não expiram só por terem aparecido há mais de dois dias. São processados até 15 itens por e-mail e 5 por WhatsApp a cada rodada.
+- Uma solicitação WhatsApp aceita e não confirmada pode ser tentada novamente depois de 24 horas, até três tentativas aceitas; depois continua sem confirmação, sem reenvios automáticos dessa solicitação. Erros de conexão/configuração continuam pendentes. A API gratuita não fornece aqui confirmação de entrega.
+- `status_avisos.json` informa a situação geral no painel, sem dados pessoais ou credenciais.
+- Para revisar os dados existentes e regenerar o painel **sem rede ou envio**: `python3 coletor.py --revisar-dados`. A cópia para `~/RadarCatarata` agora exige `--copiar-local`; não usar sem autorização para escrever fora do repositório.
+- Testes de regressão sem envio: `python3 -m unittest discover -s tests -v`.
+- O painel apresenta exigências como indícios para conferência, usa a data atual para prazos e avisa sobre coleta antiga. Falhas de fontes preservam os dados anteriores e devem aparecer como falha.
+- Há um fluxo separado **“Testar WhatsApp (envia uma mensagem)”**. Só executá-lo quando o usuário autorizar o envio. Texto exato: “Radar Catarata: teste de funcionamento do WhatsApp.” Não envia e-mail nem altera o histórico de oportunidades.
+- Faltam confirmação de entrega no celular e validação da próxima coleta automática completa. PDFs sem texto ainda exigem OCR ou revisão manual; a cobertura de cada fonte OSS precisa de acompanhamento. Não prometer triagem infalível nem habilitação automática.

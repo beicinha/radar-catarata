@@ -12,6 +12,7 @@ from html.parser import HTMLParser
 import unicodedata
 import analise_editais
 import estrutura_municipal
+import regras
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 P = lambda f: os.path.join(AQUI, f)
@@ -45,28 +46,26 @@ RE_SERVICO = re.compile(r"presta[cç][aã]o de servi|credenciamento|credenciar|c
 RE_DOC_RESULT = re.compile(r"adjudica|homologa|resultado|contrato|convoca|extrato|ratifica", re.I)
 
 
-def curl(url, timeout=40, tries=3):
-    for i in range(tries):
-        try:
-            r = subprocess.run(["curl", "-s", "-L", "-m", str(timeout), "-A",
-                                "Mozilla/5.0 (Macintosh) RadarLicitacoes/1.0", url],
-                               capture_output=True, text=True, errors="replace")
-            if r.stdout:
-                return r.stdout
-        except Exception:
-            pass
-        time.sleep(2 + i * 2)
-    return ""
+def curl(url, timeout=40, tries=2):
+    for tentativa in range(tries):
+        r = subprocess.run(["curl", "-f", "-s", "-L", "-m", str(timeout), "-A",
+                            "Mozilla/5.0 RadarLicitacoes/1.0", url],
+                           capture_output=True, text=True, errors="replace")
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout
+        if tentativa + 1 < tries:
+            time.sleep(2 + tentativa * 2)
+    raise RuntimeError("Fonte indisponível ou resposta vazia")
 
 
 def cjson(url, default=None):
-    for i in range(3):
-        t = curl(url)
-        try:
-            return json.loads(t)
-        except Exception:
-            time.sleep(2 + i * 3)
-    return default
+    try:
+        resultado = json.loads(curl(url))
+    except (ValueError, RuntimeError) as erro:
+        raise RuntimeError("Fonte não retornou JSON válido") from erro
+    if not isinstance(resultado, (dict, list)):
+        raise RuntimeError("Formato inesperado na fonte")
+    return resultado
 
 
 def load(f, default):
@@ -111,14 +110,7 @@ def buscar_pncp():
 
 
 def classificar(desc):
-    d = desc or ""
-    if not RE_OFTALMO.search(d):
-        return None
-    if re.search(r"[oó]culos|arma[cç][aã]o|arma[cç][oõ]es|lentes de grau", d, re.I) and not RE_CATARATA.search(d):
-        return "Material/compra"
-    if RE_SERVICO.search(d) and not (RE_COMPRA.search(d) and not re.search(r"credencia|presta[cç][aã]o de servi", d, re.I)):
-        return "Catarata" if RE_CATARATA.search(d) else "Oftalmologia"
-    return "Material/compra"
+    return regras.classificar(desc)
 
 
 def enriquecer(it, cache):
@@ -126,10 +118,11 @@ def enriquecer(it, cache):
     chave = f"{cnpj}/{ano}/{seq}"
     base = f"https://pncp.gov.br/api/pncp/v1/orgaos/{cnpj}/compras/{ano}/{seq}"
     c = cache.get(chave) or {}
-    if not c.get("consulta"):
+    if not c.get("consulta") or c.get("consultado_em") != HOJE:
         c["consulta"] = cjson(f"https://pncp.gov.br/api/consulta/v1/orgaos/{cnpj}/compras/{ano}/{seq}", {}) or {}
         c["itens"] = cjson(base + "/itens?pagina=1&tamanhoPagina=200", []) or []
-        c["primeira_vez"] = HOJE
+        c.setdefault("primeira_vez", HOJE)
+        c["consultado_em"] = HOJE
     # situação muda: sempre reconsulta arquivos e resultados
     arqs = cjson(base + "/arquivos", []) or []
     c["arquivos"] = [{"titulo": a.get("titulo"), "url": a.get("url")} for a in arqs if isinstance(a, dict)]
@@ -183,13 +176,13 @@ def montar_pncp(brutos, cache):
             continue
         faco = None
         for x in c.get("itens") or []:
-            if isinstance(x, dict) and RE_CATARATA.search(x.get("descricao") or ""):
+            if isinstance(x, dict) and regras.valor_cirurgia(x):
                 v = x.get("valorUnitarioEstimado") or 0
                 qt = x.get("quantidade") or 0
-                if v and v > 200 and v < 20000 and qt > 1:
+                if v and v > 0 and v < 20000 and qt > 1:
                     faco = {"valor": round(v, 2), "qtd": qt, "desc": (x.get("descricao") or "")[:140]}
                     break
-                if v and not faco and v > 200 and v < 20000:
+                if v and not faco and v > 0 and v < 20000:
                     faco = {"valor": round(v, 2), "qtd": qt, "desc": (x.get("descricao") or "")[:140]}
         docs_res = [a["titulo"] for a in c.get("arquivos", []) if a.get("titulo") and RE_DOC_RESULT.search(a["titulo"])]
         ibge = it.get("codigo_ibge") or (q.get("unidadeOrgao") or {}).get("codigoIbge")
@@ -291,6 +284,7 @@ def coletar_diarios(vistos, dias=45):
             trechos = [re.sub(r"\s+", " ", e).strip() for e in (g.get("excerpts") or [])]
             # só interessa se o trecho tiver cara de ato de contratação
             uteis = [t for t in trechos if RE_DIARIO_ATO.search(t) and RE_DIARIO_TEMA.search(t)]
+            uteis = [t for t in uteis if regras.diario_contratacao(t)]
             if not uteis:
                 continue
             k = g.get("url")
@@ -358,9 +352,6 @@ RE_ANO = re.compile(r"(?<!\d)(20[12]\d)(?!\d)")
 
 def oss_relevante(texto, url):
     alvo = texto + " " + urllib.parse.unquote(url)
-    anos = [int(a) for a in RE_ANO.findall(alvo)]
-    if anos and max(anos) < AGORA.year:
-        return False
     if RE_OFTALMO.search(alvo):
         return True
     return bool(RE_GENERICO_PJ.search(alvo)) and not RE_OUTRA_ESPEC.search(alvo)
@@ -408,7 +399,9 @@ def coletar_oss(vistos):
                         achados.append((h, t, ""))
             status.append({"nome": f["nome"], "ok": True, "itens": len(achados)})
         except Exception as e:
-            status.append({"nome": f["nome"], "ok": False, "erro": str(e)[:100]})
+            status.append({"nome": f["nome"], "ok": False, "erro": "Fonte indisponível; dados anteriores preservados"})
+            out += [i for i in load("dados.json", {}).get("itens", [])
+                    if i.get("fonte") == "Site OSS/AME" and i.get("orgao") == f["nome"]]
         vistos_fonte = set()
         for h, t, data in achados:
             if h in vistos_fonte:
@@ -431,10 +424,13 @@ def coletar_oss(vistos):
 
 # ---------------------------------------------------------------- Saída
 def gerar_html(dados):
+    dados = dict(dados, avisos_status=load("status_avisos.json", {}))
     tpl = open(P("painel_template.html"), encoding="utf-8").read()
     js = json.dumps(dados, ensure_ascii=True).replace("</", "<\\/")
     open(P("radar.html"), "w", encoding="utf-8").write(tpl.replace("/*__DADOS__*/null", js))
-    # cópia servida pelo servidor local (http://localhost:8765), fora de Documentos
+    # A cópia para servidor local é opcional e exige --copiar-local.
+    if "--copiar-local" not in sys.argv:
+        return
     try:
         pasta = os.path.expanduser("~/RadarCatarata")
         os.makedirs(pasta, exist_ok=True)
@@ -443,45 +439,80 @@ def gerar_html(dados):
         print("  aviso: não consegui copiar para ~/RadarCatarata:", e)
 
 
+def revisar_dados(dados):
+    revisados, ids = [], set()
+    for item in dados.get("itens", []):
+        i = regras.revisar_item(item)
+        if not i or i.get("id") in ids:
+            continue
+        if i.get("encerramento") and i["encerramento"][:10] < HOJE:
+            continue
+        if i.get("req"):
+            # As regras antigas não comprovam obrigação ou dispensa.
+            i["req"] = dict(i["req"])
+            i["req"]["conferencia_necessaria"] = True
+            i["req"]["exige"] = [e for e in i["req"].get("exige", [])
+                                   if analise_editais.exigencia_valida(e.get("r"), e.get("t", ""))]
+        ids.add(i["id"])
+        revisados.append(i)
+    dados["itens"] = revisados
+    for status in dados.get("fontes_status", []):
+        nome = status.get("nome", "")
+        fonte = "PNCP" if nome.startswith("PNCP") else "Diário Oficial" if nome.startswith("Diários Oficiais") else "Site OSS/AME"
+        status["itens"] = sum(i.get("fonte") == fonte and (fonte != "Site OSS/AME" or i.get("orgao") == nome)
+                              for i in revisados)
+    return dados
+
+
 def main():
-    if "--so-html" in sys.argv:
-        gerar_html(load("dados.json", {}))
-        print("painel regenerado")
+    if "--so-html" in sys.argv or "--revisar-dados" in sys.argv:
+        dados = revisar_dados(load("dados.json", {}))
+        if "--revisar-dados" in sys.argv:
+            json.dump(dados, open(P("dados.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        gerar_html(dados)
+        print("painel revisado; sem coleta ou envio")
         return
+    anteriores = load("dados.json", {})
+    preservar = lambda fonte: [i for i in anteriores.get("itens", []) if i.get("fonte") == fonte]
     cache = load("cache_pncp.json", {})
     vistos = load("vistos_oss.json", {})
-    if "--sem-pncp" in sys.argv:
-        pncp = [i for i in load("dados.json", {}).get("itens", []) if i.get("fonte") == "PNCP"]
-        print(f"Reaproveitando {len(pncp)} editais do PNCP da última coleta", flush=True)
-    else:
-        print("1/4 Buscando no PNCP...", flush=True)
-        brutos = buscar_pncp()
-        print(f"2/4 Enriquecendo {len(brutos)} editais...", flush=True)
-        pncp = montar_pncp(brutos, cache)
-    print("Lendo os editais (o que exigem e o que o órgão oferece)...", flush=True)
-    aplicar_analise(pncp, cache)
-    print("3/4 Lendo Diários Oficiais (Querido Diário)...", flush=True)
+    status = []
+    try:
+        if "--sem-pncp" in sys.argv:
+            pncp = preservar("PNCP")
+        else:
+            print("1/4 Buscando no PNCP...", flush=True)
+            pncp = montar_pncp(buscar_pncp(), cache)
+            if not pncp and preservar("PNCP"):
+                raise RuntimeError("PNCP sem resultados; verificar fonte")
+        aplicar_analise(pncp, cache)
+        status.append({"nome": "PNCP (Portal Nacional de Contratações Públicas)", "ok": True})
+    except Exception:
+        pncp = preservar("PNCP")
+        status.append({"nome": "PNCP (Portal Nacional de Contratações Públicas)", "ok": False,
+                       "erro": "Coleta incompleta; dados anteriores preservados"})
+        print("::warning::Falha no PNCP; preservados registros anteriores.", flush=True)
+    print("3/4 Lendo Diários Oficiais...", flush=True)
     try:
         diarios = coletar_diarios(vistos)
-    except Exception as e:
-        print("  falha nos diários:", e, flush=True)
-        diarios = []
-    print("Consultando a estrutura dos municípios no CNES...", flush=True)
+        status.append({"nome": "Diários Oficiais municipais (Querido Diário)", "ok": True})
+    except Exception:
+        diarios = preservar("Diário Oficial")
+        status.append({"nome": "Diários Oficiais municipais (Querido Diário)", "ok": False,
+                       "erro": "Fonte indisponível; dados anteriores preservados"})
     try:
         aplicar_estrutura(pncp + diarios)
-    except Exception as e:
-        print("  falha na estrutura municipal:", e, flush=True)
+    except Exception:
+        print("::warning::Falha na consulta de estrutura municipal; não concluir ausência de estrutura.")
     print("4/4 Varrendo sites de OSS/AMEs...", flush=True)
-    oss, status = coletar_oss(vistos)
-    status = [{"nome": "PNCP (Portal Nacional de Contratações Públicas)", "ok": True, "itens": len(pncp)},
-              {"nome": "Diários Oficiais municipais (Querido Diário)", "ok": True, "itens": len(diarios)}] + status
-    dados = {"atualizado": AGORA.strftime("%Y-%m-%d %H:%M"), "base": "Monte Alto/SP",
-             "itens": pncp + diarios + oss, "fontes_status": status}
+    oss, status_oss = coletar_oss(vistos)
+    dados = revisar_dados({"atualizado": AGORA.strftime("%Y-%m-%d %H:%M"), "base": "Monte Alto/SP",
+                           "itens": pncp + diarios + oss, "fontes_status": status + status_oss})
     json.dump(cache, open(P("cache_pncp.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(vistos, open(P("vistos_oss.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(dados, open(P("dados.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     gerar_html(dados)
-    print(f"OK: {len(pncp)} editais PNCP + {len(oss)} links de OSS/AMEs. Painel: radar.html", flush=True)
+    print(f"OK: {len(dados['itens'])} registros revisados. Painel: radar.html", flush=True)
 
 
 if __name__ == "__main__":

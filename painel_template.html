@@ -273,6 +273,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
   </nav>
 
   <main class="main">
+    <p id="saude-radar" role="status" style="padding:12px;background:var(--surface-2);border-radius:10px" hidden></p>
     <div class="main-in">
       <div class="topo">
         <div>
@@ -344,8 +345,9 @@ const brl = (v,c=2) => v==null ? "–" : v.toLocaleString("pt-BR",{style:"curren
 const curto = v => v==null ? "–" : v>=1e6 ? "R$ "+(v/1e6).toLocaleString("pt-BR",{maximumFractionDigits:1})+" mi" : v>=1e3 ? "R$ "+Math.round(v/1e3).toLocaleString("pt-BR")+" mil" : brl(v);
 const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm = s => String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-const ref = D.atualizado ? new Date(D.atualizado.replace(" ","T")) : new Date();
-const dias = dt => { if(!dt) return null; const d=new Date(dt.length<=10?dt+"T23:59":dt); return Math.ceil((d-ref)/864e5); };
+const ref = new Date();
+const coleta = D.atualizado ? new Date(D.atualizado.replace(" ","T")+"-03:00") : null;
+const dias = dt => { if(!dt) return null; const d=new Date(dt.length<=10?dt+"T23:59:59-03:00":(/[Zz]|[+-]\d\d:\d\d$/.test(dt)?dt:dt+"-03:00")); return d<ref?-1:Math.ceil((d-ref)/864e5); };
 const fdata = dt => { if(!dt) return ""; const [a,m,d]=dt.slice(0,10).split("-"); return `${d}/${m}/${a}`; };
 const prazoTxt = d => d==null?"":d<0?"encerrado":d===0?"hoje":d===1?"amanhã":d+" dias";
 
@@ -389,6 +391,7 @@ function filtrar(vf, semUf){
     const m=marc[i.id];
     if(!V.mostraDesc && m==="desc") return false;
     if(V.f && !V.f(i)) return false;
+    if(i.d!=null && i.d<0 && vf!=="acomp" && vf!=="desc") return false;
     if(!F.cat.has(i.categoria) && vf!=="acomp" && vf!=="desc") return false;
     if(i.fonte==="PNCP" && !F.sit.has(i.sit)) return false;
     if(!semUf && F.uf.size && !F.uf.has(i.uf)) return false;
@@ -441,13 +444,13 @@ function veredito(i){
   if(q.status==="sem_texto") return '<span class="veredito neu">Edital escaneado: abrir o PDF</span>';
   if(q.status==="sem_arquivo") return '<span class="veredito neu">Sem edital anexado no PNCP</span>';
   if(q.status!=="ok") return "";
-  if(i.semClinica) return '<span class="veredito bom">✓ Usa a estrutura do órgão: não precisa de clínica própria</span>';
-  if((q.exige||[]).some(x=>/estrutura própria/.test(x.r))) return '<span class="veredito atn">Precisa de clínica/centro cirúrgico próprio</span>';
+  if(i.semClinica) return '<span class="veredito bom">Indício de estrutura do órgão: confirmar condições no edital</span>';
+  if((q.exige||[]).some(x=>/estrutura própria/.test(x.r))) return '<span class="veredito atn">Menção a estrutura própria: conferir obrigação no edital</span>';
   return '<span class="veredito neu">Local de execução não identificado: ver detalhes</span>';
 }
 function linhaEstr(i){
   const s=i.estr; if(!s) return "";
-  if(!s.total) return `<div class="req-l"><b>Na cidade</b><span class="tag">Nenhum centro cirúrgico no CNES</span></div>`;
+  if(!s.total) return `<div class="req-l"><b>Na cidade</b><span class="tag">Nenhum centro cirúrgico retornado na consulta</span></div>`;
   const pub=s.est.find(e=>e.hosp&&e.nat==="público"), fil=s.est.find(e=>e.hosp&&e.nat==="filantrópico"), olho=s.est.find(e=>e.olho);
   const tags=[];
   if(pub) tags.push(`<span class="tag es">Hospital público: ${esc(pub.nome)}</span>`);
@@ -463,7 +466,7 @@ function blocoReq(i){
   const ex=(q.exige||[]).map(x=>{const c=rotCurto(x.r);return `<span class="tag ${FORTES.test(c)?"forte":""}">${esc(c)}</span>`;}).join("");
   return `<div class="req">${veredito(i)}
     ${of?`<div class="req-l"><b>Órgão oferece</b>${of}</div>`:""}
-    ${ex?`<div class="req-l"><b>Precisa ter</b>${ex}</div>`:""}
+    ${ex?`<div class="req-l"><b>Conferir no edital</b>${ex}</div>`:""}
     ${linhaEstr(i)}
     ${(q.emails||[]).length?`<div class="req-l"><b>Contato</b><span class="tag">${esc(q.emails.join(" · "))}</span></div>`:""}
   </div>`;
@@ -504,7 +507,7 @@ function cartao(i,idx){
   </article>`;
 }
 const ATALHOS=[
-  ["semcl","Sem clínica própria",()=>F.semcl,()=>{F.semcl=!F.semcl;}],
+  ["semcl","Indício de estrutura do órgão",()=>F.semcl,()=>{F.semcl=!F.semcl;}],
   ["hpub","Hospital público na cidade",()=>F.hpub,()=>{F.hpub=!F.hpub;}],
   ["cat","Só catarata",()=>F.cat.size===1&&F.cat.has("Catarata"),()=>{F.cat=F.cat.size===1&&F.cat.has("Catarata")?new Set(CAT0):new Set(["Catarata"]);}],
   ["sit","Sem vencedor",()=>F.sit.size===1&&F.sit.has("aberto"),()=>{F.sit=F.sit.size===1?new Set(["aberto","vencedor"]):new Set(["aberto"]);}],
@@ -613,10 +616,10 @@ function detalhe(id){
     </dl>
     ${i.req&&i.req.status==="ok"?`<div><div class="rot">Resumo do edital ${veredito(i)}</div>
       ${(i.req.oferece||[]).length?`<div class="rot" style="margin-top:8px">O que o órgão oferece</div><ul class="reqlist">${i.req.oferece.map(x=>`<li><b>${esc(x.r)}</b><q>${esc(x.t)}</q></li>`).join("")}</ul>`:""}
-      ${(i.req.exige||[]).length?`<div class="rot" style="margin-top:10px">O que a empresa precisa ter</div><ul class="reqlist">${i.req.exige.map(x=>`<li><b>${esc(x.r)}</b><q>${esc(x.t)}</q></li>`).join("")}</ul>`:""}
+      ${(i.req.exige||[]).length?`<div class="rot" style="margin-top:10px">Possíveis exigências: conferir no edital</div><ul class="reqlist">${i.req.exige.map(x=>`<li><b>${esc(x.r)}</b><q>${esc(x.t)}</q></li>`).join("")}</ul>`:""}
       ${(i.req.emails||[]).length?`<div class="rot" style="margin-top:10px">E-mails citados no edital</div><div class="texto">${esc(i.req.emails.join(" · "))}</div>`:""}
       <div class="rot" style="margin-top:8px">Leitura automática de: ${esc((i.req.lidos||[]).join(", "))}. Confira sempre no edital.</div></div>`:(i.req?`<div>${veredito(i)}</div>`:"")}
-    ${i.estr?`<div><div class="rot">Estabelecimentos com centro cirúrgico em ${esc(i.municipio)} (CNES, ${fdata(i.estr.data)})</div>${i.estr.total?`<ul class="reqlist">${i.estr.est.map(e=>`<li><b>${esc(e.nome)}</b><q>${esc(e.tipo)} · ${esc(e.nat||"natureza não informada")}${e.olho?" · oftalmologia":""}${e.sus?" · atende SUS":""}${e.tel?" · tel. "+esc(e.tel):""} · CNES ${esc(e.cnes)}</q></li>`).join("")}</ul>`:`<div class="texto">Nenhum estabelecimento com centro cirúrgico cadastrado no CNES.</div>`}</div>`:""}
+    ${i.estr?`<div><div class="rot">Estabelecimentos com centro cirúrgico em ${esc(i.municipio)} (CNES, ${fdata(i.estr.data)})</div>${i.estr.total?`<ul class="reqlist">${i.estr.est.map(e=>`<li><b>${esc(e.nome)}</b><q>${esc(e.tipo)} · ${esc(e.nat||"natureza não informada")}${e.olho?" · oftalmologia":""}${e.sus?" · atende SUS":""}${e.tel?" · tel. "+esc(e.tel):""} · CNES ${esc(e.cnes)}</q></li>`).join("")}</ul>`:`<div class="texto">A consulta não retornou estabelecimentos com centro cirúrgico. Confira diretamente no CNES.</div>`}</div>`:""}
     ${i.faco&&i.faco.desc?`<div><div class="rot">Item de catarata no edital</div><div class="texto">${esc(i.faco.desc)}</div></div>`:""}
     <div><div class="rot">${i.fonte==="Diário Oficial"?"Trechos do diário":i.fonte==="Site OSS/AME"?"Texto do link":"Objeto"}</div><div class="texto">${esc(i.objeto)}</div></div>
     <div class="links">
@@ -674,6 +677,14 @@ $("veu").addEventListener("click",fecharMenu);
 (function inicio(){
   $("atual").textContent = D.atualizado ? `atualizado ${fdata(D.atualizado)} ${D.atualizado.slice(11)}` : "sem atualização";
   $("fontes").innerHTML=(D.fontes_status||[]).map(f=>`<li>${esc(f.nome)}: ${f.ok?f.itens+" itens":"falhou nesta coleta"}</li>`).join("")||"<li>PNCP</li>";
+  const avisos=[];
+  if(!coleta || ref-coleta>36*3600e3) avisos.push("A coleta está desatualizada. Confira prazos nas fontes.");
+  if((D.fontes_status||[]).some(f=>!f.ok)) avisos.push("Algumas fontes falharam; foram preservados dados anteriores.");
+  const w=D.avisos_status?.canais?.whatsapp?.status;
+  if(w) avisos.push(w==="confirmado_pelo_usuario"?"WhatsApp confirmado pelo usuário.":
+    w==="aceito_sem_confirmacao"?"WhatsApp: solicitação aceita pelo serviço, entrega ao celular não confirmada.":
+    "WhatsApp: entrega pendente; funcionamento ainda não confirmado.");
+  if(avisos.length){ $("saude-radar").hidden=false; $("saude-radar").textContent=avisos.join(" "); }
   $("ordem").value=F.ordem; tudo();
 })();
 </script>

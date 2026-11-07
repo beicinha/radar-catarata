@@ -13,30 +13,38 @@ permissions:
   id-token: write
 
 concurrency:
-  group: radar
+  group: radar-pages
   cancel-in-progress: false
 
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Instalar dependências
-        run: pip install pypdf
+        run: pip install pypdf==7.0.0
+
+      - name: Verificar filtros e avisos sem enviar
+        run: python -m unittest discover -s tests -v
 
       - name: Coletar licitações
+        id: coleta
         run: python coletor.py
 
       - name: Avisar por e-mail e WhatsApp
+        id: avisos
+        continue-on-error: true
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -46,22 +54,35 @@ jobs:
           PAINEL_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python avisar.py
 
+      - name: Atualizar situação dos avisos no painel
+        if: ${{ !cancelled() && steps.coleta.outcome == 'success' }}
+        run: python coletor.py --revisar-dados
+
       - name: Guardar histórico (caches e dados)
         if: always()
         run: |
           git config user.name "radar-catarata"
           git config user.email "radar-catarata@users.noreply.github.com"
-          git add -A dados.json radar.html cache_*.json vistos_oss.json avisados.json 2>/dev/null || true
+          for arquivo in dados.json radar.html cache_*.json vistos_oss.json avisados.json status_avisos.json; do
+            if [ -f "$arquivo" ]; then git add -- "$arquivo"; fi
+          done
           git diff --cached --quiet || git commit -m "Radar: atualização $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')"
-          git pull --rebase -X theirs origin main || true
-          git push || echo "aviso: não consegui guardar o histórico nesta rodada"
+          git pull --rebase origin main
+          git push
 
       - name: Preparar painel
+        if: ${{ !cancelled() && steps.coleta.outcome == 'success' }}
         run: mkdir -p _site && cp radar.html _site/index.html
 
       - uses: actions/upload-pages-artifact@v3
+        if: ${{ !cancelled() && steps.coleta.outcome == 'success' }}
         with:
           path: _site
 
       - id: deploy
+        if: ${{ !cancelled() && steps.coleta.outcome == 'success' }}
         uses: actions/deploy-pages@v4
+
+      - name: Sinalizar falha da etapa de avisos
+        if: ${{ !cancelled() && steps.avisos.outcome == 'failure' }}
+        run: exit 1

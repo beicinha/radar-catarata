@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: radar-pages
   cancel-in-progress: false
 
 jobs:
@@ -21,6 +21,10 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python coletor.py --so-html
       - run: mkdir -p _site && cp radar.html _site/index.html
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -2,7 +2,8 @@
 
 O resultado fica em cache_analise.json (cada edital é baixado e lido uma vez só).
 """
-import io, json, os, re, subprocess, zipfile
+import io, json, os, re, subprocess, zipfile, hashlib
+from datetime import datetime, timedelta
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(AQUI, "cache_analise.json")
@@ -50,7 +51,7 @@ REGRAS = [
     ("balanco", "Balanço e índices financeiros", "exige", r"balan[cç]o patrimonial|[ií]ndices? de liquidez|liquidez geral"),
     ("capital", "Capital/patrimônio mínimo", "exige", r"(capital social|patrim[oô]nio l[ií]quido)\s+m[ií]nimo"),
     ("vistoria", "Vistoria", "exige", r"\bvistoria"),
-    ("equip", "Equipamentos próprios (faco, microscópio)", "exige", r"facoemulsificador|aparelho de facoemulsifica|microsc[oó]pio cir[uú]rgico"),
+    ("equip", "Equipamentos próprios (faco, microscópio)", "exige", r"(contratad|credenciad)[oa][^.;]{0,100}(fornec|disponibiliz|possuir|manter)[^.;]{0,100}(facoemulsificador|aparelho de facoemulsifica|microsc[oó]pio cir[uú]rgico)"),
     ("contratada_insumos", "Empresa fornece LIO/insumos", "exige",
      r"(contratad|credenciad)[oa][^.;]{0,140}(fornec|disponibiliz|respons[aá]vel)[^.;]{0,80}(lentes?|\bLIO\b|insumos|materiais|medicamentos)"
      r"|incluindo[^.;]{0,40}(lente|LIO|insumos|materiais)"),
@@ -65,7 +66,7 @@ RE_FORMA = re.compile(r"(inscri[cç][aã]o|protocol|envelope|requerimento|docume
 
 
 def _curl(url):
-    r = subprocess.run(["curl", "-s", "-L", "-m", "120", "--max-filesize", str(MAX_BYTES), "-A",
+    r = subprocess.run(["curl", "-f", "-s", "-L", "-m", "120", "--max-filesize", str(MAX_BYTES), "-A",
                         "Mozilla/5.0 RadarLicitacoes/1.0", url], capture_output=True)
     return r.stdout or b""
 
@@ -108,11 +109,26 @@ def _trecho(t, m, larg=170):
     return ("…" if a else "") + t[a:b].strip() + "…"
 
 
+def negada(texto, match):
+    inicio = max(texto.rfind(".", 0, match.start()), texto.rfind(";", 0, match.start())) + 1
+    fins = [p for p in (texto.find(".", match.end()), texto.find(";", match.end())) if p >= 0]
+    fim = min(fins) if fins else len(texto)
+    frase = texto[inicio:fim]
+    return bool(re.search(r"n[aã]o[^.;]{0,70}(exigid|obrigat)|dispensad|facultativ", frase, re.I))
+
+
+def exigencia_valida(rotulo, trecho):
+    regra = next((r for r in REGRAS if r[1] == rotulo), None)
+    if not regra:
+        return True
+    return any(not negada(trecho, m) for m in regra[3].finditer(trecho))
+
+
 def analisar_texto(t):
     t = re.sub(r"\s+", " ", t)
     res = {"oferece": [], "exige": [], "emails": [], "forma": "", "paginas_texto": len(t)}
     for k, rot, g, rx in REGRAS:
-        m = rx.search(t)
+        m = next((m for m in rx.finditer(t) if g != "exige" or not negada(t, m)), None)
         if not m:
             continue
         item = {"k": k, "rotulo": rot, "trecho": _trecho(t, m)}
@@ -152,8 +168,13 @@ def salvar_cache(c):
 
 def analisar(chave, arquivos, cache):
     """arquivos = [{'titulo','url'}] do PNCP. Retorna o resumo (do cache, se já lido)."""
-    if chave in cache:
-        return cache[chave]
+    assinatura = hashlib.sha256(json.dumps(arquivos, sort_keys=True).encode()).hexdigest()
+    anterior = cache.get(chave) or {}
+    validade = 7 if anterior.get("status") == "ok" else 1
+    desde = (datetime.now() - timedelta(days=validade)).isoformat()
+    if (anterior.get("versao") == 2 and anterior.get("assinatura") == assinatura
+            and anterior.get("analisado_em", "") >= desde):
+        return anterior
     docs = [a for a in arquivos if a.get("url") and not RE_DOC_RUIM.search(a.get("titulo") or "")]
     docs.sort(key=lambda a: 0 if RE_DOC_BOM.search(a.get("titulo") or "") else 1)
     texto, lidos = "", []
@@ -173,5 +194,6 @@ def analisar(chave, arquivos, cache):
         res = analisar_texto(texto)
         res["status"] = "ok"
         res["lidos"] = lidos
+    res.update(versao=2, assinatura=assinatura, analisado_em=datetime.now().isoformat())
     cache[chave] = res
     return res
