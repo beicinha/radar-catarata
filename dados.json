@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07 15:12",
+ "atualizado": "2026-11-07 19:24",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -22746,6 +22746,558 @@
    }
   },
   {
+   "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-29/28a51a82b4e141a70a6eae91157c84eb5af31d53.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Catarata",
+   "uf": "TO",
+   "municipio": "Palmas",
+   "orgao": "Diário Oficial de Palmas",
+   "modalidade": "Publicação no diário",
+   "objeto": "Lente Intra Ocular-LIO, Iridectomia Cirúrgica, Reconstrução de Câmara anterior do Olho, Reconstituição parcial de pálpebra com tarsorrafia, Reconstituição total de pálpebra, Explante de lente intra ocular, Drenagem de Abscesso de Pálpebra, Facoemulsificação c/ Implante de Lente Intra- ocular Dobrável,e OPM do SUS nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-29",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/1721000/2026-10-29/28a51a82b4e141a70a6eae91157c84eb5af31d53.pdf",
+   "dist_km": 1226,
+   "primeira_vez": "2026-10-31",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "estr": {
+    "publico": 3,
+    "filantropico": 3,
+    "olho": 3,
+    "privado": 9,
+    "total": 27,
+    "est": [
+     {
+      "cnes": 2755157,
+      "nome": "Hospital E Maternidade D Regina S Campos De Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63) 3218 -7772"
+     },
+     {
+      "cnes": 2786117,
+      "nome": "Hospital Geral De Palmas Dr Francisco Ayres",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63 3218- 7814"
+     },
+     {
+      "cnes": 6469205,
+      "nome": "Hospital Infantil De Palmas",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)32187744"
+     },
+     {
+      "cnes": 5663938,
+      "nome": "Hospital Padre Luso Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "63 3571-1166"
+     },
+     {
+      "cnes": 670081,
+      "nome": "Ha Hospital Tocantins Palmas To",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "63 33219420"
+     },
+     {
+      "cnes": 3612821,
+      "nome": "Sasep De Palmas",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 9932747,
+      "nome": "Hc Olhos",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "6332171850"
+     },
+     {
+      "cnes": 7015267,
+      "nome": "Hospital De Olhos Yano",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "63 332146800"
+     },
+     {
+      "cnes": 4178491,
+      "nome": "Opus Hospital De Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "63 81068085"
+     },
+     {
+      "cnes": 6436366,
+      "nome": "Iop",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "32191918/1901/1902"
+     },
+     {
+      "cnes": 2755246,
+      "nome": "Hospital Oswaldo Cruz",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)3219-9000"
+     },
+     {
+      "cnes": 2990334,
+      "nome": "Hcv Hospital De Correcao Visual",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "63 30262100"
+     },
+     {
+      "cnes": 2792478,
+      "nome": "Hospital E Maternidade Cristo Rei Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)3215 9600"
+     },
+     {
+      "cnes": 9202749,
+      "nome": "Hospital Santa Thereza",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "6339018300"
+     },
+     {
+      "cnes": 5252849,
+      "nome": "Hospital Jorge Saade Oncologia E Especialidades",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "63 32361300"
+     }
+    ],
+    "data": "2026-10-28"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-20/be038006a40d1a7ed46d8839908cf8bb37498fcb.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Catarata",
+   "uf": "TO",
+   "municipio": "Palmas",
+   "orgao": "Diário Oficial de Palmas",
+   "modalidade": "Publicação no diário",
+   "objeto": "especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 músculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS, visando atender",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-20",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/1721000/2026-10-20/be038006a40d1a7ed46d8839908cf8bb37498fcb.pdf",
+   "dist_km": 1226,
+   "primeira_vez": "2026-10-23",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "estr": {
+    "publico": 3,
+    "filantropico": 3,
+    "olho": 3,
+    "privado": 9,
+    "total": 27,
+    "est": [
+     {
+      "cnes": 2755157,
+      "nome": "Hospital E Maternidade D Regina S Campos De Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63) 3218 -7772"
+     },
+     {
+      "cnes": 2786117,
+      "nome": "Hospital Geral De Palmas Dr Francisco Ayres",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63 3218- 7814"
+     },
+     {
+      "cnes": 6469205,
+      "nome": "Hospital Infantil De Palmas",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)32187744"
+     },
+     {
+      "cnes": 5663938,
+      "nome": "Hospital Padre Luso Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "63 3571-1166"
+     },
+     {
+      "cnes": 670081,
+      "nome": "Ha Hospital Tocantins Palmas To",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "63 33219420"
+     },
+     {
+      "cnes": 3612821,
+      "nome": "Sasep De Palmas",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 9932747,
+      "nome": "Hc Olhos",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "6332171850"
+     },
+     {
+      "cnes": 7015267,
+      "nome": "Hospital De Olhos Yano",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "63 332146800"
+     },
+     {
+      "cnes": 4178491,
+      "nome": "Opus Hospital De Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "63 81068085"
+     },
+     {
+      "cnes": 6436366,
+      "nome": "Iop",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "32191918/1901/1902"
+     },
+     {
+      "cnes": 2755246,
+      "nome": "Hospital Oswaldo Cruz",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)3219-9000"
+     },
+     {
+      "cnes": 2990334,
+      "nome": "Hcv Hospital De Correcao Visual",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "63 30262100"
+     },
+     {
+      "cnes": 2792478,
+      "nome": "Hospital E Maternidade Cristo Rei Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)3215 9600"
+     },
+     {
+      "cnes": 9202749,
+      "nome": "Hospital Santa Thereza",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "6339018300"
+     },
+     {
+      "cnes": 5252849,
+      "nome": "Hospital Jorge Saade Oncologia E Especialidades",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "63 32361300"
+     }
+    ],
+    "data": "2026-10-28"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-14/e63c1a22fb064ed3b4bc84d8a2d3c426e9982847.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Catarata",
+   "uf": "TO",
+   "municipio": "Palmas",
+   "orgao": "Diário Oficial de Palmas",
+   "modalidade": "Publicação no diário",
+   "objeto": "especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 musculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS, visando atender",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-14",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/1721000/2026-10-14/e63c1a22fb064ed3b4bc84d8a2d3c426e9982847.pdf",
+   "dist_km": 1226,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "estr": {
+    "publico": 3,
+    "filantropico": 3,
+    "olho": 3,
+    "privado": 9,
+    "total": 27,
+    "est": [
+     {
+      "cnes": 2755157,
+      "nome": "Hospital E Maternidade D Regina S Campos De Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63) 3218 -7772"
+     },
+     {
+      "cnes": 2786117,
+      "nome": "Hospital Geral De Palmas Dr Francisco Ayres",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63 3218- 7814"
+     },
+     {
+      "cnes": 6469205,
+      "nome": "Hospital Infantil De Palmas",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)32187744"
+     },
+     {
+      "cnes": 5663938,
+      "nome": "Hospital Padre Luso Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "63 3571-1166"
+     },
+     {
+      "cnes": 670081,
+      "nome": "Ha Hospital Tocantins Palmas To",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "63 33219420"
+     },
+     {
+      "cnes": 3612821,
+      "nome": "Sasep De Palmas",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 9932747,
+      "nome": "Hc Olhos",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "6332171850"
+     },
+     {
+      "cnes": 7015267,
+      "nome": "Hospital De Olhos Yano",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "63 332146800"
+     },
+     {
+      "cnes": 4178491,
+      "nome": "Opus Hospital De Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "63 81068085"
+     },
+     {
+      "cnes": 6436366,
+      "nome": "Iop",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "32191918/1901/1902"
+     },
+     {
+      "cnes": 2755246,
+      "nome": "Hospital Oswaldo Cruz",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)3219-9000"
+     },
+     {
+      "cnes": 2990334,
+      "nome": "Hcv Hospital De Correcao Visual",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "63 30262100"
+     },
+     {
+      "cnes": 2792478,
+      "nome": "Hospital E Maternidade Cristo Rei Palmas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(63)3215 9600"
+     },
+     {
+      "cnes": 9202749,
+      "nome": "Hospital Santa Thereza",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "6339018300"
+     },
+     {
+      "cnes": 5252849,
+      "nome": "Hospital Jorge Saade Oncologia E Especialidades",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "63 32361300"
+     }
+    ],
+    "data": "2026-10-28"
+   }
+  },
+  {
    "id": "dou:https://data.queridodiario.ok.org.br/3554102/2026-11-04/c7146eda7605f677aff5b66e364ba91b373e5b78.pdf",
    "fonte": "Diário Oficial",
    "categoria": "Oftalmologia",
@@ -23015,7 +23567,7 @@
    "municipio": "Avaré",
    "orgao": "Diário Oficial de Avaré",
    "modalidade": "Publicação no diário",
-   "objeto": "valor global de R$ 100.000,00 (cem mil reais) e XAVIER CONSULTÓRIO OFTALMOLÓGICO LTDA ME, no valor global de R$ 100.000,00 (cem mil reais), objetivando o credenciamento de empresa para a prestação de serviços de consultas em oftalmologia – adjudicado em: 07/10/2026. CHAMAMENTO PÚBL ICO Nº 014 /2026 – PROCESSO Nº. 208/2026. Fica adjudicada as Empresas CLÍNICA MÉDICA PRONTO PED LTDA, no valor global de R$ 112.500,00 (cento e doze mil e quinhentos reais) e VALEWA ASSESSORIA … HOMOLOGA as empresas SPAZIO K E T – CLÍNICA DE OLHOS LTDA, VALEWA ASSESSORIA E ASSISTÊNCIA MÉDICA LTDA e XAVIER CONSULTÓRIO OFTALMOLÓGICO LTDA ME , r e f e r e n t e a o credenciamento de empresa para a prestação de serviços de consultas em oftalmologia, relativa ao Chamamento Público nº. 012/2026 – Processo nº. 206/2026. Homologado em: 07/10/2026. Roslindo Wilson Machado – Secretário Municipal de Saúde da Estância Tur",
+   "objeto": "HOMOLOGA as empresas SPAZIO K E T – CLÍNICA DE OLHOS LTDA, VALEWA ASSESSORIA E ASSISTÊNCIA MÉDICA LTDA e XAVIER CONSULTÓRIO OFTALMOLÓGICO LTDA ME , r e f e r e n t e a o credenciamento de empresa para a prestação de serviços de consultas em oftalmologia, relativa ao Chamamento Público nº. 012/2026 – Processo nº. 206/2026. Homologado em: 07/10/2026. Roslindo Wilson Machado – Secretário Municipal de Saúde da Estância Turística de Avaré, no uso das atribuições que lhe são … 100.000,00 (cem mil reais). Credenciada: XAVIER CONSULTÓRIO OFTALMOLÓGICO LTDA ME. Valor G l o b a l : R $ 1 0 0 . 0 0 0 , 0 0 ( c e m m i l reais). Objeto: Credenciamento de empresa para a prestação de serviços de consultas em oftalmologia. Data da Assinatura do Contrato: 07/10/2026. Modalidade: Chamamento Público nº. 014/2026 – P r o c e s s o n º . 208/2026. Credenciante: Prefeitura da Estância Turística de Avaré. Cre",
    "valor_total": null,
    "faco": null,
    "abertura": "",
@@ -23907,9 +24459,8 @@
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
-   "itens": 4
+   "ok": true,
+   "itens": 7
   },
   {
    "nome": "Grupo Santa Casa de Franca (AMEs Avaré, Franca e outros)",
@@ -24029,5 +24580,7 @@
    "ok": true,
    "itens": 0
   }
- ]
+ ],
+ "rodada": "42420463812",
+ "concluido": "2026-11-07 19:30"
 }

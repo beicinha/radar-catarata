@@ -193,5 +193,47 @@
       "tentativas": 1,
       "aceitas": 0
     }
+  },
+  "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-29/28a51a82b4e141a70a6eae91157c84eb5af31d53.pdf": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T19:30:33.294831-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T19:30:33.294831-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-20/be038006a40d1a7ed46d8839908cf8bb37498fcb.pdf": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T19:30:33.294831-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T19:30:33.294831-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-14/e63c1a22fb064ed3b4bc84d8a2d3c426e9982847.pdf": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-07T19:30:33.294831-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-07T19:30:33.294831-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
   }
 }

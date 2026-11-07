@@ -1,0 +1,14 @@
+{
+  "proximo": 1,
+  "rodadas": {
+    "42420463812": {
+      "indice": 0,
+      "canais": {
+        "email": "enviado",
+        "whatsapp": "aceito_sem_confirmacao"
+      },
+      "tema": "resumo",
+      "atualizado": "2026-11-07T19:30:33.294831-03:00"
+    }
+  }
+}
