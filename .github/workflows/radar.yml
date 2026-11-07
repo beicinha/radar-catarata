@@ -53,7 +53,8 @@ jobs:
           git config user.email "radar-catarata@users.noreply.github.com"
           git add -A dados.json radar.html cache_*.json vistos_oss.json avisados.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Radar: atualização $(TZ=America/Sao_Paulo date '+%d/%m/%Y %H:%M')"
-          git push
+          git pull --rebase -X theirs origin main || true
+          git push || echo "aviso: não consegui guardar o histórico nesta rodada"
 
       - name: Preparar painel
         run: mkdir -p _site && cp radar.html _site/index.html
