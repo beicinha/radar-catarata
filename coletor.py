@@ -7,7 +7,8 @@ dados.json + radar.html (painel com filtros).
 Uso: python3 coletor.py            (coleta tudo)
      python3 coletor.py --so-html  (só regenera o painel com o dados.json atual)
 """
-import json, math, os, re, subprocess, sys, time, html, urllib.parse
+import json
+import math, os, re, subprocess, sys, time, html, urllib.parse
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 import unicodedata
@@ -60,20 +61,39 @@ RE_SERVICO = re.compile(r"presta[cç][aã]o de servi|credenciamento|credenciar|c
 RE_DOC_RESULT = re.compile(r"adjudica|homologa|resultado|contrato|convoca|extrato|ratifica", re.I)
 
 
+# Limite de tempo do PNCP por rodada: quando o portal está instável, as tentativas não podem
+# consumir o tempo das outras fontes nem impedir o informe (rodada de 08/11 estourou 1h30).
+PNCP_ORCAMENTO_S = int(os.environ.get("PNCP_ORCAMENTO_S", "2400"))
+PNCP_FALHAS_SEGUIDAS_MAX = 6
+_PNCP = {"inicio": None, "falhas_seguidas": 0}
+
+
 def curl(url, timeout=40, tries=3):
     pncp = "pncp.gov.br" in url
     if pncp:
-        # Desde 07/11/2026 o PNCP derruba cerca de metade das conexões ("connection reset");
+        # Desde 07/11/2026 o PNCP derruba boa parte das conexões ("connection reset");
         # novas tentativas curtas resolvem sem sobrecarregar o portal.
         tries = max(tries, 8)
+        timeout = min(timeout, 25)
+        if _PNCP["inicio"] is None:
+            _PNCP["inicio"] = time.time()
+        if (time.time() - _PNCP["inicio"] > PNCP_ORCAMENTO_S
+                or _PNCP["falhas_seguidas"] >= PNCP_FALHAS_SEGUIDAS_MAX):
+            raise RuntimeError("PNCP instável: limite de tempo desta rodada atingido")
     for tentativa in range(tries):
         r = subprocess.run(["curl", "-f", "-s", "-L", "-m", str(timeout), "-A",
                             "Mozilla/5.0 RadarLicitacoes/1.0", url],
                            capture_output=True, text=True, errors="replace")
         if r.returncode == 0 and r.stdout.strip():
+            if pncp:
+                _PNCP["falhas_seguidas"] = 0
             return r.stdout
+        if pncp and time.time() - _PNCP["inicio"] > PNCP_ORCAMENTO_S:
+            break
         if tentativa + 1 < tries:
             time.sleep(1.5 + tentativa * 0.5 if pncp else 2 + tentativa * 2)
+    if pncp:
+        _PNCP["falhas_seguidas"] += 1
     raise RuntimeError("Fonte indisponível ou resposta vazia")
 
 
