@@ -49,6 +49,11 @@ RE_DOC_RESULT = re.compile(r"adjudica|homologa|resultado|contrato|convoca|extrat
 
 
 def curl(url, timeout=40, tries=2):
+    pncp = "pncp.gov.br" in url
+    if pncp:
+        # Desde 07/11/2026 o PNCP derruba cerca de metade das conexões ("connection reset");
+        # novas tentativas curtas resolvem sem sobrecarregar o portal.
+        tries = max(tries, 8)
     for tentativa in range(tries):
         r = subprocess.run(["curl", "-f", "-s", "-L", "-m", str(timeout), "-A",
                             "Mozilla/5.0 RadarLicitacoes/1.0", url],
@@ -56,7 +61,7 @@ def curl(url, timeout=40, tries=2):
         if r.returncode == 0 and r.stdout.strip():
             return r.stdout
         if tentativa + 1 < tries:
-            time.sleep(2 + tentativa * 2)
+            time.sleep(1.5 + tentativa * 0.5 if pncp else 2 + tentativa * 2)
     raise RuntimeError("Fonte indisponível ou resposta vazia")
 
 
