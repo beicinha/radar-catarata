@@ -32,6 +32,8 @@ import informes
 
 def relevante(i):
     texto = i.get("objeto") or ""
+    if i.get("fonte") == "Mapeamento":  # contrato já assinado: só mapeamento de mercado
+        return False
     if i.get("categoria") == "Material/compra" or not cirurgia_ofertada(texto):
         return False
     if i.get("vencedores") and not credenciamento(i):

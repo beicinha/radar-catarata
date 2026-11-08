@@ -1,10 +1,11 @@
 [
-  {"tipo":"resumo", "titulo":"Resumo das oportunidades na base"},
-  {"tipo":"prazo", "titulo":"Lembrete de prazo próximo"},
-  {"tipo":"perto", "titulo":"Catarata mais perto de Monte Alto"},
-  {"tipo":"regiao", "titulo":"Oportunidades em SP, MG e GO"},
-  {"tipo":"estrutura", "titulo":"Indício de estrutura oferecida pelo órgão"},
-  {"tipo":"documentos", "titulo":"Situação da leitura dos editais"},
-  {"tipo":"retomar", "titulo":"Relembrando uma oportunidade anterior"},
-  {"tipo":"distancia", "titulo":"Como interpretar as distâncias do Radar"}
+  {"tipo": "resumo", "titulo": "Resumo das oportunidades na base"},
+  {"tipo": "prazo", "titulo": "Lembrete de prazo próximo"},
+  {"tipo": "perto", "titulo": "Catarata mais perto de Monte Alto"},
+  {"tipo": "regiao", "titulo": "Oportunidades em SP, MG e GO"},
+  {"tipo": "vencendo", "titulo": "Contrato de catarata perto de vencer (mapeamento)"},
+  {"tipo": "estrutura", "titulo": "Indício de estrutura oferecida pelo órgão"},
+  {"tipo": "documentos", "titulo": "Situação da leitura dos editais"},
+  {"tipo": "retomar", "titulo": "Relembrando uma oportunidade anterior"},
+  {"tipo": "distancia", "titulo": "Como interpretar as distâncias do Radar"}
 ]

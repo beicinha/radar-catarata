@@ -18,6 +18,20 @@ def detalhe(tipo, dados, itens, indice):
         return f'Leitura automática na base: {ok} editais com texto analisado; {sem} sem leitura completa. Conferir os documentos originais.'
     if tipo == 'distancia':
         return 'As distâncias do Radar são em linha reta, a partir de Monte Alto/SP. Não são quilometragem de estrada nem prova de atendimento ao raio exigido no edital.'
+    if tipo == 'vencendo':
+        hoje = (dados.get('atualizado') or '')[:10]
+        mapa = sorted((i for i in dados.get('itens', []) if i.get('fonte') == 'Mapeamento' and i.get('vigencia_fim')
+                       and i.get('categoria') == 'Catarata' and i['vigencia_fim'] >= hoje),
+                      key=lambda i: (i['vigencia_fim'], i.get('dist_km') if i.get('dist_km') is not None else 99999))
+        if not mapa:
+            return 'O mapeamento não tem contrato de catarata com fim de vigência registrado. Confira o painel.'
+        i = mapa[indice % min(len(mapa), 5)]
+        forn = (i.get('vencedores') or ['fornecedor não informado'])[0]
+        partes = [lembrar, f"{i.get('orgao') or 'Órgão'} — {i.get('municipio') or '?'}/{i.get('uf') or '?'}.",
+                  f"{i.get('tipo_mapa') or 'Contrato'} com {forn}, vigente até {i['vigencia_fim'][8:10]}/{i['vigencia_fim'][5:7]}/{i['vigencia_fim'][:4]}.",
+                  'Contrato perto do fim pode indicar nova contratação; não é edital aberto.',
+                  f"Fonte: PNCP — {i.get('link') or 'ver painel'}"]
+        return ' '.join(partes)
     candidatos = list(itens)
     if tipo == 'prazo':
         candidatos = sorted((i for i in itens if i.get('encerramento')), key=lambda i: i['encerramento'])

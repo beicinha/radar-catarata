@@ -36,3 +36,9 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - O painel apresenta exigências como indícios para conferência, usa a data atual para prazos e avisa sobre coleta antiga. Falhas de fontes preservam os dados anteriores e devem aparecer como falha.
 - Há um fluxo separado **“Testar WhatsApp (envia uma mensagem)”**. Só executá-lo quando o usuário autorizar o envio. Texto exato: “Radar Catarata: teste de funcionamento do WhatsApp.” Não envia e-mail nem altera o histórico de oportunidades.
 - Recebimento inicial no celular confirmado pelo usuário; não é necessário disparar outra mensagem de teste. Falta validar a próxima coleta automática completa. PDFs sem texto ainda exigem OCR ou revisão manual; a cobertura de cada fonte OSS precisa de acompanhamento. Não prometer triagem infalível nem habilitação automática.
+
+## Fontes ampliadas em 08/11/2026
+- `coletor.py`: `TERMOS_GENERICOS` (eletivas, filas, OCI, Agora Tem Especialistas, SIGTAP etc.). Editais genéricos sem tema no objeto passam por `itens_oftalmo()` (itens do PNCP; cache diário em `cache_pncp.json`).
+- `diarios_municipais.py`: diários das associações de municípios (12 redes; ver `ASSOCIACOES`). Cache das matérias em `cache_diarios.json`. Itens com `diario_rede: "associacoes"`. Oportunidade exige ato de contratação com objeto oftalmológico; alerta continua exigindo cirurgia (`avisar.relevante`).
+- `mapeamento.py`: contratos e atas do PNCP (fonte `Mapeamento`), 1x por dia (`cache_mapeamento.json`, chave `_dia`). **Nunca geram alerta.** Painel: grupo "Mercado" (Mapa de contratos / Contratos vencendo). Informe tem tema `vencendo`.
+- Testes: `tests/test_fontes_novas.py`.

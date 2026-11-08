@@ -19,6 +19,7 @@ Configurado em 07/11/2026, a pedido do usuário. Depois de cada execução inici
 | Prazo próximo | Registro com menor prazo futuro, acompanhado de fonte e data da base |
 | Mais perto | Registro de catarata com menor distância estimada de Monte Alto |
 | SP, MG e GO | Quantidades na base por esses estados |
+| Contrato vencendo | Contrato/ata de catarata do mapeamento com fim de vigência mais próximo (fornecedor e data). Não é edital aberto. Incluído em 08/11/2026 |
 | Estrutura | Registro cujo texto sugere cessão de centro cirúrgico pelo órgão, sujeito a conferência |
 | Leitura dos editais | Quantos registros têm texto analisado e quantos têm leitura incompleta |
 | Lembrete anterior | Uma oportunidade anterior, identificada como lembrete e acompanhada da fonte |

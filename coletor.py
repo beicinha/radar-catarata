@@ -14,6 +14,8 @@ import unicodedata
 import analise_editais
 import estrutura_municipal
 import plataformas
+import diarios_municipais
+import mapeamento
 import regras
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -33,10 +35,20 @@ TERMOS = ["catarata", "cirurgia de catarata", "cirurgias de catarata", "facoemul
           "pterígio", "mutirão de catarata", "mutirões de catarata", "mutirão de cirurgias",
           "multirão de catarata", "multirão", "multirões", "mutirão de facoemulsificação",
           "multirão de facoemulsificação"]
-TERMOS_PNCP = TERMOS
+# Termos genéricos (cirurgias eletivas, filas, programas federais): o objeto muitas vezes não cita
+# oftalmologia; o coletor confere então os ITENS do edital antes de aceitar.
+TERMOS_GENERICOS = ["cirurgias eletivas", "cirurgia eletiva", "redução de filas", "agora tem especialistas",
+                    "oferta de cuidados integrados", "procedimentos cirúrgicos eletivos", "0405050372",
+                    "procedimentos oftalmológicos", "oftalmológica", "oftalmológicas",
+                    "vitrectomia", "yag laser", "capsulotomia", "glaucoma", "retinopatia"]
+TERMOS_PNCP = TERMOS + TERMOS_GENERICOS
+RE_GENERICO = re.compile(r"eletiv|fila|agora tem especialistas|cuidados integrados|\boci\b|mutir|multir|"
+                         r"procedimentos? (?:cir[uú]rgic|especializad|de m[eé]dia complexidade)|0405050", re.I)
 # Diário Oficial (Querido Diário): termos mais específicos, para não trazer ruído
 TERMOS_DIARIO = ['"catarata"', '"facoemulsificação"', '"facoemulsificacao"', '"oftalmologia"',
-                 '"oftalmológicos"', '"oftalmologista"', '"mutirão de catarata"', '"multirão"', '"facectomia"']
+                 '"oftalmológicos"', '"oftalmologista"', '"mutirão de catarata"', '"multirão"', '"facectomia"',
+                 '"lente intraocular"', '"cirurgias oftalmológicas"', '"procedimentos oftalmológicos"',
+                 '"oftalmológica"', '"oftalmológicas"', '"pterígio"', '"cirurgias eletivas" oftalmologia']
 RE_OFTALMO = re.compile(r"oftalm|catarat|facoem|faco |facectom|intraocular|pter[ií]gio|retina|glaucoma|yag|"
                         r"\bolhos?\b|ocular|mutir[aã]o|multir[aã]o|mutir[oõ]es|multir[oõ]es", re.I)
 RE_CATARATA = re.compile(r"catarat|facoem|faco |facectomia|intraocular", re.I)
@@ -48,7 +60,7 @@ RE_SERVICO = re.compile(r"presta[cç][aã]o de servi|credenciamento|credenciar|c
 RE_DOC_RESULT = re.compile(r"adjudica|homologa|resultado|contrato|convoca|extrato|ratifica", re.I)
 
 
-def curl(url, timeout=40, tries=2):
+def curl(url, timeout=40, tries=3):
     pncp = "pncp.gov.br" in url
     if pncp:
         # Desde 07/11/2026 o PNCP derruba cerca de metade das conexões ("connection reset");
@@ -146,11 +158,36 @@ def enriquecer(it, cache):
     return chave, c
 
 
+def itens_oftalmo(it, cache):
+    """Para edital genérico (ex.: cirurgias eletivas), devolve os itens de oftalmologia, se houver.
+    O resultado fica no cache por um dia, para não reconsultar a cada hora."""
+    cnpj, ano, seq = it["item_url"].split("/")[2:5]
+    c = cache.setdefault(f"{cnpj}/{ano}/{seq}", {})
+    if c.get("itens_checados_em") != HOJE:
+        try:
+            itens = cjson(f"https://pncp.gov.br/api/pncp/v1/orgaos/{cnpj}/compras/{ano}/{seq}/itens?pagina=1&tamanhoPagina=200", [])
+        except RuntimeError:
+            return c.get("itens_oftalmo", "")
+        achados = [" ".join((x.get("descricao") or "").split()) for x in itens or [] if isinstance(x, dict)
+                   and regras.TEMA.search(regras.normalizar(x.get("descricao") or ""))]
+        c["itens_oftalmo"] = " | ".join(achados[:4])[:400]
+        c["itens_checados_em"] = HOJE
+        c.setdefault("primeira_vez", HOJE)
+        time.sleep(0.3)
+    return c.get("itens_oftalmo", "")
+
+
 def montar_pncp(brutos, cache):
     out = []
     for i, it in enumerate(brutos):
         desc = it.get("description") or ""
         cat = classificar(desc + " " + (it.get("title") or ""))
+        if not cat and RE_GENERICO.search(desc):
+            extra = itens_oftalmo(it, cache)
+            if extra:
+                desc = f"{desc} [Itens do edital: {extra}]"
+                it["description"] = desc
+                cat = classificar(desc)
         if not cat:
             continue
         # "olho/olhos/multirão" sozinhos trazem muito ruído: exige contexto de saúde ocular
@@ -280,14 +317,21 @@ RE_DIARIO_ATO = re.compile(r"credenciamento|chamamento p[uú]blico|preg[aã]o|li
 RE_DIARIO_TEMA = re.compile(r"catarat|facoem|\bfaco\b|facectom|oftalmol[oó]gic|oftalmologia|oftalmologista|intraocular", re.I)
 
 
-def coletar_diarios(vistos, dias=45):
+def coletar_diarios(vistos, dias=60):
     desde = (AGORA - timedelta(days=dias)).strftime("%Y-%m-%d")
     achados = {}
     for termo in TERMOS_DIARIO:
-        u = ("https://api.queridodiario.org.br/gazettes?querystring=" + urllib.parse.quote(termo) +
-             f"&published_since={desde}&size=100&excerpt_size=500&number_of_excerpts=3&sort_by=descending_date")
-        d = cjson(u, {}) or {}
-        for g in d.get("gazettes", []):
+        gazettes = []
+        for offset in (0, 100, 200):
+            u = ("https://api.queridodiario.org.br/gazettes?querystring=" + urllib.parse.quote(termo) +
+                 f"&published_since={desde}&size=100&offset={offset}&excerpt_size=500&number_of_excerpts=3"
+                 "&sort_by=descending_date")
+            d = cjson(u, {}) or {}
+            gazettes += d.get("gazettes", [])
+            if (d.get("total_gazettes") or 0) <= offset + 100:
+                break
+            time.sleep(1)
+        for g in gazettes:
             trechos = [re.sub(r"\s+", " ", e).strip() for e in (g.get("excerpts") or [])]
             # só interessa se o trecho tiver cara de ato de contratação
             uteis = [t for t in trechos if RE_DIARIO_ATO.search(t) and RE_DIARIO_TEMA.search(t)]
@@ -472,9 +516,16 @@ def revisar_dados(dados):
             status["itens"] = sum(i.get("fonte") == plataformas.FONTE and i.get("plataforma_nome") == nome
                                   for i in revisados)
             continue
+        if nome == mapeamento.NOME_STATUS:
+            status["itens"] = sum(i.get("fonte") == mapeamento.FONTE and i.get("tipo_mapa") != "Publicação em diário"
+                                  for i in revisados)
+            continue
+        if nome == diarios_municipais.NOME_STATUS:
+            status["itens"] = sum(i.get("diario_rede") == diarios_municipais.REDE for i in revisados)
+            continue
         fonte = "PNCP" if nome.startswith("PNCP") else "Diário Oficial" if nome.startswith("Diários Oficiais") else "Site OSS/AME"
         status["itens"] = sum(i.get("fonte") == fonte and (fonte != "Site OSS/AME" or i.get("orgao") == nome)
-                              for i in revisados)
+                              and not i.get("diario_rede") for i in revisados)
     return dados
 
 
@@ -514,6 +565,39 @@ def main():
         diarios = preservar("Diário Oficial")
         status.append({"nome": "Diários Oficiais municipais (Querido Diário)", "ok": False,
                        "erro": "Fonte indisponível; dados anteriores preservados"})
+    print("3a/4 Diários das associações de municípios (AMM-MG, AMP-PR, FAMUP...)...", flush=True)
+    cache_dom = load("cache_diarios.json", {})
+    anteriores_dom = [i for i in anteriores.get("itens", []) if i.get("diario_rede") == diarios_municipais.REDE]
+    try:
+        dom_op, dom_mapa, st_dom = diarios_municipais.coletar(
+            curl, cache_dom, HOJE, plataformas.indice_municipios(MUN), plataformas.ibge7, dist_km, vistos)
+        diarios = [i for i in diarios if not i.get("diario_rede")] + dom_op
+        status.append(st_dom)
+        diarios_municipais.podar(cache_dom, HOJE)
+    except Exception:
+        dom_mapa = [i for i in anteriores_dom if i.get("fonte") == mapeamento.FONTE]
+        diarios = [i for i in diarios if not i.get("diario_rede")] + [i for i in anteriores_dom if i.get("fonte") != mapeamento.FONTE]
+        status.append({"nome": diarios_municipais.NOME_STATUS, "ok": False,
+                       "erro": "Fonte indisponível; dados anteriores preservados"})
+    print("3c/4 Mapeamento: contratos e atas de catarata já assinados (PNCP)...", flush=True)
+    cache_map = load("cache_mapeamento.json", {})
+    contratos_ant = [i for i in preservar(mapeamento.FONTE) if i.get("tipo_mapa") != "Publicação em diário"]
+    try:
+        if "--sem-pncp" in sys.argv:
+            raise RuntimeError("PNCP desligado nesta execução")
+        if cache_map.get("_dia") == HOJE and contratos_ant:
+            # contratos mudam pouco: a consulta completa roda uma vez por dia
+            contratos = contratos_ant
+            status.append({"nome": mapeamento.NOME_STATUS, "ok": True, "obs": "atualizado uma vez por dia"})
+        else:
+            contratos, st_map = mapeamento.coletar(cjson, cache_map, HOJE, dist_km, vistos)
+            cache_map["_dia"] = HOJE
+            status.append(st_map)
+    except Exception:
+        contratos = contratos_ant
+        status.append({"nome": mapeamento.NOME_STATUS, "ok": False,
+                       "erro": "Fonte indisponível; dados anteriores preservados"})
+    mapa = contratos + dom_mapa
     print("3b/4 Plataformas privadas (Portal de Compras Públicas, BLL, BNC)...", flush=True)
     cache_plat = load("cache_plataformas.json", {})
     try:
@@ -531,11 +615,13 @@ def main():
     print("4/4 Varrendo sites de OSS/AMEs...", flush=True)
     oss, status_oss = coletar_oss(vistos)
     dados = revisar_dados({"atualizado": AGORA.strftime("%Y-%m-%d %H:%M"), "base": "Monte Alto/SP",
-                           "itens": pncp + diarios + privadas + oss, "fontes_status": status + status_oss,
+                           "itens": pncp + diarios + privadas + oss + mapa, "fontes_status": status + status_oss,
                            "rodada": os.environ.get("GITHUB_RUN_ID"),
                            "concluido": datetime.now(BRT).strftime("%Y-%m-%d %H:%M")})
     json.dump(cache, open(P("cache_pncp.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(vistos, open(P("vistos_oss.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump(cache_dom, open(P("cache_diarios.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump(cache_map, open(P("cache_mapeamento.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(cache_plat, open(P("cache_plataformas.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(dados, open(P("dados.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     gerar_html(dados)

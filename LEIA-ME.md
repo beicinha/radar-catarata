@@ -3,6 +3,12 @@
 Painel que junta, num só lugar, as oportunidades de catarata e oftalmologia.
 
 ## De onde vêm os dados
+(Ampliado em 08/11/2026.)
+- **PNCP, termos extras**: cirurgias eletivas, redução de filas, Agora Tem Especialistas, oferta de cuidados integrados (OCI), código SIGTAP 0405050372, vitrectomia, YAG, glaucoma etc. Quando o objeto não cita oftalmologia, o radar confere os **itens** do edital e só aceita se algum item for de oftalmologia.
+- **Diários das associações de municípios** (diariomunicipal.com.br): AMM-MG, AMP-PR, FAMUP-PB, APRECE-CE, FEMURN-RN, FAMURS-RS, AMUPE-PE, AMM-MT, AMA-AL, AGM-GO, AEMERJ-RJ, FAMEP-PA. Avisos de credenciamento/licitação viram oportunidade; extratos, credenciados e homologações vão para o mapa.
+- **Querido Diário** com mais termos, 60 dias e até 300 resultados por termo.
+- **Mapa de contratos** (seção "Mercado" do painel): contratos e atas de catarata já assinados no PNCP (atualizado 1x por dia), com fornecedor, valor e fim da vigência. Não gera alerta.
+
 1. **PNCP**: editais com propostas abertas que citam catarata, facoemulsificação, oftalmologia, lente intraocular, pterígio ou mutirão. Para cada edital, o coletor busca:
    - o valor por catarata e a quantidade, pelos itens do edital;
    - o prazo de encerramento;
