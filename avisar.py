@@ -159,7 +159,7 @@ def textos(itens, painel):
     corpo = [f"Radar Catarata: {len(itens)} oportunidade(s) para conferir ({data_br(HOJE)}).", ""]
     for n, i in enumerate(itens, 1):
         corpo += [f"{n}. {linha(i)}", i.get("orgao") or "", (i.get("objeto") or "")[:600],
-                  f'Fonte: {i.get("fonte")} – {i.get("link")}', ""]
+                  f'Fonte: {i.get("fonte")}{" – " + i["plataforma_nome"] if i.get("plataforma_nome") else ""} – {i.get("link")}', ""]
     if painel:
         corpo += [f"Painel: {painel}"]
     corpo += ["", "Confira o edital antes de concluir sobre habilitação.",

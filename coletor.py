@@ -1,6 +1,7 @@
 """Radar de Licitações – Oftalmologia/Catarata.
 
-Coleta editais abertos no PNCP e novidades nos sites de OSS/AMEs, e gera
+Coleta editais abertos no PNCP, em plataformas privadas de pregão (Portal de Compras
+Públicas, BLL, BNC) e novidades nos sites de OSS/AMEs, e gera
 dados.json + radar.html (painel com filtros).
 
 Uso: python3 coletor.py            (coleta tudo)
@@ -12,6 +13,7 @@ from html.parser import HTMLParser
 import unicodedata
 import analise_editais
 import estrutura_municipal
+import plataformas
 import regras
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -439,6 +441,9 @@ def gerar_html(dados):
         print("  aviso: não consegui copiar para ~/RadarCatarata:", e)
 
 
+PLATAFORMAS_NOMES = {"Portal de Compras Públicas"} | {n for n, _ in plataformas.LISTAS}
+
+
 def revisar_dados(dados):
     revisados, ids = [], set()
     for item in dados.get("itens", []):
@@ -458,6 +463,10 @@ def revisar_dados(dados):
     dados["itens"] = revisados
     for status in dados.get("fontes_status", []):
         nome = status.get("nome", "")
+        if nome in PLATAFORMAS_NOMES:
+            status["itens"] = sum(i.get("fonte") == plataformas.FONTE and i.get("plataforma_nome") == nome
+                                  for i in revisados)
+            continue
         fonte = "PNCP" if nome.startswith("PNCP") else "Diário Oficial" if nome.startswith("Diários Oficiais") else "Site OSS/AME"
         status["itens"] = sum(i.get("fonte") == fonte and (fonte != "Site OSS/AME" or i.get("orgao") == nome)
                               for i in revisados)
@@ -500,18 +509,29 @@ def main():
         diarios = preservar("Diário Oficial")
         status.append({"nome": "Diários Oficiais municipais (Querido Diário)", "ok": False,
                        "erro": "Fonte indisponível; dados anteriores preservados"})
+    print("3b/4 Plataformas privadas (Portal de Compras Públicas, BLL, BNC)...", flush=True)
+    cache_plat = load("cache_plataformas.json", {})
     try:
-        aplicar_estrutura(pncp + diarios)
+        privadas, status_plat = plataformas.coletar(curl, cjson, cache_plat, HOJE, MUN, dist_km, pncp, cache,
+                                                    preservar(plataformas.FONTE))
+    except Exception:
+        privadas = preservar(plataformas.FONTE)
+        status_plat = [{"nome": n, "ok": False, "erro": "Fonte indisponível; dados anteriores preservados"}
+                       for n in sorted(PLATAFORMAS_NOMES)]
+    status += status_plat
+    try:
+        aplicar_estrutura(pncp + diarios + privadas)
     except Exception:
         print("::warning::Falha na consulta de estrutura municipal; não concluir ausência de estrutura.")
     print("4/4 Varrendo sites de OSS/AMEs...", flush=True)
     oss, status_oss = coletar_oss(vistos)
     dados = revisar_dados({"atualizado": AGORA.strftime("%Y-%m-%d %H:%M"), "base": "Monte Alto/SP",
-                           "itens": pncp + diarios + oss, "fontes_status": status + status_oss,
+                           "itens": pncp + diarios + privadas + oss, "fontes_status": status + status_oss,
                            "rodada": os.environ.get("GITHUB_RUN_ID"),
                            "concluido": datetime.now(BRT).strftime("%Y-%m-%d %H:%M")})
     json.dump(cache, open(P("cache_pncp.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(vistos, open(P("vistos_oss.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump(cache_plat, open(P("cache_plataformas.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump(dados, open(P("dados.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     gerar_html(dados)
     print(f"OK: {len(dados['itens'])} registros revisados. Painel: radar.html", flush=True)

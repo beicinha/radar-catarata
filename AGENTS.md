@@ -7,6 +7,7 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - `coletor.py`: coleta o PNCP (editais abertos), o Querido Diário (diários oficiais) e os sites de OSS/AMEs (`fontes_oss.json`). Gera `dados.json` e `radar.html` (a partir de `painel_template.html`). Usa `analise_editais.py` (lê os PDFs dos editais) e `estrutura_municipal.py` (CNES do município).
   - Caches: `cache_pncp.json`, `cache_analise.json`, `cache_estrutura.json`, `vistos_oss.json`.
   - O campo `primeira_vez` de cada item marca quando ele apareceu pela primeira vez.
+- `plataformas.py` (08/11/2026): Portal de Compras Públicas (API pública por palavra), BLL e BNC (lista pública dos 100 processos mais recentes + página pública de cada processo novo; **não contornar o captcha da busca**). Remove o que já está no PNCP (código do Portal ou UF+município+número/ano). Itens com `fonte: "Plataforma privada"` e `plataforma_nome`. Cache: `cache_plataformas.json`. Licitanet (403) e Licitações-e/BB (captcha) ficam de fora. Testes em `tests/test_plataformas.py`.
 - `avisar.py`: seleciona os itens relevantes (catarata ou cirurgia oftalmológica, sem compras nem prazo vencido) que não estão em `avisados.json` e manda e-mail (Gmail SMTP) e WhatsApp (CallMeBot).
   - `python3 avisar.py --teste` só mostra o que enviaria.
 - `.github/workflows/radar.yml`: roda a cada hora, no minuto 27 (24 horas por dia); coleta, envia informe mesmo sem novidades, faz commit dos caches e publica no GitHub Pages.

@@ -11,7 +11,7 @@
   --side:#191c33; --side-2:#232745; --side-ink:#e9eaf5; --side-muted:#9a9ec0; --side-line:#2d3254;
   --accent:#3640b8; --accent-soft:#e7e8fa; --on-accent:#ffffff;
   --gold:#c98a12; --gold-soft:#fbf0d9;
-  --ok:#23835a; --ok-soft:#e2f3ea; --warn:#b06a0c; --warn-soft:#faeedb; --bad:#c03b31; --bad-soft:#fbe5e2; --dia:#7b4fb0; --dia-soft:#f0e8fa; --oss:#2c7da0; --oss-soft:#e1f0f6;
+  --ok:#23835a; --ok-soft:#e2f3ea; --warn:#b06a0c; --warn-soft:#faeedb; --bad:#c03b31; --bad-soft:#fbe5e2; --dia:#7b4fb0; --dia-soft:#f0e8fa; --oss:#2c7da0; --oss-soft:#e1f0f6; --priv:#8a5a12; --priv-soft:#f6ecdc;
   --shadow:0 10px 40px -18px rgba(20,24,52,.35);
   --f-display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;
   --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
@@ -22,14 +22,14 @@
   --side:#0b0d18; --side-2:#171a2e; --side-ink:#e8e9f3; --side-muted:#8a8eae; --side-line:#22263f;
   --accent:#8f97ff; --accent-soft:#262b54; --on-accent:#0f1120;
   --gold:#f0b440; --gold-soft:#3a2e14;
-  --ok:#5dd09a; --ok-soft:#173527; --warn:#eeac55; --warn-soft:#3a2b14; --bad:#ff8a7e; --bad-soft:#3d1c19; --dia:#c39bf0; --dia-soft:#2e2142; --oss:#6cc3e4; --oss-soft:#163444;
+  --ok:#5dd09a; --ok-soft:#173527; --warn:#eeac55; --warn-soft:#3a2b14; --bad:#ff8a7e; --bad-soft:#3d1c19; --dia:#c39bf0; --dia-soft:#2e2142; --oss:#6cc3e4; --oss-soft:#163444; --priv:#e0b46a; --priv-soft:#3a2d17;
   --shadow:0 10px 40px -18px rgba(0,0,0,.7); color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#10121f; --surface:#171a2b; --surface-2:#1e2236; --ink:#e8e9f3; --muted:#9a9eb8; --line:#2a2e47;
   --side:#0b0d18; --side-2:#171a2e; --side-ink:#e8e9f3; --side-muted:#8a8eae; --side-line:#22263f;
   --accent:#8f97ff; --accent-soft:#262b54; --on-accent:#0f1120;
   --gold:#f0b440; --gold-soft:#3a2e14;
-  --ok:#5dd09a; --ok-soft:#173527; --warn:#eeac55; --warn-soft:#3a2b14; --bad:#ff8a7e; --bad-soft:#3d1c19; --dia:#c39bf0; --dia-soft:#2e2142; --oss:#6cc3e4; --oss-soft:#163444;
+  --ok:#5dd09a; --ok-soft:#173527; --warn:#eeac55; --warn-soft:#3a2b14; --bad:#ff8a7e; --bad-soft:#3d1c19; --dia:#c39bf0; --dia-soft:#2e2142; --oss:#6cc3e4; --oss-soft:#163444; --priv:#e0b46a; --priv-soft:#3a2d17;
   --shadow:0 10px 40px -18px rgba(0,0,0,.7); color-scheme:dark}
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -83,7 +83,7 @@ button{font:inherit;color:inherit}
 .ed.descartado{opacity:.5}
 .ed::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:4px;border-radius:0 4px 4px 0;background:var(--muted)}
 .ed[data-sit="aberto"]::before{background:var(--ok)} .ed[data-sit="vencedor"]::before{background:var(--warn)}
-.ed[data-sit="diario"]::before{background:var(--dia)} .ed[data-sit="oss"]::before{background:var(--oss)}
+.ed[data-sit="diario"]::before{background:var(--dia)} .ed[data-sit="oss"]::before{background:var(--oss)} .ed[data-sit="privada"]::before{background:var(--priv)}
 .ed-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 12px;align-items:flex-start}
 .ed-loc{min-width:0}
 .ed-loc b{font-family:var(--f-display);font-weight:650;font-size:20px;letter-spacing:-.01em;line-height:1.15}
@@ -133,7 +133,7 @@ button{font:inherit;color:inherit}
 .row:hover{background:var(--surface-2)}
 .row.descartado{opacity:.45}
 .st{width:10px;height:10px;border-radius:50%;background:var(--muted)}
-.st.aberto{background:var(--ok)} .st.vencedor{background:var(--warn)} .st.diario{background:var(--dia)} .st.oss{background:var(--oss)}
+.st.aberto{background:var(--ok)} .st.vencedor{background:var(--warn)} .st.diario{background:var(--dia)} .st.oss{background:var(--oss)} .st.privada{background:var(--priv)}
 .t1{display:flex;gap:8px;align-items:baseline;min-width:0}
 .t1 b{font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .t1 .uf{font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
@@ -197,7 +197,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 
 .badges{display:flex;flex-wrap:wrap;gap:6px}
 .pill{font-size:10.5px;font-weight:600;letter-spacing:.05em;border-radius:999px;padding:3px 9px;text-transform:uppercase;white-space:nowrap}
-.p-ok{background:var(--ok-soft);color:var(--ok)} .p-warn{background:var(--warn-soft);color:var(--warn)} .p-dia{background:var(--dia-soft);color:var(--dia)} .p-oss{background:var(--oss-soft);color:var(--oss)}
+.p-ok{background:var(--ok-soft);color:var(--ok)} .p-warn{background:var(--warn-soft);color:var(--warn)} .p-dia{background:var(--dia-soft);color:var(--dia)} .p-oss{background:var(--oss-soft);color:var(--oss)} .p-priv{background:var(--priv-soft);color:var(--priv)}
 .p-acc{background:var(--accent-soft);color:var(--accent)} .p-gold{background:var(--gold-soft);color:var(--gold)} .p-bad{background:var(--bad-soft);color:var(--bad)}
 .destaque{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .destaque div{background:var(--surface-2);border-radius:10px;padding:10px 12px;min-width:0}
@@ -324,7 +324,8 @@ input[type=range]{width:100%;accent-color:var(--accent)}
   <div class="dlg">
     <div class="dlg-top"><h2>Como ler o radar</h2><button type="button" class="fechar" data-fechar>Fechar</button></div>
     <div class="fontes">
-      <div class="badges"><span class="pill p-ok">PNCP sem vencedor</span><span class="pill p-warn">PNCP com credenciado</span><span class="pill p-dia">Diário oficial</span><span class="pill p-oss">Site OSS/AME</span></div>
+      <div class="badges"><span class="pill p-ok">PNCP sem vencedor</span><span class="pill p-warn">PNCP com credenciado</span><span class="pill p-dia">Diário oficial</span><span class="pill p-oss">Site OSS/AME</span><span class="pill p-priv">Plataforma privada</span></div>
+      <p>"Plataforma privada" são pregões e credenciamentos achados no Portal de Compras Públicas, na BLL e na BNC que não apareceram no PNCP. Os que também estão no PNCP aparecem só uma vez, pelo PNCP.</p>
       <p>O ponto colorido de cada linha mostra a fonte e a situação. "Com credenciado" quer dizer que o PNCP já publicou um vencedor ou credenciado; em credenciamentos, novos prestadores ainda podem entrar.</p>
       <p>O valor por catarata vem do item do edital no PNCP e é comparado com a tabela SUS (SIGTAP 04.05.05.037-2, R$ 771,60). Distâncias em linha reta a partir de Monte Alto/SP. Confira sempre no edital.</p>
       <p>As palavras-chave aceitam variações de grafia, como "multirão". As estrelas e os descartes ficam salvos neste navegador.</p>
@@ -360,7 +361,8 @@ const CAT0 = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médic
 const SITS = [["aberto","Sem vencedor"],["vencedor","Com credenciado"]];
 
 D.itens.forEach(it=>{
-  it.sit = it.fonte==="Diário Oficial" ? "diario" : it.fonte!=="PNCP" ? "oss" :
+  it.priv = it.fonte==="Plataforma privada";
+  it.sit = it.fonte==="Diário Oficial" ? "diario" : it.priv ? "privada" : it.fonte!=="PNCP" ? "oss" :
     ((it.vencedores&&it.vencedores.length)||(it.docs_resultado&&it.docs_resultado.length)) ? "vencedor" : "aberto";
   it.novo = !!it.primeira_vez && (ref - new Date(it.primeira_vez+"T00:00"))/864e5 <= 3;
   it.d = dias(it.encerramento);
@@ -370,13 +372,14 @@ D.itens.forEach(it=>{
 
 /* Visões da barra lateral */
 const VISOES = [
-  {id:"editais", nome:"Editais abertos", grupo:"Painel", cor:"var(--accent)", desc:"Editais de catarata e oftalmologia com propostas abertas. Os sem vencedor e de catarata aparecem primeiro.", f:i=>i.fonte==="PNCP", ordem:"relev"},
+  {id:"editais", nome:"Editais abertos", grupo:"Painel", cor:"var(--accent)", desc:"Editais de catarata e oftalmologia com propostas abertas (PNCP e plataformas privadas). Os sem vencedor e de catarata aparecem primeiro.", f:i=>i.fonte==="PNCP"||i.priv, ordem:"relev"},
   {id:"geral", nome:"Resumo", grupo:"Painel", cor:"var(--gold)", desc:"Números e destaques do que está aberto agora."},
-  {id:"catarata", nome:"Catarata aberta", grupo:"Oportunidades", cor:"var(--ok)", desc:"Editais de catarata no PNCP com propostas abertas.", f:i=>i.fonte==="PNCP"&&i.categoria==="Catarata"},
+  {id:"catarata", nome:"Catarata aberta", grupo:"Oportunidades", cor:"var(--ok)", desc:"Editais de catarata com propostas abertas no PNCP e nas plataformas privadas.", f:i=>(i.fonte==="PNCP"||i.priv)&&i.categoria==="Catarata"},
   {id:"novos", nome:"Novos (3 dias)", grupo:"Oportunidades", cor:"var(--gold)", desc:"Tudo o que apareceu pela primeira vez nos últimos 3 dias.", f:i=>i.novo},
-  {id:"prazo", nome:"Prazo curto", grupo:"Oportunidades", cor:"var(--bad)", desc:"Editais do PNCP que encerram em até 15 dias.", f:i=>i.d!=null&&i.d>=0&&i.d<=15, ordem:"prazo"},
+  {id:"prazo", nome:"Prazo curto", grupo:"Oportunidades", cor:"var(--bad)", desc:"Editais que encerram em até 15 dias.", f:i=>i.d!=null&&i.d>=0&&i.d<=15, ordem:"prazo"},
   {id:"acomp", nome:"Acompanhando", grupo:"Oportunidades", cor:"var(--gold)", desc:"Os que você marcou com estrela.", f:i=>marc[i.id]==="acomp", mostraDesc:true},
   {id:"pncp", nome:"PNCP", grupo:"Fontes", cor:"var(--accent)", desc:"Todos os editais de oftalmologia abertos no Portal Nacional de Contratações Públicas.", f:i=>i.fonte==="PNCP"},
+  {id:"privadas", nome:"Plataformas privadas", grupo:"Fontes", cor:"var(--priv)", desc:"Pregões e credenciamentos do Portal de Compras Públicas, BLL e BNC que não estão no PNCP. Confira o edital na plataforma.", f:i=>i.priv},
   {id:"diario", nome:"Diários oficiais", grupo:"Fontes", cor:"var(--dia)", desc:"Trechos de diários oficiais municipais que citam o tema. Abra o PDF para ler o ato.", f:i=>i.fonte==="Diário Oficial"},
   {id:"oss", nome:"Sites de OSS/AME", grupo:"Fontes", cor:"var(--oss)", desc:"Links de editais e chamamentos encontrados nos sites das OSS e dos AMEs.", f:i=>i.fonte==="Site OSS/AME"},
   {id:"desc", nome:"Descartados", grupo:"Fontes", cor:"var(--muted)", desc:"Itens que você descartou. Abra um item para restaurar.", f:i=>marc[i.id]==="desc", mostraDesc:true}];
@@ -473,10 +476,10 @@ function blocoReq(i){
 }
 function cartao(i,idx){
   const m=marc[i.id], x=i.faco?i.faco.valor/SUS:0;
-  const sit={aberto:'<span class="pill p-ok">Sem vencedor</span>',vencedor:'<span class="pill p-warn">Com credenciado</span>',diario:'<span class="pill p-dia">Diário oficial</span>',oss:'<span class="pill p-oss">Site OSS/AME</span>'}[i.sit];
+  const sit={aberto:'<span class="pill p-ok">Sem vencedor</span>',vencedor:'<span class="pill p-warn">Com credenciado</span>',diario:'<span class="pill p-dia">Diário oficial</span>',oss:'<span class="pill p-oss">Site OSS/AME</span>',privada:`<span class="pill p-priv">${esc(i.plataforma_nome||"Plataforma privada")}</span>`}[i.sit];
   const urg=i.d!=null&&i.d>=0&&i.d<=10;
   let fatos="";
-  if(i.fonte==="PNCP"){
+  if(i.fonte==="PNCP"||i.priv){
     fatos=`<div class="fatos">
       <div class="fato ${x>=1.8?"dest":""}"><div class="k">Por catarata</div><div class="v">${i.faco?brl(i.faco.valor,0):"–"}</div><div class="s">${i.faco?x.toLocaleString("pt-BR",{maximumFractionDigits:1})+"× tabela SUS":"valor no edital"}</div></div>
       <div class="fato"><div class="k">Cirurgias</div><div class="v">${i.faco&&i.faco.qtd>1?Math.round(i.faco.qtd).toLocaleString("pt-BR"):"–"}</div><div class="s">${i.valor_total?curto(i.valor_total)+" no total":"previstas"}</div></div>
@@ -487,8 +490,8 @@ function cartao(i,idx){
     fatos=`<div class="fatos"><div class="fato"><div class="k">Publicado</div><div class="v">${fdata(i.publicado)}</div><div class="s">diário municipal</div></div><div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div></div>`;
   }
   const venc=(i.vencedores||[]).length?`<div class="ed-venc">Já credenciados: ${esc(i.vencedores.slice(0,3).join(" · "))}${i.vencedores.length>3?" e outros":""}</div>`:"";
-  const abrir=i.fonte==="PNCP"?"Abrir edital":i.fonte==="Diário Oficial"?"Abrir diário":"Abrir no site";
-  const plat=i.plataforma&&/^https?:/.test(i.plataforma)?`<a href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma ↗</a>`:"";
+  const abrir=i.priv?"Abrir na plataforma":i.fonte==="PNCP"?"Abrir edital":i.fonte==="Diário Oficial"?"Abrir diário":"Abrir no site";
+  const plat=!i.priv&&i.plataforma&&/^https?:/.test(i.plataforma)?`<a href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma ↗</a>`:"";
   return `<article class="ed entra ${m==="desc"?"descartado":""}" data-id="${esc(i.id)}" data-sit="${i.sit}" tabindex="0" style="animation-delay:${Math.min(idx,10)*25}ms">
     <div class="ed-top">
       <div class="ed-loc"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}<div class="ed-org">${i.municipio?esc(i.orgao)+" · ":""}${esc((i.modalidade||"").replace("Pregão - Eletrônico","Pregão eletrônico"))}</div></div>
@@ -518,8 +521,8 @@ const ATALHOS=[
   ["GO","GO",()=>F.uf.has("GO"),()=>{F.uf.has("GO")?F.uf.delete("GO"):F.uf.add("GO");}]];
 function linha(i,idx){
   const m=marc[i.id], x=i.faco?i.faco.valor/SUS:0;
-  const sub=[i.orgao&&i.municipio?i.orgao:"", i.fonte==="Diário Oficial"?"Diário oficial · "+fdata(i.publicado):"", i.fonte==="Site OSS/AME"?"Site da OSS · "+(i.objeto||"").slice(0,90):""].filter(Boolean)[0]||esc(i.categoria);
-  const prz = i.fonte==="PNCP" ? (i.d==null?'<span class="prz">sem data</span>':`<span class="prz ${i.d<=10?"urg":i.d>60?"ok":""}">${prazoTxt(i.d)}</span>`) : `<span class="prz">${i.fonte==="Diário Oficial"?"diário":"OSS"}</span>`;
+  const sub=[i.orgao&&i.municipio?i.orgao:"", i.fonte==="Diário Oficial"?"Diário oficial · "+fdata(i.publicado):"", i.fonte==="Site OSS/AME"?"Site da OSS · "+(i.objeto||"").slice(0,90):"", i.priv?(i.plataforma_nome||"Plataforma privada"):""].filter(Boolean)[0]||esc(i.categoria);
+  const prz = (i.fonte==="PNCP"||i.priv) ? (i.d==null?'<span class="prz">sem data</span>':`<span class="prz ${i.d<=10?"urg":i.d>60?"ok":""}">${prazoTxt(i.d)}</span>`) : `<span class="prz">${i.fonte==="Diário Oficial"?"diário":"OSS"}</span>`;
   return `<div class="row entra ${m==="desc"?"descartado":""}" data-id="${esc(i.id)}" tabindex="0" role="button" style="animation-delay:${Math.min(idx,14)*18}ms">
     <span class="st ${i.sit}"></span>
     <div class="tit"><div class="t1"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}${i.novo?'<span class="novo">novo</span>':""}</div><div class="t2">${esc(sub)}</div></div>
@@ -536,7 +539,7 @@ function geral(){
   const mini=(i,dir)=>`<div class="mini entra" data-id="${esc(i.id)}" tabindex="0" role="button"><div style="min-width:0"><b>${esc(i.municipio||i.orgao)} ${i.uf?`<span>${esc(i.uf)}</span>`:""}</b><span>${dir}</span></div><div class="val">${i.faco?brl(i.faco.valor,0):""}</div></div>`;
   const vazio='<div class="mini"><span>Nada por aqui com os filtros atuais.</span></div>';
   return `<div class="resumo">
-      <button type="button" class="kpi" data-ir="catarata"><span class="n">${n("catarata")}</span><span class="t">Catarata aberta no PNCP</span></button>
+      <button type="button" class="kpi" data-ir="catarata"><span class="n">${n("catarata")}</span><span class="t">Catarata aberta</span></button>
       <button type="button" class="kpi" data-ir="novos"><span class="n">${n("novos")}</span><span class="t">Novos em 3 dias</span></button>
       <button type="button" class="kpi" data-ir="prazo"><span class="n">${n("prazo")}</span><span class="t">Encerram em até 15 dias</span></button>
       <button type="button" class="kpi" data-ir="diario"><span class="n">${n("diario")+n("oss")}</span><span class="t">Em diários e sites de OSS</span></button>
@@ -594,12 +597,12 @@ function tudo(){ nav(); conteudo(); ativos(); if($("dlg-filtros").open) filtrosU
 function detalhe(id){
   const i=D.itens.find(x=>x.id===id); if(!i) return; const m=marc[i.id];
   const x=i.faco?i.faco.valor/SUS:0;
-  const sit={aberto:'<span class="pill p-ok">Sem vencedor</span>',vencedor:'<span class="pill p-warn">Com credenciado</span>',diario:'<span class="pill p-dia">Diário oficial</span>',oss:'<span class="pill p-oss">Site OSS/AME</span>'}[i.sit];
+  const sit={aberto:'<span class="pill p-ok">Sem vencedor</span>',vencedor:'<span class="pill p-warn">Com credenciado</span>',diario:'<span class="pill p-dia">Diário oficial</span>',oss:'<span class="pill p-oss">Site OSS/AME</span>',privada:`<span class="pill p-priv">${esc(i.plataforma_nome||"Plataforma privada")}</span>`}[i.sit];
   const ln=(k,v)=>v?`<dt>${k}</dt><dd>${v}</dd>`:"";
   $("dlg-c").innerHTML=`
     <div class="dlg-top"><h2>${esc(i.municipio?i.municipio+" / "+i.uf:i.orgao)}</h2><button type="button" class="fechar" data-fechar>Fechar</button></div>
     <div class="badges">${i.novo?'<span class="pill p-gold">Novo</span>':""}${sit}<span class="pill p-acc">${esc(i.categoria)}</span>${i.d!=null&&i.d>=0&&i.d<=10?'<span class="pill p-bad">Prazo curto</span>':""}</div>
-    ${i.fonte==="PNCP"?`<div class="destaque">
+    ${(i.fonte==="PNCP"||i.priv)?`<div class="destaque">
       <div><div class="k">Catarata</div><div class="v">${i.faco?brl(i.faco.valor):"–"}</div>${i.faco?`<div class="medidor"><i style="width:${Math.min(100,x/3.5*100)}%"></i></div><div class="s">${x.toLocaleString("pt-BR",{maximumFractionDigits:1})}× SUS · ${Math.round(i.faco.qtd).toLocaleString("pt-BR")} un.</div>`:'<div class="s">sem item de faco</div>'}</div>
       <div><div class="k">Prazo</div><div class="v">${prazoTxt(i.d)||"–"}</div><div class="s">${i.encerramento?fdata(i.encerramento):"não informado"}</div></div>
       <div><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">${curto(i.valor_total)} no total</div></div>
@@ -609,7 +612,8 @@ function detalhe(id){
       ${ln("Modalidade",esc(i.modalidade))}
       ${ln("Propostas",i.abertura?fdata(i.abertura)+(i.encerramento?" até "+fdata(i.encerramento):""):"")}
       ${ln("Publicado",i.publicado?fdata(i.publicado):"")}
-      ${ln("Distância",i.fonte!=="PNCP"&&i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km de Monte Alto":"")}
+      ${ln("Plataforma",i.priv?esc(i.plataforma_nome||""):"")}
+      ${ln("Distância",i.fonte!=="PNCP"&&!i.priv&&i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km de Monte Alto":"")}
       ${ln("Credenciados",(i.vencedores||[]).length?esc(i.vencedores.join(" · ")):"")}
       ${ln("Resultado",(i.docs_resultado||[]).length?esc(i.docs_resultado.join(" · ")):"")}
       ${ln("Encontrado por",(i.termos||[]).length?esc(i.termos.join(", ")):"")}
@@ -623,8 +627,8 @@ function detalhe(id){
     ${i.faco&&i.faco.desc?`<div><div class="rot">Item de catarata no edital</div><div class="texto">${esc(i.faco.desc)}</div></div>`:""}
     <div><div class="rot">${i.fonte==="Diário Oficial"?"Trechos do diário":i.fonte==="Site OSS/AME"?"Texto do link":"Objeto"}</div><div class="texto">${esc(i.objeto)}</div></div>
     <div class="links">
-      <a class="lk pri" href="${esc(i.link)}" target="_blank" rel="noopener">${i.fonte==="PNCP"?"Abrir edital no PNCP":i.fonte==="Diário Oficial"?"Abrir o diário (PDF)":"Abrir no site"} ↗</a>
-      ${i.plataforma&&/^https?:/.test(i.plataforma)?`<a class="lk sec" href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma do órgão ↗</a>`:""}
+      <a class="lk pri" href="${esc(i.link)}" target="_blank" rel="noopener">${i.priv?"Abrir na "+esc(i.plataforma_nome||"plataforma"):i.fonte==="PNCP"?"Abrir edital no PNCP":i.fonte==="Diário Oficial"?"Abrir o diário (PDF)":"Abrir no site"} ↗</a>
+      ${!i.priv&&i.plataforma&&/^https?:/.test(i.plataforma)?`<a class="lk sec" href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma do órgão ↗</a>`:""}
     </div>
     <div class="dlg-acoes">
       <button type="button" data-acao="acomp" data-id="${esc(i.id)}" aria-pressed="${m==="acomp"}">${m==="acomp"?"★ Acompanhando":"☆ Acompanhar"}</button>

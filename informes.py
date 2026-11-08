@@ -36,7 +36,8 @@ def detalhe(tipo, dados, itens, indice):
         partes.append(f"Distância estimada: {i['dist_km']} km em linha reta.")
     if tipo == 'estrutura':
         partes.append('O texto sugere cessão de estrutura; confirmar condições e responsabilidades no edital.')
-    partes.append(f"Fonte: {i.get('fonte') or 'não informada'} — {i.get('link') or 'ver painel'}")
+    fonte = (i.get('fonte') or 'não informada') + (f" ({i['plataforma_nome']})" if i.get('plataforma_nome') else '')
+    partes.append(f"Fonte: {fonte} — {i.get('link') or 'ver painel'}")
     return ' '.join(partes)
 
 

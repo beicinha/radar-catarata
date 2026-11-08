@@ -9,7 +9,13 @@ Painel que junta, num só lugar, as oportunidades de catarata e oftalmologia.
    - a plataforma do órgão;
    - os vencedores ou credenciados já publicados;
    - os documentos de resultado (adjudicação, homologação, convocação).
-2. **Sites de OSS e AMEs**: a lista está em `fontes_oss.json`. O coletor procura links de edital, chamamento ou credenciamento ligados a médico ou oftalmologia, e marca como "Novo" o que aparece pela primeira vez.
+2. **Plataformas privadas de pregão** (`plataformas.py`, desde 08/11/2026):
+   - **Portal de Compras Públicas**: busca pública por "catarata", "facoemulsifica" e "oftalmol".
+   - **BLL Compras** e **BNC Compras**: a busca com filtros exige captcha, então não é usada. O radar lê a lista pública dos 100 processos mais recentes e abre a página de cada processo novo para ler o objeto.
+   - Os editais que também estão no PNCP aparecem uma vez só, pelo PNCP.
+   - Ficaram de fora a **Licitanet**, que bloqueia acesso automático, e o **Licitações-e** do Banco do Brasil, que tem captcha.
+   - A memória fica em `cache_plataformas.json`.
+3. **Sites de OSS e AMEs**: a lista está em `fontes_oss.json`. O coletor procura links de edital, chamamento ou credenciamento ligados a médico ou oftalmologia, e marca como "Novo" o que aparece pela primeira vez.
 
 ## Arquivos
 - `coletor.py`: faz a coleta e gera o painel. Para rodar: `/usr/bin/python3 coletor.py`
