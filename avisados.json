@@ -235,5 +235,83 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "dou:https://www.diariomunicipal.com.br/famep/materia/9F8943FB": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/famep/materia/96F85500": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/amm-mg/materia/B17EBE68": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "priv:pcp:464156": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/aprece/materia/715DF774": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/aprece/materia/52993F57": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
   }
 }
