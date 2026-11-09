@@ -312,6 +312,26 @@
       "ultima_tentativa": "2026-11-08T19:35:08.208547-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T22:23:44.727679-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/famep/materia/BAF9D425": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-08T22:23:44.727679-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-08T22:23:44.727679-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   }
 }
