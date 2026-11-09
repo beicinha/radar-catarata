@@ -333,5 +333,33 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "dou:https://www.diariomunicipal.com.br/famep/materia/19C2109D": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-09T05:47:23.070775-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-09T05:47:23.070775-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/aprece/materia/562CD097": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-09T05:47:23.070775-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-09T05:47:23.070775-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
   }
 }
