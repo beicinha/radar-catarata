@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09 05:21",
+ "atualizado": "2026-11-09 15:59",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -25121,6 +25121,71 @@
    }
   },
   {
+   "id": "priv:pcp:523914",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "Portal de Compras Públicas",
+   "categoria": "Oftalmologia",
+   "uf": "PE",
+   "municipio": "São José do Egito",
+   "orgao": "Fundo Municipal de Saúde de São José do Egito",
+   "modalidade": "Credenciamento 009/2026 · Recebendo Propostas",
+   "objeto": "Contratação de Empresa Especializada para prestação de serviços de Feira de Saúde Oftalmológica, contemplando Consultas Médicas Oftalmológicas, fornecimento de Óculos com lentes corretivas e Exames de apoio diagnóstico (Ultrassonografia de globo...",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "2026-11-09T14:00",
+   "encerramento": "2026-11-25T07:00",
+   "publicado": "2026-11-09",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/pe/fundo-municipal-de-saude-de-sao-jose-do-egito-4920/cred-009-2026-2026-523914",
+   "link": "https://www.portaldecompraspublicas.com.br/processos/pe/fundo-municipal-de-saude-de-sao-jose-do-egito-4920/cred-009-2026-2026-523914",
+   "dist_km": 1951,
+   "primeira_vez": "2026-11-09",
+   "termos": [
+    "oftalmol"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 2,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 2715317,
+      "nome": "Hospital Maria Rafael De Siqueira",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(87)38441192"
+     },
+     {
+      "cnes": 2429543,
+      "nome": "Clips Ii",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(81)38441209"
+     },
+     {
+      "cnes": 2635798,
+      "nome": "Clinica Santa Maria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "87 38441942"
+     }
+    ],
+    "data": "2026-11-07"
+   }
+  },
+  {
    "id": "priv:pcp:502535",
    "fonte": "Plataforma privada",
    "plataforma_nome": "Portal de Compras Públicas",
@@ -25652,6 +25717,79 @@
     "total": 0,
     "est": [],
     "data": "2026-11-08"
+   }
+  },
+  {
+   "id": "priv:lista:ff0bd09fbde515d9",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "BNC Compras",
+   "categoria": "Oftalmologia",
+   "uf": "RJ",
+   "municipio": "Itaperuna",
+   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DA REGIÃO NORTE E NOROESTE FLUMINENSE",
+   "modalidade": "Credenciamento 019/2026 · Recepção de propostas",
+   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS DA ÁREA DE SAÚDE PARA DISPONIBILIZAÇÃO DE UNIDADE MÓVEL DE SAÚDE ESCOLAR DO TIPO ÔNIBUS, TOTALMENTE EQUIPADA, DESTINADA À PRESTAÇÃO ITINERANTE DE SERVIÇOS DE PROMOÇÃO, PREVENÇÃO, AVALIAÇÃO, TRIAGEM, DIAGNÓSTICO PRECOCE E ACOMPANHAMENTO DA SAÚDE NAS ÁREAS DE OFTALMOLOGIA, AUDIOLOGIA E ODONTOLOGIA, INCLUINDO, QUANDO CLINICAMENTE INDICADO, A PRESCRIÇÃO E O FORNECIMENTO GRATUITO DE ÓCULOS (ARMAÇÃO E LENTES), DESTINADOS AOS ESTUDANTES DA REDE PÚBLICA.",
+   "valor_total": 15189000.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "2027-11-04T15:07",
+   "publicado": "2026-11-09",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://bnccompras.com/Process/ProcessView?param1=%5Bgkz%5DavEM8wVtTgwXPrq3dc3DzXD7MlIMzhrDmmQB8JvtfJPNKiYa7AWbPNJ5Fm9nA5ozLfJuioS1HH0%2FDtHy4YLeaM51fXYZcjxqHm2CszpQgwE%3D",
+   "link": "https://bnccompras.com/Process/ProcessView?param1=%5Bgkz%5DavEM8wVtTgwXPrq3dc3DzXD7MlIMzhrDmmQB8JvtfJPNKiYa7AWbPNJ5Fm9nA5ozLfJuioS1HH0%2FDtHy4YLeaM51fXYZcjxqHm2CszpQgwE%3D",
+   "dist_km": 686,
+   "primeira_vez": "2026-11-09",
+   "termos": [],
+   "estr": {
+    "publico": 0,
+    "filantropico": 2,
+    "olho": 0,
+    "privado": 2,
+    "total": 4,
+    "est": [
+     {
+      "cnes": 2278855,
+      "nome": "Hospital Sao Jose Do Avai",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(22)38249200"
+     },
+     {
+      "cnes": 2825376,
+      "nome": "Associacao Santo Antonio Dos Pobres De Itaperuna",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(22)38243215"
+     },
+     {
+      "cnes": 2278871,
+      "nome": "Casa De Saude E Maternidade Santa Therezinha Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(24)28341711"
+     },
+     {
+      "cnes": 9020462,
+      "nome": "Hospital Unimed Norte Fluminense",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "22 38232450"
+     }
+    ],
+    "data": "2026-11-09"
    }
   },
   {
@@ -39169,13 +39307,13 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "itens": 401,
-   "parcial": "1 de 21 consultas sem resposta"
+   "obs": "atualizado uma vez por dia",
+   "itens": 401
   },
   {
    "nome": "Portal de Compras Públicas",
    "ok": true,
-   "itens": 7
+   "itens": 8
   },
   {
    "nome": "BLL Compras",
@@ -39185,7 +39323,7 @@
   {
    "nome": "BNC Compras",
    "ok": true,
-   "itens": 0
+   "itens": 1
   },
   {
    "nome": "Grupo Santa Casa de Franca (AMEs Avaré, Franca e outros)",
@@ -39307,6 +39445,6 @@
    "itens": 0
   }
  ],
- "rodada": "42585360860",
- "concluido": "2026-11-09 05:47"
+ "rodada": "42678955803",
+ "concluido": "2026-11-09 16:13"
 }
