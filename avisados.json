@@ -361,5 +361,33 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "dou:https://data.queridodiario.ok.org.br/3135209/2026-10-02/cc0e16b364074bdf2a65fd4c45c98da5c18ecc07.pdf": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-09T23:33:55.611822-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-09T23:33:55.611822-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "dou:https://data.queridodiario.ok.org.br/2906006/2026-09-18/e18952045716180d354ab70e78c55cbcd50c7445.pdf": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-09T23:33:55.611822-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-09T23:33:55.611822-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
   }
 }

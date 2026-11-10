@@ -1,5 +1,5 @@
 {
-  "proximo": 8,
+  "proximo": 9,
   "rodadas": {
     "42420463812": {
       "indice": 0,
@@ -72,6 +72,15 @@
       },
       "tema": "retomar",
       "atualizado": "2026-11-09T16:13:56.339680-03:00"
+    },
+    "42742047444": {
+      "indice": 8,
+      "canais": {
+        "email": "enviado",
+        "whatsapp": "aceito_sem_confirmacao"
+      },
+      "tema": "distancia",
+      "atualizado": "2026-11-09T23:33:55.611822-03:00"
     }
   }
 }

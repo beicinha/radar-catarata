@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09 15:59",
+ "atualizado": "2026-11-09 23:20",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -22937,7 +22937,7 @@
    "municipio": "Palmas",
    "orgao": "Diário Oficial de Palmas",
    "modalidade": "Publicação no diário",
-   "objeto": "especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 músculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS, visando atender",
+   "objeto": "especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 músculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS, visando atender … 00000.0.069673/2026 ESPÉCIE: Credenciamento OBJETO: prestação de serviços especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 músculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do ",
    "valor_total": null,
    "faco": null,
    "abertura": "",
@@ -22950,7 +22950,10 @@
    "dist_km": 1226,
    "primeira_vez": "2026-10-23",
    "termos": [
-    "facoemulsificação"
+    "cirurgias eletivas\" oftalmologia",
+    "cirurgias oftalmológicas",
+    "facoemulsificação",
+    "oftalmológicas"
    ],
    "estr": {
     "publico": 3,
@@ -23121,7 +23124,7 @@
    "municipio": "Palmas",
    "orgao": "Diário Oficial de Palmas",
    "modalidade": "Publicação no diário",
-   "objeto": "especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 musculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS, visando atender",
+   "objeto": "especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 musculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do Edital de Credenciamento nº 01/2020, e nas quantidades especificadas no Termo de Referência, folhas 03 a 09 do presente processo pela Credenciada, aos usuários do SUS, visando atender … 00000.0.069673/2026 ESPÉCIE: Credenciamento OBJETO: Prestação de serviços especializados em Oftalmologia Diagnóstico em Oftalmologia Simples, Exame de ultrassonografia/ Paquimetria, Diagnóstico em Oftalmologia Intermediária e Avançada, Cirurgias Oftalmológicas, Correção Cirúrgica de Estrabismo (acima de 2 musculos) e Facoemulsificação C/ Implante de Lente Intra-Ocular Dobrável nos termos do ",
    "valor_total": null,
    "faco": null,
    "abertura": "",
@@ -23134,7 +23137,10 @@
    "dist_km": 1226,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "facoemulsificação"
+    "cirurgias eletivas\" oftalmologia",
+    "cirurgias oftalmológicas",
+    "facoemulsificação",
+    "oftalmológicas"
    ],
    "estr": {
     "publico": 3,
@@ -23318,6 +23324,7 @@
    "dist_km": 359,
    "primeira_vez": "2026-11-07",
    "termos": [
+    "cirurgias eletivas\" oftalmologia",
     "oftalmologia"
    ],
    "estr": {
@@ -23492,6 +23499,7 @@
    "dist_km": 628,
    "primeira_vez": "2026-10-29",
    "termos": [
+    "cirurgias eletivas\" oftalmologia",
     "oftalmologia"
    ],
    "estr": {
@@ -23536,6 +23544,7 @@
    "dist_km": 1481,
    "primeira_vez": "2026-11-07",
    "termos": [
+    "cirurgias eletivas\" oftalmologia",
     "oftalmologia"
    ],
    "estr": {
@@ -23580,6 +23589,7 @@
    "dist_km": 209,
    "primeira_vez": "2026-10-28",
    "termos": [
+    "cirurgias eletivas\" oftalmologia",
     "oftalmologia"
    ],
    "estr": {
@@ -23611,6 +23621,377 @@
      }
     ],
     "data": "2026-10-28"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/2906006/2026-09-18/e18952045716180d354ab70e78c55cbcd50c7445.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "BA",
+   "municipio": "Campo Formoso",
+   "orgao": "Diário Oficial de Campo Formoso",
+   "modalidade": "Publicação no diário",
+   "objeto": "DE SAÚDE, na qualidade de gestora do Sistema Único de Saúde – SUS, através da Comissão de Contratualização, nomeada pelo Decreto nº 184/2021, realizará CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS NA ÁREA DE OFTALMOLOGIA, COMPREENDENDO CONSULTAS, EXAMES DIAGNÓSTICOS E PROCEDIMENTOS TERAPÊUTICOS E CIRÚRGICOS AMBULATORIAIS DE MÉDIA E ALTA COMPLEXIDADE, A SEREM REALIZADOS EM UNIDADES PÚBLICAS DO MUNICÍPIO, ESPECIALMENTE NO CENTRO DE SAÚDE OCULAR E NA POLICLÍNICA",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-09-18",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/2906006/2026-09-18/e18952045716180d354ab70e78c55cbcd50c7445.pdf",
+   "dist_km": 1481,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia",
+    "oftalmologia"
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2799839,
+      "nome": "Hospital Sao Francisco",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(74)3645 1217"
+     }
+    ],
+    "data": "2026-10-18"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/3111200/2026-09-14/2a442b491fdc564f70cf9b681632b8a8ee534dd8.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Campo Belo",
+   "orgao": "Diário Oficial de Campo Belo",
+   "modalidade": "Publicação no diário",
+   "objeto": "Município de Campo Belo/MG; Espécie: Contrato nº 232/2026, firmado em 14/09/2026, com HUMBERTO FERREIRA PARDINI LTDA – ME; Objeto: Credenciamento de pessoas jurídicas ou físicas para prestação de serviços médicos em consultas especializadas em oftalmologia, destinadas a pacientes encaminhados pela Secretaria Municipal de Saúde, nos termos do decreto n°3.188 de 14 de janeiro de 2016. Amparo: Inexigibilidade nº 024/2021; Processo: 103/2021; Vigência: 31/12/2026; Signatários: pelo Contratante, Darcy",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-09-14",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/3111200/2026-09-14/2a442b491fdc564f70cf9b681632b8a8ee534dd8.pdf",
+   "dist_km": 337,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "oftalmologia"
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2192020,
+      "nome": "Santa Casa De Campo Belo",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(35) 38317800"
+     },
+     {
+      "cnes": 2160951,
+      "nome": "Hospital Sao Lucas Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(35)3831-1038"
+     }
+    ],
+    "data": "2026-10-18"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/3305505/2026-10-28/431cb328722a0aee6b9b087e13324cda833247ef.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "RJ",
+   "municipio": "Saquarema",
+   "orgao": "Diário Oficial de Saquarema",
+   "modalidade": "Publicação no diário",
+   "objeto": "Narcisio Comércio Varejista de Produtos Óticos, CNPJ nº 31.132.858/0001-33. Objeto: Credenciamento de pessoas jurídicas especializadas para o forneci- mento de lentes e armações para óculos de grau, que atende ao projeto “Ver para aprender, Van Oftalmológica” e a “Clínica de Olhos Doutor Seródio”, atrelados à Se- 05 Ano VIII ● Nº 2023 Quarta-feira, 28 de outubro de 2026 cretaria Municipal de Saúde. Prazo de Vigência: 12 meses. Valor Global Estimado: R$ 2.396.307,00. Dotação Orçamentária:",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-28",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/3305505/2026-10-28/431cb328722a0aee6b9b087e13324cda833247ef.pdf",
+   "dist_km": 644,
+   "primeira_vez": "2026-11-09",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia",
+    "oftalmológica"
+   ],
+   "estr": {
+    "publico": 3,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 2274299,
+      "nome": "Hospital Municipal Porphirio Nunes De Azeredo",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(22)26533123"
+     },
+     {
+      "cnes": 4089189,
+      "nome": "Hospital Municipal Nossa Senhora De Nazareth",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "22 26514821"
+     },
+     {
+      "cnes": 7529384,
+      "nome": "Ses Rj Hospital Estadual Dos Lagos Nossa Senhora De Nazareth",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "22 9971-63518"
+     }
+    ],
+    "data": "2026-11-10"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/5004403/2026-10-27/a12c361f0680be53b133295bc08f0295532cc327.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "MS",
+   "municipio": "Inocência",
+   "orgao": "Diário Oficial de Inocência",
+   "modalidade": "Publicação no diário",
+   "objeto": "ATA DA SESSÃO PÚBLICA - 2 PROCESSO ADMINISTRATIVO Nº 221/2026 CREDENCIAMENTO Nº 014/2026 INEXIGIBILIDADE Nº 073/2026 EDITAL Nº 143/2026 OBJETO: CREDENCIAMENTO DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PARA REALIZAÇÃO DE CONSULTAS OFTALMOLÓGICAS INCLUINDO: TONOMETRIA, FUNDOSCOPIA, MAPEAMENTO DE RETINA, REFRAÇÃO OCULAR E TESTE DO OLHINHO (OFTALMOSCOPIA), DESTINADAS À POPULAÇÃO DO MUNICÍPIO DE INOCÊNCIA-MS, COM ATENDIMENTOS REALIZADOS EM CONSULTÓRIO/CLÍNICA DO PROFISSIONAL CONTRATADO",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-27",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/5004403/2026-10-27/a12c361f0680be53b133295bc08f0295532cc327.pdf",
+   "dist_km": 396,
+   "primeira_vez": "2026-11-09",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia",
+    "oftalmológicas"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2536781,
+      "nome": "Hospital E Maternidade De Inocencia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(67)35741396"
+     }
+    ],
+    "data": "2026-11-07"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/5004403/2026-09-25/1c55cc534c1d49b41c0c3a58ee0e3faaf09135af.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "MS",
+   "municipio": "Inocência",
+   "orgao": "Diário Oficial de Inocência",
+   "modalidade": "Publicação no diário",
+   "objeto": "DEINOCÊNCIA/MS ATA DA SESSÃO PÚBLICA PROCESSO ADMINISTRATIVO Nº 221/2026 CREDENCIAMENTO Nº 014/2026 INEXIGIBILIDADE Nº 073/2026 EDITAL Nº 143/2026 OBJETO: CREDENCIAMENTO DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PARA REALIZAÇÃO DE CONSULTAS OFTALMOLÓGICAS INCLUINDO: TONOMETRIA, FUNDOSCOPIA, MAPEAMENTO DE RETINA, REFRAÇÃO OCULAR E TESTE DO OLHINHO (OFTALMOSCOPIA), DESTINADAS À POPULAÇÃO DO MUNICÍPIO DE INOCÊNCIA-MS, COM ATENDIMENTOS REALIZADOS EM CONSULTÓRIO/CLÍNICA DO PROFISSIONAL CONTRATADO",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-09-25",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/5004403/2026-09-25/1c55cc534c1d49b41c0c3a58ee0e3faaf09135af.pdf",
+   "dist_km": 396,
+   "primeira_vez": "2026-11-09",
+   "termos": [
+    "oftalmológicas"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2536781,
+      "nome": "Hospital E Maternidade De Inocencia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(67)35741396"
+     }
+    ],
+    "data": "2026-11-07"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/2802106/2026-10-16/7217c2f81fe0e89ad04da25f5f0dae1fb673d4ac.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "SE",
+   "municipio": "Estância",
+   "orgao": "Diário Oficial de Estância",
+   "modalidade": "Publicação no diário",
+   "objeto": "AVISO DEFESA PRÉVIA PROCESSO ADMINISTRATIVO SANCIONATÓRIO SEI! 00.110000916.000000256/2026-02 PREGÃO ELETRÔNICO SRP N. 05/2026/ADM- EMPRESA KADOSH EVOLUTION LTDA. LISTA DOS CREDENCIADOS N.º 01/2026 CHAMAMENTO PÚBLICO N° 01/2026/FMS- INSTITUTO OFTALMOLOGICO DE SERGIPE LTDA. Acesse o QR Code e tenha acesso a esse diário na íntegra Sexta-feira 16 de Outubro de 2026 2 - Ano VIII - Nº 5281 Prefeitura Municipal de Estância Contratos CERTIFICAÇÃO DIGITAL: NDA4NZU2RTFEMZM1QKNDMK Esta edição encontra-se",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-16",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/2802106/2026-10-16/7217c2f81fe0e89ad04da25f5f0dae1fb673d4ac.pdf",
+   "dist_km": 1619,
+   "primeira_vez": "2026-11-09",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 1,
+    "olho": 1,
+    "privado": 1,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 6901743,
+      "nome": "Hospital Regional De Estancia Jesse Fontes",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(79)3530-3500"
+     },
+     {
+      "cnes": 2423529,
+      "nome": "Hospital Amparo De Maria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(79)3522-8122"
+     },
+     {
+      "cnes": 6755941,
+      "nome": "Iose",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "79 998674116"
+     }
+    ],
+    "data": "2026-11-10"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/3135209/2026-10-02/cc0e16b364074bdf2a65fd4c45c98da5c18ecc07.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Januária",
+   "orgao": "Diário Oficial de Januária",
+   "modalidade": "Publicação no diário",
+   "objeto": "31/07/2026 31/07/2027Término: Objeto: CHAMAMENTO PÚBLICO PARA CREDENCIAMENTO DE EMPRESA PARA A PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM PROCEDIMENTOS CIRÚRGICOS DE OFTALMOLOGIA, PARA ATENDER AOS PACIENTES QUE PERTENCEM A MICRORREGIÃO COMPOSTA PELO MUNICÍPIO DE JANUÁRIA. Credenciamento 5 / 2024Licitação: 750 Contratado: CENTRO OFTALMOLOGICO DR. LEONARDO FAGUNDES LTDA Inicio:Contrato Nº: Valor Total:R$ 540.000,00 Sexta-feira 31 Julho 2026JANUARIA, U-421 Síntese Tecnologia e Informática",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-10-02",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/3135209/2026-10-02/cc0e16b364074bdf2a65fd4c45c98da5c18ecc07.pdf",
+   "dist_km": 777,
+   "primeira_vez": "2026-11-09",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 1,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2204622,
+      "nome": "Hospital Municipal De Januaria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(38)36212241"
+     },
+     {
+      "cnes": 4428293,
+      "nome": "Hospital De Olhos Do Norte De Minas",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "38 98032002"
+     }
+    ],
+    "data": "2026-11-10"
    }
   },
   {
@@ -25128,7 +25509,7 @@
    "uf": "PE",
    "municipio": "São José do Egito",
    "orgao": "Fundo Municipal de Saúde de São José do Egito",
-   "modalidade": "Credenciamento 009/2026 · Recebendo Propostas",
+   "modalidade": "Credenciamento 009/2026 · Sessão Pública Iniciada",
    "objeto": "Contratação de Empresa Especializada para prestação de serviços de Feira de Saúde Oftalmológica, contemplando Consultas Médicas Oftalmológicas, fornecimento de Óculos com lentes corretivas e Exames de apoio diagnóstico (Ultrassonografia de globo...",
    "valor_total": null,
    "faco": null,
@@ -25736,8 +26117,8 @@
    "publicado": "2026-11-09",
    "vencedores": [],
    "docs_resultado": [],
-   "plataforma": "https://bnccompras.com/Process/ProcessView?param1=%5Bgkz%5DavEM8wVtTgwXPrq3dc3DzXD7MlIMzhrDmmQB8JvtfJPNKiYa7AWbPNJ5Fm9nA5ozLfJuioS1HH0%2FDtHy4YLeaM51fXYZcjxqHm2CszpQgwE%3D",
-   "link": "https://bnccompras.com/Process/ProcessView?param1=%5Bgkz%5DavEM8wVtTgwXPrq3dc3DzXD7MlIMzhrDmmQB8JvtfJPNKiYa7AWbPNJ5Fm9nA5ozLfJuioS1HH0%2FDtHy4YLeaM51fXYZcjxqHm2CszpQgwE%3D",
+   "plataforma": "https://bnccompras.com/Process/ProcessView?param1=%5Bgkz%5DMIwlRck8wMfBVzfJ2_s5fj6jijJcmSrP9E29Mm0Y7LJ9fqhKmBmCrr7pd1niolsakOMIgtns_AE1NtEMSRGElZBpEZohV65Vu53ypMy2bhE%3D",
+   "link": "https://bnccompras.com/Process/ProcessView?param1=%5Bgkz%5DMIwlRck8wMfBVzfJ2_s5fj6jijJcmSrP9E29Mm0Y7LJ9fqhKmBmCrr7pd1niolsakOMIgtns_AE1NtEMSRGElZBpEZohV65Vu53ypMy2bhE%3D",
    "dist_km": 686,
    "primeira_vez": "2026-11-09",
    "termos": [],
@@ -39294,9 +39675,8 @@
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
-   "itens": 7
+   "ok": true,
+   "itens": 14
   },
   {
    "nome": "Diários Oficiais – associações de municípios",
@@ -39445,6 +39825,6 @@
    "itens": 0
   }
  ],
- "rodada": "42678955803",
- "concluido": "2026-11-09 16:13"
+ "rodada": "42742047444",
+ "concluido": "2026-11-09 23:33"
 }
