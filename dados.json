@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10 07:12",
+ "atualizado": "2026-11-10 15:03",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -39311,7 +39311,8 @@
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 14
   },
   {
@@ -39323,8 +39324,8 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "itens": 393,
-   "parcial": "3 de 20 consultas sem resposta"
+   "obs": "atualizado uma vez por dia",
+   "itens": 393
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -39461,6 +39462,6 @@
    "itens": 0
   }
  ],
- "rodada": "42797168446",
- "concluido": "2026-11-10 07:28"
+ "rodada": "42871281999",
+ "concluido": "2026-11-10 15:14"
 }
