@@ -1,11 +1,12 @@
-# Roda o Radar Catarata a cada hora, avisa por e-mail/WhatsApp
-# após cada procura, mesmo sem novidades, e publica o painel no GitHub Pages.
+# Procura licitações a cada hora e avisa por e-mail/WhatsApp SÓ quando aparece algo novo.
+# O agendador do GitHub costuma pular horários; por isso o fluxo é chamado a cada 15 minutos
+# e a etapa "verificar" só libera a procura se a última terminou há 55 minutos ou mais.
 name: Radar Catarata
 
 on:
   schedule:
-    - cron: "27 * * * *"      # minuto 27 de cada hora; reagendado em 07/11
-  workflow_dispatch:           # botão "Run workflow" para rodar na hora
+    - cron: "7,22,37,52 * * * *"   # a cada 15 min; a procura de verdade acontece 1x por hora
+  workflow_dispatch:                # botão "Run workflow": procura na hora, sem esperar
 
 permissions:
   contents: write
@@ -17,7 +18,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      rodar: ${{ steps.tempo.outputs.rodar }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: dados.json
+          sparse-checkout-cone-mode: false
+      - name: Já passou 1 hora desde a última procura?
+        id: tempo
+        env:
+          EVENTO: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          rodar = True
+          if os.environ["EVENTO"] == "schedule":
+              try:
+                  fim = json.load(open("dados.json", encoding="utf-8")).get("concluido")
+                  fim = datetime.strptime(fim, "%Y-%m-%d %H:%M").replace(tzinfo=ZoneInfo("America/Sao_Paulo"))
+                  minutos = (datetime.now(ZoneInfo("America/Sao_Paulo")) - fim).total_seconds() / 60
+                  rodar = minutos >= 55
+                  print(f"Última procura concluída há {minutos:.0f} min.")
+              except Exception as erro:
+                  print(f"Sem horário da última procura ({erro}); procurando agora.")
+          print("Procurar agora:", rodar)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+              saida.write(f"rodar={'true' if rodar else 'false'}\n")
+          PY
+
   radar:
+    needs: verificar
+    if: needs.verificar.outputs.rodar == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     environment:
@@ -42,7 +79,7 @@ jobs:
         id: coleta
         run: python coletor.py
 
-      - name: Informar procura e novidades por e-mail e WhatsApp
+      - name: Avisar por e-mail e WhatsApp só se houver novidade
         if: ${{ always() && !cancelled() }}
         id: avisos
         continue-on-error: true
@@ -54,7 +91,7 @@ jobs:
           CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
           CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
           PAINEL_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: python avisar.py --informe
+        run: python avisar.py
 
       - name: Atualizar situação dos avisos no painel
         if: ${{ !cancelled() && steps.coleta.outcome == 'success' }}

@@ -10,7 +10,7 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - `plataformas.py` (08/11/2026): Portal de Compras Públicas (API pública por palavra), BLL e BNC (lista pública dos 100 processos mais recentes + página pública de cada processo novo; **não contornar o captcha da busca**). Remove o que já está no PNCP (código do Portal ou UF+município+número/ano). Itens com `fonte: "Plataforma privada"` e `plataforma_nome`. Cache: `cache_plataformas.json`. Licitanet (403) e Licitações-e/BB (captcha) ficam de fora. Testes em `tests/test_plataformas.py`.
 - `avisar.py`: seleciona os itens relevantes (catarata ou cirurgia oftalmológica, sem compras nem prazo vencido) que não estão em `avisados.json` e manda e-mail (Gmail SMTP) e WhatsApp (CallMeBot).
   - `python3 avisar.py --teste` só mostra o que enviaria.
-- `.github/workflows/radar.yml`: roda a cada hora, no minuto 27 (24 horas por dia); coleta, envia informe mesmo sem novidades, faz commit dos caches e publica no GitHub Pages.
+- `.github/workflows/radar.yml` (12/11/2026): o GitHub pulava a maioria dos horários do cron horário (só ~4 procuras por dia). Agora é chamado a cada 15 min (`7,22,37,52 * * * *`) e o job `verificar` só libera a procura se o `concluido` de `dados.json` tiver 55 min ou mais ("Run workflow" procura sempre). Avisa **só quando há novidade** (`python avisar.py`, sem `--informe`), faz commit dos caches e publica no GitHub Pages.
 - `.github/workflows/painel.yml`: só republica o `radar.html`.
 - Painel: https://beicinha.github.io/radar-catarata/
 - Secrets usados (configurados no GitHub, nunca no código): `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `CALLMEBOT_PHONE`, `CALLMEBOT_APIKEY`, opcional `EMAIL_TO`.
@@ -42,3 +42,7 @@ O contexto do negócio (regras, contatos e andamento) está em `../AGENTS.md`, n
 - `diarios_municipais.py`: diários das associações de municípios (12 redes; ver `ASSOCIACOES`). Cache das matérias em `cache_diarios.json`. Itens com `diario_rede: "associacoes"`. Oportunidade exige ato de contratação com objeto oftalmológico; alerta continua exigindo cirurgia (`avisar.relevante`).
 - `mapeamento.py`: contratos e atas do PNCP (fonte `Mapeamento`), 1x por dia (`cache_mapeamento.json`, chave `_dia`). **Nunca geram alerta.** Painel: grupo "Mercado" (Mapa de contratos / Contratos vencendo). Informe tem tema `vencendo`.
 - Testes: `tests/test_fontes_novas.py`.
+
+## Mudança em 12/11/2026 (pedido do usuário)
+- Pedido: "atualizar a cada 1h e mandar caso apareça algo novo". Os informes a cada procura (mesmo sem novidade) foram **desligados** no fluxo; `--informe` continua disponível para uso manual.
+- Motivo da troca do agendamento: de 08/11 a 12/11 o cron `27 * * * *` gerou só 11 execuções (intervalos de 5 a 10 h). Cada procura leva 15 a 25 min.
