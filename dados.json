@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12 00:59",
+ "atualizado": "2026-11-12 09:11",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -37123,8 +37123,8 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "itens": 325,
-   "parcial": "2 de 20 consultas sem resposta"
+   "obs": "atualizado uma vez por dia",
+   "itens": 325
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -37261,6 +37261,6 @@
    "itens": 0
   }
  ],
- "rodada": "43151827001",
- "concluido": "2026-11-12 01:12"
+ "rodada": "43215629297",
+ "concluido": "2026-11-12 09:21"
 }
