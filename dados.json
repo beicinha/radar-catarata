@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12 09:11",
+ "atualizado": "2026-11-12 17:08",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -24679,6 +24679,51 @@
    }
   },
   {
+   "id": "priv:pcp:524616",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "Portal de Compras Públicas",
+   "categoria": "Oftalmologia",
+   "uf": "RN",
+   "municipio": "Serra do Mel",
+   "orgao": "Prefeitura Municipal de Serra do Mel",
+   "modalidade": "Credenciamento 3/2026 · Aguardando Inicio de Recebimento de Propostas",
+   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA SERVIÇOS MÉDICOS ESPECIALIZADOS EM OFTALMOLOGIA, em caráter complementar à rede municipal de assistência à saúde, para possível contratação, destinados aos usuários de saúde que necessitem dos serviços.",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "2026-11-13T08:00",
+   "encerramento": "2027-11-12T08:00",
+   "publicado": "2026-11-12",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/rn/prefeitura-municipal-de-serra-do-mel-1071/cred-3-2026-2026-524616",
+   "link": "https://www.portaldecompraspublicas.com.br/processos/rn/prefeitura-municipal-de-serra-do-mel-1071/cred-3-2026-2026-524616",
+   "dist_km": 2175,
+   "primeira_vez": "2026-11-12",
+   "termos": [
+    "oftalmol"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2410222,
+      "nome": "Hospital Municipal Dr Silvio Rom De Lucena",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(84) 3340160"
+     }
+    ],
+    "data": "2026-11-12"
+   }
+  },
+  {
    "id": "priv:pcp:523914",
    "fonte": "Plataforma privada",
    "plataforma_nome": "Portal de Compras Públicas",
@@ -37129,7 +37174,7 @@
   {
    "nome": "Portal de Compras Públicas",
    "ok": true,
-   "itens": 8
+   "itens": 9
   },
   {
    "nome": "BLL Compras",
@@ -37261,6 +37306,6 @@
    "itens": 0
   }
  ],
- "rodada": "43215629297",
- "concluido": "2026-11-12 09:21"
+ "rodada": "43297190929",
+ "concluido": "2026-11-12 17:19"
 }
