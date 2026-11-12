@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11 19:54",
+ "atualizado": "2026-11-12 00:59",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -11313,93 +11313,6 @@
    }
   },
   {
-   "id": "pncp:45709920000111/2026/3033",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "SP",
-   "municipio": "Bebedouro",
-   "orgao": "MUNICIPIO DE BEBEDOURO",
-   "modalidade": "Pregão - Eletrônico",
-   "objeto": "PRESTACAO DE SERVICOS DE SAUDE EM PROCED IMENTOS OFTALMOLOGICOS",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "2026-10-27T12:00",
-   "encerramento": "2026-11-11T12:59",
-   "publicado": "2026-10-28",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/45709920000111/2026/3033",
-   "dist_km": 35,
-   "primeira_vez": "2026-10-28",
-   "termos": [
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista"
-   ],
-   "req": {
-    "status": "sem_texto",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "\"editalpe63-servicosespecializadosoftalmologia.pdf\""
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 2,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 2,
-    "total": 4,
-    "est": [
-     {
-      "cnes": 2082381,
-      "nome": "Hospital Municipal De Bebedouro Julia Pinto Caldeira",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(17) 3344-8100"
-     },
-     {
-      "cnes": 3058808,
-      "nome": "Hospital Regional De Bebedouro Hrb",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "1733449600"
-     },
-     {
-      "cnes": 3137163,
-      "nome": "Hospital Unimed Samaritano",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(17)33441500"
-     },
-     {
-      "cnes": 3137171,
-      "nome": "Hospital Unimed Unidade Ii",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(17) 3345-9400"
-     }
-    ],
-    "data": "2026-10-28"
-   }
-  },
-  {
    "id": "pncp:03643856000173/2026/78",
    "fonte": "PNCP",
    "categoria": "Material/compra",
@@ -11453,94 +11366,6 @@
     "oftalmológicos",
     "oftalmologista"
    ]
-  },
-  {
-   "id": "pncp:45709920000111/2026/3029",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "SP",
-   "municipio": "Bebedouro",
-   "orgao": "MUNICIPIO DE BEBEDOURO",
-   "modalidade": "Pregão - Eletrônico",
-   "objeto": "Contratação de empresa especializada para prestação de serviços de saúde em procedimentos oftalmológicos compreendendo consultas, exames de diagnose/SADT e procedimentos cirúrgicos ambulatoriais, em atendimento às necessidades dos usuários da Rede Municipal de Saúde de Bebedouro/SP.",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "2026-10-27T12:00",
-   "encerramento": "2026-11-11T12:59",
-   "publicado": "2026-10-26",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/45709920000111/2026/3029",
-   "dist_km": 35,
-   "primeira_vez": "2026-10-28",
-   "termos": [
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "cirurgias oftalmológicas"
-   ],
-   "req": {
-    "status": "sem_texto",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "PE63LOTEServicosEspecializadosOftalmologia"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 2,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 2,
-    "total": 4,
-    "est": [
-     {
-      "cnes": 2082381,
-      "nome": "Hospital Municipal De Bebedouro Julia Pinto Caldeira",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(17) 3344-8100"
-     },
-     {
-      "cnes": 3058808,
-      "nome": "Hospital Regional De Bebedouro Hrb",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "1733449600"
-     },
-     {
-      "cnes": 3137163,
-      "nome": "Hospital Unimed Samaritano",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(17)33441500"
-     },
-     {
-      "cnes": 3137171,
-      "nome": "Hospital Unimed Unidade Ii",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(17) 3345-9400"
-     }
-    ],
-    "data": "2026-10-28"
-   }
   },
   {
    "id": "pncp:00038166000105/2026/531",
@@ -20685,30 +20510,6 @@
    ]
   },
   {
-   "id": "pncp:00394700000108/2026/463",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "DISTRITO FEDERAL SECRETARIA DE SAUDE",
-   "modalidade": "Dispensa",
-   "objeto": "Contratação de empresa especializada de desembaraço aduaneiro e aquisição de medicamento(s) /produto(s) pertencente(s) ao Grupo 0936 - MEDICAMENTOS CADASTRADOS DE COMPRA ESPECIFICA, CISTEAMINA SOLUCAO OFTALMICA 3,8 MG/ML - FRASCO 5ML (IMPORTADO), por Importação, por dispensa de licitação, para atender à demanda judicial, nos termos da tabela abaixo e conforme condições e exigências estabelecidas n",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "2026-11-11T08:00",
-   "publicado": "2026-11-04",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/00394700000108/2026/463",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-07",
-   "termos": [
-    "oftalmo"
-   ]
-  },
-  {
    "id": "pncp:46068425000133/2026/2304",
    "fonte": "PNCP",
    "categoria": "Material/compra",
@@ -26412,8 +26213,7 @@
    "dist_km": 318,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -26793,8 +26593,7 @@
    "dist_km": 1921,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -26858,7 +26657,6 @@
    "primeira_vez": "2026-11-08",
    "termos": [
     "catarata",
-    "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": true
@@ -27241,7 +27039,6 @@
    "primeira_vez": "2026-11-08",
    "termos": [
     "catarata",
-    "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": false
@@ -27305,8 +27102,7 @@
    "dist_km": 613,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27337,8 +27133,7 @@
    "dist_km": 2024,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27369,8 +27164,7 @@
    "dist_km": 613,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27401,8 +27195,7 @@
    "dist_km": 576,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27433,8 +27226,7 @@
    "dist_km": 2041,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": true
   },
@@ -27465,8 +27257,7 @@
    "dist_km": 462,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": true
   },
@@ -27497,8 +27288,7 @@
    "dist_km": 1934,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27560,8 +27350,7 @@
    "dist_km": 2031,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": true
   },
@@ -27592,8 +27381,7 @@
    "dist_km": 2031,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": true
   },
@@ -27624,8 +27412,7 @@
    "dist_km": 406,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": true
   },
@@ -27656,8 +27443,7 @@
    "dist_km": 318,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27688,9 +27474,7 @@
    "dist_km": 576,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27721,9 +27505,7 @@
    "dist_km": 576,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27754,9 +27536,7 @@
    "dist_km": 576,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -27787,9 +27567,7 @@
    "dist_km": 576,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -28099,8 +27877,7 @@
    "dist_km": 1903,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação"
+    "catarata"
    ],
    "credenciamento_aberto": true
   },
@@ -28348,8 +28125,7 @@
    "dist_km": 906,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "catarata",
-    "facoemulsificação"
+    "catarata"
    ],
    "credenciamento_aberto": false
   },
@@ -28447,162 +28223,6 @@
    "credenciamento_aberto": true
   },
   {
-   "id": "map:contrato:15126437000305/2026/764",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "BA",
-   "municipio": "Salvador",
-   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "O OBJETO DO PRESENTE INSTRUMENTO É A DISPONIBILIZAÇÃO, PARA O(S) ITEM(NS) N.º 01, 02 E 03 (GRUPO 1) DO TERMO DE REFERÊNCIA, DO(S) SEGUINTE(S) BEM(NS) EM REGIME DE COMODATO, CONFORME AS EXIGÊNCIAS DESCRITAS NO TERMO DE REFERÊNCIA: 02 (DOIS) EQUIPAMENTOS FACOEMULSIFICADORES E SEUS ACESSÓRIOS: 03 CANETAS DE FACOEMULSIFICAÇÃO; 01 CANETA DE IRRIGAÇÃO/ASPIRAÇÃO COM PONTEIRA MÓVEL; 01 PEDAL DE COMANDO; 01 CAPA PROTETORA; DEMAIS ACESSÓRIOS NECESSÁRIOS PARA O COMPLETO FUNCIONAMENTO DO EQUIPAMENTO E SUAS ESPECIFICAÇÕES SUPRACITADAS; CARRO DE TRANSPORTE COM RODÍZIOS COMPATÍVEL COM O EQUIPAMENTO, COM SUPO",
-   "valor_total": 496561.74,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-10-19",
-   "vigencia_fim": "2027-10-22",
-   "publicado": "2026-10-21",
-   "vencedores": [
-    "MOGAMI IMPORTACAO E EXPORTACAO LTDA"
-   ],
-   "fornecedor_cnpj": "50247071000161",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/15126437000305/2026/764",
-   "dist_km": 1406,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:07654114000102/2026/132",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Porteiras",
-   "orgao": "MUNICIPIO DE PORTEIRAS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Credenciamento de pessoas jurídicas especializadas na prestação de serviços médicos de natureza oftalmológica, compreendendo realização de consultas de triagens, exames diagnósticos, procedimentos cirúrgicos de facoemulsificação com implante de LIO e Pterígio, em caráter complementar, destinados aos usuários do Sistema Único de Saúde (SUS) do município de Porteiras/CE.",
-   "valor_total": 189319.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-09-10",
-   "vigencia_fim": "2027-09-10",
-   "publicado": "2026-09-24",
-   "vencedores": [
-    "MB FACOS CONSULTAS E PROCEDIMENTOS OFTALMOLÓGICOS LTDA"
-   ],
-   "fornecedor_cnpj": "30094078000183",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07654114000102/2026/132",
-   "dist_km": 1830,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:07954480000179/2026/7776",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Fortaleza",
-   "orgao": "ESTADO DO CEARA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "INEXIGIBILIDADE DE LICITAÇÃO PARA OS SERVIÇOS DE MANUTENÇÃO CORRETIVA E PREVENTIVA DO VITREÓFAGO E FACOEMULSIFICADOR - EVA NEXUS COM LASER MODELO: NEXUS DORC DE MODELO, POR UM PRAZO DE 12 (DOZE) MESES, PARA ATENDER ÀS NECESSIDADES DO HOSPITAL GERAL DE FORTALEZA (HGF), VINCULADO À SECRETARIA DA SAÚDE DO ESTADO DO CEARÁ (SESA).",
-   "valor_total": 101910.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-23",
-   "vigencia_fim": "2027-03-23",
-   "publicado": "2026-04-07",
-   "vencedores": [
-    "ADAPT PRODUTOS OFTALMOLOGICOS LTDA"
-   ],
-   "fornecedor_cnpj": "96382429000160",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07954480000179/2026/7776",
-   "dist_km": 2228,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:12459632000105/2026/8",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Barreira",
-   "orgao": "MUNICIPIO DE BARREIRA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "MAPEAMENTO DE RETINA | CONSULTA OFTALMOLÓGICA | ULTRASSOM OCULAR | BIOMICROSCOPIA | BIOMETRIA OCULAR | FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRA-OCULAR DOBRAVEL | TONOMETRIA",
-   "valor_total": 376794.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-01",
-   "vigencia_fim": "2027-06-01",
-   "publicado": "2026-08-21",
-   "vencedores": [
-    "MEDMAX SAUDE INTEGRADA LTDA"
-   ],
-   "fornecedor_cnpj": "38406628000164",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/12459632000105/2026/8",
-   "dist_km": 2167,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:10589928000107/2026/33",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PE",
-   "municipio": "Bom Jardim",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DO BOM JARDIM",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Credenciamento de empresa especializada na prestação de serviços oftalmológicos, compreendendo a realização dos procedimentos de Facoemulsificação com implante de lente intraocular (LIO) dobrável e Recobrimento Conjuntival, destinados aos usuários do Sistema Único de Saúde - SUS do Município de Bom Jardim/PE",
-   "valor_total": 755096.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-07-30",
-   "vigencia_fim": "2027-07-30",
-   "publicado": "2026-08-06",
-   "vencedores": [
-    "SANTA LUZIA OFTALMOLOGIA LTDA"
-   ],
-   "fornecedor_cnpj": "57843006000229",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/10589928000107/2026/33",
-   "dist_km": 2041,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
    "id": "map:contrato:07679723000108/2026/47",
    "fonte": "Mapeamento",
    "categoria": "Catarata",
@@ -28629,7 +28249,6 @@
    "dist_km": 2064,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "facoemulsificação",
     "facectomia",
     "cirurgias oftalmológicas"
    ],
@@ -28662,7 +28281,6 @@
    "dist_km": 2064,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "facoemulsificação",
     "facectomia",
     "cirurgias oftalmológicas"
    ],
@@ -28695,43 +28313,10 @@
    "dist_km": 2064,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "facoemulsificação",
     "facectomia",
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:22705248000190/2026/32",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "São João do Manteninha",
-   "orgao": "MUNICIPIO DE SAO JOAO DO MANTENINHA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS VISANDO A EXECUCAO DE PROCEDIMENTOS CIRURGICOS OFTALMOLOGICOS DE FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL.",
-   "valor_total": 61728.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-26",
-   "vigencia_fim": "2027-06-26",
-   "publicado": "2026-07-16",
-   "vencedores": [
-    "NÃšCLEO OFTALMOLÃ“GICO DR. RIMACK FILHO LTDA"
-   ],
-   "fornecedor_cnpj": "19469017000110",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/22705248000190/2026/32",
-   "dist_km": 817,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
   },
   {
    "id": "map:contrato:13761713000110/2026/300",
@@ -28760,666 +28345,6 @@
    "dist_km": 1067,
    "primeira_vez": "2026-11-08",
    "termos": [
-    "facoemulsificação",
-    "facectomia"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00394544000185/2026/4698",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "MINISTERIO DA SAUDE",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "CONTRATAÇÃO DE VITREOFAGO COM FACOEMULSIFICADOR",
-   "valor_total": 29065300.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-18",
-   "vigencia_fim": "2027-05-18",
-   "publicado": "2026-05-19",
-   "vencedores": [
-    "BL INDUSTRIA OTICA LTDA"
-   ],
-   "fornecedor_cnpj": "27011022002076",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394544000185/2026/4698",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:46634291000170/2025/2542",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "SP",
-   "municipio": "Itapetininga",
-   "orgao": "MUNICIPIO DE ITAPETININGA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "ABERTURA DE PROCESSO LICITATÓRIO PARA CONTRATAÇÃO DO SERVIÇO DE FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL PARA ATENDER A DEMANDA REPRIMIDA NA SECRETARIA DE SAÚDE COM RECURSO ADVINDO DE EMENDA IMPOSITIVA- COM APLICAÇÃO DAS COTAS ABERTAS E RESERVADAS, NOS TERMOS DO ARTIGO 48, INCISO III DA LEI COMPLEMENTAR Nº 123/2006 - EM CONFORMIDADE COM A LEI Nº14.133/2021 - CONTRATO",
-   "valor_total": 44000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-09-19",
-   "vigencia_fim": "2026-09-19",
-   "publicado": "2025-09-19",
-   "vencedores": [
-    "INSTITUTO DE OLHOS VER LTDA - MATRIZ"
-   ],
-   "fornecedor_cnpj": "51230682000160",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/46634291000170/2025/2542",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:46634291000170/2025/2541",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "SP",
-   "municipio": "Itapetininga",
-   "orgao": "MUNICIPIO DE ITAPETININGA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "ABERTURA DE PROCESSO LICITATÓRIO PARA CONTRATAÇÃO DO SERVIÇO DE FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL PARA ATENDER A DEMANDA REPRIMIDA NA SECRETARIA DE SAÚDE COM RECURSO ADVINDO DE EMENDA IMPOSITIVA- COM APLICAÇÃO DAS COTAS ABERTAS E RESERVADAS, NOS TERMOS DO ARTIGO 48, INCISO III DA LEI COMPLEMENTAR Nº 123/2006 - EM CONFORMIDADE COM A LEI Nº14.133/2021 - CONTRATO",
-   "valor_total": 114048.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-09-19",
-   "vigencia_fim": "2026-09-19",
-   "publicado": "2025-09-19",
-   "vencedores": [
-    "AJN SERVIÇOS MÉDICOS ESPECIALIZADOS LTDA"
-   ],
-   "fornecedor_cnpj": "26261442000185",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/46634291000170/2025/2541",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/23",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia\\r\\noftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico e\\r\\nexames oftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos usuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024.",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-28",
-   "vencedores": [
-    "CLINICA  DE ULTRASOM DE OLHOS LTDA."
-   ],
-   "fornecedor_cnpj": "84497064000130",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/23",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/22",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia\\r\\noftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico e\\r\\nexames oftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos\\r\\nusuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024.",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-28",
-   "vencedores": [
-    "SANTOS E CARDOSO SERVIÇOS MÉDICOS LTDA"
-   ],
-   "fornecedor_cnpj": "09191266000133",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/22",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:15126437000143/2026/465",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PI",
-   "municipio": "Teresina",
-   "orgao": "EMPRESA BRASILEIRA DE SERVIÇOS HOSPITALARES",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "DISPONIBILIZAÇÃO, EM REGIME DE COMODATO, DE VITREÓFAGO, APARELHO DE FACOEMULSIFICAÇÃO E BIÔMETRO DE INTERFEROMETRIA RELACIONADOS AOS LOTES Nº 01 AO 04 DO TERMO DE REFERÊNCIA.",
-   "valor_total": 0.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-16",
-   "vigencia_fim": "2027-04-17",
-   "publicado": "2026-04-17",
-   "vencedores": [
-    "ALCON BRASIL CUIDADOS COM A SAUDE LTDA"
-   ],
-   "fornecedor_cnpj": "32929819000710",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/15126437000143/2026/465",
-   "dist_km": 1900,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/20",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia oftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico e exames oftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos usuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024, e as descrições constantes no Termo de Referência e D",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-24",
-   "vencedores": [
-    "OFTALCENTER - CENTRO OFTALMOLOGICO LTDA"
-   ],
-   "fornecedor_cnpj": "05649085000157",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/20",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/19",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia oftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico e exames oftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos usuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024, e as descrições constantes no Termo de Referência e D",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-24",
-   "vencedores": [
-    "CENTRO DE DIAGNÓSTICO OFTALMOLOGICO DA AMAZÔNIA LTDA"
-   ],
-   "fornecedor_cnpj": "63743462000119",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/19",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:78640489000153/2026/203",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PR",
-   "municipio": "Londrina",
-   "orgao": "UNIVERSIDADE ESTADUAL DE LONDRINA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "FORNECIMENTO DE CONJUNTO DE FACOEMULSIFICAÇÃO PARA ATENDER O HOSPITAL UNIVERSITÁRIO DE LONDRINA - INEXIGIBILIDADE DE LICITAÇÃO N. 036/2025",
-   "valor_total": 61128.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-22",
-   "vigencia_fim": "2027-04-21",
-   "publicado": "2026-04-24",
-   "vencedores": [
-    "ADAPT PRODUTOS OFTALMOLOGICOS LTDA"
-   ],
-   "fornecedor_cnpj": "96382429000160",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/78640489000153/2026/203",
-   "dist_km": 356,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/17",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia oftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico eexames oftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos usuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024, e as descrições constantes no Termo de Referência e Do",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-22",
-   "vencedores": [
-    "CENTRO OFTALMOLÓGICO SÃO DOMINGOS LTDA"
-   ],
-   "fornecedor_cnpj": "01541823000197",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/17",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/16",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia oftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico e exames \\r\\noftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos usuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024, e as descrições constantes no Termo de Referência",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-22",
-   "vencedores": [
-    "OCULISTAS ASSOCIADOS DE MANAUS LTDA"
-   ],
-   "fornecedor_cnpj": "04424552000188",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/16",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/15",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimentos cirúrgicos na especialidade de Cirurgia oftalmológica FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE OCULAR DOBRÁVEL, que inclui a avaliação do paciente, risco cirúrgico, procedimento cirúrgico e exames oftalmológicos necessários, por tempo determinado, para atender o Programa Estadual de Redução de Filas de cirurgias eletivas, ofertando qualidade de vida aos usuários do SUS, de acordo com o Edital de Credenciamento nº 002/2024, e as descrições constantes no Termo de Referência e D",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-25",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-04-16",
-   "vencedores": [
-    "OFTALCLIN CLINICA OFTALMICA LTDA"
-   ],
-   "fornecedor_cnpj": "04959052000140",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/15",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:22705248000190/2026/15",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "São João do Manteninha",
-   "orgao": "MUNICIPIO DE SAO JOAO DO MANTENINHA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS VISANDO A EXECUCAO DE PROCEDIMENTOS CIRURGICOS OFTALMOLOGICOS DE FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL (CODIGO SIGTAP: 0405050372), CLASSIFICADOS COMO MEDIA COMPLEXID",
-   "valor_total": 61728.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-27",
-   "vigencia_fim": "2027-02-27",
-   "publicado": "2026-03-12",
-   "vencedores": [
-    "NÃšCLEO OFTALMOLÃ“GICO DR. RIMACK FILHO LTDA"
-   ],
-   "fornecedor_cnpj": "19469017000110",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/22705248000190/2026/15",
-   "dist_km": 817,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:04755973000191/2026/121",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Uruaçu",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE URUACU",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE CIRÚRGICOS (FACOEMULSIFICAÇÃO E PTERÍGO) E EXAMES OFTALMOLOGICAS ,CONFORME CONTRATO 177/2026,EDITAL DE CREDENCIAMENTO N°011/2025 E PROCESSO ASM N°27134/2025,COM VIGENCIA A PARTIR DA DATA DE ASSINATURA ATÉ 31/12/2026.",
-   "valor_total": 579000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-01-05",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-02-25",
-   "vencedores": [
-    "OFTALMOLOGIA NORTE GOIANO LTDA"
-   ],
-   "fornecedor_cnpj": "42785516000139",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/04755973000191/2026/121",
-   "dist_km": 753,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:07592298000115/2025/352",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Paracuru",
-   "orgao": "MUNICIPIO DE PARACURU",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "BIOMETRIA ULTRASSONICA MONOCULAR | MICROSCOPIA ESPECULAR DE CORNEA | ADMINISTRACAO DE MEDICAMENTOS NA ATENCAO ESPECIALIZADA POR PACIENTES | FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL | POTENCIAL DE ACUIDADE VISUAL - MAC/MED | MAPEAMENTO DE RETINA | TRATAMENTO CIRURGICO DE PTERIGIO | TONOMETRIA MAC / MED | CERATOMETRIA | CONSULTAS MÉDICAS ESPECIALIZADAS EM OFTALMOLOGIA | RECOBRIMENTO CONJUNTIVAL | BIOMICROSCOPIA DE FUNDO DE OLHО | INJECAO RETROBULBAR / PERIBULBAR | PAQUIMETRIA ULTRASSONICA",
-   "valor_total": 406425.2,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-11-13",
-   "vigencia_fim": "2026-11-13",
-   "publicado": "2026-01-29",
-   "vencedores": [
-    "LPM SAUDE HUMANA E SERVICOS SOCIAIS LTDA"
-   ],
-   "fornecedor_cnpj": "33598476000125",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07592298000115/2025/352",
-   "dist_km": 2233,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:00394544000185/2025/14847",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "MINISTERIO DA SAUDE",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "CONTRATAÇÃO DE VITREOFAGO COM FACOEMULSIFICADOR",
-   "valor_total": 29065300.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-29",
-   "vigencia_fim": "2026-12-29",
-   "publicado": "2025-12-30",
-   "vencedores": [
-    "BL INDUSTRIA OTICA LTDA"
-   ],
-   "fornecedor_cnpj": "27011022002076",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394544000185/2025/14847",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:07598659000130/2025/231",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Santana do Acaraú",
-   "orgao": "MUNICIPIO DE SANTANA DO ACARAU",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CAPSULTOMIA YAG LASER | FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL | TRATAMENTO CIRURGÍCO DE PTERÍGIO NASAL",
-   "valor_total": 204916.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-10-17",
-   "vigencia_fim": "2026-10-17",
-   "publicado": "2025-11-19",
-   "vencedores": [
-    "OFTALMOCLINICA SOBRALENSE LTDA"
-   ],
-   "fornecedor_cnpj": "23460066000160",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07598659000130/2025/231",
-   "dist_km": 2173,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:22705248000190/2025/75",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "São João do Manteninha",
-   "orgao": "MUNICIPIO DE SAO JOAO DO MANTENINHA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATACAO DA EMPRESA NUCLEO DE MEDICOS OFTALMOLOGISTAS ASSOCIADOS LTDA PARA PRESTACAO DE SERVICOS ESPECIALIZADOS PARA EXECUCAO DE PROCEDIMENTOS CIRURGICOS OFTALMOLOGICOS DE FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL",
-   "valor_total": 113425.2,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-10-24",
-   "vigencia_fim": "2026-10-24",
-   "publicado": "2025-11-03",
-   "vencedores": [
-    "NÃšCLEO OFTALMOLÃ“GICO DR. RIMACK FILHO LTDA"
-   ],
-   "fornecedor_cnpj": "19469017000110",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/22705248000190/2025/75",
-   "dist_km": 817,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:13034603000156/2025/70",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MS",
-   "municipio": "Três Lagoas",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE TRES LAGOAS-MS",
-   "modalidade": "Contrato · Dispensa",
-   "objeto": "Contratação, em caráter emergencial e por determinação judicial, de serviço médico-hospitalar especializado para realização de facoemulsificação sem implante LIO dobrável – em ambos os olhos sob anestesia geral, incluindo todos os materiais/insumos, OPME (quando aplicável), medicamentos, equipe médica e de apoio, estrutura hospitalar, exames pré-operatórios e acompanhamento pós-operatório, em favor do paciente I.S.R., conforme autos nº 0804629-37.2025.8.12.0021.CODIGO TCE N° DD263CCC756CF4978FE2341CF4E7D4D4A0FFD900",
-   "valor_total": 15000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-10-28",
-   "vigencia_fim": "2026-10-27",
-   "publicado": "2025-10-29",
-   "vencedores": [
-    "CLINICA OFTALMOLOGICA VISARE LTDA"
-   ],
-   "fornecedor_cnpj": "07454808000198",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/13034603000156/2025/70",
-   "dist_km": 337,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:07744303000168/2025/685",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Quixeramobim",
-   "orgao": "MUNICIPIO DE QUIXERAMOBIM",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CHAMAMENTO PÚBLICO/CREDENCIAMENTO PARA REALIZAÇÃO DE SERVIÇOS ESPECIALIZADOS EM PROCEDIMENTOS CIRÚRGICOS DE FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL, COM TODOS OS MATERIAIS INCLUSOS, INCLUINDO EXAMES PRÉ-OPERATÓRIOS, DE INTERESSE DA SECRETARIA MUNICIPAL DE SAÚDE DE QUIXERAMOBIM/CE",
-   "valor_total": 346348.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-10-23",
-   "vigencia_fim": "2026-10-23",
-   "publicado": "2025-10-24",
-   "vencedores": [
-    "CENTRO CEARENSE DE OFTALMOLOGIA LTDA-EPP"
-   ],
-   "fornecedor_cnpj": "03000465000130",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07744303000168/2025/685",
-   "dist_km": 2045,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:13034603000156/2025/68",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MS",
-   "municipio": "Três Lagoas",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE TRES LAGOAS-MS",
-   "modalidade": "Contrato · Dispensa",
-   "objeto": "Contratação, em caráter emergencial e por determinação judicial, de serviço médico-hospitalar especializado para realização de cirurgia de facoemulsificação (facectomia) em olho esquerdo, sem implante de lente intraocular (LIO) sob anestesia geral, incluindo todos os materiais/insumos, OPME (quando aplicável), medicamentos, equipe médica e de apoio, estrutura hospitalar, exames pré-operatórios e acompanhamento pósoperatório, em favor do paciente J.P.F.S., conforme autos nº 0801987- 91.2025.8.12.0021. CÓDIGO TCE N° 22F6BB19267A49880A1AA0129BDF96B493B19C6E",
-   "valor_total": 7500.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-10-23",
-   "vigencia_fim": "2026-10-22",
-   "publicado": "2025-10-23",
-   "vencedores": [
-    "CLINICA OFTALMOLOGICA VISARE LTDA"
-   ],
-   "fornecedor_cnpj": "07454808000198",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/13034603000156/2025/68",
-   "dist_km": 337,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação",
     "facectomia"
    ],
    "credenciamento_aberto": false
@@ -29449,6 +28374,37 @@
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/00394502000144/2025/1483",
    "dist_km": 555,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facectomia"
+   ],
+   "credenciamento_aberto": false
+  },
+  {
+   "id": "map:contrato:13034603000156/2025/68",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "MS",
+   "municipio": "Três Lagoas",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DE TRES LAGOAS-MS",
+   "modalidade": "Contrato · Dispensa",
+   "objeto": "Contratação, em caráter emergencial e por determinação judicial, de serviço médico-hospitalar especializado para realização de cirurgia de facoemulsificação (facectomia) em olho esquerdo, sem implante de lente intraocular (LIO) sob anestesia geral, incluindo todos os materiais/insumos, OPME (quando aplicável), medicamentos, equipe médica e de apoio, estrutura hospitalar, exames pré-operatórios e acompanhamento pósoperatório, em favor do paciente J.P.F.S., conforme autos nº 0801987- 91.2025.8.12.0021. CÓDIGO TCE N° 22F6BB19267A49880A1AA0129BDF96B493B19C6E",
+   "valor_total": 7500.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2025-10-23",
+   "vigencia_fim": "2026-10-22",
+   "publicado": "2025-10-23",
+   "vencedores": [
+    "CLINICA OFTALMOLOGICA VISARE LTDA"
+   ],
+   "fornecedor_cnpj": "07454808000198",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/13034603000156/2025/68",
+   "dist_km": 337,
    "primeira_vez": "2026-11-08",
    "termos": [
     "facectomia"
@@ -31097,6 +30053,37 @@
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": false
+  },
+  {
+   "id": "map:contrato:07654114000102/2026/132",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "CE",
+   "municipio": "Porteiras",
+   "orgao": "MUNICIPIO DE PORTEIRAS",
+   "modalidade": "Contrato · Credenciamento",
+   "objeto": "Credenciamento de pessoas jurídicas especializadas na prestação de serviços médicos de natureza oftalmológica, compreendendo realização de consultas de triagens, exames diagnósticos, procedimentos cirúrgicos de facoemulsificação com implante de LIO e Pterígio, em caráter complementar, destinados aos usuários do Sistema Único de Saúde (SUS) do município de Porteiras/CE.",
+   "valor_total": 189319.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-09-10",
+   "vigencia_fim": "2027-09-10",
+   "publicado": "2026-09-24",
+   "vencedores": [
+    "MB FACOS CONSULTAS E PROCEDIMENTOS OFTALMOLÓGICOS LTDA"
+   ],
+   "fornecedor_cnpj": "30094078000183",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/07654114000102/2026/132",
+   "dist_km": 1830,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": true
   },
   {
    "id": "map:contrato:08361788000173/2026/38",
@@ -33905,8 +32892,10 @@
    "assinatura": "2026-07-08",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-08-04",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/468",
@@ -33934,8 +32923,10 @@
    "assinatura": "2026-07-08",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-08-04",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/467",
@@ -33963,8 +32954,10 @@
    "assinatura": "2026-05-15",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-05-26",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/362",
@@ -33992,8 +32985,10 @@
    "assinatura": "2026-07-06",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-08-04",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/459",
@@ -34021,8 +33016,10 @@
    "assinatura": "2026-06-22",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-08-04",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/446",
@@ -34050,8 +33047,10 @@
    "assinatura": "2026-06-22",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-08-04",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/445",
@@ -34079,8 +33078,10 @@
    "assinatura": "2026-06-22",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-08-04",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/441",
@@ -34108,8 +33109,10 @@
    "assinatura": "2026-07-02",
    "vigencia_fim": "2027-07-02",
    "publicado": "2026-08-03",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "ASSOCIACAO PARA PROMOCAO A SAUDE VISUAL - PROVER"
+   ],
+   "fornecedor_cnpj": "06068583000330",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/00634997000131/2026/39",
@@ -34137,8 +33140,10 @@
    "assinatura": "2026-07-31",
    "vigencia_fim": "2031-07-30",
    "publicado": "2026-08-03",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "INSTITUTO BRASIL DE SAUDE POLICLINICA LTDA"
+   ],
+   "fornecedor_cnpj": "12869011000272",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/11430018000140/2026/558",
@@ -34166,8 +33171,10 @@
    "assinatura": "2026-07-09",
    "vigencia_fim": "2027-07-09",
    "publicado": "2026-07-31",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "RIBEIRO E SANTANA LTDA"
+   ],
+   "fornecedor_cnpj": "33612876000148",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/11190128000181/2026/28",
@@ -34195,8 +33202,10 @@
    "assinatura": "2026-04-22",
    "vigencia_fim": "2027-04-22",
    "publicado": "2026-07-30",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "VIVA + SAÚDE E SERVIÇOS LTDA"
+   ],
+   "fornecedor_cnpj": "37320854000246",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/04530135000110/2026/26",
@@ -34224,8 +33233,10 @@
    "assinatura": "2026-04-01",
    "vigencia_fim": "2027-04-01",
    "publicado": "2026-07-30",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "SERMECI SERVICOS MEDICOS E CIRURGICOS LTDA"
+   ],
+   "fornecedor_cnpj": "41125801000160",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/04530135000110/2026/25",
@@ -34253,8 +33264,10 @@
    "assinatura": "2025-09-25",
    "vigencia_fim": "2035-09-25",
    "publicado": "2025-11-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HOSPITAL SAN MICHELE LTDA"
+   ],
+   "fornecedor_cnpj": "53011571000198",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/00394452000103/2025/8930",
@@ -34282,8 +33295,10 @@
    "assinatura": "2025-09-17",
    "vigencia_fim": "2026-09-17",
    "publicado": "2026-07-29",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "PARAIBA OFTALMOLOGIA LTDA"
+   ],
+   "fornecedor_cnpj": "55133634000104",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08674396000164/2025/6",
@@ -34311,8 +33326,10 @@
    "assinatura": "2026-07-21",
    "vigencia_fim": "2027-07-21",
    "publicado": "2026-07-27",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "AZEVEDO SERVICOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "23378932000178",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/06769798000117/2026/337",
@@ -34340,8 +33357,10 @@
    "assinatura": "2026-07-13",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-07-21",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "CORI - CENTRO DE OFTALMOLOGIA, RADIOLOGIA E IMAGEM SANTA MONICA LTDA"
+   ],
+   "fornecedor_cnpj": "10819139000115",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18296699000144/2026/54",
@@ -34369,8 +33388,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-21",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "SORT - SERVICOS DE CLINICA MEDICA, ORTOPEDIA E TRAUMATOLOGIA LTDA"
+   ],
+   "fornecedor_cnpj": "19915639000125",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/245",
@@ -34398,8 +33419,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-02",
    "publicado": "2026-07-21",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "BIOMED SERVICOS E CONSULTORIA EM SAUDE LTDA"
+   ],
+   "fornecedor_cnpj": "40396298000115",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/244",
@@ -34427,8 +33450,10 @@
    "assinatura": "2026-07-06",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-07-16",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "PRONTAMED SERVICOS DE SAUDE LTDA - EPP"
+   ],
+   "fornecedor_cnpj": "20352137000112",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/11483837000155/2026/13",
@@ -34438,6 +33463,37 @@
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": true
+  },
+  {
+   "id": "map:contrato:22705248000190/2026/32",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "MG",
+   "municipio": "São João do Manteninha",
+   "orgao": "MUNICIPIO DE SAO JOAO DO MANTENINHA",
+   "modalidade": "Contrato · Inexigibilidade",
+   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS VISANDO A EXECUCAO DE PROCEDIMENTOS CIRURGICOS OFTALMOLOGICOS DE FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRAOCULAR DOBRAVEL.",
+   "valor_total": 61728.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-06-26",
+   "vigencia_fim": "2027-06-26",
+   "publicado": "2026-07-16",
+   "vencedores": [
+    "NÃšCLEO OFTALMOLÃ“GICO DR. RIMACK FILHO LTDA"
+   ],
+   "fornecedor_cnpj": "19469017000110",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/22705248000190/2026/32",
+   "dist_km": 817,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false
   },
   {
    "id": "map:contrato:07954480000179/2025/16979",
@@ -34456,8 +33512,10 @@
    "assinatura": "2025-07-30",
    "vigencia_fim": "2027-07-30",
    "publicado": "2025-08-05",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "ESCOLA CEARENSE DE OFTALMOLOGIA LTDA"
+   ],
+   "fornecedor_cnpj": "07050353000145",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/07954480000179/2025/16979",
@@ -34485,8 +33543,10 @@
    "assinatura": "2025-12-03",
    "vigencia_fim": "2026-12-03",
    "publicado": "2025-12-10",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "LFB FENZKE SERVICOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "63495738000197",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/02231696000192/2025/420",
@@ -34514,8 +33574,10 @@
    "assinatura": "2025-12-03",
    "vigencia_fim": "2026-12-03",
    "publicado": "2025-12-10",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "LONGEVITA SERVICOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "63808571000177",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/02231696000192/2025/421",
@@ -34543,8 +33605,10 @@
    "assinatura": "2025-12-04",
    "vigencia_fim": "2026-12-04",
    "publicado": "2025-12-15",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "DANIELA CASAGRANDE SERVICOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "60774929000108",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/02231696000192/2025/426",
@@ -34572,8 +33636,10 @@
    "assinatura": "2026-04-30",
    "vigencia_fim": "2027-04-30",
    "publicado": "2026-05-27",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "CLINICA DE ENDOCRINOLOGIA DR JORGE BRUST LTDA"
+   ],
+   "fornecedor_cnpj": "48981657000103",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/02231696000192/2026/110",
@@ -34601,8 +33667,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-14",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "COOPERATIVA DE TRABALHO E DE SERVIÇOS DE SAÚDE - COOPSAÚDE"
+   ],
+   "fornecedor_cnpj": "49877110000125",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/240",
@@ -34630,8 +33698,10 @@
    "assinatura": "2026-06-26",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-07-13",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "MICHELLE MARIA SOUZA RAMOS RESENDE LTDA"
+   ],
+   "fornecedor_cnpj": "30408266000139",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/436",
@@ -34659,8 +33729,10 @@
    "assinatura": "2026-06-17",
    "vigencia_fim": "2026-12-17",
    "publicado": "2025-11-11",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "SANTOS E POSSIMOSER - SERVICOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "09191266000133",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/04477642000137/2025/100",
@@ -34688,8 +33760,10 @@
    "assinatura": "2026-01-13",
    "vigencia_fim": "2027-01-13",
    "publicado": "2026-07-13",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "LABORATORIO DE ANALISES CLINICAS CLINIAFAGU LTDA"
+   ],
+   "fornecedor_cnpj": "16422766000102",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/07391006000186/2026/66",
@@ -34717,8 +33791,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2027-07-03",
    "publicado": "2026-07-08",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "R2NS ASSESSORIA E CONSULTORIA MEDICA S/S LTDA"
+   ],
+   "fornecedor_cnpj": "11628568000178",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/05169884000126/2026/38",
@@ -34746,8 +33822,10 @@
    "assinatura": "2026-07-06",
    "vigencia_fim": "2027-07-06",
    "publicado": "2026-07-08",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "MEDIC FACIL CLINICA E LABORATORIO LTDA"
+   ],
+   "fornecedor_cnpj": "28892298000100",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/11190128000181/2026/19",
@@ -34775,8 +33853,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "COOPMED PARTICIPACOES LTDA"
+   ],
+   "fornecedor_cnpj": "47206520000119",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/232",
@@ -34804,8 +33884,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "JUSTIZ TERCEIRIZACAO DE MAO DE OBRA LTDA"
+   ],
+   "fornecedor_cnpj": "06538799000150",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/231",
@@ -34833,8 +33915,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "LUCIANO A LOPES & CIA LTDA"
+   ],
+   "fornecedor_cnpj": "16726637000108",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/229",
@@ -34862,8 +33946,10 @@
    "assinatura": "2026-07-01",
    "vigencia_fim": "2028-06-30",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "BIOMED SERVICOS E CONSULTORIA EM SAUDE LTDA"
+   ],
+   "fornecedor_cnpj": "40396298000115",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/228",
@@ -34891,8 +33977,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "COOPMED PARTICIPACOES LTDA"
+   ],
+   "fornecedor_cnpj": "47206520000119",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/227",
@@ -34920,8 +34008,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "COOPERATIVA DE TRABALHO E DE SERVICOS DE SAUDE DO BRASIL - COOPSAUDE"
+   ],
+   "fornecedor_cnpj": "49877110000125",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/225",
@@ -34949,8 +34039,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "COOPMED PARTICIPACOES LTDA"
+   ],
+   "fornecedor_cnpj": "47206520000119",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/224",
@@ -34978,8 +34070,10 @@
    "assinatura": "2026-07-03",
    "vigencia_fim": "2028-07-05",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "JUSTIZ TERCEIRIZACAO DE MAO DE OBRA LTDA"
+   ],
+   "fornecedor_cnpj": "06538799000150",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/223",
@@ -35007,8 +34101,10 @@
    "assinatura": "2026-06-18",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-07-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "fornecedor_cnpj": "10951450000113",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/433",
@@ -35036,8 +34132,10 @@
    "assinatura": "2026-07-01",
    "vigencia_fim": "2027-07-01",
    "publicado": "2026-07-06",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "INSTITUTO BENEFICENTE DE SAUDE RENASCER"
+   ],
+   "fornecedor_cnpj": "09122182000148",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/10377679000196/2026/221",
@@ -35065,8 +34163,10 @@
    "assinatura": "2026-06-30",
    "vigencia_fim": "2027-06-30",
    "publicado": "2026-07-06",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "DOM HOSPITAL DIA LTDA"
+   ],
+   "fornecedor_cnpj": "30482675000185",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/00394429000100/2026/558",
@@ -35094,8 +34194,10 @@
    "assinatura": "2026-05-22",
    "vigencia_fim": "2027-05-22",
    "publicado": "2026-06-30",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "HOSPITAL DA VISAO DO MEIO NORTE LTDA"
+   ],
+   "fornecedor_cnpj": "23671122000105",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/06553663000110/2026/17",
@@ -35123,8 +34225,10 @@
    "assinatura": "2026-06-03",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-07-01",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "CENTRO OFTALMOLOGICO POUSO ALEGRE LTDA"
+   ],
+   "fornecedor_cnpj": "23612452000120",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18296699000144/2026/53",
@@ -35152,8 +34256,10 @@
    "assinatura": "2026-06-24",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-07-01",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "CORI - CENTRO DE OFTALMOLOGIA, RADIOLOGIA E IMAGEM SANTA MONICA LTDA -EPP"
+   ],
+   "fornecedor_cnpj": "10819139000115",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18296699000144/2026/52",
@@ -35181,8 +34287,10 @@
    "assinatura": "2026-04-28",
    "vigencia_fim": "2027-04-28",
    "publicado": "2026-06-26",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "INSTITUTO DOS OLHOS SUL FLUMINENSE LTDA"
+   ],
+   "fornecedor_cnpj": "44533302000109",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/28576080000147/2026/19",
@@ -35210,8 +34318,10 @@
    "assinatura": "2026-06-23",
    "vigencia_fim": "2028-06-30",
    "publicado": "2026-06-25",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "JUSTIZ TERCEIRIZACAO DE MAO DE OBRA LTDA"
+   ],
+   "fornecedor_cnpj": "06538799000150",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/214",
@@ -35239,8 +34349,10 @@
    "assinatura": "2026-06-23",
    "vigencia_fim": "2028-06-22",
    "publicado": "2026-06-25",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "BIOMED SERVICOS E CONSULTORIA EM SAUDE LTDA"
+   ],
+   "fornecedor_cnpj": "40396298000115",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/213",
@@ -35268,8 +34380,10 @@
    "assinatura": "2026-06-23",
    "vigencia_fim": "2027-06-24",
    "publicado": "2026-06-24",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "OFTALMOLOGIA INTEGRADA - SERRA GAUCHA LTDA"
+   ],
+   "fornecedor_cnpj": "47479737000100",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/87849923000109/2026/546",
@@ -35297,1461 +34411,13 @@
    "assinatura": "2026-04-23",
    "vigencia_fim": "2026-12-31",
    "publicado": "2026-06-23",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
+   "vencedores": [
+    "CENTRO ESPECIALIZADO EM OFTALMOLOGIA LTDA"
+   ],
+   "fornecedor_cnpj": "47239820000102",
    "docs_resultado": [],
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/410",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/153",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 39000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-20",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-03-27",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/153",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/405",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 5500.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-11",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-06-23",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/405",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/206",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATAÇÃO DE SERVIÇOS DE SAÚDE PARA A REALIZAÇÃO DE CIRURGIAS DE MÉDIA E ALTA COMPLEXIDADE (EXCETO OFTALMOLOGIA) - HOSPITAL MEMORIAL SÃO FRANCISCO.",
-   "valor_total": 7332354.48,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-15",
-   "vigencia_fim": "2027-06-14",
-   "publicado": "2026-06-22",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/206",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/205",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATAÇÃO DE SERVIÇOS DE SAÚDE PARA A REALIZAÇÃO DE CIRURGIAS DE MÉDIA E ALTA COMPLEXIDADE (EXCETO OFTALMOLOGIA) DO HOSPITAL REGIONAL DR. MARIANO COELHO – 4ª REGIÃO DE SAÚDE.",
-   "valor_total": 36972566.4,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-19",
-   "vigencia_fim": "2028-06-30",
-   "publicado": "2026-06-22",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/205",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/204",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATAÇÃO DE SERVIÇOS DE SAÚDE PARA A REALIZAÇÃO DE CIRURGIAS DE MÉDIA E ALTA COMPLEXIDADE (EXCETO OFTALMOLOGIA) DO HOSPITAL REGIONAL HÉLIO MORAIS MARINHO – 2ª REGIÃO DE SAÚDE.",
-   "valor_total": 3448632.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-19",
-   "vigencia_fim": "2028-06-21",
-   "publicado": "2026-06-22",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/204",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/203",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação de serviços de saúde para a realização de Cirurgias de Média e Alta Complexidade (exceto oftalmologia) do Hospital Regional Dr. Mariano Coelho – 4ª região de saúde.",
-   "valor_total": 36972566.4,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-19",
-   "vigencia_fim": "2028-06-30",
-   "publicado": "2026-06-22",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/203",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/202",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação de serviços de saúde para a realização de Cirurgias de Média e Alta Complexidade (exceto oftalmologia) do Hospital Regional Hélio Morais Marinho – 2ª região de saúde.",
-   "valor_total": 3448632.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-19",
-   "vigencia_fim": "2028-06-21",
-   "publicado": "2026-06-22",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/202",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:11279755000193/2026/47",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Rubiataba",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO 03/2026, CONTRATO 173/2026, PROCESSO 5588/2026, INEXIGIBILIDADE 010/2026, PRESTAÇÃO DE SERVIÇOS DE PROCEDIMENTOS CIRURGICOS OFTALMOLOGICOS CUSTEADOS POR EMENDA PARLAMENTAR.",
-   "valor_total": 80000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-15",
-   "vigencia_fim": "2027-06-15",
-   "publicado": "2026-06-19",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11279755000193/2026/47",
-   "dist_km": 693,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:13908702000110/2026/79",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "BA",
-   "municipio": "Campo Formoso",
-   "orgao": "MUNICIPIO DE CAMPO FORMOSO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS PRESTADORAS DE SERVIÇOS DE SAÚDE, DEVIDAMENTE REGISTRADAS E HABILITADAS PARA A EXECUÇÃO DOS SERVIÇOS, INTERESSADAS EM FIRMAR CONTRATO COM A SECRETARIA MUNICIPAL DE SAÚDE DE CAMPO FORMOSO, VISANDO À PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONSULTAS, EXAMES DIAGNÓSTICOS E PROCEDIMENTOS TERAPÊUTICOS E CIRÚRGICOS AMBULATORIAIS, DE MÉDIA E ALTA COMPLEXIDADE, NA ÁREA DE OFTALMOLOGIA, A SEREM REALIZADOS EM UNIDADES PÚBLICAS DO MUNICÍPIO, ESPECIALMENTE NO CENTRO DE SAÚDE OCULAR E NA POLICLÍNICA MUNICIPAL DE CAMPO FORMOSO",
-   "valor_total": 264000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-16",
-   "vigencia_fim": "2027-04-16",
-   "publicado": "2026-06-18",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/13908702000110/2026/79",
-   "dist_km": 1481,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:87334918000155/2026/63",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RS",
-   "municipio": "Venâncio Aires",
-   "orgao": "MUNICIPIO DE VENANCIO AIRES",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Credenciamento de pessoas jurídicas para realização de Cirurgias Eletivas de Oftalmologia para pacientes do Sistema Único de Saúde - SUS, com prescrição médica",
-   "valor_total": 1000000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-16",
-   "vigencia_fim": "2030-07-02",
-   "publicado": "2026-06-17",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/87334918000155/2026/63",
-   "dist_km": 1000,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/200",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação de serviços de saúde para a realização de Cirurgias de Média e Alta Complexidade (exceto oftalmologia), de acordo com a Deliberação do Conselho Estadual de Saúde na 130ª Reunião, que aprovou a tabela base, conforme Resolução CES/RN Nº 226, de 25 de setembro de 2019 e suas atualizações.",
-   "valor_total": 7332354.48,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-15",
-   "vigencia_fim": "2027-06-14",
-   "publicado": "2026-06-17",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/200",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/401",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 4828.23,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-03",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-06-16",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/401",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/400",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 5175.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-03",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-06-16",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/400",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/396",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para a realização de exames e cirurgias oftalmológicas para atendimento aos pacientes dos municípios pertencentes ao AMVAP SAÚDE.",
-   "valor_total": 8810.56,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-03",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-06-16",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/396",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:07673106000103/2025/194",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Forquilha",
-   "orgao": "MUNICIPIO DE FORQUILHA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS NA ÁREA DE OFTALMOLOGIA (CONSULTAS, CIRURGIAS E OUTROS AFINS), COM BASE NA TABELA DO SISTEMA DE GERENCIAMENTO DA TABELA DE PROCEDIMENTOS, MEDICAMENTOS E OPM DO SISTEMA ÚNICO DE SAÚDE - SUS - SIGTAP, JUNTO A SECRETARIA DE SAÚDE DO MUNICÍPIO DE FORQUILHA/CE",
-   "valor_total": 453431.76,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-26",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-06-09",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07673106000103/2025/194",
-   "dist_km": 2136,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18428839000190/2026/10",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberaba",
-   "orgao": "MUNICIPIO DE UBERABA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Prestação de serviços em oftalmologia, compreendendo consultas, exames diagnósticos e procedimentos cirúrgicos de média e alta complexidade, destinados ao atendimento de usuários do Sistema Único de Saúde – SUS, conforme demanda regulada pela Secretaria Municipal de Saúde",
-   "valor_total": 20943949.85,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-09",
-   "vigencia_fim": "2031-06-08",
-   "publicado": "2026-06-09",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18428839000190/2026/10",
-   "dist_km": 179,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:08241754000145/2026/178",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Natal",
-   "orgao": "RIO GRANDE DO NORTE SECRETARIA DA SAUDE PUBLICA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CONTRATAÇÃO DE SERVIÇOS DE SAÚDE PARA A REALIZAÇÃO DE CIRURGIAS DE MÉDIA E ALTA COMPLEXIDADE (EXCETO OFTALMOLOGIA), DE ACORDO COM A DELIBERAÇÃO DO CONSELHO ESTADUAL DE SAÚDE NA 130ª REUNIÃO, QUE APROVOU A TABELA BASE, CONFORME RESOLUÇÃO CES/RN Nº 226, DE 25 DE SETEMBRO DE 2019 E SUAS ATUALIZAÇÕES.",
-   "valor_total": 11066683.32,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-05",
-   "vigencia_fim": "2028-06-04",
-   "publicado": "2026-06-09",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08241754000145/2026/178",
-   "dist_km": 2239,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00394700000108/2025/165",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "DISTRITO FEDERAL SECRETARIA DE SAUDE",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "O Contrato tem por objeto a prestação de SERVIÇO DE CIRURGIA OFTALMOLÓGICA visando atender as necessidades de assistência da Secretaria de Estado de Saúde do Distrito Federal SES/DF, em caráter Complementar junto ao Sistema Único de Saúde, nos termos do Edital de Credenciamento nº 03/2025- SES/DF (185588528), Homologação (188728863), Proposta da empresa (185597910), da Lei n.º 14.133/2021, do Decreto Distrital n.° 44.330, de 16 de março de 2023 e alterações posteriores, que passam a integrar o presente Termo.",
-   "valor_total": 3738858.44,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-30",
-   "vigencia_fim": "2026-12-30",
-   "publicado": "2026-06-03",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394700000108/2025/165",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:31974558000100/2026/14",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Conceição do Mato Dentro",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO MEDIO ESPINHACO - CISAME",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOA FÍSICA OU JURÍDICA PARA REALIZAÇÃO DE PROCEDIMENTOS OFTALMOLÓGICOS (CONSULTAS, EXAMES E CIRURGIAS) CONFORME PREVISTO NO ANEXO II DESTE EDITAL..",
-   "valor_total": 151270.8,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-14",
-   "vigencia_fim": "2027-05-14",
-   "publicado": "2026-06-01",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/31974558000100/2026/14",
-   "dist_km": 585,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:29138328000150/2026/32",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Duque de Caxias",
-   "orgao": "MUNICIPIO DE DUQUE DE CAXIAS",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "O objeto do presente termo é a prestação de serviços móveis especializados em oftalmologia, incluindo consultas, exames e cirurgias em unidades móveis, e fornecimento de lentes corretivas e armações para óculos, quando necessário, de forma a complementar e suplementar a capacidade instalada da Rede Municipal de Saúde, em ações específicas a serem contratadas eventualmente ou em caso de necessidade emergencial por insuficiência de rede, nas especificações constantes no Termo de Referência, conforme homologação e demais documentos constantes no Processo Administrativo nº 014/004816/2025.",
-   "valor_total": 79550101.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-05",
-   "vigencia_fim": "2027-05-05",
-   "publicado": "2026-05-18",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/29138328000150/2026/32",
-   "dist_km": 561,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00394502001205/2026/1",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "SP",
-   "municipio": "São Paulo",
-   "orgao": "COMANDO DA MARINHA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "A FINALIDADE DESTE CONTRATO É GARANTIR, AOS MILITARES DA ATIVA, DA RESERVA OU REFORMADOS, PENSIONISTAS E SEUS DEPENDENTES DA MARINHA DO BRASIL, NAS CONDIÇÕES ESPECIFICADAS NESTE INSTRUMENTO E NO EDITAL, POR INTERMÉDIO DE HOSPITAIS E MATERNIDADES ASSISTÊNCIA MÉDICO- HOSPITALAR, AMBULATORIAL, ATENDIMENTO DE EMERGÊNCIA/URGÊNCIA EM REGIME DE 24 (VINTE E QUATRO) HORAS DIÁRIAS. O OBJETO CONTRATUAL ABRANGE AS SEGUINTES ESPECIALIDADES: CONSULTAS, EXAMES E CIRURGIAS NA ESPECIALIDADE DE OFTALMOLOGIA E OTORRINOLARINGOLOGIA DEVIDAMENTE RECONHECIDAS PELO RESPECTIVO ÓRGÃO FEDERAL DA PROFISSÃO E REGULAMENTAD",
-   "valor_total": 6000000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-13",
-   "vigencia_fim": "2031-05-13",
-   "publicado": "2026-05-15",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394502001205/2026/1",
-   "dist_km": 316,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:06115307000114/2026/136",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "Timon",
-   "orgao": "MUNICIPIO DE TIMON",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "contratacao de empresa especializada para prestacao de servicos especializados em oftalmologia, compreendendo consultas, exames diagnosticos e procedimentos cirurgicos eletivos, conforme demanda regulada pela Secretaria Municipal de Saude.",
-   "valor_total": 1604086.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-14",
-   "vigencia_fim": "2027-05-14",
-   "publicado": "2026-05-19",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/06115307000114/2026/136",
-   "dist_km": 1899,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/339",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 13000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-23",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-19",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/339",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/333",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 4828.23,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-20",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-19",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/333",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/332",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 4828.23,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-13",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-19",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/332",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/331",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 4828.23,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-13",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-19",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/331",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:31974558000100/2025/21",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Conceição do Mato Dentro",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO MEDIO ESPINHACO - CISAME",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOA FÍSICA OU JURÍDICA PARA REALIZAÇÃO DE PROCEDIMENTOS OFTALMOLÓGICOS (CONSULTAS, EXAMES E CIRURGIAS) CONFORME PREVISTO NO ANEXO II DESTE EDITAL..",
-   "valor_total": 669399.03,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-11-03",
-   "vigencia_fim": "2026-11-02",
-   "publicado": "2025-11-10",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/31974558000100/2025/21",
-   "dist_km": 585,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/324",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 50288.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-08",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-18",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/324",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/213",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 52000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-06",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-03-30",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/213",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:88702089000189/2026/63",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RS",
-   "municipio": "Panambi",
-   "orgao": "MUNICIPIO DE PANAMBI",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Credenciamento para prestação de serviços médicos para atendimentos eletivos nas especialidades de: Cardiologista e Exames Cardiológicos, Oftalmologista e Exames Oftalmológicos, Otorrinolaringologista, Urologista, Vascular, Ginecologista e Exames Ginecológicos, e Médico Auxiliar em Cirurgia, bem como exames de Endoscopia e Colonoscopia no Município de Panambi.",
-   "valor_total": 1.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-15",
-   "vigencia_fim": "2031-05-15",
-   "publicado": "2026-05-15",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/88702089000189/2026/63",
-   "dist_km": 929,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:02056729000105/2026/844",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Rio Verde",
-   "orgao": "MUNICIPIO DE RIO VERDE",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "PRESTAÇÃO DE SERVIÇOS MÉDICOS COMO PESSOA JURÍDICA (EQUIPE) NA ÁREA DE OFTALMOLOGIA, JUNTO A UNIDADE PRÓPRIA, NA REALIZAÇÃO DE PROCEDIMENTOS CIRÚRGICOS E EXAMES, REFERENTE AO RECURSO FINANCEIRO PROVENIENTE DA EMENDA IMPOSITIVA Nº19/2025, PROPOSTA 16, PELO PERÍODO DE 01/04/2026 À 31/12/2026, CONFORME O EDITAL DE CREDENCIAMENTO 003/2024.",
-   "valor_total": 443217.33,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-01",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-14",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/02056729000105/2026/844",
-   "dist_km": 462,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:00394544000185/2026/4521",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "MINISTERIO DA SAUDE",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "CONTRATAÇÃO DE MICROSCÓPIO CIRÚRGICO OFTALMOLÓGICO",
-   "valor_total": 14450000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-13",
-   "vigencia_fim": "2027-05-13",
-   "publicado": "2026-05-14",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394544000185/2026/4521",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:00697295000105/2026/29",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "AM",
-   "municipio": "Manaus",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE - SUSAM",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contração por meio de credenciamento de pessoa jurídica especializada para realização de forma direta os procedimento cirúrgico na especialidade de Cirurgia oftalmológica.",
-   "valor_total": 1543200.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-26",
-   "vigencia_fim": "2027-01-26",
-   "publicado": "2026-05-13",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00697295000105/2026/29",
-   "dist_km": 2372,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:13908702000110/2026/11",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "BA",
-   "municipio": "Campo Formoso",
-   "orgao": "MUNICIPIO DE CAMPO FORMOSO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS PRESTADORAS DE SERVIÇOS DE SAÚDE, DEVIDAMENTE REGISTRADAS E HABILITADAS PARA A EXECUÇÃO DOS SERVIÇOS, INTERESSADAS EM FIRMAR CONTRATO COM A SECRETARIA MUNICIPAL DE SAÚDE DE CAMPO FORMOSO, VISANDO À PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONSULTAS, EXAMES DIAGNÓSTICOS E PROCEDIMENTOS TERAPÊUTICOS E CIRÚRGICOS AMBULATORIAIS, DE MÉDIA E ALTA COMPLEXIDADE, NA ÁREA DE OFTALMOLOGIA, A SEREM REALIZADOS EM UNIDADES PÚBLICAS DO MUNICÍPIO, ESPECIALMENTE NO CENTRO DE SAÚDE OCULAR E NA POLICLÍNICA MUNICIPAL DE CAMPO FORMOSO",
-   "valor_total": 264000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-03",
-   "vigencia_fim": "2027-02-01",
-   "publicado": "2026-05-12",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/13908702000110/2026/11",
-   "dist_km": 1481,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:07663917000115/2024/213",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Cruz",
-   "orgao": "MUNICIPIO DE CRUZ",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "LOTE 4 - CIRURGIA DO APARELHO GENITURINARIO | LOTE 5 - CIRURGIA DE PELE. TECIDO SUBCUTANEO E MUCOSA | LOTE 2 - CIRURGIAS ELETIVAS (PACIENTES ADULTOS E PEDIÁTRICOS) | LOTE 1 - CIRURGIAS DO SISTEMA OSTEOMUSCULAR | LOTE 6 - CIRURGIA DAS VIAS ÁREAS SUPERIORES. FACE, CABEÇA E PESCOÇO | LOTE 10-CIRURGIAS. INTESTINOS, RETO E ÂNUS | LOTE 7- OUTROS EXAMES | LOTE 3 - CIRURGIA DO APARELHO CIRCULATÓRIO | LOTE 9 – CONSULTAS | LOTE 8 - CIRURGIAS OFTALMOLOGICAS",
-   "valor_total": 2681579.33,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2024-02-09",
-   "vigencia_fim": "2027-02-07",
-   "publicado": "2026-05-11",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07663917000115/2024/213",
-   "dist_km": 2230,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:26963645000113/2026/26",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "CAMARA LEGISLATIVA DO DISTRITO FEDERAL",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "O presente instrumento tem por objetivo o Credenciamento do prestador de serviços médico-hospitalares, nas especialidasdes de Angiologia, Cirurgias (Buco Maxilo Facial, do Aparelho Digestivo, Geral, Plástica Reparadora, Vascular), Dermatologia, Ginecologia, Mastologia, Nefrologia, Oftalmologia, Ortopedia, Otorrinolaringologia, Proctologia e Urologia aos beneficiários do Fascal, em conformidade com as especificações do Edital de Credenciamento nº 01/2026 e seu Termo de Referência.",
-   "valor_total": 1.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-06",
-   "vigencia_fim": "2031-05-05",
-   "publicado": "2026-05-08",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/26963645000113/2026/26",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/316",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 5175.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-28",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-07",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/316",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:11359904000124/2026/45",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "TO",
-   "municipio": "Colinas do Tocantins",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CONTRATO ADMINISTRATIVO PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS NA ÁREA DE SAÚDE, PARA PRESTAR SERVIÇOS DE CONSULTAS COM EXAMES, CIRURGIAS E DEMAIS PROCEDIMENTOS ESPECIALIZADOS EM OFTALMOLOGIA, EM ATENDIMENTO AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE COLINAS DO TOCANTINS/TO, QUE FAZEM ENTRE SI, O FUNDO MUNICIPAL DE SAÚDE DE COLINAS DO TOCANTINS/TO E A EMPRESA INSIDE INSTITUTO NACIONAL DE SAUDE, INOVACAO, DESENVOLVIMENTO E EDUCACAO.",
-   "valor_total": 984470.49,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-06",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-06",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11359904000124/2026/45",
-   "dist_km": 1469,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/292",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 4828.23,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-18",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-05",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/292",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:05105200000122/2026/27",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "PA",
-   "municipio": "Muaná",
-   "orgao": "MUNICIPIO DE MUANA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CONTRATAÇÃO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇOS DE CONSULTAS, EXAMES E CIRURGIAS OFTALMOLÓGICAS, COM VISTAS A ATENDER AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE MUANÁ/PA",
-   "valor_total": 619803.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-16",
-   "vigencia_fim": "2027-04-15",
-   "publicado": "2026-05-05",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/05105200000122/2026/27",
-   "dist_km": 2195,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/72",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 32500.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-02",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-02-21",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/72",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:05105200000122/2026/23",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "PA",
-   "municipio": "Muaná",
-   "orgao": "MUNICIPIO DE MUANA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CONTRATAÇÃO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇOS DE CONSULTAS, EXAMES E CIRURGIAS OFTALMOLÓGICAS, COM VISTAS A ATENDER AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE MUANÁ/PA",
-   "valor_total": 619803.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-15",
-   "vigencia_fim": "2027-04-14",
-   "publicado": "2026-04-23",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/05105200000122/2026/23",
-   "dist_km": 2195,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:08435209000190/2026/95",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "SC",
-   "municipio": "Criciúma",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA/SC",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Inexigibilidade de Licitação, através de CREDENCIAMENTO de prestadores da Clínica de Olhos Pereira LTDA, inscrita no CNPJ nº 00.583.332/0001-46, especialista em Oftalmologia e instalada na Rua João Cechinel, nº 71, Bairro Centro, Criciúma/SC, CEP 88.811-450 para atendimento Ambulatorial e Hospitalar, para pacientes do Sistema Único de Saúde – SUS, na Especialidade de Oftalmologia, relativo aos Grupos 02 (Procedimentos com finalidade diagnóstica), 03 (Procedimentos Clínicos), 04 e 05 (Procedimentos Cirúrgicos), da Tabela de Procedimentos, Medicamentos e OPM – SIGTAP/SUS e DELIBERAÇÃO 744/CIB/20",
-   "valor_total": 3438296.4,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-18",
-   "vigencia_fim": "2027-02-18",
-   "publicado": "2026-04-22",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08435209000190/2026/95",
-   "dist_km": 828,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:11339827000140/2026/12",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "PE",
-   "municipio": "Recife",
-   "orgao": "DIRETORIA  DE APOIO ADMINISTRATIVO AO SISTEMA DE SAUDE-DASIS",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Serviços especializados em consultas, exames complementares e procedimentos cirúrgicos na especialidade de oftalmologia",
-   "valor_total": 1200000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-16",
-   "vigencia_fim": "2027-04-15",
-   "publicado": "2026-04-17",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11339827000140/2026/12",
-   "dist_km": 2072,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:contrato:17888108000165/2026/51",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Aguanil",
-   "orgao": "MUNICIPIO DE AGUANIL",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CONTRATACAO DE PESSOAS FISICAS E/OU JURIDICAS PARA PRESTACAO DE SERVICOS DE MEDICOS ESPECIALIZADOS EM NEUROLOGIA, ORTOPEDIA, OFTALMOLOGIA, PEDIATRIA, PEQUENAS CIRURGIAS E REUMATOLOGIA DESTINADOS AOS PACIENTES ENCAMINHADOS PELA SECRETARIA MUNICIPAL DE SAUDE DE AGUANIL",
-   "valor_total": 103500.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-06",
-   "vigencia_fim": "2027-03-06",
-   "publicado": "2026-04-17",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/17888108000165/2026/51",
-   "dist_km": 324,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:11447284000185/2026/5",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "SE",
-   "municipio": "Lagarto",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Credenciamento de empresas privadas com ou sem fins lucrativos, para prestação de serviços técnicos especializados na área da oftalmologia para realização de consultas, diagnóstico, exames e procedimentos cirúrgicos, no âmbito do Sistema Único de Saúde (SUS), para atendimento à população do município de Lagarto-SE, conforme condições, quantidades e exigências estabelecidas neste Edital e seus anexos, em conformidade com as especificações técnicas constantes do Edital de Credenciamento nº 02/2025/FMS e seu respectivo Termo de Referência.",
-   "valor_total": 5083966.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-27",
-   "vigencia_fim": "2027-02-26",
-   "publicado": "2026-04-16",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11447284000185/2026/5",
-   "dist_km": 1630,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:15024045000173/2026/17",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MT",
-   "municipio": "Nova Xavantina",
-   "orgao": "MUNICIPIO DE NOVA XAVANTINA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CHAMAMENTO PÚBLICO NA FORMA DE PESSOAS JURÍDICAS PARA A PRESTAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS, ABRANGENDO ATENDIMENTOS NAS ÁREAS DE OFTALMOLOGIA, ANGIOLOGIA (VASCULAR), CARDIOLOGIA, HEMODINÂMICA, BEM COMO A REALIZAÇÃO DE EXAMES COMPLEMENTARES, TAIS COMO ECOCARDIOGRAMA, ULTRASSONOGRAFIA, COLONOSCOPIA E ENDOSCOPIA, ALÉM DA EXECUÇÃO DE PROCEDIMENTOS CIRÚRGICOS POR PROFISSIONAIS ESPECIALISTAS EM OFTALMOLOGIA, OTORRINOLARINGOLOGIA, E CIRURGIA VASCULAR, VISANDO ATENDER ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE NOVA XAVANTINA-MT.",
-   "valor_total": 1107502.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-10",
-   "vigencia_fim": "2027-04-10",
-   "publicado": "2026-04-15",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/15024045000173/2026/17",
-   "dist_km": 838,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:15024045000173/2026/16",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MT",
-   "municipio": "Nova Xavantina",
-   "orgao": "MUNICIPIO DE NOVA XAVANTINA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CHAMAMENTO PÚBLICO NA FORMA DE PESSOAS JURÍDICAS PARA A PRESTAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS, ABRANGENDO ATENDIMENTOS NAS ÁREAS DE OFTALMOLOGIA, ANGIOLOGIA (VASCULAR), CARDIOLOGIA, HEMODINÂMICA, BEM COMO A REALIZAÇÃO DE EXAMES COMPLEMENTARES, TAIS COMO ECOCARDIOGRAMA, ULTRASSONOGRAFIA, COLONOSCOPIA E ENDOSCOPIA, ALÉM DA EXECUÇÃO DE PROCEDIMENTOS CIRÚRGICOS POR PROFISSIONAIS ESPECIALISTAS EM OFTALMOLOGIA, OTORRINOLARINGOLOGIA, E CIRURGIA VASCULAR, VISANDO ATENDER ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE NOVA XAVANTINA-MT.",
-   "valor_total": 735551.1,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-10",
-   "vigencia_fim": "2027-04-10",
-   "publicado": "2026-04-15",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/15024045000173/2026/16",
-   "dist_km": 838,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/284",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 5500.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-10",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-04-14",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/284",
-   "dist_km": 262,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
-   "id": "map:contrato:18151467000106/2026/283",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Futura e eventual contratação de pessoa jurídica especializada para realização de exames, procedimentos médicos e cirurgias na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 5500.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-10",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-04-14",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/283",
    "dist_km": 262,
    "primeira_vez": "2026-11-08",
    "termos": [
@@ -37663,6 +35329,35 @@
    "credenciamento_aberto": false
   },
   {
+   "id": "map:ata:24082016000159/2025/497/1",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Ata de registro de preços",
+   "uf": "SP",
+   "municipio": "Marília",
+   "orgao": "HOSPITAL DAS CLINICAS DA FACULDADE DE MEDICINA DE MARILIA - HCFAMEMA",
+   "modalidade": "Ata de registro de preços · Pregão - Eletrônico",
+   "objeto": "Facoemulsificador com Comodato",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-01-07",
+   "vigencia_fim": "2028-01-09",
+   "publicado": "2026-01-08",
+   "vencedores": [],
+   "fornecedor_cnpj": "",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/atas/24082016000159/2025/497/1",
+   "dist_km": 184,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "credenciamento_aberto": false
+  },
+  {
    "id": "map:ata:00394452000103/2026/14947/3",
    "fonte": "Mapeamento",
    "categoria": "Catarata",
@@ -37809,35 +35504,6 @@
    "termos": [
     "facoemulsificação",
     "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false
-  },
-  {
-   "id": "map:ata:24082016000159/2025/497/1",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Ata de registro de preços",
-   "uf": "SP",
-   "municipio": "Marília",
-   "orgao": "HOSPITAL DAS CLINICAS DA FACULDADE DE MEDICINA DE MARILIA - HCFAMEMA",
-   "modalidade": "Ata de registro de preços · Pregão - Eletrônico",
-   "objeto": "Facoemulsificador com Comodato",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-01-07",
-   "vigencia_fim": "2027-01-09",
-   "publicado": "2026-01-08",
-   "vencedores": [],
-   "fornecedor_cnpj": "",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/atas/24082016000159/2025/497/1",
-   "dist_km": null,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "facoemulsificação"
    ],
    "credenciamento_aberto": false
   },
@@ -39440,7 +37106,7 @@
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": false,
    "erro": "Coleta incompleta; dados anteriores preservados",
-   "itens": 231
+   "itens": 228
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
@@ -39457,8 +37123,8 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "obs": "atualizado uma vez por dia",
-   "itens": 399
+   "itens": 325,
+   "parcial": "2 de 20 consultas sem resposta"
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -39595,6 +37261,6 @@
    "itens": 0
   }
  ],
- "rodada": "43115623613",
- "concluido": "2026-11-11 20:09"
+ "rodada": "43151827001",
+ "concluido": "2026-11-12 01:12"
 }
