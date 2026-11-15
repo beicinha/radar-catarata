@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14 17:40",
+ "atualizado": "2026-11-14 21:26",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -22497,60 +22497,6 @@
    }
   },
   {
-   "id": "dou:https://data.queridodiario.ok.org.br/3111200/2026-09-14/2a442b491fdc564f70cf9b681632b8a8ee534dd8.pdf",
-   "fonte": "Diário Oficial",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Campo Belo",
-   "orgao": "Diário Oficial de Campo Belo",
-   "modalidade": "Publicação no diário",
-   "objeto": "Município de Campo Belo/MG; Espécie: Contrato nº 232/2026, firmado em 14/09/2026, com HUMBERTO FERREIRA PARDINI LTDA – ME; Objeto: Credenciamento de pessoas jurídicas ou físicas para prestação de serviços médicos em consultas especializadas em oftalmologia, destinadas a pacientes encaminhados pela Secretaria Municipal de Saúde, nos termos do decreto n°3.188 de 14 de janeiro de 2016. Amparo: Inexigibilidade nº 024/2021; Processo: 103/2021; Vigência: 31/12/2026; Signatários: pelo Contratante, Darcy",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "publicado": "2026-09-14",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://data.queridodiario.ok.org.br/3111200/2026-09-14/2a442b491fdc564f70cf9b681632b8a8ee534dd8.pdf",
-   "dist_km": 337,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "oftalmologia"
-   ],
-   "estr": {
-    "publico": 0,
-    "filantropico": 1,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
-    "est": [
-     {
-      "cnes": 2192020,
-      "nome": "Santa Casa De Campo Belo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(35) 38317800"
-     },
-     {
-      "cnes": 2160951,
-      "nome": "Hospital Sao Lucas Ltda",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(35)3831-1038"
-     }
-    ],
-    "data": "2026-10-18"
-   }
-  },
-  {
    "id": "dou:https://data.queridodiario.ok.org.br/3305505/2026-10-28/431cb328722a0aee6b9b087e13324cda833247ef.pdf",
    "fonte": "Diário Oficial",
    "categoria": "Oftalmologia",
@@ -39271,9 +39217,8 @@
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
-   "itens": 14
+   "ok": true,
+   "itens": 13
   },
   {
    "nome": "Diários Oficiais – associações de municípios",
@@ -39325,7 +39270,8 @@
   },
   {
    "nome": "AME Ituverava (Santa Casa de Ituverava)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 0
   },
   {
@@ -39422,6 +39368,6 @@
    "itens": 0
   }
  ],
- "rodada": "43638670544",
- "concluido": "2026-11-14 17:57"
+ "rodada": "43658105543",
+ "concluido": "2026-11-14 21:33"
 }
