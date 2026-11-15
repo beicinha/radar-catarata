@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14 21:26",
+ "atualizado": "2026-11-15 04:07",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -9825,91 +9825,6 @@
       "olho": false,
       "sus": true,
       "tel": "(65)3311-1996"
-     }
-    ],
-    "data": "2026-10-18"
-   }
-  },
-  {
-   "id": "pncp:02031332000169/2025/54",
-   "fonte": "PNCP",
-   "categoria": "Catarata",
-   "uf": "MG",
-   "municipio": "João Monlevade",
-   "orgao": "CONSORCIO INTERMUNICIPAL DE SAUDE DO MEDIO PIRACICABA",
-   "modalidade": "Credenciamento",
-   "objeto": "O Presente Procedimento Auxiliar de Credenciamento tem por objeto a Contratação de empresa para prestação de serviços de Cirurgia Faco Emulsificação com Implante de Lente Intraocular e demais procedimentos oftalmológicos para atendimento nos municípios consorciados do CISMEPI (CATAS ALTAS, BELA VISTA DE MINAS, NOVA ERA, JOÃO MONLEVADE, RIO PIRACICABA E SÃO DOMINGOS DO PRATA), conforme discriminado nos Anexos, que são partes integrantes do presente edital.",
-   "valor_total": 1499600.0,
-   "faco": {
-    "valor": 914.0,
-    "qtd": 1000.0,
-    "desc": "Faco Emulsificação Com Implante De Lente Intraocular Com Cobertura Dos Procedimentos : Avaliação Pré E Pós Cirúrgica,biometria,tonometria,ma"
-   },
-   "abertura": "2025-11-14T00:00",
-   "encerramento": "2026-11-14T23:59",
-   "publicado": "2025-11-14",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://cismepi.nuvemsitcon.com.br/cismepi/frm_login.php",
-   "link": "https://pncp.gov.br/app/editais/02031332000169/2025/54",
-   "dist_km": 577,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "lente intraocular",
-    "cirurgias oftalmológicas"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [
-     {
-      "r": "Órgão faz o transporte dos pacientes",
-      "t": "…dade e eficiência no atendimento. Cumpre destacar, com vistas à economicidade, que o transporte dos pacientes até os estabelecimentos contratados é realizado diretamente pelos municípios consorcia dos. Assim, a fixação dos atendimentos nos municípios consorciados revela-se a solução mais racional, permitindo melhor aproveitamento dos recursos públicos,…"
-     }
-    ],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…TINA; - PROCEDIMENTO CIRÚRGICO R$ 914,00 - Os atendimentos deverão ser realizados no estabelecimento do Contratado João Monlevade, 07 de novembro de 2025. SAMARA CRISTINA DO SANTOS ELIAS AGENTE DE CONTRATAÇÃO RUA SANTA LÚCIA, 291 – ACLIMAÇÃO – JOÃO MONLEVADE – MG CEP: 35.930 – 117 –…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…os serviços. l) Registro da empresa no Cadastro Nacional de Estabelecimento de Saúde-CNES. m) Declaração de Idoneidade – Anexo IV n) Declaração de Disponibilidade de Atendimento – Anexo VI o) Termo de Adesão – Anexo VII p) Relação de Profissionais – Anexo VII…"
-     }
-    ],
-    "emails": [
-     "comprasreserva2023@gmail.com"
-    ],
-    "lidos": [
-     "Edital_0058/2025"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 1,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
-    "est": [
-     {
-      "cnes": 2709848,
-      "nome": "Hospital Margarida",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)38523144"
-     },
-     {
-      "cnes": 3166074,
-      "nome": "Med Center Joao Monlevade",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(31)38591000"
      }
     ],
     "data": "2026-10-18"
@@ -27790,37 +27705,6 @@
    "credenciamento_aberto": false
   },
   {
-   "id": "map:contrato:25223850000180/2025/228",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Urucuia",
-   "orgao": "MUNICIPIO DE URUCUIA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Credenciamento de pessoas jurídicas para Prestação de serviços na área de saúde, para procedimentos cirúrgicos eletivos, consultas e exames na especialidade de Oftalmologia para Cirurgias de Catarata, aos usuários do Sistema Único de Saúde - SUS",
-   "valor_total": 6559770.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-09-16",
-   "vigencia_fim": "2026-09-15",
-   "publicado": "2025-09-24",
-   "vencedores": [
-    "INSTITUTO BENETTI LTDA"
-   ],
-   "fornecedor_cnpj": "22200159000192",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/25223850000180/2025/228",
-   "dist_km": 641,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true
-  },
-  {
    "id": "map:contrato:00394452000103/2025/5731",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -39213,7 +39097,7 @@
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": false,
    "erro": "Coleta incompleta; dados anteriores preservados",
-   "itens": 218
+   "itens": 217
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
@@ -39229,8 +39113,7 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "obs": "atualizado uma vez por dia",
-   "itens": 407
+   "itens": 406
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -39270,8 +39153,7 @@
   },
   {
    "nome": "AME Ituverava (Santa Casa de Ituverava)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 0
   },
   {
@@ -39286,7 +39168,8 @@
   },
   {
    "nome": "Santa Casa de Assis (AMEs Assis/Botucatu)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 0
   },
   {
@@ -39347,8 +39230,7 @@
   },
   {
    "nome": "FAEPA (AME Taquaritinga)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 0
   },
   {
@@ -39368,6 +39250,6 @@
    "itens": 0
   }
  ],
- "rodada": "43658105543",
- "concluido": "2026-11-14 21:33"
+ "rodada": "43688515202",
+ "concluido": "2026-11-15 04:21"
 }
