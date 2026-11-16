@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16 03:17",
+ "atualizado": "2026-11-16 13:07",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -24104,6 +24104,51 @@
    }
   },
   {
+   "id": "priv:pcp:525083",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "Portal de Compras Públicas",
+   "categoria": "Oftalmologia",
+   "uf": "PA",
+   "municipio": "Curralinho",
+   "orgao": "Prefeitura Municipal de Curralinho",
+   "modalidade": "Credenciamento 003/2026 · Recebendo Propostas",
+   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS DE SAÚDE EM OFTALMOLOGIA, COMPREENDENDO PROCEDIMENTOS DE BAIXA E MÉDIA COMPLEXIDADE (AMBULATORIAIS E HOSPITALARES), PARA ATENDIMENTO DA DEMANDA DA REDE MUNICIPAL DE SAÚDE DE CURRALINHO/PA.",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "2026-11-16T09:24",
+   "encerramento": "2026-11-23T08:59",
+   "publicado": "2026-11-16",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/pa/prefeitura-municipal-de-curralinho-2216/cred-003-2026-2026-525083",
+   "link": "https://www.portaldecompraspublicas.com.br/processos/pa/prefeitura-municipal-de-curralinho-2216/cred-003-2026-2026-525083",
+   "dist_km": 2168,
+   "primeira_vez": "2026-11-16",
+   "termos": [
+    "oftalmol"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2615843,
+      "nome": "Hospital Municipal De Curralinho",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(91)36331134"
+     }
+    ],
+    "data": "2026-11-16"
+   }
+  },
+  {
    "id": "priv:pcp:524616",
    "fonte": "Plataforma privada",
    "plataforma_nome": "Portal de Compras Públicas",
@@ -31547,13 +31592,13 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "itens": 165,
-   "parcial": "1 de 17 consultas sem resposta"
+   "obs": "atualizado uma vez por dia",
+   "itens": 165
   },
   {
    "nome": "Portal de Compras Públicas",
    "ok": true,
-   "itens": 9
+   "itens": 10
   },
   {
    "nome": "BLL Compras",
@@ -31603,8 +31648,7 @@
   },
   {
    "nome": "Santa Casa de Assis (AMEs Assis/Botucatu)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 0
   },
   {
@@ -31685,6 +31729,6 @@
    "itens": 0
   }
  ],
- "rodada": "43815695660",
- "concluido": "2026-11-16 03:26"
+ "rodada": "43903799296",
+ "concluido": "2026-11-16 13:18"
 }
