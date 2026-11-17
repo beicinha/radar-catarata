@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16 13:07",
+ "atualizado": "2026-11-16 21:13",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -31714,8 +31714,7 @@
   },
   {
    "nome": "AME Taquaritinga",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 0
   },
   {
@@ -31729,6 +31728,6 @@
    "itens": 0
   }
  ],
- "rodada": "43903799296",
- "concluido": "2026-11-16 13:18"
+ "rodada": "43985788141",
+ "concluido": "2026-11-16 21:24"
 }
