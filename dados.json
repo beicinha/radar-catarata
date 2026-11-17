@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16 21:13",
+ "atualizado": "2026-11-17 05:08",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -580,212 +580,6 @@
     "total": 0,
     "est": [],
     "data": "2026-10-29"
-   }
-  },
-  {
-   "id": "pncp:17217332000125/2026/111",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "MG",
-   "municipio": "Belo Horizonte",
-   "orgao": "INSTITUTO DE PREVIDENCIA DOS SERVIDORES DO ESTADO MG",
-   "modalidade": "Pregão - Eletrônico",
-   "objeto": "Kit de vitrectomia e para facoemulsificação, lentes intraoculares e outros, necessários à realização dos procedimentos cirúrgicos da Clínica de Oftalmologia do HGIP.",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "2026-10-28T11:25",
-   "encerramento": "2026-11-16T09:00",
-   "publicado": "2026-10-28",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/132/2012015",
-   "link": "https://pncp.gov.br/app/editais/17217332000125/2026/111",
-   "dist_km": 499,
-   "primeira_vez": "2026-10-28",
-   "termos": [
-    "catarata",
-    "cirurgia de catarata",
-    "cirurgias de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
-    "cirurgia de facoemulsificação",
-    "lente intraocular",
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "oftalmo",
-    "cirurgias oftalmológicas"
-   ],
-   "req": {
-    "status": "sem_texto",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "Edital"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 10,
-    "filantropico": 5,
-    "olho": 0,
-    "privado": 0,
-    "total": 103,
-    "est": [
-     {
-      "cnes": 26972,
-      "nome": "Maternidade Odete Valadares",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "313298-6002"
-     },
-     {
-      "cnes": 27987,
-      "nome": "Hospital Da Policia Militar",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "(31)30715308"
-     },
-     {
-      "cnes": 22829,
-      "nome": "Nucleo De Cirurgia Ambulatorial Hospital Dia",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)32775672"
-     },
-     {
-      "cnes": 26921,
-      "nome": "Hospital Joao Xxiii",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)32399228"
-     },
-     {
-      "cnes": 26964,
-      "nome": "Hospital Alberto Cavalcanti",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)34691812"
-     },
-     {
-      "cnes": 27022,
-      "nome": "Hospital Julia Kubitschek",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)33897800"
-     },
-     {
-      "cnes": 518573,
-      "nome": "Posto Medico De Guarnicao De Belo Horizonte",
-      "tipo": "Tipo 1",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": ""
-     },
-     {
-      "cnes": 2181770,
-      "nome": "Hospital Eduardo De Menezes",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)33285000"
-     },
-     {
-      "cnes": 2192896,
-      "nome": "Hospital Metropolitano Odilon Behrens Hob",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)32776181"
-     },
-     {
-      "cnes": 6575560,
-      "nome": "Bh Hospital Governador Israel Pinheiro Hgip",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "32372400"
-     },
-     {
-      "cnes": 26859,
-      "nome": "Hospital Felicio Rocho",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)3514-7117"
-     },
-     {
-      "cnes": 27014,
-      "nome": "Santa Casa De Belo Horizonte",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(31)32388100"
-     },
-     {
-      "cnes": 26794,
-      "nome": "Hospital Sofia Feldman",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 26808,
-      "nome": "Hospital Evangelico De Belo Horizonte",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "31 32733926"
-     },
-     {
-      "cnes": 26840,
-      "nome": "Complexo Hospitalar Sao Francisco",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "31 21261500"
-     }
-    ],
-    "data": "2026-10-18"
    }
   },
   {
@@ -6394,97 +6188,6 @@
     "oftalmologista",
     "cirurgias oftalmológicas"
    ]
-  },
-  {
-   "id": "pncp:46482832000192/2026/807",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "SP",
-   "municipio": "São Sebastião",
-   "orgao": "MUNICIPIO DE SAO SEBASTIAO",
-   "modalidade": "Pregão - Eletrônico",
-   "objeto": "CONTRATACAO DE EMPRESA S ESPECIALIZADA S PARA PRESTACAO DE SERVICOS OFTALMOLOGICOS COMPREENDENDO A REALIZACAO DE CONSULTAS MEDICAS OFTALMOLOGICAS",
-   "valor_total": 8533544.44,
-   "faco": {
-    "valor": 1696.64,
-    "qtd": 1000.0,
-    "desc": "FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRAOCULAR  LENTES INCLUSAS "
-   },
-   "abertura": "2026-10-28T09:00",
-   "encerramento": "2026-11-16T08:00",
-   "publicado": "2026-10-27",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": " ",
-   "link": "https://pncp.gov.br/app/editais/46482832000192/2026/807",
-   "dist_km": 423,
-   "primeira_vez": "2026-10-28",
-   "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
-    "cirurgia de facoemulsificação",
-    "lente intraocular",
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "olho",
-    "olhos",
-    "cirurgia de olho",
-    "cirurgia ocular",
-    "cirurgias oftalmológicas",
-    "pterígio"
-   ],
-   "req": {
-    "status": "sem_texto",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "EDITAL PE 079 2026  SERVICOS OFTALMOLOGICOS"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 1,
-    "olho": 0,
-    "privado": 1,
-    "total": 3,
-    "est": [
-     {
-      "cnes": 265187,
-      "nome": "Hospital De Clinicas De Sao Sebastiao Costa Sul",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 2765934,
-      "nome": "Hospital De Clinicas De Sao Sebastiao",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(12)38933200"
-     },
-     {
-      "cnes": 2747898,
-      "nome": "Inehdi Sao Sebastiao",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(12)38925572"
-     }
-    ],
-    "data": "2026-10-28"
-   }
   },
   {
    "id": "pncp:91110296000159/2026/197",
@@ -23231,54 +22934,6 @@
    }
   },
   {
-   "id": "dou:https://www.diariomunicipal.com.br/femurn/materia/8B756694",
-   "fonte": "Diário Oficial",
-   "categoria": "Oftalmologia",
-   "uf": "RN",
-   "municipio": "Marcelino Vieira",
-   "orgao": "Prefeitura Municipal de Marcelino Vieira",
-   "modalidade": "Diário FEMURN",
-   "objeto": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 16-PE/2026 — COMISSÃO PERMANENTE DE LICITAÇÃO AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 16-PE/2026 O município de Marcelino Vieira-RN através da Secretária Municipal de Saúde, através do Departamento de Licitações em cumprimento a Lei Federal 14.133/2021 art. 28, inciso I, publica o PREGÃO ELETRÔNICO Nº 16-PE/2026. Objeto: contratação de empresa para prestação de serviço médico oftalmológico (Consultas) e fornecimento de óculos de grau para atender as demandas da Secretaria Municipal de Saúde de Marcelino Vieira-RN. O edital e anexos estão disponíveis de 17/09/2026, com abertura em 01/10/2026 às 08:00:00. Informações no portal www.novobbmnetlicitacoes.com.br e Transparência Municipal https://www.marcelinovieira.m.gov.br/licitacaolista.php, PNCP e TCE/RN. Será conduzido por Franck Jackson de Araújo, pregoeiro designado para o ato. Publicado por: F",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "publicado": "2026-09-17",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://www.diariomunicipal.com.br/femurn/materia/8B756694",
-   "dist_km": 2003,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "oftalmologia",
-    "oftalmológicos",
-    "oftalmológicas"
-   ],
-   "diario_rede": "associacoes",
-   "diario_nome": "FEMURN",
-   "estr": {
-    "publico": 1,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 1,
-    "est": [
-     {
-      "cnes": 2380919,
-      "nome": "Hospital Maternidade Padre Agnelo Fernandes",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(84)3852252"
-     }
-    ],
-    "data": "2026-11-08"
-   }
-  },
-  {
    "id": "dou:https://www.diariomunicipal.com.br/famurs/materia/5B610D71",
    "fonte": "Diário Oficial",
    "categoria": "Oftalmologia",
@@ -29805,6 +29460,64 @@
    "credenciamento_aberto": false
   },
   {
+   "id": "map:ata:15126437000305/2026/4591/4",
+   "fonte": "Mapeamento",
+   "categoria": "Oftalmologia",
+   "tipo_mapa": "Ata de registro de preços",
+   "uf": "MG",
+   "municipio": "Uberlândia",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "modalidade": "Ata de registro de preços · Dispensa",
+   "objeto": "INSTRUMENTAIS CIRÚRGICOS UTILIZADOS EM CIRURGIAS OFTALMOLÓGICAS II",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-11-13",
+   "vigencia_fim": "2027-11-16",
+   "publicado": "2026-11-16",
+   "vencedores": [],
+   "fornecedor_cnpj": "",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/atas/15126437000305/2026/4591/4",
+   "dist_km": 262,
+   "primeira_vez": "2026-11-17",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false
+  },
+  {
+   "id": "map:ata:15126437000305/2026/4623/6",
+   "fonte": "Mapeamento",
+   "categoria": "Oftalmologia",
+   "tipo_mapa": "Ata de registro de preços",
+   "uf": "MG",
+   "municipio": "Uberlândia",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "modalidade": "Ata de registro de preços · Dispensa",
+   "objeto": "INSTRUMENTAIS CIRÚRGICOS UTILIZADOS EM CIRURGIAS OFTALMOLÓGICAS I",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-11-13",
+   "vigencia_fim": "2027-11-16",
+   "publicado": "2026-11-16",
+   "vencedores": [],
+   "fornecedor_cnpj": "",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/atas/15126437000305/2026/4623/6",
+   "dist_km": 262,
+   "primeira_vez": "2026-11-17",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false
+  },
+  {
    "id": "map:ata:15126437000305/2026/4591/3",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -31389,37 +31102,6 @@
    "credenciamento_aberto": true
   },
   {
-   "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/92EFC8A4",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "uf": "PA",
-   "municipio": "Senador José Porfirio",
-   "orgao": "Prefeitura Municipal de Senador José Porfirio",
-   "modalidade": "Diário FAMEP",
-   "objeto": "AVISO DE RESULTADO DE CREDENCIAMENTO — FUNDO MUNICIPAL DE SAÚDE DE SENADOR JOSÉ PORFÍRIO AVISO DE RESULTADO DE CREDENCIAMENTO AVISO DE RESULTADO DE CREDENCIAMENTO Nº 003/2026 – FMS/SJP PROCESSO ADMINISTRATIVO Nº: 088/2026. Objeto: CREDENCIAMENTO DE PRESTADORES PARA REALIZAÇÃO DE CONSULTAS OFTALMOLÓGICAS PRÉ E PÓS-OPERATÓRIAS E CIRURGIA DE CATARATA COM LENTE FLEXÍVEL PARA ATENDER A REDE DE SAÚDE MUNICIPAL DE SENADOR JOSÉ PORFÍRIO/PA. Torna público o resultado da sessão de análise realizada em 16/09/2026, via plataforma LICITANET (www.licitanet.com.br): HABILITADA a empresa SOMA PRO SOLUÇÕES INTEGRADAS LTDA, CNPJ nº 60.448.559/0001-00, nos Itens 1 (Consulta Oftalmológica Pré e Pós-operatória – R$ 200,00) e 2 (Cirurgia de Catarata com Lente Flexível – R$ 1.830,00), por atender aos requisitos de habilitação exigidos no instrumento convocatório. O credenciamento permanece aberto para adesão d",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "publicado": "2026-09-17",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://www.diariomunicipal.com.br/famep/materia/92EFC8A4",
-   "dist_km": 1914,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "oftalmologia",
-    "oftalmológicos",
-    "oftalmológicas"
-   ],
-   "diario_rede": "associacoes",
-   "diario_nome": "FAMEP",
-   "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
-  },
-  {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/63D0F0B1",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -31575,7 +31257,7 @@
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": false,
    "erro": "Coleta incompleta; dados anteriores preservados",
-   "itens": 217
+   "itens": 215
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
@@ -31587,13 +31269,13 @@
    "nome": "Diários Oficiais – associações de municípios",
    "ok": true,
    "associacoes": 12,
-   "itens": 53
+   "itens": 51
   },
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "obs": "atualizado uma vez por dia",
-   "itens": 165
+   "itens": 167,
+   "parcial": "1 de 17 consultas sem resposta"
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -31728,6 +31410,6 @@
    "itens": 0
   }
  ],
- "rodada": "43985788141",
- "concluido": "2026-11-16 21:24"
+ "rodada": "44044177793",
+ "concluido": "2026-11-17 05:21"
 }
