@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18 13:34",
+ "atualizado": "2026-11-18 20:06",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -21650,6 +21650,61 @@
    }
   },
   {
+   "id": "dou:https://data.queridodiario.ok.org.br/2907806/2026-11-18/3a87a5e98f393757fe4a6c5d4b9fcfb78a40a2a2.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "BA",
+   "municipio": "Cícero Dantas",
+   "orgao": "Diário Oficial de Cícero Dantas",
+   "modalidade": "Publicação no diário",
+   "objeto": "JULGAMENTO DE RECURSO ADMINISTRATIVO CREDENCIAMENTO ELETRÔNICO Nº CD003/2026PMCD PROCESSO ADMINISTRATIVO Nº 115/2026 RECORRENTE: INOVAMED SOLUÇÕES EM SAÚDE INTEGRADA LTDA CNPJ: 58.515.814/0001-49 EMPRESA HABILITADA E CONTRATADA: SANTA LUZIA OFTALMOLOGIA LTDA CNPJ: 57.843.006/0001-48 OBJETO: CREDENCIAMENTO DE PESSOAS JURÍDICAS ESPECIALIZADAS PARA A PRESTAÇÃO COMPLEMENTAR DE SERVIÇOS AMBULATORIAIS DE SAÚDE DESTINADOS À REALIZAÇÃO DE TRATAMENTO ESCLEROSANTE NÃO ESTÉTICO DE VARIZES DOS MEMBROS",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-11-18",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/2907806/2026-11-18/3a87a5e98f393757fe4a6c5d4b9fcfb78a40a2a2.pdf",
+   "dist_km": 1605,
+   "primeira_vez": "2026-11-18",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia",
+    "oftalmologia"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2532522,
+      "nome": "Hospital Municipal Luiz Eduardo Magalhaes",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "75-32782248"
+     },
+     {
+      "cnes": 9194541,
+      "nome": "Mais Saude Policlinica",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "75 32781612"
+     }
+    ],
+    "data": "2026-11-07"
+   }
+  },
+  {
    "id": "dou:https://data.queridodiario.ok.org.br/3554102/2026-11-04/c7146eda7605f677aff5b66e364ba91b373e5b78.pdf",
    "fonte": "Diário Oficial",
    "categoria": "Oftalmologia",
@@ -21967,6 +22022,61 @@
      }
     ],
     "data": "2026-10-28"
+   }
+  },
+  {
+   "id": "dou:https://data.queridodiario.ok.org.br/2930105/2026-11-17/3799ed2ea885e279608a1a6a9a37d06cb4a65a2b.pdf",
+   "fonte": "Diário Oficial",
+   "categoria": "Oftalmologia",
+   "uf": "BA",
+   "municipio": "Senhor do Bonfim",
+   "orgao": "Diário Oficial de Senhor do Bonfim",
+   "modalidade": "Publicação no diário",
+   "objeto": "nº 14.133/2021, no Decreto Federal nº 11.878/2024 e nas disposições do Edital de Credenciamento nº 017/2026 e seu Termo de Referência, o Agente de Contratação decide: 1. CONHECER da impugnação apresentada pela empresa CLÍNICA MÉDICA E OFTALMOLÓGICA DE SENHOR DO BONFIM LTDA, por ser tempestiva e interposta por parte legítima; 2. NO MÉRITO, NEGAR-LHE PROVIMENTO (IMPROCEDÊNCIA), mantendo-se inalteradas as cláusulas do Edital de Credenciamento nº 017/2026 e do Termo de Referência, bem",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "2026-11-17",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://data.queridodiario.ok.org.br/2930105/2026-11-17/3799ed2ea885e279608a1a6a9a37d06cb4a65a2b.pdf",
+   "dist_km": 1494,
+   "primeira_vez": "2026-11-18",
+   "termos": [
+    "cirurgias eletivas\" oftalmologia",
+    "oftalmológica"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2770512,
+      "nome": "Hospital Estadual Dom Antonio Monteiro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(74)5414121"
+     },
+     {
+      "cnes": 2515067,
+      "nome": "Hospital E Maternidade Dr Paulo Hilariao",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "7435415757"
+     }
+    ],
+    "data": "2026-11-18"
    }
   },
   {
@@ -23588,7 +23698,7 @@
    "uf": "PA",
    "municipio": "Curralinho",
    "orgao": "Prefeitura Municipal de Curralinho",
-   "modalidade": "Credenciamento 003/2026 · Recebendo Propostas",
+   "modalidade": "Credenciamento 003/2026 · Sessão Pública Iniciada",
    "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS DE SAÚDE EM OFTALMOLOGIA, COMPREENDENDO PROCEDIMENTOS DE BAIXA E MÉDIA COMPLEXIDADE (AMBULATORIAIS E HOSPITALARES), PARA ATENDIMENTO DA DEMANDA DA REDE MUNICIPAL DE SAÚDE DE CURRALINHO/PA.",
    "valor_total": null,
    "faco": null,
@@ -38608,9 +38718,8 @@
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
-   "itens": 12
+   "ok": true,
+   "itens": 14
   },
   {
    "nome": "Diários Oficiais – associações de municípios",
@@ -38733,7 +38842,8 @@
   },
   {
    "nome": "FUNCAMP (AME Limeira)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 1
   },
   {
@@ -38757,6 +38867,6 @@
    "itens": 0
   }
  ],
- "rodada": "44348708551",
- "concluido": "2026-11-18 13:50"
+ "rodada": "44417740536",
+ "concluido": "2026-11-18 20:22"
 }
