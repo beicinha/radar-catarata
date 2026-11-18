@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17 14:41",
+ "atualizado": "2026-11-17 21:01",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -812,7 +812,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -987,7 +987,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1072,7 +1072,7 @@
       "tel": "18-3654-2155"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1183,7 +1183,7 @@
       "tel": "(84) 32732399"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1375,7 +1375,7 @@
       "tel": "(91)35561388"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1465,7 +1465,7 @@
       "tel": "(16)39519020"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1566,16 +1566,6 @@
     "total": 12,
     "est": [
      {
-      "cnes": 8385734,
-      "nome": "Hospital Estadual Materno Infantil De Maraba Hemim",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
       "cnes": 116335,
       "nome": "Hospital De Campanha Covid 19 Maraba",
       "tipo": "Hospital geral",
@@ -1636,13 +1626,23 @@
       "tel": "9433225157"
      },
      {
+      "cnes": 8385734,
+      "nome": "Hospital Estadual Materno Infantil De Maraba Hemim",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
       "cnes": 9229329,
       "nome": "Vision Clinica Integrada",
       "tipo": "Clínica especializada",
       "hosp": true,
       "nat": "privado",
       "olho": true,
-      "sus": false,
+      "sus": true,
       "tel": "94 32216552"
      },
      {
@@ -1686,7 +1686,7 @@
       "tel": "94 991563298"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1763,7 +1763,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1841,7 +1841,7 @@
       "tel": "(31)38681582"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -1949,7 +1949,7 @@
       "tel": "(81)36349192"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2019,7 +2019,7 @@
       "tel": "(88) 3418.1388"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2119,7 +2119,7 @@
       "tel": "9433051123"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2198,7 +2198,7 @@
       "tel": "(88) 6171100"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2300,7 +2300,7 @@
       "tel": "(38)32281076"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2400,7 +2400,7 @@
       "tel": "(62)6911128"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2501,7 +2501,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2592,7 +2592,7 @@
       "tel": "8135194776"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2711,16 +2711,6 @@
       "tel": "(93)30675157"
      },
      {
-      "cnes": 9838988,
-      "nome": "Oculare Clinica De Olhos",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "93 992013732"
-     },
-     {
       "cnes": 2852969,
       "nome": "Vida Oftalmologia",
       "tipo": "Clínica especializada",
@@ -2771,14 +2761,14 @@
       "tel": "93-3522-3684"
      },
      {
-      "cnes": 4866916,
-      "nome": "Unimed Oeste Do Para Cooperativa De Trabalho Medico Centro",
-      "tipo": "Hospital geral",
+      "cnes": 9838988,
+      "nome": "Oculare Clinica De Olhos",
+      "tipo": "Clínica especializada",
       "hosp": true,
       "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "93 21019024"
+      "olho": true,
+      "sus": false,
+      "tel": "93 992013732"
      },
      {
       "cnes": 2329913,
@@ -2819,9 +2809,19 @@
       "olho": false,
       "sus": true,
       "tel": ""
+     },
+     {
+      "cnes": 4866916,
+      "nome": "Unimed Oeste Do Para Cooperativa De Trabalho Medico Centro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "93 21019024"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2898,7 +2898,7 @@
       "tel": "(31) 3872-1233"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -2971,7 +2971,7 @@
       "tel": "(97)34641222"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3033,7 +3033,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3138,26 +3138,6 @@
       "tel": ""
      },
      {
-      "cnes": 7347219,
-      "nome": "Clinica Gaster",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "91 37291985"
-     },
-     {
-      "cnes": 8312559,
-      "nome": "Day Clinic Paragominas",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": ""
-     },
-     {
       "cnes": 221759,
       "nome": "Hospital Geral De Paragominas",
       "tipo": "Hospital geral",
@@ -3206,9 +3186,29 @@
       "olho": false,
       "sus": false,
       "tel": "9137397727"
+     },
+     {
+      "cnes": 7347219,
+      "nome": "Clinica Gaster",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "91 37291985"
+     },
+     {
+      "cnes": 8312559,
+      "nome": "Day Clinic Paragominas",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3294,16 +3294,6 @@
     "total": 4,
     "est": [
      {
-      "cnes": 6292976,
-      "nome": "Cisnorte",
-      "tipo": "Serviço de diagnóstico",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "0313832312071"
-     },
-     {
       "cnes": 2119420,
       "nome": "Hospital Municipal Senhora Santana",
       "tipo": "Hospital geral",
@@ -3312,6 +3302,16 @@
       "olho": false,
       "sus": true,
       "tel": "(38)32311803"
+     },
+     {
+      "cnes": 6292976,
+      "nome": "Cisnorte",
+      "tipo": "Serviço de diagnóstico",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "0313832312071"
      },
      {
       "cnes": 8181101,
@@ -3334,7 +3334,7 @@
       "tel": "38 32232998"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3627,7 +3627,7 @@
       "tel": "(63) 3692-2899"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3687,7 +3687,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3765,7 +3765,7 @@
       "tel": "85 33452320"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3880,7 +3880,7 @@
       "tel": "(38) 3841-3071"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -3984,7 +3984,7 @@
       "tel": "(85)3366060"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4176,7 +4176,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4253,7 +4253,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4322,7 +4322,7 @@
       "tel": "(64) 3496-1169"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4409,7 +4409,7 @@
       "tel": "33 32613115"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4488,7 +4488,7 @@
       "tel": "(93)991968714"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4570,7 +4570,7 @@
       "tel": "(88) 9983587109"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4642,7 +4642,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4742,16 +4742,6 @@
       "tel": ""
      },
      {
-      "cnes": 3050297,
-      "nome": "Hospital E Clinicas Santa Paula",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
       "cnes": 2761068,
       "nome": "Hospital Renascentista",
       "tipo": "Hospital geral",
@@ -4760,6 +4750,16 @@
       "olho": false,
       "sus": false,
       "tel": "35 3447 4700"
+     },
+     {
+      "cnes": 3050297,
+      "nome": "Hospital E Clinicas Santa Paula",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": ""
      },
      {
       "cnes": 3189538,
@@ -4782,7 +4782,7 @@
       "tel": "35 34272595"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -4866,9 +4866,9 @@
    "estr": {
     "publico": 4,
     "filantropico": 2,
-    "olho": 3,
+    "olho": 2,
     "privado": 9,
-    "total": 22,
+    "total": 20,
     "est": [
      {
       "cnes": 2328534,
@@ -4931,16 +4931,6 @@
       "tel": "91 32756822"
      },
      {
-      "cnes": 9996974,
-      "nome": "Hospital De Olhos De Ananindeua",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "91 33462630"
-     },
-     {
       "cnes": 4934547,
       "nome": "Clinica Dos Olhos Vision Master",
       "tipo": "Clínica especializada",
@@ -4959,36 +4949,6 @@
       "olho": true,
       "sus": true,
       "tel": "32635910"
-     },
-     {
-      "cnes": 5953693,
-      "nome": "Hospital Veterinario De Ananindeua",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "91 985152266"
-     },
-     {
-      "cnes": 2328755,
-      "nome": "Inisa",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(91)2550800 - 3286-2508"
-     },
-     {
-      "cnes": 2328798,
-      "nome": "Hospital Das Clinicas De Ananindeua",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(11)3255-2593"
      },
      {
       "cnes": 2328496,
@@ -5019,9 +4979,49 @@
       "olho": false,
       "sus": false,
       "tel": "(91)2633878"
+     },
+     {
+      "cnes": 2328658,
+      "nome": "Hospital Santa Maria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(91)3275-1510"
+     },
+     {
+      "cnes": 2328755,
+      "nome": "Inisa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(91)2550800 - 3286-2508"
+     },
+     {
+      "cnes": 2328798,
+      "nome": "Hospital Das Clinicas De Ananindeua",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(11)3255-2593"
+     },
+     {
+      "cnes": 2615827,
+      "nome": "Hospital E Maternidade Sao Camilo",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(91)2351339"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5130,7 +5130,7 @@
       "tel": "(31)38177000"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5227,7 +5227,7 @@
       "tel": "60 34767060"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5320,7 +5320,7 @@
       "tel": "(91)35561388"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5437,7 +5437,7 @@
       "tel": "(99) 36431594"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5566,7 +5566,7 @@
       "tel": "(94)428 1024"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5625,7 +5625,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5741,7 +5741,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -5836,21 +5836,21 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 15,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 124,
+    "publico": 9,
+    "filantropico": 1,
+    "olho": 2,
+    "privado": 5,
+    "total": 20,
     "est": [
      {
-      "cnes": 7161158,
-      "nome": "Hmab",
+      "cnes": 10464,
+      "nome": "Hran",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
-      "sus": false,
-      "tel": "61 32341290"
+      "sus": true,
+      "tel": "61 3254300"
      },
      {
       "cnes": 10472,
@@ -5861,26 +5861,6 @@
       "olho": false,
       "sus": true,
       "tel": ""
-     },
-     {
-      "cnes": 6362729,
-      "nome": "Hospital Naval De Brasilia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "(61)3445-7303"
-     },
-     {
-      "cnes": 10464,
-      "nome": "Hran",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "61 3254300"
      },
      {
       "cnes": 10480,
@@ -5953,47 +5933,67 @@
       "tel": "61 39662141"
      },
      {
-      "cnes": 2645157,
-      "nome": "Hrl",
+      "cnes": 10456,
+      "nome": "Hospital De Base Do Distrito Federal",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "filantrópico",
       "olho": false,
       "sus": true,
-      "tel": "(61) 33495225"
+      "tel": "6133151450"
      },
      {
-      "cnes": 2649527,
-      "nome": "Hospital De Apoio De Brasilia Hab",
-      "tipo": "Hospital especializado",
+      "cnes": 255416,
+      "nome": "Hodf",
+      "tipo": "Hospital-dia",
       "hosp": true,
-      "nat": "público",
-      "olho": false,
+      "nat": "privado",
+      "olho": true,
       "sus": true,
-      "tel": "(61) 33443032"
+      "tel": "61 37712020"
      },
      {
-      "cnes": 2672197,
-      "nome": "Hrsam Hospital Regional De Samambaia",
+      "cnes": 777153,
+      "nome": "Hospital Dos Olhos Do Gama",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "34424000"
+     },
+     {
+      "cnes": 10510,
+      "nome": "Hospital Universitario De Brasilia",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
       "sus": true,
-      "tel": "(61)20172200 R 3805"
+      "tel": ""
      },
      {
-      "cnes": 5927579,
-      "nome": "Hospital De Forca Aerea De Brasilia Hfab",
+      "cnes": 49867,
+      "nome": "Hospital Aguas Claras",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
       "sus": false,
-      "tel": "61 33647700"
+      "tel": "30474664"
+     },
+     {
+      "cnes": 223441,
+      "nome": "Hospital Santa Lucia Gama",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "61-37054000"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -6155,7 +6155,7 @@
       "tel": "(98)5381171"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -6530,7 +6530,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -6726,7 +6726,7 @@
       "tel": "85 40023633"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -6840,16 +6840,6 @@
     "total": 4,
     "est": [
      {
-      "cnes": 9895124,
-      "nome": "Ernesto Che Guevara Smsm",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "21-26372667"
-     },
-     {
       "cnes": 2266733,
       "nome": "Hospital Municipal Conde Modesto Leal",
       "tipo": "Hospital geral",
@@ -6858,6 +6848,16 @@
       "olho": false,
       "sus": true,
       "tel": "(21)26371713"
+     },
+     {
+      "cnes": 9895124,
+      "nome": "Ernesto Che Guevara Smsm",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "21-26372667"
      },
      {
       "cnes": 9986456,
@@ -6880,7 +6880,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -6985,7 +6985,7 @@
       "tel": "35571434"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7064,7 +7064,7 @@
       "tel": "(51)-37932100"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7155,7 +7155,7 @@
       "tel": "(85) 3360-0078"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7258,7 +7258,7 @@
       "tel": "(88) 35181133"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7394,16 +7394,6 @@
       "tel": "91 34126751"
      },
      {
-      "cnes": 5318874,
-      "nome": "Ceop Centro De Olhos Do Para",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "91 37213498"
-     },
-     {
       "cnes": 3314391,
       "nome": "Clnica De Olhos Dra Cinthia Charone",
       "tipo": "Clínica especializada",
@@ -7412,6 +7402,16 @@
       "olho": true,
       "sus": true,
       "tel": "91 32221533"
+     },
+     {
+      "cnes": 5318874,
+      "nome": "Ceop Centro De Olhos Do Para",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "91 37213498"
      },
      {
       "cnes": 7714,
@@ -7434,7 +7434,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7530,7 +7530,7 @@
       "tel": "6611396"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7615,7 +7615,7 @@
       "tel": "(38)38121208"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7744,7 +7744,7 @@
       "tel": "(98)5381171"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -7889,16 +7889,6 @@
       "tel": "94 34241438"
      },
      {
-      "cnes": 9815481,
-      "nome": "Medic Facil Policlinica",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "94 3424-4725"
-     },
-     {
       "cnes": 812331,
       "nome": "Instituto Sinai Servicos Medicos S A",
       "tipo": "Hospital geral",
@@ -7957,9 +7947,19 @@
       "olho": false,
       "sus": false,
       "tel": "94 3424-5207"
+     },
+     {
+      "cnes": 9815481,
+      "nome": "Medic Facil Policlinica",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "94 3424-4725"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8044,7 +8044,7 @@
       "tel": "(88) 3672-6035"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8128,7 +8128,7 @@
       "tel": "(85) 3360-0078"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8231,7 +8231,7 @@
       "tel": "(88) 5291259"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8320,7 +8320,7 @@
       "tel": "(63)34721163"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8383,7 +8383,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8501,7 +8501,7 @@
       "tel": "81 35279319"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8625,7 +8625,7 @@
       "tel": "(98)5381171"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8704,22 +8704,12 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 4,
-    "filantropico": 6,
-    "olho": 5,
-    "privado": 5,
-    "total": 37,
+    "publico": 1,
+    "filantropico": 5,
+    "olho": 4,
+    "privado": 9,
+    "total": 20,
     "est": [
-     {
-      "cnes": 9841903,
-      "nome": "Hospital Estadual Santa Casa",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(65)3618-8800"
-     },
      {
       "cnes": 2495015,
       "nome": "Hospital E Pronto Socorro Municipal De Cuiaba",
@@ -8729,26 +8719,6 @@
       "olho": false,
       "sus": true,
       "tel": "(65) 3617-7876"
-     },
-     {
-      "cnes": 5558638,
-      "nome": "Hospital Central De Alta Complexidade De Mato Grosso",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 9209352,
-      "nome": "Hospital Municipal De Cuiaba E P S Dr Leony Palma Carvalho",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
      },
      {
       "cnes": 2311674,
@@ -8801,16 +8771,6 @@
       "tel": ""
      },
      {
-      "cnes": 3851249,
-      "nome": "C A M",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(65) 36234302"
-     },
-     {
       "cnes": 828483,
       "nome": "Cmo Centro Matogrossense De Oftalmologia",
       "tipo": "Clínica especializada",
@@ -8851,17 +8811,57 @@
       "tel": "65 40420157"
      },
      {
-      "cnes": 5934702,
-      "nome": "Visionare Centro De Oftalmologia",
-      "tipo": "Clínica especializada",
+      "cnes": 2393506,
+      "nome": "Hospital Ortopedico Ltda",
+      "tipo": "Hospital geral",
       "hosp": true,
       "nat": "privado",
-      "olho": true,
+      "olho": false,
+      "sus": false,
+      "tel": "65 33141200"
+     },
+     {
+      "cnes": 2393565,
+      "nome": "Hospital Amecor",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
       "sus": true,
-      "tel": "(65) 3611-6363"
+      "tel": "65 36127131"
+     },
+     {
+      "cnes": 2494523,
+      "nome": "Femina Hospital Infantil E Maternidade",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "65 21289000"
+     },
+     {
+      "cnes": 2604388,
+      "nome": "Hospital Santa Rosa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "65 36188000"
+     },
+     {
+      "cnes": 2655411,
+      "nome": "Hospital Universitario Julio Muller Ebserh",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "65 36157260"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -8975,16 +8975,6 @@
       "tel": "27 33436930"
      },
      {
-      "cnes": 3340503,
-      "nome": "Hospital E Maternidade Sao Francisco De Assis Ltda",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "27 33463735"
-     },
-     {
       "cnes": 2494450,
       "nome": "Hospital Meridional",
       "tipo": "Hospital geral",
@@ -8993,9 +8983,19 @@
       "olho": false,
       "sus": true,
       "tel": "(27)33462000"
+     },
+     {
+      "cnes": 3340503,
+      "nome": "Hospital E Maternidade Sao Francisco De Assis Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "27 33463735"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -9064,7 +9064,7 @@
       "tel": "(51)-37932100"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -9140,7 +9140,7 @@
       "tel": "0055 03754333"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -9185,11 +9185,11 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 3,
+    "publico": 2,
     "filantropico": 0,
-    "olho": 9,
-    "privado": 12,
-    "total": 37,
+    "olho": 5,
+    "privado": 13,
+    "total": 20,
     "est": [
      {
       "cnes": 2151855,
@@ -9210,26 +9210,6 @@
       "olho": false,
       "sus": true,
       "tel": "(34)32258138"
-     },
-     {
-      "cnes": 6601804,
-      "nome": "Hospital E Maternidade Municipal Dr Odelmo Leao Carneiro",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "34-32535600"
-     },
-     {
-      "cnes": 3510999,
-      "nome": "Hco Hospital De Cirugia Ocular",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "34 32912400"
      },
      {
       "cnes": 722146,
@@ -9272,44 +9252,44 @@
       "tel": "34 3235-7994"
      },
      {
-      "cnes": 6306373,
-      "nome": "Retina Clinic",
+      "cnes": 3510999,
+      "nome": "Hco Hospital De Cirugia Ocular",
       "tipo": "Hospital-dia",
       "hosp": true,
       "nat": "privado",
       "olho": true,
       "sus": false,
-      "tel": "34-3215 - 1199"
+      "tel": "34 32912400"
      },
      {
-      "cnes": 6430600,
-      "nome": "Holhos Hospital De Olhos De Uberlandia",
+      "cnes": 738654,
+      "nome": "Alysson Marcondes Cirurgia Plastica",
       "tipo": "Hospital-dia",
       "hosp": true,
       "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3257 - 9100"
-     },
-     {
-      "cnes": 7803850,
-      "nome": "Neo Oftalmologia Uberlandia",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 2589-7700"
-     },
-     {
-      "cnes": 9264647,
-      "nome": "Udiolhos",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
+      "olho": false,
       "sus": false,
-      "tel": "34 3255 - 6668"
+      "tel": "34 3216-1155"
+     },
+     {
+      "cnes": 965723,
+      "nome": "Centro Medico Clinico E Hospitalar Carlesso",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 99662 6321"
+     },
+     {
+      "cnes": 2146355,
+      "nome": "Hospital De Clinicas De Uberlandia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32182111"
      },
      {
       "cnes": 2151812,
@@ -9322,27 +9302,47 @@
       "tel": "(34)3277-9000"
      },
      {
-      "cnes": 8219710,
-      "nome": "Espaco Imago",
-      "tipo": "Clínica especializada",
+      "cnes": 2151820,
+      "nome": "Hospital E Maternidade Sao Francisco De Paula Ltda",
+      "tipo": "Hospital geral",
       "hosp": true,
       "nat": "privado",
       "olho": false,
       "sus": false,
-      "tel": "34 99125 - 2925"
+      "tel": "(34)32363616"
      },
      {
-      "cnes": 7433867,
-      "nome": "Uberlandia Medical Center",
+      "cnes": 2151839,
+      "nome": "Hospital Do Triangulo",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "privado",
       "olho": false,
       "sus": true,
-      "tel": "34 3257-1458"
+      "tel": "34 3292 3800"
+     },
+     {
+      "cnes": 2151847,
+      "nome": "Hospital Santa Marta",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "34 32110051"
+     },
+     {
+      "cnes": 2151871,
+      "nome": "Hospital Santa Clara",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 32396000"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -9480,6 +9480,16 @@
       "tel": "(65)99678-8058"
      },
      {
+      "cnes": 2472139,
+      "nome": "Hospital Das Clinicas De Tangara",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(65) 3339 1500"
+     },
+     {
       "cnes": 2472414,
       "nome": "Hospital E Maternidade Santa Angela Tangara Da Serra",
       "tipo": "Hospital geral",
@@ -9488,16 +9498,6 @@
       "olho": false,
       "sus": true,
       "tel": "(65) 3311 1900"
-     },
-     {
-      "cnes": 2472139,
-      "nome": "Hospital Das Clinicas Vida E Saude Tangara Da Serra",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(65) 3339 1500"
      },
      {
       "cnes": 3171353,
@@ -9530,7 +9530,7 @@
       "tel": "(65)3311-1996"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -9935,7 +9935,7 @@
       "tel": "(35)3406-0405"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -10135,7 +10135,7 @@
       "tel": "(74)3645 1217"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -10446,7 +10446,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -10631,22 +10631,12 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 4,
+    "publico": 3,
     "filantropico": 11,
-    "olho": 1,
-    "privado": 0,
-    "total": 34,
+    "olho": 2,
+    "privado": 1,
+    "total": 20,
     "est": [
-     {
-      "cnes": 2237822,
-      "nome": "Hospital Materno Infantil Presidente Vargas",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(51)32893000"
-     },
      {
       "cnes": 2237156,
       "nome": "Hbmpa",
@@ -10658,6 +10648,16 @@
       "tel": "(51)32883500"
      },
      {
+      "cnes": 2237822,
+      "nome": "Hospital Materno Infantil Presidente Vargas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(51)32893000"
+     },
+     {
       "cnes": 2778718,
       "nome": "Hps",
       "tipo": "Hospital especializado",
@@ -10666,16 +10666,6 @@
       "olho": false,
       "sus": true,
       "tel": ""
-     },
-     {
-      "cnes": 7989954,
-      "nome": "Hospital Geral De Porto Alegre",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "21118302"
      },
      {
       "cnes": 2237253,
@@ -10704,7 +10694,7 @@
       "hosp": true,
       "nat": "filantrópico",
       "olho": false,
-      "sus": false,
+      "sus": true,
       "tel": "(51)33206000"
      },
      {
@@ -10786,9 +10776,19 @@
       "olho": false,
       "sus": false,
       "tel": "(51)33789919"
+     },
+     {
+      "cnes": 2906163,
+      "nome": "Hospital Banco De Olhos Sao Pietro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "5131354444 RAMAL3413"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -10937,7 +10937,7 @@
       "tel": "51 35491389"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11089,20 +11089,10 @@
    "estr": {
     "publico": 3,
     "filantropico": 1,
-    "olho": 4,
+    "olho": 3,
     "privado": 10,
-    "total": 22,
+    "total": 20,
     "est": [
-     {
-      "cnes": 7591136,
-      "nome": "Hospital Iguassu Maternidade Municipal Mariana Bulhoes",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "31023123"
-     },
      {
       "cnes": 2798662,
       "nome": "Hgni Hospital Geral De Nova Iguacu",
@@ -11124,6 +11114,16 @@
       "tel": ""
      },
      {
+      "cnes": 7591136,
+      "nome": "Hospital Iguassu Maternidade Municipal Mariana Bulhoes",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "31023123"
+     },
+     {
       "cnes": 2281880,
       "nome": "Hospital De Iguacu",
       "tipo": "Hospital geral",
@@ -11132,16 +11132,6 @@
       "olho": false,
       "sus": false,
       "tel": "(21)26982369"
-     },
-     {
-      "cnes": 9260854,
-      "nome": "Eye Center",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "26676111"
      },
      {
       "cnes": 3176479,
@@ -11172,36 +11162,6 @@
       "olho": true,
       "sus": true,
       "tel": "26255150"
-     },
-     {
-      "cnes": 9766596,
-      "nome": "Downtown Medic Iguacu Eireli",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "26955360"
-     },
-     {
-      "cnes": 5237424,
-      "nome": "Hospital Catarina",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(21) 97148-8942"
-     },
-     {
-      "cnes": 8403708,
-      "nome": "Hospital Metropolitano",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": ""
      },
      {
       "cnes": 807842,
@@ -11242,9 +11202,49 @@
       "olho": false,
       "sus": false,
       "tel": "21 27676891"
+     },
+     {
+      "cnes": 2282097,
+      "nome": "Prontonil",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(21)26673587"
+     },
+     {
+      "cnes": 2964244,
+      "nome": "Hospital Viver Mais",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "2433367070"
+     },
+     {
+      "cnes": 3019519,
+      "nome": "Casa De Saude Sao Marcos",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(21)26679761"
+     },
+     {
+      "cnes": 3019527,
+      "nome": "Casa De Saude Nossa Senhora De Fatima N Iguacu Sa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(21)2125-3115"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11405,7 +11405,7 @@
       "tel": "(64) 34132233"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11475,16 +11475,6 @@
     "total": 9,
     "est": [
      {
-      "cnes": 2549905,
-      "nome": "Hospital De Paulo Afonso",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "75 3544-2651"
-     },
-     {
       "cnes": 2533480,
       "nome": "Hospital Nair Alves De Souza",
       "tipo": "Hospital geral",
@@ -11493,6 +11483,16 @@
       "olho": false,
       "sus": true,
       "tel": "81 32292352"
+     },
+     {
+      "cnes": 2549905,
+      "nome": "Hospital De Paulo Afonso",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "75 3544-2651"
      },
      {
       "cnes": 9442693,
@@ -11505,16 +11505,6 @@
       "tel": ""
      },
      {
-      "cnes": 3948684,
-      "nome": "Hospital Nucleo Vida Btn",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "75 32812827"
-     },
-     {
       "cnes": 2602490,
       "nome": "Clinica Santa Monica",
       "tipo": "Hospital geral",
@@ -11523,6 +11513,16 @@
       "olho": false,
       "sus": false,
       "tel": "(75) 32811386"
+     },
+     {
+      "cnes": 3948684,
+      "nome": "Hospital Nucleo Vida Btn",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "75 32812827"
      },
      {
       "cnes": 4739027,
@@ -11556,7 +11556,7 @@
      },
      {
       "cnes": 9505075,
-      "nome": "Hospital Nucleo Vida",
+      "nome": "Hospital Nucleo Vida Ilha",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "privado",
@@ -11565,7 +11565,7 @@
       "tel": "75 32812827"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11650,7 +11650,7 @@
       "tel": "(81)36531721"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11725,7 +11725,7 @@
       "tel": "(81)36218156"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11837,7 +11837,7 @@
       "tel": "(77)34413510"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -11929,7 +11929,7 @@
       "tel": "(81)36351000"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12074,7 +12074,7 @@
       "tel": "(35) 3473-3650"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12125,7 +12125,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12195,7 +12195,7 @@
       "tel": "(088) 998192273"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12241,8 +12241,8 @@
     "publico": 0,
     "filantropico": 1,
     "olho": 1,
-    "privado": 4,
-    "total": 5,
+    "privado": 5,
+    "total": 6,
     "est": [
      {
       "cnes": 2344882,
@@ -12265,16 +12265,6 @@
       "tel": "34316277/34315951"
      },
      {
-      "cnes": 3015920,
-      "nome": "Meta Servicos Hospitalares E Consultoria Em Saude Ltda",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "81 32310600"
-     },
-     {
       "cnes": 2344807,
       "nome": "Hospital Esperanca Olinda",
       "tipo": "Hospital geral",
@@ -12285,6 +12275,16 @@
       "tel": "(81) 34328000"
      },
      {
+      "cnes": 3015920,
+      "nome": "Meta Servicos Hospitalares E Consultoria Em Saude Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "81 32310600"
+     },
+     {
       "cnes": 3184196,
       "nome": "Clinica Medica Sao Bento",
       "tipo": "Clínica especializada",
@@ -12293,9 +12293,19 @@
       "olho": false,
       "sus": false,
       "tel": "(81)34911415"
+     },
+     {
+      "cnes": 7642288,
+      "nome": "Imepe",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "81 32440632"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12372,7 +12382,7 @@
       "tel": "(55)37421003"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12448,164 +12458,164 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 15,
-    "filantropico": 0,
+    "publico": 5,
+    "filantropico": 1,
     "olho": 0,
-    "privado": 0,
-    "total": 200,
+    "privado": 9,
+    "total": 20,
     "est": [
      {
-      "cnes": 9950931,
-      "nome": "Hospital Dia Santo Amaro",
-      "tipo": "Hospital-dia",
+      "cnes": 102040,
+      "nome": "Hospital De Campanha Covid 19 Sms Sp Pacaembu",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 102083,
+      "nome": "Hospital De Campanha Covid 19 Sms Sp Anhembi P 38",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 102105,
+      "nome": "Hospital Municipal Brasilandia",
+      "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": true,
+      "tel": "113135-7060"
+     },
+     {
+      "cnes": 664200,
+      "nome": "Unidade Hospitalar Santo Amaro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
       "tel": "11 55556767"
      },
      {
-      "cnes": 2077620,
-      "nome": "Hospital Geral Santa Marcelina De Itaim Paulista Sao Paulo",
+      "cnes": 694622,
+      "nome": "Hospital Estadual Covid 19 Metropolitano Santa Cecilia",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": true,
-      "tel": "(11) 2563-6302"
+      "tel": "(11) 3164-6287"
      },
      {
-      "cnes": 2079240,
-      "nome": "Hospital Geral Jesus Teixeira Da Costa Guaianases Sao Paulo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(11) 2551 3383"
-     },
-     {
-      "cnes": 2088576,
-      "nome": "Hospital De Transp Do Est De Sp Euryclides De Jesus Zerbini",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(11) 3170-6329"
-     },
-     {
-      "cnes": 2091755,
-      "nome": "Hospital Geral De Vila Penteado Dr Jose Pangella Sao Paulo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(11) 3976-9911 /3072"
-     },
-     {
-      "cnes": 2751852,
-      "nome": "Hospital Dia Vila Prudente",
+      "cnes": 469734,
+      "nome": "Sp Plus",
       "tipo": "Hospital-dia",
       "hosp": true,
-      "nat": "público",
+      "nat": "filantrópico",
       "olho": false,
-      "sus": true,
-      "tel": "115239-4410"
+      "sus": false,
+      "tel": "59046300"
      },
      {
-      "cnes": 5718368,
-      "nome": "Hosp Mun M Boi Mirim",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "11 32851184"
-     },
-     {
-      "cnes": 6998178,
-      "nome": "Hospital Dia Campo Limpo Jardim Pirajussara",
+      "cnes": 75426,
+      "nome": "Hospital Santa Carmela",
       "tipo": "Hospital-dia",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "11 5108-7035"
+      "sus": false,
+      "tel": "11 32241200"
      },
      {
-      "cnes": 7019076,
-      "nome": "Hospital Dia Brasilandia Fo",
-      "tipo": "Hospital-dia",
+      "cnes": 87106,
+      "nome": "Side Clinic",
+      "tipo": "Consultório",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "(11)52374490"
+      "sus": false,
+      "tel": "(11) 3286-0745"
      },
      {
-      "cnes": 7992890,
-      "nome": "Hosp Mun Capela Do Socorro",
+      "cnes": 87114,
+      "nome": "Clinica Dra Natalia Candido De Castro Ginecologia E Obstetri",
+      "tipo": "Policlínica",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "1122273300"
+     },
+     {
+      "cnes": 263192,
+      "nome": "Hospital Sancta Maggiore Dubai",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "5929-5960"
+      "sus": false,
+      "tel": "1140859057"
      },
      {
-      "cnes": 6135749,
-      "nome": "Hospital Dia Mooca",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "11- 5239-4315"
-     },
-     {
-      "cnes": 2027240,
-      "nome": "Hospital Dia Butanta",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "11 52392000"
-     },
-     {
-      "cnes": 2077450,
-      "nome": "Hosp Mun Pirituba Jose Soares Hungria",
+      "cnes": 393290,
+      "nome": "Hospital E Pronto Atendimento Sancta Maggiore Russia",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": ""
+      "sus": false,
+      "tel": "(11) 40859000"
      },
      {
-      "cnes": 2080346,
-      "nome": "Hosp Mun Dr Carmino Caricchio",
-      "tipo": "Hospital geral",
+      "cnes": 507652,
+      "nome": "Clinica Premium Care Unidade Morumbi",
+      "tipo": "Hospital especializado",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "(11) 51781500"
+      "sus": false,
+      "tel": "11 30211297"
      },
      {
-      "cnes": 2081970,
-      "nome": "Hosp Mun Jabaquara Artur Ribeiro De Saboya",
+      "cnes": 507733,
+      "nome": "Hospital Esporte E Saude Br Surgery",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": ""
+      "sus": false,
+      "tel": "11 4369-4300"
+     },
+     {
+      "cnes": 701394,
+      "nome": "Hospital Vidas Alta Complexidade",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "11 33219450"
+     },
+     {
+      "cnes": 804037,
+      "nome": "Usregen Servicos Medicos",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "1130522222"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12709,16 +12719,6 @@
       "tel": "77 34211166"
      },
      {
-      "cnes": 6444954,
-      "nome": "Hospital Nova Alianca",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "77 34523500"
-     },
-     {
       "cnes": 2412241,
       "nome": "Policlinica E Maternidade De Guanambi",
       "tipo": "Hospital geral",
@@ -12727,9 +12727,19 @@
       "olho": false,
       "sus": false,
       "tel": "(77)4511404"
+     },
+     {
+      "cnes": 6444954,
+      "nome": "Hospital Nova Alianca",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "77 34523500"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12790,7 +12800,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12852,7 +12862,7 @@
       "tel": "(81)36561124"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12906,7 +12916,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -12992,7 +13002,7 @@
       "tel": "(64) 3496-1169"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13126,7 +13136,7 @@
       "tel": "(55)3231-3838"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13259,10 +13269,10 @@
       "nat": "filantrópico",
       "olho": false,
       "sus": true,
-      "tel": "(049)3365-3138"
+      "tel": "(049) 3365-3138"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13345,7 +13355,7 @@
       "tel": "81 37341166"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13486,7 +13496,7 @@
       "tel": "77 34712372"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13551,7 +13561,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13645,7 +13655,7 @@
       "tel": "77 34712372"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13739,7 +13749,7 @@
       "tel": "77 34712372"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -13903,7 +13913,7 @@
       "tel": "(38) 3841-3071"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14185,7 +14195,7 @@
       "tel": "18-3654-2155"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14274,7 +14284,7 @@
       "tel": "18-3654-2155"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14403,7 +14413,7 @@
       "tel": "(31)35232700"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14514,7 +14524,7 @@
       "tel": "(38) 3841-3071"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14566,16 +14576,6 @@
     "total": 4,
     "est": [
      {
-      "cnes": 9895124,
-      "nome": "Ernesto Che Guevara Smsm",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "21-26372667"
-     },
-     {
       "cnes": 2266733,
       "nome": "Hospital Municipal Conde Modesto Leal",
       "tipo": "Hospital geral",
@@ -14584,6 +14584,16 @@
       "olho": false,
       "sus": true,
       "tel": "(21)26371713"
+     },
+     {
+      "cnes": 9895124,
+      "nome": "Ernesto Che Guevara Smsm",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "21-26372667"
      },
      {
       "cnes": 9986456,
@@ -14606,7 +14616,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14675,7 +14685,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14731,7 +14741,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -14802,42 +14812,12 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 15,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 78,
+    "publico": 4,
+    "filantropico": 6,
+    "olho": 2,
+    "privado": 5,
+    "total": 20,
     "est": [
-     {
-      "cnes": 9917322,
-      "nome": "Hospital Regional Publico Dr Abelardo Santos",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 7453124,
-      "nome": "Hospital De Aeronautica De Belem",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "32156550"
-     },
-     {
-      "cnes": 8483388,
-      "nome": "Navio De Assistencia Hospitalar Anna Nery",
-      "tipo": "Tipo 32",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "91 32164502"
-     },
      {
       "cnes": 90301,
       "nome": "Hospital De Retaguarda Dom Vicente Zico",
@@ -14879,87 +14859,117 @@
       "tel": "(91) 32260111"
      },
      {
-      "cnes": 2337339,
-      "nome": "Hospital Pronto Socorro Municipal Mario Pinotti",
-      "tipo": "Hospital geral",
+      "cnes": 33022,
+      "nome": "Iso",
+      "tipo": "Clínica especializada",
       "hosp": true,
-      "nat": "público",
-      "olho": false,
+      "nat": "filantrópico",
+      "olho": true,
       "sus": true,
-      "tel": "(91)31846301"
+      "tel": "(91)982700965"
      },
      {
-      "cnes": 2694778,
-      "nome": "Hpsm Dr Humberto Maradei Pereira",
-      "tipo": "Hospital geral",
+      "cnes": 469068,
+      "nome": "Instituto De Cirurgias Da Face",
+      "tipo": "Hospital-dia",
       "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(91)31846210"
-     },
-     {
-      "cnes": 2695251,
-      "nome": "Hospital Abelardo Santos",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "32042832"
-     },
-     {
-      "cnes": 2752700,
-      "nome": "Santa Casa De Misericordia Do Para",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "0319140092241"
-     },
-     {
-      "cnes": 4005759,
-      "nome": "Hospital Municipal De Mosqueiro",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(91)37711229"
-     },
-     {
-      "cnes": 4635612,
-      "nome": "Hospital Pronto Socorro Do Bengui Dr Roberto Macedo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 5274990,
-      "nome": "Hospital Publico Da Mulher Senhora De Nazare",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 5346630,
-      "nome": "Hospital Naval De Belem",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
+      "nat": "filantrópico",
       "olho": false,
       "sus": false,
-      "tel": ""
+      "tel": "91 3351-8508"
+     },
+     {
+      "cnes": 2332620,
+      "nome": "Maternidade Do Povo Filial",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(91)32154650"
+     },
+     {
+      "cnes": 2332671,
+      "nome": "Hospital D Luiz I",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(091) 3215-4444"
+     },
+     {
+      "cnes": 2332930,
+      "nome": "Maternidade Do Povo Matriz",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(91)32413644"
+     },
+     {
+      "cnes": 2333228,
+      "nome": "Hospital Santa Clara",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": false,
+      "tel": "(91)32420353"
+     },
+     {
+      "cnes": 2332779,
+      "nome": "Oculistas Associados Do Para",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "(91)32280611"
+     },
+     {
+      "cnes": 904597,
+      "nome": "Hospital Unimed Prime",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(91)983894127"
+     },
+     {
+      "cnes": 2332639,
+      "nome": "Hospital Pio Xii",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "9181121118"
+     },
+     {
+      "cnes": 2332787,
+      "nome": "Centrocardio",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "91 33233525"
+     },
+     {
+      "cnes": 2332809,
+      "nome": "Hospital Porto Dias",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(91)3184-9999"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15040,7 +15050,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15118,16 +15128,6 @@
       "tel": "67 3291-1256"
      },
      {
-      "cnes": 7303068,
-      "nome": "Hospital Cassems Unidade De Coxim",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": false,
-      "tel": ""
-     },
-     {
       "cnes": 2752557,
       "nome": "Santa Casa De Coxim",
       "tipo": "Hospital geral",
@@ -15136,9 +15136,19 @@
       "olho": false,
       "sus": true,
       "tel": "(67)2913580"
+     },
+     {
+      "cnes": 7303068,
+      "nome": "Hospital Cassems Unidade De Coxim",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": false,
+      "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15234,7 +15244,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15314,7 +15324,7 @@
       "tel": "38 36351582"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15371,7 +15381,7 @@
       "tel": "36711250"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15419,7 +15429,7 @@
       "tel": "(63) 3692-2899"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15476,7 +15486,7 @@
       "tel": "36711250"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15573,7 +15583,7 @@
       "tel": "(88) 34120681"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15637,7 +15647,7 @@
       "tel": "(98) 6361374"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15720,7 +15730,7 @@
       "tel": "(31)38591000"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15814,7 +15824,7 @@
       "tel": "6333631755"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -15897,16 +15907,6 @@
       "tel": "(17)3311-3200"
      },
      {
-      "cnes": 2058618,
-      "nome": "Hospital Da Visao Chimello",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "17-35224070"
-     },
-     {
       "cnes": 85731,
       "nome": "Pizarro Oftalmologia",
       "tipo": "Hospital-dia",
@@ -15925,6 +15925,16 @@
       "olho": true,
       "sus": true,
       "tel": "17 3523-1031"
+     },
+     {
+      "cnes": 2058618,
+      "nome": "Hospital Da Visao Chimello",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "17-35224070"
      },
      {
       "cnes": 3586707,
@@ -15957,16 +15967,6 @@
       "tel": "17 81801229"
      },
      {
-      "cnes": 2043351,
-      "nome": "Genesis Hospital Dia",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "17 33112030"
-     },
-     {
       "cnes": 286133,
       "nome": "Clinica Medica Accorsi",
       "tipo": "Hospital especializado",
@@ -15975,6 +15975,16 @@
       "olho": false,
       "sus": false,
       "tel": "17 35227080"
+     },
+     {
+      "cnes": 2043351,
+      "nome": "Genesis Hospital Dia",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "17 33112030"
      },
      {
       "cnes": 2070413,
@@ -16027,7 +16037,7 @@
       "tel": "17-35226859"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16125,7 +16135,7 @@
       "tel": "16 3243030"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16198,7 +16208,7 @@
       "tel": "(51)36518500"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16324,7 +16334,7 @@
     "est": [
      {
       "cnes": 2378809,
-      "nome": "Hospital Cedro",
+      "nome": "Hospital De Cedro",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "filantrópico",
@@ -16333,7 +16343,7 @@
       "tel": "(49)36430306"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16386,141 +16396,31 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 15,
-    "filantropico": 0,
+    "publico": 12,
+    "filantropico": 1,
     "olho": 0,
-    "privado": 0,
-    "total": 200,
+    "privado": 2,
+    "total": 20,
     "est": [
      {
-      "cnes": 7185081,
-      "nome": "Ses Rj Hospital Estadual Transplante Cancer E Cir Infantil",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "2133699650"
-     },
-     {
-      "cnes": 2270234,
-      "nome": "Ses Rj Hospital Estadual Getulio Vargas",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 2270617,
-      "nome": "Instituto Estadual De Dermatologia Sanitaria",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "021 2333-6676"
-     },
-     {
-      "cnes": 2269945,
-      "nome": "Sms Hospital Maternidade Alexander Fleming Ap 33",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "24583343"
-     },
-     {
-      "cnes": 6753469,
-      "nome": "Hospital Central Do Exercito",
+      "cnes": 119016,
+      "nome": "Sms Hospital Mun De Campanha Riocentro Covid 19",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": false,
-      "tel": "21 38917013"
+      "tel": ""
      },
      {
-      "cnes": 2269724,
-      "nome": "Sms Hospital Municipal Nossa Senhora Do Loreto Ap 31",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(21)33931983/0610"
-     },
-     {
-      "cnes": 2270269,
-      "nome": "Sms Hospital Municipal Miguel Couto Ap 21",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "21 3111-3711"
-     },
-     {
-      "cnes": 6043941,
-      "nome": "Hospital Central Da Aeronautica Hca",
+      "cnes": 471755,
+      "nome": "Hospital De Forca Aerea Do Galeao",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": false,
-      "tel": "(21)3501-3100"
-     },
-     {
-      "cnes": 2296306,
-      "nome": "Sms Hospital Municipal Salgado Filho Ap 32",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
       "tel": ""
-     },
-     {
-      "cnes": 2270390,
-      "nome": "Sms Hospital Maternidade Herculano Pinheiro Ap 33",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(21)2088-6124"
-     },
-     {
-      "cnes": 2270714,
-      "nome": "Sms Hospital Maternidade Fernando Magalhaes Ap 10",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "21 - 38781498"
-     },
-     {
-      "cnes": 2280248,
-      "nome": "Sms Hospital Maternidade Carmela Dutra Ap 32",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(21) 31116766"
-     },
-     {
-      "cnes": 2296594,
-      "nome": "Ufrj Instituto De Ginecologia",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "22322970"
      },
      {
       "cnes": 697524,
@@ -16533,17 +16433,127 @@
       "tel": "32896800"
      },
      {
-      "cnes": 119016,
-      "nome": "Sms Hospital Mun De Campanha Riocentro Covid 19",
+      "cnes": 2269341,
+      "nome": "Sms Hospital Municipal Jesus Ap 22",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 2269384,
+      "nome": "Hospital Federal Do Andarai",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(21) 25757000"
+     },
+     {
+      "cnes": 2269392,
+      "nome": "Policlinica Piquet Carneiro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "2125667000"
+     },
+     {
+      "cnes": 2269481,
+      "nome": "Sms Hospital Municipal Da Piedade Ap 32",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(21)31116540"
+     },
+     {
+      "cnes": 2269678,
+      "nome": "Ses Rj Iecac Inst Est De Cardiologia Aloysio De Castro",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "23321570"
+     },
+     {
+      "cnes": 2269724,
+      "nome": "Sms Hospital Municipal Nossa Senhora Do Loreto Ap 31",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(21)33931983/0610"
+     },
+     {
+      "cnes": 2269775,
+      "nome": "Ms Hospital De Ipanema",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(21)31112318"
+     },
+     {
+      "cnes": 2269783,
+      "nome": "Uerj Hospital Univ Pedro Ernesto",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(21)2868-8000"
+     },
+     {
+      "cnes": 2269821,
+      "nome": "Ms Inca Ii Hospital Do Cancer Ii",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(21)3207-2804"
+     },
+     {
+      "cnes": 2269899,
+      "nome": "Hospital Mario Kroeff",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(21) 21369657"
+     },
+     {
+      "cnes": 32247,
+      "nome": "Hosp Casa Evangelico Hosp Geral Adm E Gestao Hosp",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 63908,
+      "nome": "Hosp Casa Prontocor Adm E Gestao Hospitalar",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
       "olho": false,
       "sus": false,
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16690,7 +16700,7 @@
       "tel": "98 32569161"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16819,7 +16829,7 @@
       "tel": "(31)38177000"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -16881,22 +16891,12 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 15,
-    "filantropico": 0,
+    "publico": 13,
+    "filantropico": 2,
     "olho": 0,
     "privado": 0,
-    "total": 98,
+    "total": 20,
     "est": [
-     {
-      "cnes": 8097283,
-      "nome": "Us 420 Hospital Da Crianca Do Recife",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
      {
       "cnes": 418,
       "nome": "Hospital Agamenon Magalhaes",
@@ -17028,17 +17028,27 @@
       "tel": "3771-5371"
      },
      {
-      "cnes": 2427427,
-      "nome": "Hospital Barao De Lucena",
+      "cnes": 434,
+      "nome": "Imip",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "filantrópico",
       "olho": false,
       "sus": true,
-      "tel": "(81)31846400"
+      "tel": "(81)21224100"
+     },
+     {
+      "cnes": 485,
+      "nome": "Fundacao Altino Ventura",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "81 33024300"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17092,7 +17102,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17164,7 +17174,7 @@
       "tel": "(85)3432110"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17232,16 +17242,6 @@
       "tel": "(73)2145400"
      },
      {
-      "cnes": 4296834,
-      "nome": "Hospital Sao Lucas",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "73 32149202"
-     },
-     {
       "cnes": 989061,
       "nome": "Maternidade Otaciana Pinto",
       "tipo": "Hospital geral",
@@ -17280,6 +17280,16 @@
       "olho": false,
       "sus": true,
       "tel": "(73)3214 9100"
+     },
+     {
+      "cnes": 4296834,
+      "nome": "Hospital Sao Lucas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "73 32149202"
      },
      {
       "cnes": 2470357,
@@ -17342,7 +17352,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17493,7 +17503,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17567,7 +17577,7 @@
       "tel": "(33)33141262"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17638,164 +17648,164 @@
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 15,
-    "filantropico": 0,
+    "publico": 5,
+    "filantropico": 1,
     "olho": 0,
-    "privado": 0,
-    "total": 200,
+    "privado": 9,
+    "total": 20,
     "est": [
      {
-      "cnes": 9950931,
-      "nome": "Hospital Dia Santo Amaro",
-      "tipo": "Hospital-dia",
+      "cnes": 102040,
+      "nome": "Hospital De Campanha Covid 19 Sms Sp Pacaembu",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 102083,
+      "nome": "Hospital De Campanha Covid 19 Sms Sp Anhembi P 38",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     },
+     {
+      "cnes": 102105,
+      "nome": "Hospital Municipal Brasilandia",
+      "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": true,
+      "tel": "113135-7060"
+     },
+     {
+      "cnes": 664200,
+      "nome": "Unidade Hospitalar Santo Amaro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
       "tel": "11 55556767"
      },
      {
-      "cnes": 2077620,
-      "nome": "Hospital Geral Santa Marcelina De Itaim Paulista Sao Paulo",
+      "cnes": 694622,
+      "nome": "Hospital Estadual Covid 19 Metropolitano Santa Cecilia",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": true,
-      "tel": "(11) 2563-6302"
+      "tel": "(11) 3164-6287"
      },
      {
-      "cnes": 2079240,
-      "nome": "Hospital Geral Jesus Teixeira Da Costa Guaianases Sao Paulo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(11) 2551 3383"
-     },
-     {
-      "cnes": 2088576,
-      "nome": "Hospital De Transp Do Est De Sp Euryclides De Jesus Zerbini",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(11) 3170-6329"
-     },
-     {
-      "cnes": 2091755,
-      "nome": "Hospital Geral De Vila Penteado Dr Jose Pangella Sao Paulo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(11) 3976-9911 /3072"
-     },
-     {
-      "cnes": 2751852,
-      "nome": "Hospital Dia Vila Prudente",
+      "cnes": 469734,
+      "nome": "Sp Plus",
       "tipo": "Hospital-dia",
       "hosp": true,
-      "nat": "público",
+      "nat": "filantrópico",
       "olho": false,
-      "sus": true,
-      "tel": "115239-4410"
+      "sus": false,
+      "tel": "59046300"
      },
      {
-      "cnes": 5718368,
-      "nome": "Hosp Mun M Boi Mirim",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "11 32851184"
-     },
-     {
-      "cnes": 6998178,
-      "nome": "Hospital Dia Campo Limpo Jardim Pirajussara",
+      "cnes": 75426,
+      "nome": "Hospital Santa Carmela",
       "tipo": "Hospital-dia",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "11 5108-7035"
+      "sus": false,
+      "tel": "11 32241200"
      },
      {
-      "cnes": 7019076,
-      "nome": "Hospital Dia Brasilandia Fo",
-      "tipo": "Hospital-dia",
+      "cnes": 87106,
+      "nome": "Side Clinic",
+      "tipo": "Consultório",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "(11)52374490"
+      "sus": false,
+      "tel": "(11) 3286-0745"
      },
      {
-      "cnes": 7992890,
-      "nome": "Hosp Mun Capela Do Socorro",
+      "cnes": 87114,
+      "nome": "Clinica Dra Natalia Candido De Castro Ginecologia E Obstetri",
+      "tipo": "Policlínica",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "1122273300"
+     },
+     {
+      "cnes": 263192,
+      "nome": "Hospital Sancta Maggiore Dubai",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "5929-5960"
+      "sus": false,
+      "tel": "1140859057"
      },
      {
-      "cnes": 6135749,
-      "nome": "Hospital Dia Mooca",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "11- 5239-4315"
-     },
-     {
-      "cnes": 2027240,
-      "nome": "Hospital Dia Butanta",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "11 52392000"
-     },
-     {
-      "cnes": 2077450,
-      "nome": "Hosp Mun Pirituba Jose Soares Hungria",
+      "cnes": 393290,
+      "nome": "Hospital E Pronto Atendimento Sancta Maggiore Russia",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": ""
+      "sus": false,
+      "tel": "(11) 40859000"
      },
      {
-      "cnes": 2080346,
-      "nome": "Hosp Mun Dr Carmino Caricchio",
-      "tipo": "Hospital geral",
+      "cnes": 507652,
+      "nome": "Clinica Premium Care Unidade Morumbi",
+      "tipo": "Hospital especializado",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": "(11) 51781500"
+      "sus": false,
+      "tel": "11 30211297"
      },
      {
-      "cnes": 2081970,
-      "nome": "Hosp Mun Jabaquara Artur Ribeiro De Saboya",
+      "cnes": 507733,
+      "nome": "Hospital Esporte E Saude Br Surgery",
       "tipo": "Hospital geral",
       "hosp": true,
-      "nat": "público",
+      "nat": "privado",
       "olho": false,
-      "sus": true,
-      "tel": ""
+      "sus": false,
+      "tel": "11 4369-4300"
+     },
+     {
+      "cnes": 701394,
+      "nome": "Hospital Vidas Alta Complexidade",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "11 33219450"
+     },
+     {
+      "cnes": 804037,
+      "nome": "Usregen Servicos Medicos",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "1130522222"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17917,7 +17927,7 @@
       "tel": ""
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -17998,16 +18008,6 @@
       "tel": "(17)3311-3200"
      },
      {
-      "cnes": 2058618,
-      "nome": "Hospital Da Visao Chimello",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "17-35224070"
-     },
-     {
       "cnes": 85731,
       "nome": "Pizarro Oftalmologia",
       "tipo": "Hospital-dia",
@@ -18026,6 +18026,16 @@
       "olho": true,
       "sus": true,
       "tel": "17 3523-1031"
+     },
+     {
+      "cnes": 2058618,
+      "nome": "Hospital Da Visao Chimello",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "17-35224070"
      },
      {
       "cnes": 3586707,
@@ -18058,16 +18068,6 @@
       "tel": "17 81801229"
      },
      {
-      "cnes": 2043351,
-      "nome": "Genesis Hospital Dia",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "17 33112030"
-     },
-     {
       "cnes": 286133,
       "nome": "Clinica Medica Accorsi",
       "tipo": "Hospital especializado",
@@ -18076,6 +18076,16 @@
       "olho": false,
       "sus": false,
       "tel": "17 35227080"
+     },
+     {
+      "cnes": 2043351,
+      "nome": "Genesis Hospital Dia",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "17 33112030"
      },
      {
       "cnes": 2070413,
@@ -18128,7 +18138,7 @@
       "tel": "17-35226859"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -18213,7 +18223,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -18396,7 +18406,7 @@
       "tel": "63992671847"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -18518,7 +18528,7 @@
       "tel": "6233356463"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -18577,7 +18587,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -18775,7 +18785,7 @@
       "tel": "7436422929"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -18973,7 +18983,7 @@
       "tel": "7436422929"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19171,7 +19181,7 @@
       "tel": "7436422929"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19307,16 +19317,6 @@
       "tel": "(45) 2102-7500"
      },
      {
-      "cnes": 8245061,
-      "nome": "Foz Day Hospital",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "41- 99995-5792"
-     },
-     {
       "cnes": 4388380,
       "nome": "Hospital Nossa Senhora Aparecida",
       "tipo": "Hospital geral",
@@ -19325,9 +19325,19 @@
       "olho": false,
       "sus": true,
       "tel": "43-99160-7042"
+     },
+     {
+      "cnes": 8245061,
+      "nome": "Foz Day Hospital",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "41- 99995-5792"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19442,7 +19452,7 @@
       "tel": "(44)34311661"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19512,7 +19522,7 @@
       "tel": "94 3382 2142"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19598,7 +19608,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19683,7 +19693,7 @@
     "privado": 0,
     "total": 0,
     "est": [],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -19889,26 +19899,6 @@
       "tel": "8137215144/37277137"
      },
      {
-      "cnes": 5309859,
-      "nome": "Hope Caruaru",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "21034567/99276545"
-     },
-     {
-      "cnes": 8427798,
-      "nome": "Clinica De Olhos Mello Motta",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "998035965/993735684"
-     },
-     {
       "cnes": 2682346,
       "nome": "Hospital Memorial Caruaru",
       "tipo": "Hospital geral",
@@ -19927,6 +19917,26 @@
       "olho": true,
       "sus": true,
       "tel": "81 37193388"
+     },
+     {
+      "cnes": 5309859,
+      "nome": "Hope Caruaru",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "21034567/99276545"
+     },
+     {
+      "cnes": 8427798,
+      "nome": "Clinica De Olhos Mello Motta",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "998035965/993735684"
      },
      {
       "cnes": 966355,
@@ -19959,7 +19969,7 @@
       "tel": "(81)21038500"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20276,16 +20286,6 @@
       "tel": "31032457940"
      },
      {
-      "cnes": 9937625,
-      "nome": "Hospital Unimed Unidade Sete Lagoas",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "3131779502"
-     },
-     {
       "cnes": 7663285,
       "nome": "Hospital Libertae Medical Center",
       "tipo": "Hospital geral",
@@ -20294,9 +20294,19 @@
       "olho": false,
       "sus": false,
       "tel": "31 3775-8850"
+     },
+     {
+      "cnes": 9937625,
+      "nome": "Hospital Unimed Unidade Sete Lagoas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "3131779502"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20404,7 +20414,7 @@
       "tel": "(38) 3841-3071"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20499,7 +20509,7 @@
       "tel": "8135194776"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20580,7 +20590,7 @@
       "tel": "(35)3831-1038"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20651,7 +20661,7 @@
       "tel": "(74) 6352207"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20751,7 +20761,7 @@
       "tel": "(35)3406-0405"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20805,16 +20815,6 @@
       "tel": "(66) 9 9212-7075"
      },
      {
-      "cnes": 3636364,
-      "nome": "Centro Medico Das Nacoes Hospital E Maternidade",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(66) 3500-2111"
-     },
-     {
       "cnes": 2397463,
       "nome": "Hospital E Maternidade Sta Maria",
       "tipo": "Hospital geral",
@@ -20833,9 +20833,19 @@
       "olho": false,
       "sus": true,
       "tel": "(66) 3498-1055"
+     },
+     {
+      "cnes": 3636364,
+      "nome": "Centro Medico Das Nacoes Hospital E Maternidade",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(66) 3500-2111"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20903,7 +20913,7 @@
       "tel": "(51)35461236"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -20986,7 +20996,7 @@
       "tel": "(24)21050222"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -21055,26 +21065,6 @@
       "tel": "(33)35292300"
      },
      {
-      "cnes": 7712170,
-      "nome": "Unihealth Pronto Atendimento E Hospital Tres Vales",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "11 47947003"
-     },
-     {
-      "cnes": 8203695,
-      "nome": "Hospital Regional De Teofilo Otoni",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "3331920100"
-     },
-     {
       "cnes": 2184834,
       "nome": "Hospital Bom Samaritano",
       "tipo": "Hospital geral",
@@ -21105,6 +21095,26 @@
       "tel": "33 35224247"
      },
      {
+      "cnes": 7712170,
+      "nome": "Unihealth Pronto Atendimento E Hospital Tres Vales",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "11 47947003"
+     },
+     {
+      "cnes": 8203695,
+      "nome": "Hospital Regional De Teofilo Otoni",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "3331920100"
+     },
+     {
       "cnes": 9644040,
       "nome": "Ocular Centro De Oftalmologia",
       "tipo": "Hospital especializado",
@@ -21115,7 +21125,7 @@
       "tel": "33 35210217"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -21188,7 +21198,7 @@
       "tel": "33 32613115"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -22011,7 +22021,7 @@
       "tel": "(74)3645 1217"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -22111,7 +22121,7 @@
       "tel": "(74)3645 1217"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -22441,7 +22451,7 @@
       "tel": "(35)3406-0405"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -23356,7 +23366,7 @@
       "tel": "(81)36531721"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -23404,7 +23414,7 @@
       "tel": "(81)36218156"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -24170,7 +24180,7 @@
       "tel": "63992671847"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -24300,16 +24310,6 @@
       "tel": "(93)30675157"
      },
      {
-      "cnes": 9838988,
-      "nome": "Oculare Clinica De Olhos",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "93 992013732"
-     },
-     {
       "cnes": 2852969,
       "nome": "Vida Oftalmologia",
       "tipo": "Clínica especializada",
@@ -24360,14 +24360,14 @@
       "tel": "93-3522-3684"
      },
      {
-      "cnes": 4866916,
-      "nome": "Unimed Oeste Do Para Cooperativa De Trabalho Medico Centro",
-      "tipo": "Hospital geral",
+      "cnes": 9838988,
+      "nome": "Oculare Clinica De Olhos",
+      "tipo": "Clínica especializada",
       "hosp": true,
       "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "93 21019024"
+      "olho": true,
+      "sus": false,
+      "tel": "93 992013732"
      },
      {
       "cnes": 2329913,
@@ -24408,9 +24408,19 @@
       "olho": false,
       "sus": true,
       "tel": ""
+     },
+     {
+      "cnes": 4866916,
+      "nome": "Unimed Oeste Do Para Cooperativa De Trabalho Medico Centro",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "93 21019024"
      }
     ],
-    "data": "2026-10-18"
+    "data": "2026-11-18"
    }
   },
   {
@@ -24518,6 +24528,79 @@
      }
     ],
     "data": "2026-11-09"
+   }
+  },
+  {
+   "id": "priv:lista:509638a6cb731a22",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "BLL Compras",
+   "categoria": "Oftalmologia",
+   "uf": "SP",
+   "municipio": "Lins",
+   "orgao": "MUNICIPIO DE LINS",
+   "modalidade": "Credenciamento 008/2026 · Recepção de propostas",
+   "objeto": "CREDENCIAMENTO PARA CONSULTA MÉDICA ESPECIALIZADA EM OFTALMOLOGIA, ABRANGENDO AVALIAÇÃO DE ACUIDADE VISUAL PARA LONGE E PERTO, COM E SEM CORREÇÃO; REFRAÇÃO; INSPEÇÃO DE OLHOS E ANEXOS; AVALIAÇÃO DAS PUPILAS E MOTILIDADE OCULAR; BIOMICROSCOPIA DO SEGMENTO ANTERIOR; TONOMETRIA; FUNDOSCOPIA; ORIENTAÇÃO CLÍNICA E DEFINIÇÃO DE CONDUTA, COM PRESCRIÇÃO DE ÓCULOS QUANDO CLINICAMENTE INDICADA. CONFORME ANEXO I - TERMO DE REFERÊNCIA",
+   "valor_total": 117948.96,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "2027-11-17T23:59",
+   "publicado": "2026-11-17",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://bllcompras.com/Process/ProcessView?param1=%5Bgkz%5D%2FDvyrkfqchrUQHQTh%2FypsT0tb6Xga5WFoI_GbMNtCn8oV5MlultWl926gLjmWc%2FMeHbLmus68XD1dpdLAR2qXewwDOO%2FtUfFxnuIuiJkcuY%3D",
+   "link": "https://bllcompras.com/Process/ProcessView?param1=%5Bgkz%5D%2FDvyrkfqchrUQHQTh%2FypsT0tb6Xga5WFoI_GbMNtCn8oV5MlultWl926gLjmWc%2FMeHbLmus68XD1dpdLAR2qXewwDOO%2FtUfFxnuIuiJkcuY%3D",
+   "dist_km": 138,
+   "primeira_vez": "2026-11-17",
+   "termos": [],
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 3,
+    "total": 4,
+    "est": [
+     {
+      "cnes": 2758245,
+      "nome": "Santa Casa De Lins",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(014) 3533-2500"
+     },
+     {
+      "cnes": 3060616,
+      "nome": "Hospital Lins",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(014) 3533-4412"
+     },
+     {
+      "cnes": 3155803,
+      "nome": "Clinica Gabas De Cirurgia Plastica",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(14)35221224"
+     },
+     {
+      "cnes": 3518949,
+      "nome": "Hospital Unimed Lins",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(014) 3533-4835"
+     }
+    ],
+    "data": "2026-11-07"
    }
   },
   {
@@ -31285,7 +31368,7 @@
   {
    "nome": "BLL Compras",
    "ok": true,
-   "itens": 0
+   "itens": 1
   },
   {
    "nome": "BNC Compras",
@@ -31376,8 +31459,7 @@
   },
   {
    "nome": "INDSH",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 35
   },
   {
@@ -31411,6 +31493,6 @@
    "itens": 0
   }
  ],
- "rodada": "44139696672",
- "concluido": "2026-11-17 14:54"
+ "rodada": "44204354946",
+ "concluido": "2026-11-17 21:14"
 }
