@@ -389,5 +389,19 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "dou:https://www.diariomunicipal.com.br/agm/materia/2D88BF3E": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-18T04:30:40.626432-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-18T04:30:40.626432-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
   }
 }
