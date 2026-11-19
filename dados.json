@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19 01:08",
+ "atualizado": "2026-11-19 10:31",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -215,7 +215,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:78640489000153/2026/1017",
@@ -428,7 +429,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12008540000109/2026/58",
@@ -521,7 +523,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10462364000147/2026/81",
@@ -580,7 +583,8 @@
     "total": 0,
     "est": [],
     "data": "2026-10-29"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:32090677000154/2026/3",
@@ -813,7 +817,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:63496573000178/2026/5",
@@ -988,7 +993,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:55750301000124/2026/21",
@@ -1073,7 +1079,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:08365850000103/2026/115",
@@ -1160,7 +1167,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11797106000184/2026/15",
@@ -1260,7 +1268,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10511002000107/2026/9",
@@ -1352,7 +1361,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:17781651000169/2026/8",
@@ -1442,7 +1452,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05853163000130/2027/16",
@@ -1663,7 +1674,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07598600000142/2026/192",
@@ -1740,7 +1752,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:31974558000100/2025/12",
@@ -1818,7 +1831,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07622498000173/2026/20",
@@ -1926,7 +1940,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07615750000117/2026/83",
@@ -1996,7 +2011,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01595320000102/2026/25",
@@ -2096,7 +2112,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07705817000104/2026/105",
@@ -2175,7 +2192,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:22680672000128/2026/59",
@@ -2277,7 +2295,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11258723000101/2026/6",
@@ -2377,7 +2396,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11608295000108/2026/12",
@@ -2478,7 +2498,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12257765000190/2026/20",
@@ -2569,7 +2590,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05182233000176/2026/87",
@@ -2798,7 +2820,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18837278000183/2026/14",
@@ -2875,7 +2898,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:04628608000116/2026/27",
@@ -2948,7 +2972,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18296699000144/2026/199",
@@ -3010,7 +3035,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05193057000178/2025/216",
@@ -3185,7 +3211,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18017442000106/2026/53",
@@ -3311,7 +3338,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05853163000130/2027/5",
@@ -3493,7 +3521,8 @@
      }
     ],
     "data": "2026-10-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11301094000155/2026/29",
@@ -3604,7 +3633,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12260233000102/2026/22",
@@ -3664,7 +3694,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07963861000114/2026/44",
@@ -3742,7 +3773,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:24359333000170/2026/76",
@@ -3857,7 +3889,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23555196000186/2026/88",
@@ -3961,7 +3994,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11443804000181/2026/2",
@@ -3994,7 +4028,8 @@
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:07346147000187/2026/3",
@@ -4153,7 +4188,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13173908000149/2026/4",
@@ -4230,7 +4266,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11232665000147/2026/107",
@@ -4299,7 +4336,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:19769660000160/2026/44",
@@ -4386,7 +4424,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01611858000155/2026/15",
@@ -4465,7 +4504,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07416704000199/2026/30",
@@ -4547,7 +4587,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10411406000110/2026/7",
@@ -4619,7 +4660,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01080759000194/2026/3",
@@ -4759,7 +4801,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05058441000168/2026/1",
@@ -4998,7 +5041,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23804149000129/2026/41",
@@ -5107,7 +5151,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11359904000124/2025/37",
@@ -5204,7 +5249,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10511002000107/2025/9",
@@ -5297,7 +5343,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06769798000117/2025/166",
@@ -5414,7 +5461,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:04144176000178/2025/42",
@@ -5543,7 +5591,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23467889000117/2026/1",
@@ -5602,7 +5651,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:08923971000115/2026/1",
@@ -5718,7 +5768,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05448380000145/2025/7",
@@ -5970,7 +6021,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11816419000132/2026/6",
@@ -6101,7 +6153,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:91110296000159/2026/197",
@@ -6180,7 +6233,8 @@
     "total": 0,
     "est": [],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12780909000199/2026/16",
@@ -6274,7 +6328,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:45318185000115/2026/59",
@@ -6353,7 +6408,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11390781000194/2026/2",
@@ -6445,7 +6501,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01921228000187/2026/12",
@@ -6476,7 +6533,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:07605850000162/2026/246",
@@ -6641,7 +6699,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07811946000187/2026/113",
@@ -6693,7 +6752,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:29131075000193/2026/369",
@@ -6795,7 +6855,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07654114000102/2026/53",
@@ -6900,7 +6961,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:87334918000155/2025/244",
@@ -6979,7 +7041,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23563067000130/2026/74",
@@ -7070,7 +7133,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07733256000157/2026/78",
@@ -7173,7 +7237,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07918201000111/2026/10",
@@ -7349,7 +7414,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07547821000191/2026/60",
@@ -7445,7 +7511,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18650952000116/2025/11",
@@ -7530,7 +7597,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11816419000132/2025/30",
@@ -7659,7 +7727,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:04144168000121/2026/40",
@@ -7874,7 +7943,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07993439000101/2026/41",
@@ -7959,7 +8029,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23563067000130/2026/37",
@@ -8043,7 +8114,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06741565000106/2027/1",
@@ -8146,7 +8218,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11348280000140/2026/3",
@@ -8235,7 +8308,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07520372000198/2026/1",
@@ -8298,7 +8372,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11248285000109/2026/3",
@@ -8416,7 +8491,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11816419000132/2025/23",
@@ -8540,7 +8616,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:03533064000146/2025/43",
@@ -8776,7 +8853,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:27080605001249/2026/1",
@@ -8910,7 +8988,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:87334918000155/2025/139",
@@ -8979,7 +9058,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:88702089000189/2024/233",
@@ -9055,7 +9135,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18151467000106/2025/54",
@@ -9257,7 +9338,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11503081000169/2026/46",
@@ -9326,7 +9408,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:46482840000139/2026/860",
@@ -9353,7 +9436,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:46374500000194/2026/9294",
@@ -9380,7 +9464,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:46668596000101/2026/213",
@@ -9457,7 +9542,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:46668596000101/2026/212",
@@ -9534,7 +9620,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18663401000197/2026/255",
@@ -9634,7 +9721,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01612481000159/2026/12",
@@ -9691,7 +9779,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:42498600000171/2026/4748",
@@ -9718,7 +9807,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:13908702000110/2026/166",
@@ -9807,7 +9897,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:94704061000183/2026/294",
@@ -9875,7 +9966,8 @@
     "total": 0,
     "est": [],
     "data": "2026-10-31"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:94704061000183/2026/292",
@@ -9944,7 +10036,8 @@
     "total": 0,
     "est": [],
     "data": "2026-10-31"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:09129733000103/2026/47",
@@ -10029,7 +10122,8 @@
      }
     ],
     "data": "2026-10-31"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07598709000180/2027/1",
@@ -10090,7 +10184,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:03155934000190/2026/133",
@@ -10182,7 +10277,8 @@
      }
     ],
     "data": "2026-10-29"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:50122571000177/2026/355",
@@ -10209,7 +10305,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:00038166000105/2026/531",
@@ -10432,7 +10529,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10572022000180/2026/503",
@@ -10460,7 +10558,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:07784414000106/2026/84",
@@ -10509,7 +10608,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:88379763000136/2026/150",
@@ -10581,7 +10681,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06070075000125/2026/52",
@@ -10661,7 +10762,8 @@
      }
     ],
     "data": "2026-10-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:03681070000140/2026/10",
@@ -10888,7 +10990,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:44531788000138/2026/207",
@@ -10965,7 +11068,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11870726000100/2026/350",
@@ -11049,7 +11153,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:31469764000154/2026/26",
@@ -11209,7 +11314,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11097250000108/2026/103",
@@ -11294,7 +11400,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11326603000102/2026/33",
@@ -11369,7 +11476,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:14105704000133/2026/142",
@@ -11481,7 +11589,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:09072455000197/2026/36",
@@ -11573,7 +11682,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:08162687000173/2026/203",
@@ -11600,7 +11710,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:12397007000178/2026/25",
@@ -11636,7 +11747,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18192898000102/2026/211",
@@ -11718,7 +11830,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:92412808000102/2026/40",
@@ -11769,7 +11882,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07891658000180/2026/41",
@@ -11839,7 +11953,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10404184000109/2026/578",
@@ -11949,7 +12064,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:08007591000130/2026/4",
@@ -12026,7 +12142,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:60747318000162/2026/1185",
@@ -12259,7 +12376,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13982640000196/2026/130",
@@ -12383,7 +12501,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01319326000149/2026/56",
@@ -12444,7 +12563,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11098717000134/2026/20",
@@ -12506,7 +12626,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:08739930000173/2026/80",
@@ -12560,7 +12681,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18134122000136/2026/12",
@@ -12599,7 +12721,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11232665000147/2026/247",
@@ -12646,7 +12769,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18239590000175/2026/191",
@@ -12693,7 +12817,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:88138292000174/2026/124",
@@ -12780,7 +12905,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06138911000166/2026/49",
@@ -12827,7 +12953,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11511812000118/2026/23",
@@ -12916,7 +13043,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10261245000126/2026/14",
@@ -12999,7 +13127,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:08418330000103/2026/43",
@@ -13046,7 +13175,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13675491000112/2026/409",
@@ -13140,7 +13270,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:09084088000141/2026/44",
@@ -13205,7 +13336,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13675491000112/2026/408",
@@ -13299,7 +13431,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13675491000112/2026/407",
@@ -13393,7 +13526,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:16886871000194/2026/192",
@@ -13450,7 +13584,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:24359333000170/2026/136",
@@ -13557,7 +13692,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10280055000156/2026/112",
@@ -13614,7 +13750,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:19875020000134/2026/46",
@@ -13681,7 +13818,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11352368000135/2026/63",
@@ -13717,7 +13855,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:55750301000124/2026/15",
@@ -13839,7 +13978,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:55750301000124/2026/13",
@@ -13928,7 +14068,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06138911000166/2026/58",
@@ -13975,7 +14116,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:60975983000103/2026/7",
@@ -14057,7 +14199,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:24359333000170/2026/115",
@@ -14168,7 +14311,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:29131075000193/2026/311",
@@ -14260,7 +14404,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23515687000101/2026/144",
@@ -14329,7 +14474,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18296699000144/2026/241",
@@ -14385,7 +14531,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:05054929000117/2026/240",
@@ -14613,7 +14760,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01616855000104/2026/41",
@@ -14694,7 +14842,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11970135000104/2026/15",
@@ -14792,7 +14941,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18349894000195/2026/38",
@@ -14888,7 +15038,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06070075000125/2026/24",
@@ -14968,7 +15119,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11283491000141/2026/75",
@@ -15025,7 +15177,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11301094000155/2026/28",
@@ -15073,7 +15226,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11283491000141/2026/71",
@@ -15130,7 +15284,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:23444748000189/2027/2",
@@ -15227,7 +15382,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:06202808000138/2026/18",
@@ -15291,7 +15447,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:02031332000169/2026/21",
@@ -15374,7 +15531,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:27064964000150/2026/20",
@@ -15468,7 +15626,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:25103884000130/2026/46",
@@ -15681,7 +15840,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:51816247000111/2026/356",
@@ -15779,7 +15939,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:88117700000101/2024/272",
@@ -15852,7 +16013,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01999898000116/2024/14",
@@ -15909,7 +16071,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12094507000130/2026/24",
@@ -15987,7 +16150,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:00394502000144/2026/4320",
@@ -16197,7 +16361,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11726671000150/2026/7",
@@ -16244,7 +16409,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01613309000110/2026/14",
@@ -16344,7 +16510,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:25223850000180/2026/17",
@@ -16391,7 +16558,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01095667000188/2024/18",
@@ -16473,7 +16641,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:10572048000128/2025/1104",
@@ -16692,7 +16861,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:16886608000103/2024/20",
@@ -16746,7 +16916,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13179412000182/2026/4",
@@ -16818,7 +16989,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:02762633000162/2026/10",
@@ -16996,7 +17168,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:09084815000170/2026/39",
@@ -17147,7 +17320,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18334292000164/2026/23",
@@ -17221,7 +17395,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:60747318000162/2026/294",
@@ -17449,7 +17624,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:19875046000182/2026/27",
@@ -17571,7 +17747,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:25103884000130/2026/23",
@@ -17782,7 +17959,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11430652000182/2026/10",
@@ -17867,7 +18045,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:25324187000100/2026/19",
@@ -17914,7 +18093,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11336672000199/2026/12",
@@ -18050,7 +18230,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:15088800000183/2026/46",
@@ -18098,7 +18279,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11087455000102/2026/12",
@@ -18172,7 +18354,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01612348000100/2026/6",
@@ -18231,7 +18414,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13715891000104/2026/35",
@@ -18429,7 +18613,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13715891000104/2026/34",
@@ -18627,7 +18812,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13715891000104/2026/33",
@@ -18825,7 +19011,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:76206606000140/2026/77",
@@ -18981,7 +19168,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:07720960000175/2026/10",
@@ -19017,7 +19205,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:75476556000158/2026/23",
@@ -19096,7 +19285,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01617317000134/2026/5",
@@ -19166,7 +19356,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12359535000132/2026/8",
@@ -19252,7 +19443,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:11430652000182/2026/1",
@@ -19337,7 +19529,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:60448040000122/2026/722",
@@ -19361,7 +19554,8 @@
    "primeira_vez": "2026-11-07",
    "termos": [
     "oftalmo"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:46068425000133/2026/2304",
@@ -19385,7 +19579,8 @@
    "primeira_vez": "2026-11-07",
    "termos": [
     "oftalmo"
-   ]
+   ],
+   "chamada_diario": false
   },
   {
    "id": "pncp:10572048001523/2026/2",
@@ -19613,7 +19808,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18715383000140/2024/1393",
@@ -19847,7 +20043,8 @@
      }
     ],
     "data": "2026-10-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01202226000138/2025/8",
@@ -19950,7 +20147,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:24359333000170/2025/239",
@@ -20058,7 +20256,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:12257765000190/2025/23",
@@ -20153,7 +20352,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18659334000137/2025/353",
@@ -20234,7 +20434,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:13796016000102/2026/1",
@@ -20305,7 +20506,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18663401000197/2025/376",
@@ -20405,7 +20607,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:01974088000105/2025/130",
@@ -20489,7 +20692,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:88199971000153/2025/175",
@@ -20557,7 +20761,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:02571718000163/2024/3",
@@ -20640,7 +20845,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:18404780000109/2025/41",
@@ -20769,7 +20975,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "pncp:19769660000160/2025/401",
@@ -20842,7 +21049,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-29/28a51a82b4e141a70a6eae91157c84eb5af31d53.pdf",
@@ -21026,7 +21234,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-20/be038006a40d1a7ed46d8839908cf8bb37498fcb.pdf",
@@ -21213,7 +21422,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-14/e63c1a22fb064ed3b4bc84d8a2d3c426e9982847.pdf",
@@ -21400,7 +21610,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/2907806/2026-11-18/3a87a5e98f393757fe4a6c5d4b9fcfb78a40a2a2.pdf",
@@ -21455,7 +21666,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/3554102/2026-11-04/c7146eda7605f677aff5b66e364ba91b373e5b78.pdf",
@@ -21630,7 +21842,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/5007208/2026-10-28/7dae3357a712389a4b340543923101e16642e0f5.pdf",
@@ -21675,7 +21888,8 @@
      }
     ],
     "data": "2026-10-29"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/2906006/2026-10-27/941c8a51b6c0ea15506a80c5b6c99a7779414eb2.pdf",
@@ -21720,7 +21934,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/3504503/2026-10-26/f293c80b8d9c7140b8ff428c64bcffbe13c40037.pdf",
@@ -21775,7 +21990,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/2930105/2026-11-17/3799ed2ea885e279608a1a6a9a37d06cb4a65a2b.pdf",
@@ -21830,7 +22046,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/3305505/2026-10-28/431cb328722a0aee6b9b087e13324cda833247ef.pdf",
@@ -21895,7 +22112,8 @@
      }
     ],
     "data": "2026-11-10"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/5004403/2026-10-27/a12c361f0680be53b133295bc08f0295532cc327.pdf",
@@ -21940,7 +22158,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/5004403/2026-09-25/1c55cc534c1d49b41c0c3a58ee0e3faaf09135af.pdf",
@@ -21984,7 +22203,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/2802106/2026-10-16/7217c2f81fe0e89ad04da25f5f0dae1fb673d4ac.pdf",
@@ -22048,7 +22268,8 @@
      }
     ],
     "data": "2026-11-10"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/3135209/2026-10-02/cc0e16b364074bdf2a65fd4c45c98da5c18ecc07.pdf",
@@ -22102,7 +22323,8 @@
      }
     ],
     "data": "2026-11-10"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amm-mg/materia/092F7486",
@@ -22160,7 +22382,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amm-mg/materia/5ECFCE91",
@@ -22197,7 +22420,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amm-mg/materia/3480FD81",
@@ -22234,7 +22458,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amm-mg/materia/B17EBE68",
@@ -22262,7 +22487,8 @@
     "oftalmológicas"
    ],
    "diario_rede": "associacoes",
-   "diario_nome": "AMM-MG"
+   "diario_nome": "AMM-MG",
+   "chamada_diario": true
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amp/materia/267CF2CC",
@@ -22390,7 +22616,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famup/materia/00358403",
@@ -22458,7 +22685,8 @@
      }
     ],
     "data": "2026-10-28"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famup/materia/4A5397FB",
@@ -22495,7 +22723,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/aprece/materia/562CD097",
@@ -22543,7 +22772,8 @@
      }
     ],
     "data": "2026-11-09"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/femurn/materia/7B6F0E9F",
@@ -22591,7 +22821,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/femurn/materia/2133B125",
@@ -22649,7 +22880,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famurs/materia/5B610D71",
@@ -22727,7 +22959,8 @@
      }
     ],
     "data": "2026-11-13"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famurs/materia/D7122F95",
@@ -22775,7 +23008,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amupe/materia/69A488FA",
@@ -22843,7 +23077,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amupe/materia/2A416A1F",
@@ -22911,7 +23146,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amupe/materia/2AD89FBE",
@@ -22959,7 +23195,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amupe/materia/A1D079EB",
@@ -23007,7 +23244,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/amupe/materia/B5DB89BA",
@@ -23055,7 +23293,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/agm/materia/2D88BF3E",
@@ -23090,7 +23329,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/agm/materia/EE823AA7",
@@ -23138,7 +23378,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/agm/materia/DB4D1EF4",
@@ -23186,7 +23427,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famep/materia/19C2109D",
@@ -23246,7 +23488,8 @@
      }
     ],
     "data": "2026-11-09"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famep/materia/9F8943FB",
@@ -23305,7 +23548,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famep/materia/E9DC0261",
@@ -23373,7 +23617,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "dou:https://www.diariomunicipal.com.br/famep/materia/BAF9D425",
@@ -23441,7 +23686,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": true
   },
   {
    "id": "priv:pcp:525083",
@@ -23486,7 +23732,8 @@
      }
     ],
     "data": "2026-11-16"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:524616",
@@ -23531,7 +23778,8 @@
      }
     ],
     "data": "2026-11-12"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:523914",
@@ -23596,7 +23844,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:502535",
@@ -23641,7 +23890,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:492839",
@@ -23686,7 +23936,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:496469",
@@ -23761,7 +24012,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:464156",
@@ -23856,7 +24108,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:443857",
@@ -23911,7 +24164,8 @@
      }
     ],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:442512",
@@ -24096,7 +24350,8 @@
      }
     ],
     "data": "2026-11-18"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:pcp:436565",
@@ -24130,7 +24385,8 @@
     "total": 0,
     "est": [],
     "data": "2026-11-08"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:lista:ff0bd09fbde515d9",
@@ -24203,7 +24459,8 @@
      }
     ],
     "data": "2026-11-09"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "priv:lista:509638a6cb731a22",
@@ -24276,7 +24533,8 @@
      }
     ],
     "data": "2026-11-07"
-   }
+   },
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.amedracena.com.br/editalmedico",
@@ -24298,7 +24556,8 @@
    "link": "https://www.amedracena.com.br/editalmedico",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.cisavh.com.br/noticias/editais-de-credenciamento-abertos",
@@ -24320,7 +24579,8 @@
    "link": "https://www.cisavh.com.br/noticias/editais-de-credenciamento-abertos",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/06/Contrato-0172022-plantoes-medicos.pdf",
@@ -24342,7 +24602,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2022/06/Contrato-0172022-plantoes-medicos.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/01/EDITAL-08-2022-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-MEDICOS-ANESTESEOLOGIA-18-01-23.pdf",
@@ -24364,7 +24625,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/01/EDITAL-08-2022-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-MEDICOS-ANESTESEOLOGIA-18-01-23.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2021/02/EDITAL-01-2021-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
@@ -24386,7 +24648,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2021/02/EDITAL-01-2021-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/12/EDITAL-00-2020-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
@@ -24408,7 +24671,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2020/12/EDITAL-00-2020-CHAMAMENTO-PUBLICO-PARA-CONTRATACAO-DE-SERVICOS-DE-TERCEIROS-POR-PESSOAS-JURIDICAS.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2019/12/Edital-HGI-004-2019-Chamamento-Publico-servico-medicina-do-trabalho.pdf",
@@ -24430,7 +24694,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2019/12/Edital-HGI-004-2019-Chamamento-Publico-servico-medicina-do-trabalho.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/07/Edital-HGI-005-2022-07-Chamamento-Publico-servs-medicos-Angiologia.pdf",
@@ -24452,7 +24717,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2022/07/Edital-HGI-005-2022-07-Chamamento-Publico-servs-medicos-Angiologia.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/09/Edital-HGT-003-2025-Chamamento-Publico-UTI.pdf",
@@ -24474,7 +24740,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2025/09/Edital-HGT-003-2025-Chamamento-Publico-UTI.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/07/Edital-de-Chamamento-Publico-003-2024-Contratacao-de-Servicos-de-Terceiros-por-PJ-para-servicos-medicos-de-CIRURGIA-GERAL.pdf",
@@ -24496,7 +24763,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/07/Edital-de-Chamamento-Publico-003-2024-Contratacao-de-Servicos-de-Terceiros-por-PJ-para-servicos-medicos-de-CIRURGIA-GERAL.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/03/Edital-de-Chamamento-Publico-002.2023-Contratacao-de-servicos-de-terceiros-por-pessoas-juridicas-para-locacao-de-tenda.pdf",
@@ -24518,7 +24786,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/03/Edital-de-Chamamento-Publico-002.2023-Contratacao-de-servicos-de-terceiros-por-pessoas-juridicas-para-locacao-de-tenda.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/01/Edital-de-Chamamento-Publico-HGT-006.2022-Prestacao-de-servicos-de-medicina-do-trabalho.pdf",
@@ -24540,7 +24809,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/01/Edital-de-Chamamento-Publico-HGT-006.2022-Prestacao-de-servicos-de-medicina-do-trabalho.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/09/EDITAL-CIRURGIAS-ELETIVAS-2025-1.pdf",
@@ -24562,7 +24832,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2025/09/EDITAL-CIRURGIAS-ELETIVAS-2025-1.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/04/CHAMAMENTO-PUBLICO-PARA-A-ESPECIALIDADE-DE-OFTALMOLOGISTA.pdf",
@@ -24584,7 +24855,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/04/CHAMAMENTO-PUBLICO-PARA-A-ESPECIALIDADE-DE-OFTALMOLOGISTA.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/11/Edital-HRPC-008-2024-Chamamento-Publico-Servicos-Medicos-de-Clinica-Medica.pdf",
@@ -24606,7 +24878,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/11/Edital-HRPC-008-2024-Chamamento-Publico-Servicos-Medicos-de-Clinica-Medica.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2019/05/Edital-de-contrata%C3%A7%C3%A3o-de-m%C3%A9dicos-pessoas-jur%C3%ADdicas-UTI.pdf",
@@ -24628,7 +24901,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2019/05/Edital-de-contrata%C3%A7%C3%A3o-de-m%C3%A9dicos-pessoas-jur%C3%ADdicas-UTI.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/09/Edital-Contratacao-Medico-Trabalho-pessoas-juridicas-Setembro-2020-convertido.pdf",
@@ -24650,7 +24924,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2020/09/Edital-Contratacao-Medico-Trabalho-pessoas-juridicas-Setembro-2020-convertido.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/10/Prorrogacao-do-prazo-para-apresentacao-de-propostas-PA-INDSH-HRPL-006-2020.pdf",
@@ -24672,7 +24947,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2020/10/Prorrogacao-do-prazo-para-apresentacao-de-propostas-PA-INDSH-HRPL-006-2020.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2020/10/Edital-Contratacao-Prestacao-de-Servico-Grupo-Gerador-pessoas-juridicas-.._-convertido.pdf",
@@ -24694,7 +24970,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2020/10/Edital-Contratacao-Prestacao-de-Servico-Grupo-Gerador-pessoas-juridicas-.._-convertido.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/04/Edital-HRPM-003-2024-04-Chamamento-Publico-servicos-medicos-de-Mastologia.pdf",
@@ -24716,7 +24993,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/04/Edital-HRPM-003-2024-04-Chamamento-Publico-servicos-medicos-de-Mastologia.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-005-2024-06-Chamamento-Publico-servicos-medicos-de-Clinica-medica.pdf",
@@ -24738,7 +25016,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-005-2024-06-Chamamento-Publico-servicos-medicos-de-Clinica-medica.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-007-2024-06-Chamamento-Publico-servicos-medicos-de-Intensivista-Adulto-UTI-A.pdf",
@@ -24760,7 +25039,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/06/Edital-HRPM-007-2024-06-Chamamento-Publico-servicos-medicos-de-Intensivista-Adulto-UTI-A.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/01/005.2024-POLIMED-CLINICA-MEDICA.pdf",
@@ -24782,7 +25062,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2025/01/005.2024-POLIMED-CLINICA-MEDICA.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/01/006.2024-POLIMED-CIRURGIA-GERAL.pdf",
@@ -24804,7 +25085,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2025/01/006.2024-POLIMED-CIRURGIA-GERAL.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Cirurgia-Geral.pdf",
@@ -24826,7 +25108,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Cirurgia-Geral.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Clinica-Medica-Adulto.pdf",
@@ -24848,7 +25131,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2022/06/00.-Publicacao-Jornal-Clinica-Medica-Adulto.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2025/11/Termo-de-Referencia-e-Contratacao-SERVICOS-MEDICOS.pdf",
@@ -24870,7 +25154,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2025/11/Termo-de-Referencia-e-Contratacao-SERVICOS-MEDICOS.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Cirurgia-Geral.pdf",
@@ -24892,7 +25177,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Cirurgia-Geral.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Clinica-Medica.pdf",
@@ -24914,7 +25200,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2024/05/Contratacao-de-Empresa-Especializada-em-Servicos-Medicos-em-Clinica-Medica.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTA-PAULA-1-1.pdf",
@@ -24936,7 +25223,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTA-PAULA-1-1.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTA-PAULA-1-1.pdf",
@@ -24958,7 +25246,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTA-PAULA-1-1.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTA-PAULA-1.pdf",
@@ -24980,7 +25269,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTA-PAULA-1.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2026/03/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA-2026-REV-PUBLICACAO.pdf",
@@ -25002,7 +25292,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2026/03/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA-2026-REV-PUBLICACAO.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2026/03/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTANA-2026-REV-PUBLICACAO.pdf",
@@ -25024,7 +25315,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2026/03/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTANA-2026-REV-PUBLICACAO.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA.pdf",
@@ -25046,7 +25338,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/01.-ATO-CONVOCATORIO-EDITAL-SERVICOS-MEDICOS-UPAS-SANTANA.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTANA.pdf",
@@ -25068,7 +25361,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/02.-EDITAL-SERVICOS-MEDICOS-TECNICA-E-PRECO-UPA-SANTANA.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTANA.pdf",
@@ -25090,7 +25384,8 @@
    "link": "https://www.indsh.org.br/wp-content/uploads/2023/04/03.-TERMO-DE-REFERENCIA-SERVICOS-MEDICOS-UPA-SANTANA.pdf",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "oss:https://www.funcamp.unicamp.br/portal/Aquisicoes/Credenciamentos",
@@ -25112,7 +25407,8 @@
    "link": "https://www.funcamp.unicamp.br/portal/Aquisicoes/Credenciamentos",
    "dist_km": null,
    "primeira_vez": "2026-10-17",
-   "termos": []
+   "termos": [],
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13904420000144/2026/113",
@@ -25144,7 +25440,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18457226000181/2026/131",
@@ -25176,7 +25473,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11166368000140/2026/153",
@@ -25208,7 +25506,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:10275997000146/2026/15",
@@ -25240,7 +25539,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07615750000117/2026/94",
@@ -25272,7 +25572,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394452000103/2026/8466",
@@ -25304,7 +25605,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01990521000104/2026/56",
@@ -25335,7 +25637,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01990521000104/2026/55",
@@ -25366,7 +25669,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01990521000104/2026/54",
@@ -25398,7 +25702,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:87297982000103/2026/192",
@@ -25429,7 +25734,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07540925000174/2026/34",
@@ -25460,7 +25766,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13915640000173/2026/127",
@@ -25491,7 +25798,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:06018568000116/2026/61",
@@ -25523,7 +25831,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:42498600000171/2025/6262",
@@ -25554,7 +25863,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07705817000104/2026/92",
@@ -25586,7 +25896,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:94707627000120/2025/119",
@@ -25617,7 +25928,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11608295000108/2026/37",
@@ -25648,7 +25960,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11608295000108/2026/36",
@@ -25679,7 +25992,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11608295000108/2026/34",
@@ -25710,7 +26024,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11271785000153/2026/4",
@@ -25741,7 +26056,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01915313000132/2026/62",
@@ -25772,7 +26088,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11608295000108/2026/33",
@@ -25803,7 +26120,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11608295000108/2026/32",
@@ -25834,7 +26152,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13183513000127/2026/8",
@@ -25865,7 +26184,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:93235968000188/2026/62",
@@ -25896,7 +26216,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11294402000162/2026/97",
@@ -25927,7 +26248,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01613323000113/2026/58",
@@ -25959,7 +26281,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:17754136000190/2026/95",
@@ -25990,7 +26313,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:17754136000190/2026/88",
@@ -26021,7 +26345,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:12122065000199/2026/36",
@@ -26052,7 +26377,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:17754136000190/2026/80",
@@ -26083,7 +26409,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:42498600000171/2026/2143",
@@ -26114,7 +26441,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:10589928000107/2026/17",
@@ -26145,7 +26473,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:02056729000105/2026/817",
@@ -26176,7 +26505,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:06104863000195/2026/179",
@@ -26207,7 +26537,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11308823000103/2026/27",
@@ -26238,7 +26569,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01611858000155/2026/110",
@@ -26269,7 +26601,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01611858000155/2026/111",
@@ -26300,7 +26633,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11232665000147/2026/231",
@@ -26331,7 +26665,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18457226000181/2026/69",
@@ -26363,7 +26698,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394502000144/2026/365",
@@ -26395,7 +26731,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394502000144/2026/364",
@@ -26427,7 +26764,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394502000144/2026/363",
@@ -26459,7 +26797,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394502000144/2026/362",
@@ -26491,7 +26830,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:08109126000100/2026/343",
@@ -26522,7 +26862,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:10839115000128/2026/72",
@@ -26553,7 +26894,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07416704000199/2026/35",
@@ -26584,7 +26926,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:12008540000109/2026/113",
@@ -26615,7 +26958,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:04279238000159/2026/22",
@@ -26646,7 +26990,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01616769000100/2026/4",
@@ -26677,7 +27022,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:01616769000100/2026/3",
@@ -26708,7 +27054,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07954480000179/2025/30169",
@@ -26739,7 +27086,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:20665259000169/2026/4",
@@ -26770,7 +27118,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11308823000103/2026/4",
@@ -26802,7 +27151,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:46189734000161/2025/22",
@@ -26833,7 +27183,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07731102000126/2025/58",
@@ -26864,7 +27215,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:06769798000117/2025/419",
@@ -26895,7 +27247,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:06769798000117/2025/420",
@@ -26926,7 +27279,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:02441185000103/2025/159",
@@ -26957,7 +27311,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:02441185000103/2025/158",
@@ -26988,7 +27343,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11308823000103/2025/62",
@@ -27019,7 +27375,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:02391654000119/2025/219",
@@ -27051,7 +27408,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:06191001000147/2025/228",
@@ -27082,7 +27440,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394452000103/2025/5731",
@@ -27113,7 +27472,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:15126437000305/2026/764",
@@ -27144,7 +27504,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07654114000102/2026/132",
@@ -27175,7 +27536,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07954480000179/2026/7776",
@@ -27206,7 +27568,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:12459632000105/2026/8",
@@ -27237,7 +27600,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:10589928000107/2026/33",
@@ -27268,7 +27632,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07679723000108/2026/47",
@@ -27300,7 +27665,8 @@
     "facoemulsificação",
     "facectomia"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07679723000108/2026/46",
@@ -27332,7 +27698,8 @@
     "facoemulsificação",
     "facectomia"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07679723000108/2026/45",
@@ -27364,7 +27731,8 @@
     "facoemulsificação",
     "facectomia"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:22705248000190/2026/32",
@@ -27395,7 +27763,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13761713000110/2026/300",
@@ -27427,7 +27796,8 @@
     "facoemulsificação",
     "facectomia"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394544000185/2026/4698",
@@ -27458,7 +27828,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/23",
@@ -27489,7 +27860,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/22",
@@ -27520,7 +27892,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:15126437000143/2026/465",
@@ -27551,7 +27924,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/20",
@@ -27582,7 +27956,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/19",
@@ -27613,7 +27988,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:78640489000153/2026/203",
@@ -27644,7 +28020,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/17",
@@ -27675,7 +28052,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/16",
@@ -27706,7 +28084,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00697295000105/2026/15",
@@ -27737,7 +28116,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:22705248000190/2026/15",
@@ -27768,7 +28148,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:04755973000191/2026/121",
@@ -27799,7 +28180,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07592298000115/2025/352",
@@ -27830,7 +28212,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394544000185/2025/14847",
@@ -27861,7 +28244,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07598659000130/2025/231",
@@ -27892,7 +28276,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:22705248000190/2025/75",
@@ -27923,7 +28308,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13034603000156/2025/70",
@@ -27954,7 +28340,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07744303000168/2025/685",
@@ -27985,7 +28372,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13034603000156/2025/68",
@@ -28017,7 +28405,8 @@
     "facoemulsificação",
     "facectomia"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394502000144/2025/1483",
@@ -28048,7 +28437,8 @@
    "termos": [
     "facectomia"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:31974558000100/2025/22",
@@ -28079,7 +28469,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18140756000100/2026/558",
@@ -28110,7 +28501,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18140756000100/2026/521",
@@ -28141,7 +28533,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00163055000112/2026/171",
@@ -28172,7 +28565,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/746",
@@ -28203,7 +28597,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/740",
@@ -28234,7 +28629,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07954480000179/2025/31617",
@@ -28265,7 +28661,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:31974558000100/2025/29",
@@ -28296,7 +28693,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/729",
@@ -28327,7 +28725,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/728",
@@ -28358,7 +28757,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/727",
@@ -28389,7 +28789,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/726",
@@ -28420,7 +28821,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/725",
@@ -28451,7 +28853,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:08778268000160/2026/1447",
@@ -28482,7 +28885,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11285282000137/2026/180",
@@ -28513,7 +28917,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:08241754000145/2026/321",
@@ -28544,7 +28949,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:07954480000179/2025/29985",
@@ -28575,7 +28981,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:36975571000199/2026/245",
@@ -28606,7 +29013,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:08241754000145/2026/312",
@@ -28637,7 +29045,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/293",
@@ -28668,7 +29077,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/704",
@@ -28699,7 +29109,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/702",
@@ -28730,7 +29141,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/701",
@@ -28761,7 +29173,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00877406000157/2026/27",
@@ -28792,7 +29205,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00877406000157/2026/7",
@@ -28823,7 +29237,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00877406000157/2025/128",
@@ -28854,7 +29269,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:29131075000193/2026/469",
@@ -28885,7 +29301,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:08109126000100/2026/670",
@@ -28916,7 +29333,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:31974558000100/2026/27",
@@ -28947,7 +29365,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:08241754000145/2026/308",
@@ -28978,7 +29397,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/695",
@@ -29009,7 +29429,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:11390781000194/2026/2",
@@ -29040,7 +29461,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/691",
@@ -29071,7 +29493,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/688",
@@ -29102,7 +29525,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:18151467000106/2026/687",
@@ -29133,7 +29557,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13427383000120/2026/15",
@@ -29164,7 +29589,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13427383000120/2026/14",
@@ -29195,7 +29621,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13427383000120/2026/13",
@@ -29226,7 +29653,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:13427383000120/2026/12",
@@ -29257,7 +29685,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:contrato:00394429000100/2025/1457",
@@ -29288,7 +29717,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:46523031000128/2026/131/1",
@@ -29318,7 +29748,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:06553804000102/2025/45/1",
@@ -29347,7 +29778,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11237287000194/2026/11/1",
@@ -29376,7 +29808,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/7",
@@ -29407,7 +29840,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/6",
@@ -29438,7 +29872,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/5",
@@ -29469,7 +29904,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/4",
@@ -29500,7 +29936,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/3",
@@ -29531,7 +29968,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/2",
@@ -29562,7 +30000,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/2493/1",
@@ -29593,7 +30032,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:04282869000127/2026/59/1",
@@ -29623,7 +30063,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:06018568000116/2026/2/1",
@@ -29653,7 +30094,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:22812960000199/2026/39/1",
@@ -29683,7 +30125,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11237287000194/2026/9/1",
@@ -29712,7 +30155,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11237287000194/2026/8/1",
@@ -29741,7 +30185,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:07592298000115/2024/102/1",
@@ -29770,7 +30215,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/8611/6",
@@ -29800,7 +30246,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/8611/5",
@@ -29830,7 +30277,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/8611/4",
@@ -29860,7 +30308,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/8611/3",
@@ -29890,7 +30339,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/8611/2",
@@ -29920,7 +30370,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/8611/1",
@@ -29950,7 +30401,8 @@
     "catarata",
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:07387311000102/2024/50/2",
@@ -29979,7 +30431,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394502000144/2025/5445/3",
@@ -30010,7 +30463,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394502000144/2025/5445/2",
@@ -30041,7 +30495,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394502000144/2025/5445/1",
@@ -30072,7 +30527,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11237287000194/2026/5/1",
@@ -30101,7 +30557,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:01616769000100/2025/88/1",
@@ -30131,7 +30588,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:04279238000159/2025/194/1",
@@ -30161,7 +30619,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:22938757000163/2025/57/1",
@@ -30191,7 +30650,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:46638714000120/2025/322/1",
@@ -30221,7 +30681,8 @@
     "catarata",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:32090677000154/2025/9/1",
@@ -30250,7 +30711,8 @@
    "termos": [
     "catarata"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:24082016000159/2025/497/1",
@@ -30279,7 +30741,8 @@
    "termos": [
     "facoemulsificação"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/14947/3",
@@ -30309,7 +30772,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/14947/1",
@@ -30339,7 +30803,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394452000103/2026/14947/2",
@@ -30369,7 +30834,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394502000144/2026/4363/2",
@@ -30399,7 +30865,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:00394502000144/2026/4363/1",
@@ -30429,7 +30896,8 @@
     "facoemulsificação",
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4591/5",
@@ -30458,7 +30926,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4591/4",
@@ -30487,7 +30956,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4623/6",
@@ -30516,7 +30986,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4591/3",
@@ -30545,7 +31016,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4591/2",
@@ -30574,7 +31046,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4591/1",
@@ -30603,7 +31076,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4623/5",
@@ -30632,7 +31106,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4623/4",
@@ -30661,7 +31136,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4623/3",
@@ -30690,7 +31166,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4623/2",
@@ -30719,7 +31196,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:15126437000305/2026/4623/1",
@@ -30748,7 +31226,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:06553481000300/2026/20/1",
@@ -30777,7 +31256,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:46638714000120/2026/351/1",
@@ -30806,7 +31286,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:01921228000187/2026/18/1",
@@ -30835,7 +31316,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:44547305000193/2026/107/1",
@@ -30864,7 +31346,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:04263331000175/2026/7/1",
@@ -30893,7 +31376,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:08159089000145/2026/69/2",
@@ -30922,7 +31406,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:08159089000145/2026/69/1",
@@ -30951,7 +31436,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11252074000131/2026/17/4",
@@ -30980,7 +31466,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11252074000131/2026/17/3",
@@ -31009,7 +31496,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11252074000131/2026/17/2",
@@ -31038,7 +31526,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11252074000131/2026/17/1",
@@ -31067,7 +31556,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:01612602000162/2026/34/1",
@@ -31096,7 +31586,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:06553937000170/2026/51/1",
@@ -31125,7 +31616,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:03277610000125/2026/7/1",
@@ -31154,7 +31646,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11389851000194/2026/25/2",
@@ -31183,7 +31676,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11389851000194/2026/25/1",
@@ -31212,7 +31706,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:60448040000122/2025/1034/1",
@@ -31241,7 +31736,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:57266025000159/2026/6/1",
@@ -31270,7 +31766,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:02218683000183/2025/330/2",
@@ -31299,7 +31796,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:02218683000183/2025/330/1",
@@ -31328,7 +31826,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:06716880000183/2026/6/1",
@@ -31357,7 +31856,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:11435485000162/2025/97/1",
@@ -31386,7 +31886,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:05830872000109/2025/171/2",
@@ -31415,7 +31916,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:ata:05830872000109/2025/171/1",
@@ -31444,7 +31946,8 @@
    "termos": [
     "cirurgias oftalmológicas"
    ],
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/amm-mg/materia/6D91687D",
@@ -31472,7 +31975,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "AMM-MG",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/amm-mg/materia/06A3E160",
@@ -31500,7 +32004,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "AMM-MG",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/amm-mg/materia/FCBB1C2A",
@@ -31530,7 +32035,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "AMM-MG",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/amm-mg/materia/53ECEDB8",
@@ -31560,7 +32066,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "AMM-MG",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famup/materia/D60D8039",
@@ -31588,7 +32095,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMUP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famup/materia/7F011A8B",
@@ -31617,7 +32125,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMUP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famup/materia/5F85CBB2",
@@ -31647,7 +32156,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMUP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famup/materia/C1E2E91E",
@@ -31677,7 +32187,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMUP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famup/materia/72634C67",
@@ -31707,7 +32218,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMUP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/aprece/materia/86271F12",
@@ -31736,7 +32248,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "APRECE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/aprece/materia/E920E2BA",
@@ -31766,7 +32279,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "APRECE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/aprece/materia/9C623D1A",
@@ -31796,7 +32310,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "APRECE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/aprece/materia/1AFF9244",
@@ -31826,7 +32341,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "APRECE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/aprece/materia/28EA1AD5",
@@ -31856,7 +32372,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "APRECE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/aprece/materia/1CDAFD1C",
@@ -31886,7 +32403,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "APRECE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/femurn/materia/48B7E916",
@@ -31916,7 +32434,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FEMURN",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/femurn/materia/4FA615ED",
@@ -31946,7 +32465,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FEMURN",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/femurn/materia/631C4367",
@@ -31976,7 +32496,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FEMURN",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/femurn/materia/319D51FB",
@@ -32006,7 +32527,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FEMURN",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/femurn/materia/D9DA201F",
@@ -32036,7 +32558,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FEMURN",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famurs/materia/4F1B4003",
@@ -32067,7 +32590,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMURS",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": false
+   "credenciamento_aberto": false,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famurs/materia/77C3E09A",
@@ -32097,7 +32621,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMURS",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/amupe/materia/3AB7F986",
@@ -32127,7 +32652,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "AMUPE",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/5414B5B2",
@@ -32157,7 +32683,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMEP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/63D0F0B1",
@@ -32187,7 +32714,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMEP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/FA301E37",
@@ -32217,7 +32745,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMEP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/6B194458",
@@ -32247,7 +32776,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMEP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/AB6B12B8",
@@ -32277,7 +32807,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMEP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   },
   {
    "id": "map:dom:https://www.diariomunicipal.com.br/famep/materia/56355818",
@@ -32307,7 +32838,8 @@
    "diario_rede": "associacoes",
    "diario_nome": "FAMEP",
    "tipo_mapa": "Publicação em diário",
-   "credenciamento_aberto": true
+   "credenciamento_aberto": true,
+   "chamada_diario": false
   }
  ],
  "fontes_status": [
@@ -32332,8 +32864,8 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "itens": 207,
-   "parcial": "2 de 18 consultas sem resposta"
+   "obs": "atualizado uma vez por dia",
+   "itens": 207
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -32468,6 +33000,6 @@
    "itens": 0
   }
  ],
- "rodada": "44456249102",
- "concluido": "2026-11-19 01:21"
+ "rodada": "44534286005",
+ "concluido": "2026-11-19 10:42"
 }
