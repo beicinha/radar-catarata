@@ -375,9 +375,9 @@ D.itens.forEach(it=>{
 
 /* Visões da barra lateral */
 const VISOES = [
-  {id:"editais", nome:"Editais abertos", grupo:"Painel", cor:"var(--accent)", desc:"Editais de catarata e oftalmologia com propostas abertas (PNCP e plataformas privadas). Os sem vencedor e de catarata aparecem primeiro.", f:i=>i.fonte==="PNCP"||i.priv, ordem:"relev"},
+  {id:"editais", nome:"Editais abertos", grupo:"Painel", cor:"var(--accent)", desc:"Editais de catarata e oftalmologia com propostas abertas (PNCP, plataformas privadas e chamadas públicas dos diários oficiais dos últimos 60 dias). Os sem vencedor e de catarata aparecem primeiro.", f:i=>i.fonte==="PNCP"||i.priv||i.chamada_diario, ordem:"relev"},
   {id:"geral", nome:"Resumo", grupo:"Painel", cor:"var(--gold)", desc:"Números e destaques do que está aberto agora."},
-  {id:"catarata", nome:"Catarata aberta", grupo:"Oportunidades", cor:"var(--ok)", desc:"Editais de catarata com propostas abertas no PNCP e nas plataformas privadas.", f:i=>(i.fonte==="PNCP"||i.priv)&&i.categoria==="Catarata"},
+  {id:"catarata", nome:"Catarata aberta", grupo:"Oportunidades", cor:"var(--ok)", desc:"Editais de catarata com propostas abertas no PNCP, nas plataformas privadas e em chamadas públicas dos diários oficiais (últimos 60 dias).", f:i=>(i.fonte==="PNCP"||i.priv||i.chamada_diario)&&i.categoria==="Catarata"},
   {id:"novos", nome:"Novos (3 dias)", grupo:"Oportunidades", cor:"var(--gold)", desc:"Tudo o que apareceu pela primeira vez nos últimos 3 dias (sem o mapa de contratos).", f:i=>i.novo&&!i.mapa},
   {id:"prazo", nome:"Prazo curto", grupo:"Oportunidades", cor:"var(--bad)", desc:"Editais que encerram em até 15 dias.", f:i=>i.d!=null&&i.d>=0&&i.d<=15, ordem:"prazo"},
   {id:"acomp", nome:"Acompanhando", grupo:"Oportunidades", cor:"var(--gold)", desc:"Os que você marcou com estrela.", f:i=>marc[i.id]==="acomp", mostraDesc:true},

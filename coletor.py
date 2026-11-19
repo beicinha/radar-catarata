@@ -513,6 +513,9 @@ def gerar_html(dados):
 PLATAFORMAS_NOMES = {"Portal de Compras Públicas"} | {n for n, _ in plataformas.LISTAS}
 
 
+DIARIO_ABERTO_DESDE = (datetime.fromisoformat(HOJE) - timedelta(days=60)).strftime("%Y-%m-%d")
+
+
 def revisar_dados(dados):
     revisados, ids = [], set()
     for item in dados.get("itens", []):
@@ -527,6 +530,13 @@ def revisar_dados(dados):
             i["req"]["conferencia_necessaria"] = True
             i["req"]["exige"] = [e for e in i["req"].get("exige", [])
                                    if analise_editais.exigencia_valida(e.get("r"), e.get("t", ""))]
+        # Chamadas públicas publicadas só no diário oficial (ex.: Bonfinópolis/GO, 18/11/2026)
+        # também entram nas listas de editais abertos do painel, e não só na aba dos diários.
+        i["chamada_diario"] = bool(
+            i.get("fonte") == "Diário Oficial" and i.get("categoria") != "Material/compra"
+            and (i.get("publicado") or i.get("primeira_vez") or "")[:10] >= DIARIO_ABERTO_DESDE
+            and regras.cirurgia_ofertada(i.get("objeto") or "")
+            and regras.diario_contratacao(i.get("objeto") or ""))
         ids.add(i["id"])
         revisados.append(i)
     dados["itens"] = revisados
