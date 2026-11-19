@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19 10:31",
+ "atualizado": "2026-11-19 18:46",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -23690,6 +23690,72 @@
    "chamada_diario": true
   },
   {
+   "id": "priv:pcp:526773",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "Portal de Compras Públicas",
+   "categoria": "Oftalmologia",
+   "uf": "GO",
+   "municipio": "Rubiataba",
+   "orgao": "FUNDO MUNICIPAL DE SAÚDE DE RUBIATABA-GO",
+   "modalidade": "Registro de Preços Eletrônico 15/2026 · Aguardando Inicio de Recebimento de Propostas",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS OFTALMOLÓGICOS, INCLUSO AVALIAÇÃO E EXAMES, BEM COMO O FORNECIMENTO DE MATERIAL, CONFORME PLANO DE TRABALHO Nº 202600005001236 SES/GO, AFIM DE ATENDER AS DEMANDAS DO FUNDO MUNICIPAL DE SAÚDE DE...",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "2026-11-24T08:00",
+   "encerramento": "2026-12-08T08:00",
+   "publicado": "2026-11-19",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/go/prefeitura-municipal-de-rubiataba-3024/rpe-15-2026-2026-526773",
+   "link": "https://www.portaldecompraspublicas.com.br/processos/go/prefeitura-municipal-de-rubiataba-3024/rpe-15-2026-2026-526773",
+   "dist_km": 693,
+   "primeira_vez": "2026-11-19",
+   "termos": [
+    "oftalmol"
+   ],
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 2,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 5584108,
+      "nome": "Hospital Municipal De Rubiataba",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "6233252033"
+     },
+     {
+      "cnes": 2507137,
+      "nome": "Hospital E Maternidade Menino Jesus Rubiataba",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(62)3251460"
+     },
+     {
+      "cnes": 7167814,
+      "nome": "Hospital E Maternidade Sao Mateus",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": ""
+     }
+    ],
+    "data": "2026-11-19"
+   },
+   "chamada_diario": false
+  },
+  {
    "id": "priv:pcp:525083",
    "fonte": "Plataforma privada",
    "plataforma_nome": "Portal de Compras Públicas",
@@ -32870,7 +32936,7 @@
   {
    "nome": "Portal de Compras Públicas",
    "ok": true,
-   "itens": 10
+   "itens": 11
   },
   {
    "nome": "BLL Compras",
@@ -33000,6 +33066,6 @@
    "itens": 0
   }
  ],
- "rodada": "44534286005",
- "concluido": "2026-11-19 10:42"
+ "rodada": "44622147519",
+ "concluido": "2026-11-19 18:59"
 }
