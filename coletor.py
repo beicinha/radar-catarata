@@ -128,13 +128,23 @@ def dist_km(ibge):
 
 
 # ---------------------------------------------------------------- PNCP
+PNCP_BUSCA = {"consultas": 0, "falhas": 0}
+
+
 def buscar_pncp():
+    # Desde 07/11/2026 o PNCP derruba boa parte das conexões. Uma página que falha não descarta
+    # mais a procura inteira: o resto segue, e o que já estava no painel é mantido (ver main).
     achados = {}
     for termo in TERMOS_PNCP:
         for pag in range(1, 6):
             u = ("https://pncp.gov.br/api/search/?q=" + urllib.parse.quote(termo) +
                  f"&tipos_documento=edital&ordenacao=-data&pagina={pag}&tam_pagina=100&status=recebendo_proposta")
-            d = cjson(u, {}) or {}
+            PNCP_BUSCA["consultas"] += 1
+            try:
+                d = cjson(u, {}) or {}
+            except RuntimeError:
+                PNCP_BUSCA["falhas"] += 1
+                break
             itens = d.get("items", [])
             for it in itens:
                 a = achados.setdefault(it["item_url"], it)
@@ -145,7 +155,17 @@ def buscar_pncp():
                 break
             time.sleep(0.5)
         print(f"  PNCP '{termo}': total acumulado {len(achados)}", flush=True)
+    if PNCP_BUSCA["consultas"] and PNCP_BUSCA["falhas"] == PNCP_BUSCA["consultas"]:
+        raise RuntimeError("PNCP sem resposta em todas as consultas")
     return list(achados.values())
+
+
+def _tenta(url, anterior, vazio):
+    """Consulta o PNCP; se falhar, fica com o que já estava guardado."""
+    try:
+        return cjson(url, vazio) or vazio
+    except RuntimeError:
+        return anterior if anterior is not None else vazio
 
 
 def classificar(desc):
@@ -158,18 +178,23 @@ def enriquecer(it, cache):
     base = f"https://pncp.gov.br/api/pncp/v1/orgaos/{cnpj}/compras/{ano}/{seq}"
     c = cache.get(chave) or {}
     if not c.get("consulta") or c.get("consultado_em") != HOJE:
-        c["consulta"] = cjson(f"https://pncp.gov.br/api/consulta/v1/orgaos/{cnpj}/compras/{ano}/{seq}", {}) or {}
-        c["itens"] = cjson(base + "/itens?pagina=1&tamanhoPagina=200", []) or []
+        consulta = _tenta(f"https://pncp.gov.br/api/consulta/v1/orgaos/{cnpj}/compras/{ano}/{seq}", None, {})
+        itens = _tenta(base + "/itens?pagina=1&tamanhoPagina=200", None, [])
+        c["consulta"] = consulta or c.get("consulta") or {}
+        c["itens"] = itens or c.get("itens") or []
         c.setdefault("primeira_vez", HOJE)
-        c["consultado_em"] = HOJE
+        if consulta and itens:
+            c["consultado_em"] = HOJE
     # situação muda: sempre reconsulta arquivos e resultados
-    arqs = cjson(base + "/arquivos", []) or []
-    c["arquivos"] = [{"titulo": a.get("titulo"), "url": a.get("url")} for a in arqs if isinstance(a, dict)]
-    vencedores = []
+    arqs = _tenta(base + "/arquivos", None, None)
+    if arqs is not None:
+        c["arquivos"] = [{"titulo": a.get("titulo"), "url": a.get("url")} for a in arqs if isinstance(a, dict)]
+    c.setdefault("arquivos", [])
+    vencedores = list(c.get("vencedores") or [])
     if any(x.get("temResultado") for x in c["itens"] if isinstance(x, dict)):
         for x in c["itens"][:15]:
             if isinstance(x, dict) and x.get("temResultado"):
-                for r in cjson(f"{base}/itens/{x['numeroItem']}/resultados", []) or []:
+                for r in _tenta(f"{base}/itens/{x['numeroItem']}/resultados", [], []):
                     n = r.get("nomeRazaoSocialFornecedor")
                     if n and n not in vencedores:
                         vencedores.append(n)
@@ -580,8 +605,16 @@ def main():
             pncp = montar_pncp(buscar_pncp(), cache)
             if not pncp and preservar("PNCP"):
                 raise RuntimeError("PNCP sem resultados; verificar fonte")
+            if PNCP_BUSCA["falhas"]:
+                # procura parcial: mantém os editais anteriores ainda no prazo que não vieram desta vez
+                novos = {i["id"] for i in pncp}
+                pncp += [i for i in preservar("PNCP") if i["id"] not in novos
+                         and not ((i.get("encerramento") or "")[:10] and i["encerramento"][:10] < HOJE)]
         aplicar_analise(pncp, cache)
-        status.append({"nome": "PNCP (Portal Nacional de Contratações Públicas)", "ok": True})
+        st = {"nome": "PNCP (Portal Nacional de Contratações Públicas)", "ok": True}
+        if PNCP_BUSCA["falhas"]:
+            st["obs"] = f"procura parcial: {PNCP_BUSCA['falhas']} de {PNCP_BUSCA['consultas']} consultas sem resposta"
+        status.append(st)
     except Exception:
         pncp = preservar("PNCP")
         status.append({"nome": "PNCP (Portal Nacional de Contratações Públicas)", "ok": False,
