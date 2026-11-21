@@ -1,13 +1,15 @@
 {
-  "atualizado": "2026-11-21T04:56:54.130535-03:00",
+  "atualizado": "2026-11-21T10:09:09.083625-03:00",
   "canais": {
     "email": {
-      "status": "sem_pendencias",
-      "pendentes": 0
+      "status": "enviado",
+      "pendentes": 11,
+      "lote": 11
     },
     "whatsapp": {
       "status": "aceito_sem_confirmacao",
-      "pendentes": 0
+      "pendentes": 11,
+      "lote": 5
     }
   }
 }
