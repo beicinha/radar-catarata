@@ -480,6 +480,12 @@
       "ultima_tentativa": "2026-11-21T10:09:09.083625-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-21T13:05:37.275514-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   },
   "pncp:20622890000180/2026/115": {
@@ -488,6 +494,12 @@
       "ultima_tentativa": "2026-11-21T10:09:09.083625-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-21T13:05:37.275514-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   },
   "pncp:28168515000114/2026/11": {
@@ -496,6 +508,12 @@
       "ultima_tentativa": "2026-11-21T10:09:09.083625-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-21T13:05:37.275514-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   },
   "pncp:13714464000101/2026/107": {
@@ -504,6 +522,12 @@
       "ultima_tentativa": "2026-11-21T10:09:09.083625-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-21T13:05:37.275514-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   },
   "pncp:07595572000100/2026/114": {
@@ -512,6 +536,12 @@
       "ultima_tentativa": "2026-11-21T10:09:09.083625-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-21T13:05:37.275514-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   },
   "pncp:07535446000160/2026/116": {
