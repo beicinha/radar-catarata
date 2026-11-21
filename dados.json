@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20 21:45",
+ "atualizado": "2026-11-21 04:46",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -5340,124 +5340,6 @@
       "olho": false,
       "sus": true,
       "tel": "(91)35561388"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false
-  },
-  {
-   "id": "pncp:06769798000117/2025/166",
-   "fonte": "PNCP",
-   "categoria": "Catarata",
-   "uf": "MA",
-   "municipio": "Barra do Corda",
-   "orgao": "MUNICIPIO DE BARRA DO CORDA",
-   "modalidade": "Credenciamento",
-   "objeto": "[LICITANET] - CREDENCIAMENTO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS DE CATARATA COM IMPLANTE DE LIO DOBRÁVEL E CIRURGIA DE EXÉRESE DE PTERÍGIO, INCLUINDO CONSULTA E PÓS – OPERATÓRIO E TODOS OS CUSTOS REFERENTES AOS INSUMOS, OPME, EQUIPE, TAXAS DE SALA, ANESTESIA, ESTERILIZAÇÃO E DESCARTE, PARA ATENDER AS NECESSIDADES DO MUNICIPIO DE BARRA DO CORDA-MA.",
-   "valor_total": 592878.0,
-   "faco": {
-    "valor": 1472.82,
-    "qtd": 200.0,
-    "desc": "Cirurgia de catarata com LIO dobrável"
-   },
-   "abertura": "2025-11-20T00:00",
-   "encerramento": "2026-11-20T23:59",
-   "publicado": "2025-11-17",
-   "vencedores": [
-    "UNIOLHOS CLÍNICA DE OFTALMOLOGIA LTDA",
-    "SERVICOS MEDICOS E OFTALMOLOGICOS DE ACAILANDIA LTDA"
-   ],
-   "docs_resultado": [
-    "licitanet_termo_de_adjudicacao_1764847061.pdf",
-    "licitanet_termo_de_homologacao_1764847082.pdf"
-   ],
-   "plataforma": "https://portal.licitanet.com.br/acesso-visitante/WkptaG01V2g=",
-   "link": "https://pncp.gov.br/app/editais/06769798000117/2025/166",
-   "dist_km": 1788,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "catarata",
-    "cirurgia de catarata",
-    "cirurgias de catarata",
-    "cirurgias oftalmológicas",
-    "pterígio"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…Regional de Biomedicina); U. Cópia do Cadastro Nacional de Estabelecimento de Saúde (CNES), atualizado. V. Cadastro Nacional de Empresas Punidas (CNEP) W. Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS) 3.1.1 A entrega da documentação, por parte da…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…compreende a integralidade dos custos para atendimento dos direitos trabalhistas. Q. Atestado de capacidade técnica, expedido por pessoa jurídica de direito público ou privado, que comprove que o licitante prestou, a qualquer tempo, serviços compatíveis em características e quantidade…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…ecução do objeto contratado; II - expedir, através de notificações e/ou relatório de vistoria, as ocorrências e fazer as ESTADO DO MARANHÃO PREFEITURA MUNICIPAL DE BARRA DO CORDA determinações e comunicações necessárias à perfeita execução dos serviços; III -proc…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…oriedade do cumprimento das disposições contidas no Termo de Referência, assumindo o credenciado o compromisso de executar o objeto nos seus termos, bem como de fornecer os materiais, equipamentos, ferramentas e utensílios necessários, em quantidades e qualidades adequadas à perfeita execução contratual, promovendo, quando requerido, sua substituição…"
-     }
-    ],
-    "emails": [
-     "cplbdc25@gmail.com"
-    ],
-    "lidos": [
-     "162761_editais_1763380199.zip"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 3,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 1,
-    "total": 4,
-    "est": [
-     {
-      "cnes": 2462583,
-      "nome": "Hospital Materno Infantil",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 2462591,
-      "nome": "Hospital Acrisio Figueira",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 2814277,
-      "nome": "Hospital Regional De Barra Do Corda Dr Jose De Abreu Silva",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 2462559,
-      "nome": "Hospital Florencio Brandes",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(99) 36431594"
      }
     ],
     "data": "2026-11-18"
@@ -11585,43 +11467,6 @@
     "oftalmológicos",
     "oftalmologista"
    ],
-   "chamada_diario": false
-  },
-  {
-   "id": "pncp:12397007000178/2026/25",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "PE",
-   "municipio": "Chã de Alegria",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE CHA DE ALEGRIA",
-   "modalidade": "Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS OFTALMOLÓGICOS, EM REGIME DE MUTIRÃO E/OU ATENDIMENTO PROGRAMADO, PARA FORTALECIMENTO DAS ESTRATÉGIAS DE AÇÕES PRIMÁRIAS EM OFTALMOLOGIA, ABRANGENDO CONSULTAS, EXAMES/DIAGNÓSTICO, PROCEDIMENTOS CORRELATOS, FORNECIMENTO DE MATERIAIS, MEDICAMENTOS NECESSÁRIOS AO ATO ASSISTENCIAL E FORNECIMENTO GRATUITO DE ÓCULOS/LENTES CORRE",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "2026-11-20T00:00",
-   "publicado": "2026-09-18",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/12397007000178/2026/25",
-   "dist_km": 2051,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista"
-   ],
-   "estr": {
-    "publico": 0,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 0,
-    "est": [],
-    "data": "2026-11-07"
-   },
    "chamada_diario": false
   },
   {
@@ -26229,1113 +26074,6 @@
    "chamada_diario": false
   },
   {
-   "id": "map:contrato:17754136000190/2026/80",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Diamantina",
-   "orgao": "MUNICIPIO DE DIAMANTINA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Processo de inexigibilidade visando a contratacao da empresa REALMED SERVICOS MEDICOS LTDA para a realizacao dos servicos oftalmologicos com foco na execucao de cirurgias de catarata consultas de pre e posoperatorio e exames complementares necessarios a assistencia integral aos usuarios do SUS do municipio de Diamantina",
-   "valor_total": 114130.81,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-06-02",
-   "vigencia_fim": "2027-06-01",
-   "publicado": "2026-06-03",
-   "vencedores": [
-    "REALMED SERVICOS MEDICOS LTDA"
-   ],
-   "fornecedor_cnpj": "24331062000144",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/17754136000190/2026/80",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:42498600000171/2026/2143",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "ESTADO DO RIO DE JANEIRO",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "LENTES INTRA OCULARES RIGIDAS, BISTURIS 2.75 E 15 GRAUS E OS CAMPOS BAG PARA A REALIZAC?O DOS PROCEDIMENTOS CIRURGICOS DE CATARATA",
-   "valor_total": 9000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-11",
-   "vigencia_fim": "2027-05-27",
-   "publicado": "2026-05-27",
-   "vencedores": [
-    "adapt produtos oftalmologicos ltda."
-   ],
-   "fornecedor_cnpj": "96382429000160",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/42498600000171/2026/2143",
-   "dist_km": 576,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:10589928000107/2026/17",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PE",
-   "municipio": "Bom Jardim",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DO BOM JARDIM",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "Credenciamento de empresa especializada na prestação de serviços de cirurgias de catarata, incluindo consultas e exames, cirurgia e pós-operatório, para atender às necessidades do Município de Bom Jardim/PE",
-   "valor_total": 1002994.93,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-15",
-   "vigencia_fim": "2027-05-15",
-   "publicado": "2026-05-19",
-   "vencedores": [
-    "SANTA LUZIA OFTALMOLOGIA LTDA"
-   ],
-   "fornecedor_cnpj": "57843006000229",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/10589928000107/2026/17",
-   "dist_km": 2041,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:02056729000105/2026/817",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Rio Verde",
-   "orgao": "MUNICIPIO DE RIO VERDE",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "PRESTAÇÃO DE SERVIÇOS MÉDICOS COMO PESSOA JURÍDICA, NA ÁREA DE OFTALMOLOGIA, EM UNIDADE PRÓPRIA, NA REALIZAÇÃO DE CONSULTAS, EXAMES E PROCEDIMENTOS CIRÚRGICOS DE CATARATA, REFERENTE AO REPASSE DE RECURSOS ADVINDOS DE EMENDA IMPOSITIVA MUNICIPAL N. 019/2025, PROPOSTA 42, PARA O EXERCÍCIO DE 2026, PELO PERÍODO DE 23/04/2026 À 31/12/2026, SENDO REALIZADA A CONTRATAÇÃO, CONFORME O EDITAL DE CREDENCIAMENTO 003/2024.",
-   "valor_total": 199197.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-23",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-14",
-   "vencedores": [
-    "ANGEL E TAKATSU LTDA."
-   ],
-   "fornecedor_cnpj": "07976107000119",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/02056729000105/2026/817",
-   "dist_km": 462,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:06104863000195/2026/179",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "Codó",
-   "orgao": "MUNICIPIO DE CODO",
-   "modalidade": "Contrato · Dispensa",
-   "objeto": "ATA DE REGISTRO DE PREÇOS Nº 004/2025/PREGÃO ELETRÔNICO Nº 050/2024 – SÃO BERNARDO/MA, CONTRATAÇÃO DE SERVIÇOS DE CIRURGIA OFTALMOLÓGICA DE CATARATA E PTERÍGIO, INCLUINDO CONSULTAS, EXAMES E PÓS OPERATÓRIO, EM REGIME DE MUTIRÃO",
-   "valor_total": 5216250.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-10",
-   "vigencia_fim": "2027-04-10",
-   "publicado": "2026-05-07",
-   "vencedores": [
-    "INSTITUTO ACOLHER VIDAS - IAV"
-   ],
-   "fornecedor_cnpj": "40168249000125",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/06104863000195/2026/179",
-   "dist_km": 1934,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:11308823000103/2026/27",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PE",
-   "municipio": "Afogados da Ingazeira",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-   "modalidade": "Contrato · Dispensa",
-   "objeto": "[LICITANET] - [LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CAPSULOTOMIA POR YAG LASER PÓS CIRURGIA DE CATARATA PARA REMOVER EMBAÇAMENTO DA LENTE AOS PACIENTES DO MUNICÍPIO DE AFOGADOS DA INGAZEIRA.",
-   "valor_total": 250.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-05-07",
-   "vigencia_fim": "2027-05-06",
-   "publicado": "2026-05-07",
-   "vencedores": [
-    "OFTALMO CENTER LTDA"
-   ],
-   "fornecedor_cnpj": "31172142000321",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11308823000103/2026/27",
-   "dist_km": 1903,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:01611858000155/2026/110",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PA",
-   "municipio": "Placas",
-   "orgao": "MUNICIPIO DE PLACAS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO PARALELO E NÃO EXCLUDENTE DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS OFTALMOLÓGICAS ELETIVAS, ESPECIALMENTE PROCEDIMENTOS DE CATARATA E PTERÍGIO, DESTINADAS AOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE (SUS), VISANDO ATENDER ÀS NECESSIDADES DO FUNDO MUNICIPAL DE SAÚDE DO MUNICÍPIO DE PLACAS/PA.",
-   "valor_total": 274859.76,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-15",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-06",
-   "vencedores": [
-    "VIVER CLIN CENTRO MEDIC"
-   ],
-   "fornecedor_cnpj": "36707252000100",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/01611858000155/2026/110",
-   "dist_km": 2031,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:01611858000155/2026/111",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PA",
-   "municipio": "Placas",
-   "orgao": "MUNICIPIO DE PLACAS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO PARALELO E NÃO EXCLUDENTE DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS OFTALMOLÓGICAS ELETIVAS, ESPECIALMENTE PROCEDIMENTOS DE CATARATA E PTERÍGIO, DESTINADAS AOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE (SUS), VISANDO ATENDER ÀS NECESSIDADES DO FUNDO MUNICIPAL DE SAÚDE DO MUNICÍPIO DE PLACAS/PA.",
-   "valor_total": 225492.4,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-09",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-05-06",
-   "vencedores": [
-    "VIVER CLIN CENTRO MEDIC"
-   ],
-   "fornecedor_cnpj": "36707252000100",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/01611858000155/2026/111",
-   "dist_km": 2031,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:11232665000147/2026/231",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Aloândia",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CONTRATAÇÃO DA SERVIÇOS DE SAÚDE VISANDO A REALIZAÇÃO DE CIRURGIAS DE CATARATAS, PTERÍGIO E CONSULTAS OFTALMOLÓGICAS, PARA O ATENDIMENTO DAS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE",
-   "valor_total": 94000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-17",
-   "vigencia_fim": "2027-04-17",
-   "publicado": "2026-04-23",
-   "vencedores": [
-    "HOSPITAL DE OLHOS VILA NOVA LTDA"
-   ],
-   "fornecedor_cnpj": "10703748000104",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11232665000147/2026/231",
-   "dist_km": 406,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:18457226000181/2026/69",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MG",
-   "municipio": "Santa Vitória",
-   "orgao": "MUNICIPIO DE SANTA VITORIA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "MAPEAMENTO DE RETINA - CONSISTE NA VALIAÇÃO SOB MIDRÍASE DA RETINA (PÓLO POSTERIOR E PERIFERIA), NERVO ÓPTICO E CORÓIDE. INCLUIR DOCUMENTAÇÃO ATRAVÉS DE GRÁFICO MANUAL OU COMPUTADORIZADO, QUANDO COUBER. (MONOCULAR) | POTENCIAL DE ACUIDADE VISUAL - AVALIAÇÃO DA MÁXIMA ACUIDADE SOB ORIFÍCIO ESTENOPEICO (PROJEÇÃO OU RETRO-ILUMINADA) | MICROSCOPIA ESPECULAR DE CORNEA - CONSISTE NA ALIAÇÃO DAS CÉLULAS ENDOTELIAIS CORNEANAS (INCLUI REGISTRO GRÁFICO MORFOLÓGICO CELULAR) | FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRAOCULAR DOBRÁVEL - CONSISTE DE PROCEDIMENTO CIRÚRGICO PARA O TRATAMENTO DE CATARATA (SE",
-   "valor_total": 127152.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-23",
-   "vigencia_fim": "2027-04-23",
-   "publicado": "2026-04-23",
-   "vencedores": [
-    "OFTALMO 2020 LTDA"
-   ],
-   "fornecedor_cnpj": "40421060000100",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/18457226000181/2026/69",
-   "dist_km": 318,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:00394502000144/2026/365",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DA MARINHA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Contratação de Aquisição de Materiais para Realização de Cirurgias de Facoemulsificação (Catarata), com Implante de Lente Intraocular, para Clínica de Oftalmologia, a fim de prestar atendimento aos pacientes em sua área de abrangência, em nível de alta complexidade, em ambulatório e em regime de internação, nas condições estabelecidas no Termo de Referência.",
-   "valor_total": 18000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-17",
-   "vigencia_fim": "2027-04-17",
-   "publicado": "2026-04-20",
-   "vencedores": [
-    "SURGICALL PRODUTOS MEDICOS LTDA"
-   ],
-   "fornecedor_cnpj": "27437015000178",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/365",
-   "dist_km": 576,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:00394502000144/2026/364",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DA MARINHA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "CONTRATAÇÃO DE AQUISIÇÃO DE MATERIAIS PARA REALIZAÇÃO DE CIRURGIAS DE FACOEMULSIFICAÇÃO (CATARATA), COM IMPLANTE DE LENTE INTRAOCULAR, PARA CLÍNICA DE OFTALMOLOGIA, A FIM DE PRESTAR ATENDIMENTO AOS PACIENTES EM SUA ÁREA DE ABRANGÊNCIA, EM NÍVEL DE ALTA COMPLEXIDADE, EM AMBULATÓRIO E EM REGIME DE INTERNAÇÃO, NAS CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA.",
-   "valor_total": 18000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-17",
-   "vigencia_fim": "2027-04-17",
-   "publicado": "2026-04-20",
-   "vencedores": [
-    "SURGICALL PRODUTOS MEDICOS LTDA"
-   ],
-   "fornecedor_cnpj": "27437015000178",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/364",
-   "dist_km": 576,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:00394502000144/2026/363",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DA MARINHA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Contratação de Aquisição de Materiais para Realização de Cirurgias de Facoemulsificação (Catarata), com Implante de Lente Intraocular, para Clínica de Oftalmologia, a fim de prestar atendimento aos pacientes em sua área de abrangência, em nível de alta complexidade, em ambulatório e em regime de internação, nas condições estabelecidas no Termo de Referência.",
-   "valor_total": 62568.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-17",
-   "vigencia_fim": "2027-04-17",
-   "publicado": "2026-04-20",
-   "vencedores": [
-    "FULLFARMA COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
-   ],
-   "fornecedor_cnpj": "46388662000181",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/363",
-   "dist_km": 576,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:00394502000144/2026/362",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DA MARINHA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "CONTRATAÇÃO DE AQUISIÇÃO DE MATERIAIS PARA REALIZAÇÃO DE CIRURGIAS DE FACOEMULSIFICAÇÃO (CATARATA), COM IMPLANTE DE LENTE INTRAOCULAR, PARA CLÍNICA DE OFTALMOLOGIA, A FIM DE PRESTAR ATENDIMENTO AOS PACIENTES EM SUA ÁREA DE ABRANGÊNCIA, EM NÍVEL DE ALTA COMPLEXIDADE, EM AMBULATÓRIO E EM REGIME DE INTERNAÇÃO, NAS CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA.",
-   "valor_total": 62568.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-17",
-   "vigencia_fim": "2027-04-17",
-   "publicado": "2026-04-20",
-   "vencedores": [
-    "FULLFARMA COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
-   ],
-   "fornecedor_cnpj": "46388662000181",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/362",
-   "dist_km": 576,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação",
-    "cirurgias oftalmológicas"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:08109126000100/2026/343",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RN",
-   "municipio": "Currais Novos",
-   "orgao": "MUNICIPIO DE CURRAIS NOVOS",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Contratação da empresa EMPATIA – EMPRESA MÉDICA DE PLANTÕES E ATIVIDADES AMBULATORIAIS LTDA, CNPJ nº 37.947.369/0001-16, credenciada para serviços de Cirurgia de Catarata através do credenciamento nº 06/2024.",
-   "valor_total": 153437.4,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-06",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-04-17",
-   "vencedores": [
-    "EMPATIA - EMPRESA MEDICA DE PLANTOES E ATIVIDADES AMBULATORIAIS LTDA"
-   ],
-   "fornecedor_cnpj": "37947369000116",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/08109126000100/2026/343",
-   "dist_km": 2109,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:10839115000128/2026/72",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Petrolina de Goiás",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CHAMADA PÚBLICA PARA CREDENCIAMENTO DE PRESTADORES DE SERVIÇOS MÉDICO-HOSPITALARES (PESSOA JURÍDICA) ESPECIALIZADOS EM PROCEDIMENTOS CIRÚRGICOS DE MÉDIA E ALTA COMPLEXIDADE, DESTINADOS AO TRATAMENTO DE PACIENTES QUE APRESENTAM INDICAÇÃO CLÍNICA PARA TRATAMENTO CIRÚRGICO OFTALMOLÓGICO (CATARATA), CONFORME PROTOCOLO ESTABELECIDO, VISANDO A MELHORIA DA QUALIDADE DE VIDA DOS PACIENTES, USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE (SUS) DO MUNICÍPIO DE PETROLINA DE GOIÁS, CONFORME CERTIDÃO DE APROVAÇÃO DO CONSELHO MUNICIPAL DE SAÚDE DE 15/10/2025. EMENDA PARLAMENTAR Nº 202500005012074, CONFORME CREDENCIAMENT",
-   "valor_total": 149999.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-14",
-   "vigencia_fim": "2027-04-09",
-   "publicado": "2026-04-14",
-   "vencedores": [
-    "HOSPITAL DE OLHOS VILA NOVA LTDA"
-   ],
-   "fornecedor_cnpj": "10703748000104",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/10839115000128/2026/72",
-   "dist_km": 581,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:07416704000199/2026/35",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Campos Sales",
-   "orgao": "MUNICIPIO DE CAMPOS SALES",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO DE EMPRESAS PARA PRESTAÇÃO DOS SERVIÇOS ESPECIALIZADOS EM SAÚDE PÚBLICA PARA A REALIZAÇÃO DE CIRURGIAS DE CATARATA E DEMAIS PROCEDIMENTOS OFTALMOLÓGICOS.",
-   "valor_total": 639363.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-08",
-   "vigencia_fim": "2027-04-08",
-   "publicado": "2026-04-13",
-   "vencedores": [
-    "INSTITUTO INTEGRARE "
-   ],
-   "fornecedor_cnpj": "27956854000100",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07416704000199/2026/35",
-   "dist_km": 1804,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:12008540000109/2026/113",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Nerópolis",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE NEROPOLIS - FMS",
-   "modalidade": "Contrato · Dispensa",
-   "objeto": "Contratação em caráter emergencial, de empresa especializada na prestação de serviços médicos em cirurgias de catarata e pterígio.",
-   "valor_total": 486100.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-03-31",
-   "vigencia_fim": "2026-09-30",
-   "publicado": "2026-04-08",
-   "vencedores": [
-    "HOSPITAL SAGRADO CORACAO DE JESUS"
-   ],
-   "fornecedor_cnpj": "01290253000100",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/12008540000109/2026/113",
-   "dist_km": 546,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:04279238000159/2026/22",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RO",
-   "municipio": "Jaru",
-   "orgao": "MUNICIPIO DE JARU",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Registro de preços visando a futura e eventual CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS EM OFTALMOLOGIA - CONSULTAS, EXAMES E CIRURGIAS DE CATARATA, DE FORMA COMPLEMENTAR, oriundo de Emenda Parlamentar do Senador Marcos Rogério.",
-   "valor_total": 31960.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-04-06",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-04-07",
-   "vencedores": [
-    "AJN SERVICOS MEDICOS ESPECIALIZADOS LTDA"
-   ],
-   "fornecedor_cnpj": "26261442000185",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/04279238000159/2026/22",
-   "dist_km": 1918,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:01616769000100/2026/4",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "São José dos Basílios",
-   "orgao": "MUNICIPIO DE SAO JOSE DOS BASILIOS",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Contratação de empresa Especializada em Serviço de Oftalmologia com capacidade de deslocar equipamentos e profissionais especializados para prestar atendimento na realização de cirurgias de catarata, incluindo consulta, cirurgia e pós-operatório com gerenciamento, deslocamento, operação, manutenção mão de obra especializada de forma itinerante, de interesse da Secretaria Municipal de Saúde/Fundo de Saúde do município de São José dos Basílios/MA",
-   "valor_total": 207704.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-10",
-   "vigencia_fim": "2027-02-10",
-   "publicado": "2026-03-17",
-   "vencedores": [
-    "DCN SERVICOS MEDICOS LTDA"
-   ],
-   "fornecedor_cnpj": "22079262000126",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/01616769000100/2026/4",
-   "dist_km": 1851,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:01616769000100/2026/3",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "São José dos Basílios",
-   "orgao": "MUNICIPIO DE SAO JOSE DOS BASILIOS",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Contratação de empresa Especializada em Serviço de Oftalmologia com capacidade de deslocar equipamentos e profissionais especializados para prestar atendimento na realização de cirurgias de catarata, incluindo consulta, cirurgia e pós-operatório com gerenciamento, deslocamento, operação, manutenção mão de obra especializada de forma itinerante, de interesse da Secretaria Municipal de Saúde/Fundo de Saúde do município de São José dos Basílios/MA.",
-   "valor_total": 312886.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-10",
-   "vigencia_fim": "2027-02-10",
-   "publicado": "2026-03-17",
-   "vencedores": [
-    "DCN SERVICOS MEDICOS LTDA"
-   ],
-   "fornecedor_cnpj": "22079262000126",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/01616769000100/2026/3",
-   "dist_km": 1851,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:07954480000179/2025/30169",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Fortaleza",
-   "orgao": "ESTADO DO CEARA",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "Trata-se do credenciamento de prestadores de serviços de saúde de forma complementar ao Sistema Único de Saúde (SUS), para a realização de cirurgias eletivas em oftalmologia para atender os usuários do Sistema Único de Saúde - SUS, tendo em vista a necessidade identificada pela Central de Regulação do Estado do Ceará, consoante com a necessidade da administração pública, atendendo as normas estabelecidas no edital e na Lei Federal nº 14.133/2021.",
-   "valor_total": 137151.97,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-10-17",
-   "vigencia_fim": "2026-10-17",
-   "publicado": "2025-10-23",
-   "vencedores": [
-    "INSTITUTO DA CATARATA E DA MIOPIA LTDA"
-   ],
-   "fornecedor_cnpj": "05288028000190",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07954480000179/2025/30169",
-   "dist_km": 2228,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:20665259000169/2026/4",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "RO",
-   "municipio": "Jaru",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Registro de preços visando a futura e eventual CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS EM OFTALMOLOGIA - CONSULTAS, EXAMES E CIRURGIAS DE CATARATA, DE FORMA COMPLEMENTAR, oriundo de Emenda Parlamentar do Senador Marcos Rogério.",
-   "valor_total": 127840.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-02-27",
-   "vigencia_fim": "2026-12-31",
-   "publicado": "2026-03-02",
-   "vencedores": [
-    "AJN SERVICOS MEDICOS ESPECIALIZADOS LTDA"
-   ],
-   "fornecedor_cnpj": "26261442000185",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/20665259000169/2026/4",
-   "dist_km": 1918,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:11308823000103/2026/4",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PE",
-   "municipio": "Afogados da Ingazeira",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "[LICITANET] - Credenciamento de pessoas jurídicas especializadas na realização de procedimentos cirúrgicos de catarata (facoemulsificação com implante de lente intraocular dobrável) e cirurgia de pterígio, incluindo consultas de acompanhamento pós-operatório, visando à futura e eventual prestação de serviços de saúde para atendimento das demandas do Município de Afogados da Ingazeira – PE.",
-   "valor_total": 200956.4,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2026-01-26",
-   "vigencia_fim": "2027-01-25",
-   "publicado": "2026-02-18",
-   "vencedores": [
-    "CLIMAX LTDA"
-   ],
-   "fornecedor_cnpj": "24624139000174",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11308823000103/2026/4",
-   "dist_km": 1903,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:46189734000161/2025/22",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "SP",
-   "municipio": "Boracéia",
-   "orgao": "MUNICIPIO DE BORACEIA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "CREDENCIAMENTO de Clinica/Unidade hospitalar especializada na realização de cirurgias de Catarata e cirurgias de Pterígio, destinados ao atendimento da demanda reprimida de pacientes do Sistema Único de Saúde (SUS) do município de Boracéia",
-   "valor_total": 136744.9,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-16",
-   "vigencia_fim": "2026-12-15",
-   "publicado": "2026-01-05",
-   "vencedores": [
-    "INSTITUTO DE OLHOS MARQUES LTDA"
-   ],
-   "fornecedor_cnpj": "02556472000150",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/46189734000161/2025/22",
-   "dist_km": 107,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:07731102000126/2025/58",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "CE",
-   "municipio": "Parambu",
-   "orgao": "MUNICIPIO DE PARAMBU",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Contratação de empresa especializada para a prestação de serviços de cirurgias oftalmológicas de pterígio e catarata, destinados a atender as demandas da secretaria municipal de saúde do município de Parambu-CE,",
-   "valor_total": 491998.5,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-11-19",
-   "vigencia_fim": "2026-11-19",
-   "publicado": "2025-12-31",
-   "vencedores": [
-    "RENATO FEITOSA ALEXANDRINO CIDRAO LTDA"
-   ],
-   "fornecedor_cnpj": "05196015000190",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/07731102000126/2025/58",
-   "dist_km": 1873,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:06769798000117/2025/419",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "Barra do Corda",
-   "orgao": "MUNICIPIO DE BARRA DO CORDA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "[LICITANET] - CREDENCIAMENTO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS DE CATARATA COM IMPLANTE DE LIO DOBRÁVEL E CIRURGIA DE EXÉRESE DE PTERÍGIO, INCLUINDO CONSULTA E PÓS – OPERATÓRIO E TODOS OS CUSTOS REFERENTES AOS INSUMOS, OPME, EQUIPE, TAXAS DE SALA, ANESTESIA, ESTERILIZAÇÃO E DESCARTE, PARA ATENDER AS NECESSIDADES DO MUNICIPIO DE BARRA DO CORDA-MA.",
-   "valor_total": 197626.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-09",
-   "vigencia_fim": "2026-12-09",
-   "publicado": "2025-12-16",
-   "vencedores": [
-    "UNIOLHOS CLÍNICA DE OFTALMOLOGIA LTDA"
-   ],
-   "fornecedor_cnpj": "23343059000188",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/06769798000117/2025/419",
-   "dist_km": 1788,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:06769798000117/2025/420",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "Barra do Corda",
-   "orgao": "MUNICIPIO DE BARRA DO CORDA",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "[LICITANET] - CREDENCIAMENTO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS DE CATARATA COM IMPLANTE DE LIO DOBRÁVEL E CIRURGIA DE EXÉRESE DE PTERÍGIO, INCLUINDO CONSULTA E PÓS – OPERATÓRIO E TODOS OS CUSTOS REFERENTES AOS INSUMOS, OPME, EQUIPE, TAXAS DE SALA, ANESTESIA, ESTERILIZAÇÃO E DESCARTE, PARA ATENDER AS NECESSIDADES DO MUNICIPIO DE BARRA DO CORDA-MA.",
-   "valor_total": 197626.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-09",
-   "vigencia_fim": "2026-12-09",
-   "publicado": "2025-12-16",
-   "vencedores": [
-    "UNIOLHOS CLÍNICA DE OFTALMOLOGIA LTDA"
-   ],
-   "fornecedor_cnpj": "23343059000188",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/06769798000117/2025/420",
-   "dist_km": 1788,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:02441185000103/2025/159",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Piranhas",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE PIRANHAS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "O PRESENTE CONTRATO TEM COMO OBJETO O CREDENCIAMENTO DE CIRURGIAS DE CATARATAS REFERENTE EMENDA PARLAMENTAR IMPOSITIVA PROCESSO (202400010045009).",
-   "valor_total": 15000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-09",
-   "vigencia_fim": "2026-12-09",
-   "publicado": "2025-12-15",
-   "vencedores": [
-    "APG CONSULTORIO CLINICO OFTALMOLOGICO LTDA"
-   ],
-   "fornecedor_cnpj": "25385499000123",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/02441185000103/2025/159",
-   "dist_km": 642,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:02441185000103/2025/158",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "Piranhas",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE PIRANHAS",
-   "modalidade": "Contrato · Credenciamento",
-   "objeto": "O PRESENTE CONTRATO TEM COMO OBJETO O CREDENCIAMENTO DE CIRURGIAS DE CATARATAS REFERENTE EMENDA PARLAMENTAR IMPOSITIVA Nº 315 (SEI Nº 56916969).",
-   "valor_total": 5000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-09",
-   "vigencia_fim": "2026-12-09",
-   "publicado": "2025-12-15",
-   "vencedores": [
-    "APG CONSULTORIO CLINICO OFTALMOLOGICO LTDA"
-   ],
-   "fornecedor_cnpj": "25385499000123",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/02441185000103/2025/158",
-   "dist_km": 642,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:11308823000103/2025/62",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "PE",
-   "municipio": "Afogados da Ingazeira",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-   "modalidade": "Contrato · Dispensa",
-   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CAPSULOTOMIA POR YAG LASER PÓS CIRURGIA DE CATARATA PARA REMOVER EMBAÇAMENTO DA LENTE AOS PACIENTES DO MUNICÍPIO DE AFOGADOS DA INGAZEIRA.",
-   "valor_total": 60475.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-12-12",
-   "vigencia_fim": "2026-12-12",
-   "publicado": "2025-12-12",
-   "vencedores": [
-    "OFTALMO CENTER LTDA"
-   ],
-   "fornecedor_cnpj": "31172142000160",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/11308823000103/2025/62",
-   "dist_km": 1903,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:02391654000119/2025/219",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "GO",
-   "municipio": "São Miguel do Araguaia",
-   "orgao": "MUNICIPIO DE SAO MIGUEL DO ARAGUAIA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "TERMO DE CONTRATO Nº. 267/2025 PREGÃO ELETRÔNICO Nº. 54/2025 CONTRATAÇÃO DE CLÍNICAS ESPECIALIZADAS EM CIRURGIAS OFTALMOLÓGICAS, PARA REALIZAÇÃO DE CIRURGIA DE FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL (CATARATA), PTERÍGIO E CAPSULOTOMIA A YAG LASER, JÁ INCLUÍDOS HONORÁRIOS MÉDICOS, CUSTOS HOSPITALARES, MATERIAIS NECESSÁRIOS E EQUIPE DE APOIO, PARA ATENDER OS PACIENTES DO MUNICÍPIO DE SÃO MIGUEL DO ARAGUAIA-GO, POR UM PERÍODO DE 12 MESES,",
-   "valor_total": 454012.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-11-13",
-   "vigencia_fim": "2026-11-13",
-   "publicado": "2025-11-18",
-   "vencedores": [
-    "HOSPITAL DE OLHOS VILA NOVA EIRELI - ME"
-   ],
-   "fornecedor_cnpj": "10703748000104",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/02391654000119/2025/219",
-   "dist_km": 906,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata",
-    "facoemulsificação"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:06191001000147/2025/228",
-   "fonte": "Mapeamento",
-   "categoria": "Catarata",
-   "tipo_mapa": "Contrato",
-   "uf": "MA",
-   "municipio": "Santa Luzia",
-   "orgao": "MUNICIPIO DE SANTA LUZIA",
-   "modalidade": "Contrato · Pregão - Eletrônico",
-   "objeto": "Contratação de empresa especializada em serviços de cirurgia oftalmológica de catarata e pterígio, incluindo consultas, exames e pós operatório, em regime de mutirão, para atendimento aos cidadãos do Município de Santa Luzia – MA.",
-   "valor_total": 3595340.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-09-24",
-   "vigencia_fim": "2026-09-24",
-   "publicado": "2025-10-09",
-   "vencedores": [
-    "INSTITUTO DA VISAO LTDA"
-   ],
-   "fornecedor_cnpj": "02579586000388",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/06191001000147/2025/228",
-   "dist_km": 1936,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": false,
-   "chamada_diario": false
-  },
-  {
-   "id": "map:contrato:00394452000103/2025/5731",
-   "fonte": "Mapeamento",
-   "categoria": "Oftalmologia",
-   "tipo_mapa": "Contrato",
-   "uf": "RJ",
-   "municipio": "Rio de Janeiro",
-   "orgao": "COMANDO DO EXERCITO",
-   "modalidade": "Contrato · Inexigibilidade",
-   "objeto": "CREDENCIAMENTO DE ORGANIZAÇÃO CIVIL DE SAÚDE (OCS) PARA PRESTAÇÃO DE SERVIÇOS DE ATENDIMENTO AMBULATORIAL, EXAMES E CIRURGIAS NA ESPECIALIDADE DE OFTALMOLOGIA.",
-   "valor_total": 600000.0,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "",
-   "assinatura": "2025-07-08",
-   "vigencia_fim": "2030-07-08",
-   "publicado": "2025-07-08",
-   "vencedores": [
-    "CENTRO DE CATARATA MADUREIRA LTDA"
-   ],
-   "fornecedor_cnpj": "03936254000104",
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/contratos/00394452000103/2025/5731",
-   "dist_km": 576,
-   "primeira_vez": "2026-11-08",
-   "termos": [
-    "catarata"
-   ],
-   "credenciamento_aberto": true,
-   "chamada_diario": false
-  },
-  {
    "id": "map:contrato:15126437000305/2026/764",
    "fonte": "Mapeamento",
    "categoria": "Catarata",
@@ -27893,6 +26631,38 @@
    "chamada_diario": false
   },
   {
+   "id": "map:contrato:18457226000181/2026/69",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "MG",
+   "municipio": "Santa Vitória",
+   "orgao": "MUNICIPIO DE SANTA VITORIA",
+   "modalidade": "Contrato · Inexigibilidade",
+   "objeto": "MAPEAMENTO DE RETINA - CONSISTE NA VALIAÇÃO SOB MIDRÍASE DA RETINA (PÓLO POSTERIOR E PERIFERIA), NERVO ÓPTICO E CORÓIDE. INCLUIR DOCUMENTAÇÃO ATRAVÉS DE GRÁFICO MANUAL OU COMPUTADORIZADO, QUANDO COUBER. (MONOCULAR) | POTENCIAL DE ACUIDADE VISUAL - AVALIAÇÃO DA MÁXIMA ACUIDADE SOB ORIFÍCIO ESTENOPEICO (PROJEÇÃO OU RETRO-ILUMINADA) | MICROSCOPIA ESPECULAR DE CORNEA - CONSISTE NA ALIAÇÃO DAS CÉLULAS ENDOTELIAIS CORNEANAS (INCLUI REGISTRO GRÁFICO MORFOLÓGICO CELULAR) | FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRAOCULAR DOBRÁVEL - CONSISTE DE PROCEDIMENTO CIRÚRGICO PARA O TRATAMENTO DE CATARATA (SE",
+   "valor_total": 127152.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-23",
+   "vigencia_fim": "2027-04-23",
+   "publicado": "2026-04-23",
+   "vencedores": [
+    "OFTALMO 2020 LTDA"
+   ],
+   "fornecedor_cnpj": "40421060000100",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/18457226000181/2026/69",
+   "dist_km": 318,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
    "id": "map:contrato:00697295000105/2026/17",
    "fonte": "Mapeamento",
    "categoria": "Catarata",
@@ -27956,6 +26726,138 @@
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:00394502000144/2026/365",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DA MARINHA",
+   "modalidade": "Contrato · Pregão - Eletrônico",
+   "objeto": "Contratação de Aquisição de Materiais para Realização de Cirurgias de Facoemulsificação (Catarata), com Implante de Lente Intraocular, para Clínica de Oftalmologia, a fim de prestar atendimento aos pacientes em sua área de abrangência, em nível de alta complexidade, em ambulatório e em regime de internação, nas condições estabelecidas no Termo de Referência.",
+   "valor_total": 18000.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-17",
+   "vigencia_fim": "2027-04-17",
+   "publicado": "2026-04-20",
+   "vencedores": [
+    "SURGICALL PRODUTOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "27437015000178",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/365",
+   "dist_km": 576,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação",
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:00394502000144/2026/364",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DA MARINHA",
+   "modalidade": "Contrato · Pregão - Eletrônico",
+   "objeto": "CONTRATAÇÃO DE AQUISIÇÃO DE MATERIAIS PARA REALIZAÇÃO DE CIRURGIAS DE FACOEMULSIFICAÇÃO (CATARATA), COM IMPLANTE DE LENTE INTRAOCULAR, PARA CLÍNICA DE OFTALMOLOGIA, A FIM DE PRESTAR ATENDIMENTO AOS PACIENTES EM SUA ÁREA DE ABRANGÊNCIA, EM NÍVEL DE ALTA COMPLEXIDADE, EM AMBULATÓRIO E EM REGIME DE INTERNAÇÃO, NAS CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA.",
+   "valor_total": 18000.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-17",
+   "vigencia_fim": "2027-04-17",
+   "publicado": "2026-04-20",
+   "vencedores": [
+    "SURGICALL PRODUTOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "27437015000178",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/364",
+   "dist_km": 576,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação",
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:00394502000144/2026/363",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DA MARINHA",
+   "modalidade": "Contrato · Pregão - Eletrônico",
+   "objeto": "Contratação de Aquisição de Materiais para Realização de Cirurgias de Facoemulsificação (Catarata), com Implante de Lente Intraocular, para Clínica de Oftalmologia, a fim de prestar atendimento aos pacientes em sua área de abrangência, em nível de alta complexidade, em ambulatório e em regime de internação, nas condições estabelecidas no Termo de Referência.",
+   "valor_total": 62568.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-17",
+   "vigencia_fim": "2027-04-17",
+   "publicado": "2026-04-20",
+   "vencedores": [
+    "FULLFARMA COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
+   ],
+   "fornecedor_cnpj": "46388662000181",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/363",
+   "dist_km": 576,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação",
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:00394502000144/2026/362",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "COMANDO DA MARINHA",
+   "modalidade": "Contrato · Pregão - Eletrônico",
+   "objeto": "CONTRATAÇÃO DE AQUISIÇÃO DE MATERIAIS PARA REALIZAÇÃO DE CIRURGIAS DE FACOEMULSIFICAÇÃO (CATARATA), COM IMPLANTE DE LENTE INTRAOCULAR, PARA CLÍNICA DE OFTALMOLOGIA, A FIM DE PRESTAR ATENDIMENTO AOS PACIENTES EM SUA ÁREA DE ABRANGÊNCIA, EM NÍVEL DE ALTA COMPLEXIDADE, EM AMBULATÓRIO E EM REGIME DE INTERNAÇÃO, NAS CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA.",
+   "valor_total": 62568.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-17",
+   "vigencia_fim": "2027-04-17",
+   "publicado": "2026-04-20",
+   "vencedores": [
+    "FULLFARMA COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
+   ],
+   "fornecedor_cnpj": "46388662000181",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/00394502000144/2026/362",
+   "dist_km": 576,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação",
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
    "chamada_diario": false
   },
   {
@@ -28047,6 +26949,38 @@
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/04755973000191/2026/121",
    "dist_km": 753,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:11308823000103/2026/4",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "PE",
+   "municipio": "Afogados da Ingazeira",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+   "modalidade": "Contrato · Credenciamento",
+   "objeto": "[LICITANET] - Credenciamento de pessoas jurídicas especializadas na realização de procedimentos cirúrgicos de catarata (facoemulsificação com implante de lente intraocular dobrável) e cirurgia de pterígio, incluindo consultas de acompanhamento pós-operatório, visando à futura e eventual prestação de serviços de saúde para atendimento das demandas do Município de Afogados da Ingazeira – PE.",
+   "valor_total": 200956.4,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-01-26",
+   "vigencia_fim": "2027-01-25",
+   "publicado": "2026-02-18",
+   "vencedores": [
+    "CLIMAX LTDA"
+   ],
+   "fornecedor_cnpj": "24624139000174",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/11308823000103/2026/4",
+   "dist_km": 1903,
    "primeira_vez": "2026-11-08",
    "termos": [
     "facoemulsificação"
@@ -28148,6 +27082,38 @@
     "facoemulsificação"
    ],
    "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:02391654000119/2025/219",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "GO",
+   "municipio": "São Miguel do Araguaia",
+   "orgao": "MUNICIPIO DE SAO MIGUEL DO ARAGUAIA",
+   "modalidade": "Contrato · Pregão - Eletrônico",
+   "objeto": "TERMO DE CONTRATO Nº. 267/2025 PREGÃO ELETRÔNICO Nº. 54/2025 CONTRATAÇÃO DE CLÍNICAS ESPECIALIZADAS EM CIRURGIAS OFTALMOLÓGICAS, PARA REALIZAÇÃO DE CIRURGIA DE FACOEMULSIFICAÇÃO COM IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL (CATARATA), PTERÍGIO E CAPSULOTOMIA A YAG LASER, JÁ INCLUÍDOS HONORÁRIOS MÉDICOS, CUSTOS HOSPITALARES, MATERIAIS NECESSÁRIOS E EQUIPE DE APOIO, PARA ATENDER OS PACIENTES DO MUNICÍPIO DE SÃO MIGUEL DO ARAGUAIA-GO, POR UM PERÍODO DE 12 MESES,",
+   "valor_total": 454012.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2025-11-13",
+   "vigencia_fim": "2026-11-13",
+   "publicado": "2025-11-18",
+   "vencedores": [
+    "HOSPITAL DE OLHOS VILA NOVA EIRELI - ME"
+   ],
+   "fornecedor_cnpj": "10703748000104",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/02391654000119/2025/219",
+   "dist_km": 906,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "facoemulsificação"
+   ],
+   "credenciamento_aberto": false,
    "chamada_diario": false
   },
   {
@@ -35064,6 +34030,38 @@
    "chamada_diario": false
   },
   {
+   "id": "map:contrato:17754136000190/2026/80",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "MG",
+   "municipio": "Diamantina",
+   "orgao": "MUNICIPIO DE DIAMANTINA",
+   "modalidade": "Contrato · Inexigibilidade",
+   "objeto": "Processo de inexigibilidade visando a contratacao da empresa REALMED SERVICOS MEDICOS LTDA para a realizacao dos servicos oftalmologicos com foco na execucao de cirurgias de catarata consultas de pre e posoperatorio e exames complementares necessarios a assistencia integral aos usuarios do SUS do municipio de Diamantina",
+   "valor_total": 114130.81,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-06-02",
+   "vigencia_fim": "2027-06-01",
+   "publicado": "2026-06-03",
+   "vencedores": [
+    "REALMED SERVICOS MEDICOS LTDA"
+   ],
+   "fornecedor_cnpj": "24331062000144",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/17754136000190/2026/80",
+   "dist_km": 613,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
    "id": "map:contrato:31974558000100/2026/14",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -35128,6 +34126,38 @@
    "chamada_diario": false
   },
   {
+   "id": "map:contrato:42498600000171/2026/2143",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "RJ",
+   "municipio": "Rio de Janeiro",
+   "orgao": "ESTADO DO RIO DE JANEIRO",
+   "modalidade": "Contrato · Pregão - Eletrônico",
+   "objeto": "LENTES INTRA OCULARES RIGIDAS, BISTURIS 2.75 E 15 GRAUS E OS CAMPOS BAG PARA A REALIZAC?O DOS PROCEDIMENTOS CIRURGICOS DE CATARATA",
+   "valor_total": 9000.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-05-11",
+   "vigencia_fim": "2027-05-27",
+   "publicado": "2026-05-27",
+   "vencedores": [
+    "adapt produtos oftalmologicos ltda."
+   ],
+   "fornecedor_cnpj": "96382429000160",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/42498600000171/2026/2143",
+   "dist_km": 576,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
    "id": "map:contrato:00394502001205/2026/1",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -35157,6 +34187,38 @@
     "cirurgias oftalmológicas"
    ],
    "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:10589928000107/2026/17",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "PE",
+   "municipio": "Bom Jardim",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DO BOM JARDIM",
+   "modalidade": "Contrato · Credenciamento",
+   "objeto": "Credenciamento de empresa especializada na prestação de serviços de cirurgias de catarata, incluindo consultas e exames, cirurgia e pós-operatório, para atender às necessidades do Município de Bom Jardim/PE",
+   "valor_total": 1002994.93,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-05-15",
+   "vigencia_fim": "2027-05-15",
+   "publicado": "2026-05-19",
+   "vencedores": [
+    "SANTA LUZIA OFTALMOLOGIA LTDA"
+   ],
+   "fornecedor_cnpj": "57843006000229",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/10589928000107/2026/17",
+   "dist_km": 2041,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": true,
    "chamada_diario": false
   },
   {
@@ -35480,6 +34542,38 @@
    "chamada_diario": false
   },
   {
+   "id": "map:contrato:02056729000105/2026/817",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "GO",
+   "municipio": "Rio Verde",
+   "orgao": "MUNICIPIO DE RIO VERDE",
+   "modalidade": "Contrato · Inexigibilidade",
+   "objeto": "PRESTAÇÃO DE SERVIÇOS MÉDICOS COMO PESSOA JURÍDICA, NA ÁREA DE OFTALMOLOGIA, EM UNIDADE PRÓPRIA, NA REALIZAÇÃO DE CONSULTAS, EXAMES E PROCEDIMENTOS CIRÚRGICOS DE CATARATA, REFERENTE AO REPASSE DE RECURSOS ADVINDOS DE EMENDA IMPOSITIVA MUNICIPAL N. 019/2025, PROPOSTA 42, PARA O EXERCÍCIO DE 2026, PELO PERÍODO DE 23/04/2026 À 31/12/2026, SENDO REALIZADA A CONTRATAÇÃO, CONFORME O EDITAL DE CREDENCIAMENTO 003/2024.",
+   "valor_total": 199197.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-23",
+   "vigencia_fim": "2026-12-31",
+   "publicado": "2026-05-14",
+   "vencedores": [
+    "ANGEL E TAKATSU LTDA."
+   ],
+   "fornecedor_cnpj": "07976107000119",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/02056729000105/2026/817",
+   "dist_km": 462,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
    "id": "map:contrato:00697295000105/2026/29",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -35608,6 +34702,70 @@
    "chamada_diario": false
   },
   {
+   "id": "map:contrato:06104863000195/2026/179",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "MA",
+   "municipio": "Codó",
+   "orgao": "MUNICIPIO DE CODO",
+   "modalidade": "Contrato · Dispensa",
+   "objeto": "ATA DE REGISTRO DE PREÇOS Nº 004/2025/PREGÃO ELETRÔNICO Nº 050/2024 – SÃO BERNARDO/MA, CONTRATAÇÃO DE SERVIÇOS DE CIRURGIA OFTALMOLÓGICA DE CATARATA E PTERÍGIO, INCLUINDO CONSULTAS, EXAMES E PÓS OPERATÓRIO, EM REGIME DE MUTIRÃO",
+   "valor_total": 5216250.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-10",
+   "vigencia_fim": "2027-04-10",
+   "publicado": "2026-05-07",
+   "vencedores": [
+    "INSTITUTO ACOLHER VIDAS - IAV"
+   ],
+   "fornecedor_cnpj": "40168249000125",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/06104863000195/2026/179",
+   "dist_km": 1934,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": false,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:01611858000155/2026/110",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "PA",
+   "municipio": "Placas",
+   "orgao": "MUNICIPIO DE PLACAS",
+   "modalidade": "Contrato · Credenciamento",
+   "objeto": "CREDENCIAMENTO PARALELO E NÃO EXCLUDENTE DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS OFTALMOLÓGICAS ELETIVAS, ESPECIALMENTE PROCEDIMENTOS DE CATARATA E PTERÍGIO, DESTINADAS AOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE (SUS), VISANDO ATENDER ÀS NECESSIDADES DO FUNDO MUNICIPAL DE SAÚDE DO MUNICÍPIO DE PLACAS/PA.",
+   "valor_total": 274859.76,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-15",
+   "vigencia_fim": "2026-12-31",
+   "publicado": "2026-05-06",
+   "vencedores": [
+    "VIVER CLIN CENTRO MEDIC"
+   ],
+   "fornecedor_cnpj": "36707252000100",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/01611858000155/2026/110",
+   "dist_km": 2031,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
    "id": "map:contrato:18151467000106/2026/316",
    "fonte": "Mapeamento",
    "categoria": "Oftalmologia",
@@ -35632,6 +34790,38 @@
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/316",
    "dist_km": 262,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:01611858000155/2026/111",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "PA",
+   "municipio": "Placas",
+   "orgao": "MUNICIPIO DE PLACAS",
+   "modalidade": "Contrato · Credenciamento",
+   "objeto": "CREDENCIAMENTO PARALELO E NÃO EXCLUDENTE DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE REALIZAÇÃO DE CIRURGIAS OFTALMOLÓGICAS ELETIVAS, ESPECIALMENTE PROCEDIMENTOS DE CATARATA E PTERÍGIO, DESTINADAS AOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE (SUS), VISANDO ATENDER ÀS NECESSIDADES DO FUNDO MUNICIPAL DE SAÚDE DO MUNICÍPIO DE PLACAS/PA.",
+   "valor_total": 225492.4,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-09",
+   "vigencia_fim": "2026-12-31",
+   "publicado": "2026-05-06",
+   "vencedores": [
+    "VIVER CLIN CENTRO MEDIC"
+   ],
+   "fornecedor_cnpj": "36707252000100",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/01611858000155/2026/111",
+   "dist_km": 2031,
    "primeira_vez": "2026-11-08",
    "termos": [
     "cirurgias oftalmológicas"
@@ -35760,6 +34950,38 @@
    "plataforma": "",
    "link": "https://pncp.gov.br/app/contratos/18151467000106/2026/72",
    "dist_km": 262,
+   "primeira_vez": "2026-11-08",
+   "termos": [
+    "cirurgias oftalmológicas"
+   ],
+   "credenciamento_aberto": true,
+   "chamada_diario": false
+  },
+  {
+   "id": "map:contrato:11232665000147/2026/231",
+   "fonte": "Mapeamento",
+   "categoria": "Catarata",
+   "tipo_mapa": "Contrato",
+   "uf": "GO",
+   "municipio": "Aloândia",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+   "modalidade": "Contrato · Credenciamento",
+   "objeto": "CONTRATAÇÃO DA SERVIÇOS DE SAÚDE VISANDO A REALIZAÇÃO DE CIRURGIAS DE CATARATAS, PTERÍGIO E CONSULTAS OFTALMOLÓGICAS, PARA O ATENDIMENTO DAS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE",
+   "valor_total": 94000.0,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "assinatura": "2026-04-17",
+   "vigencia_fim": "2027-04-17",
+   "publicado": "2026-04-23",
+   "vencedores": [
+    "HOSPITAL DE OLHOS VILA NOVA LTDA"
+   ],
+   "fornecedor_cnpj": "10703748000104",
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/contratos/11232665000147/2026/231",
+   "dist_km": 406,
    "primeira_vez": "2026-11-08",
    "termos": [
     "cirurgias oftalmológicas"
@@ -39084,12 +38306,11 @@
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": false,
    "erro": "Coleta incompleta; dados anteriores preservados",
-   "itens": 203
+   "itens": 201
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 14
   },
   {
@@ -39101,8 +38322,8 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "obs": "atualizado uma vez por dia",
-   "itens": 406
+   "itens": 387,
+   "parcial": "1 de 19 consultas sem resposta"
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -39237,6 +38458,6 @@
    "itens": 0
   }
  ],
- "rodada": "44845949111",
- "concluido": "2026-11-20 21:52"
+ "rodada": "44881729840",
+ "concluido": "2026-11-21 04:56"
 }
