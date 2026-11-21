@@ -550,6 +550,12 @@
       "ultima_tentativa": "2026-11-21T10:09:09.083625-03:00",
       "tentativas": 1,
       "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-21T18:42:56.865141-03:00",
+      "tentativas": 1,
+      "aceitas": 1
     }
   }
 }
