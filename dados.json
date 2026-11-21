@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20 15:53",
+ "atualizado": "2026-11-20 21:45",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -39088,7 +39088,8 @@
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 14
   },
   {
@@ -39236,6 +39237,6 @@
    "itens": 0
   }
  ],
- "rodada": "44796863623",
- "concluido": "2026-11-20 16:02"
+ "rodada": "44845949111",
+ "concluido": "2026-11-20 21:52"
 }
