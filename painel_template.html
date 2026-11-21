@@ -251,6 +251,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
   @keyframes gavetaE{from{transform:translateX(-30px);opacity:.6}to{transform:none;opacity:1}}
 }
 @media (prefers-reduced-motion:reduce){.side{transition:none}}
+.hab{font-size:11px;color:var(--muted);margin-left:6px;font-weight:400;white-space:nowrap}
 </style>
 
 <div class="app">
@@ -361,6 +362,7 @@ const CATS = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médic
 const CAT0 = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médico"];
 const SITS = [["aberto","Sem vencedor"],["vencedor","Com credenciado"]];
 
+const habTxt=i=>i.habitantes?i.habitantes.toLocaleString("pt-BR")+" hab.":"";
 D.itens.forEach(it=>{
   it.priv = it.fonte==="Plataforma privada";
   it.mapa = it.fonte==="Mapeamento";
@@ -507,7 +509,7 @@ function cartao(i,idx){
   const plat=!i.priv&&i.plataforma&&/^https?:/.test(i.plataforma)?`<a href="${esc(i.plataforma)}" target="_blank" rel="noopener">Plataforma ↗</a>`:"";
   return `<article class="ed entra ${m==="desc"?"descartado":""}" data-id="${esc(i.id)}" data-sit="${i.sit}" tabindex="0" style="animation-delay:${Math.min(idx,10)*25}ms">
     <div class="ed-top">
-      <div class="ed-loc"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}<div class="ed-org">${i.municipio?esc(i.orgao)+" · ":""}${esc((i.modalidade||"").replace("Pregão - Eletrônico","Pregão eletrônico"))}</div></div>
+      <div class="ed-loc"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}${i.habitantes?`<span class="hab">${habTxt(i)}</span>`:""}<div class="ed-org">${i.municipio?esc(i.orgao)+" · ":""}${esc((i.modalidade||"").replace("Pregão - Eletrônico","Pregão eletrônico"))}</div></div>
       <div class="ed-pills">${i.novo?'<span class="pill p-gold">Novo</span>':""}${sit}<span class="pill p-acc">${esc(i.categoria)}</span>${urg?'<span class="pill p-bad">Prazo curto</span>':""}</div>
     </div>
     ${fatos}
@@ -538,7 +540,7 @@ function linha(i,idx){
   const prz = (i.fonte==="PNCP"||i.priv) ? (i.d==null?'<span class="prz">sem data</span>':`<span class="prz ${i.d<=10?"urg":i.d>60?"ok":""}">${prazoTxt(i.d)}</span>`) : i.mapa ? `<span class="prz ${i.vig!=null&&i.vig<=90?"urg":""}">${i.vigencia_fim?"até "+fdata(i.vigencia_fim):"contrato"}</span>` : `<span class="prz">${i.fonte==="Diário Oficial"?"diário":"OSS"}</span>`;
   return `<div class="row entra ${m==="desc"?"descartado":""}" data-id="${esc(i.id)}" tabindex="0" role="button" style="animation-delay:${Math.min(idx,14)*18}ms">
     <span class="st ${i.sit}"></span>
-    <div class="tit"><div class="t1"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}${i.novo?'<span class="novo">novo</span>':""}</div><div class="t2">${esc(sub)}</div></div>
+    <div class="tit"><div class="t1"><b>${esc(i.municipio||i.orgao)}</b>${i.uf?`<span class="uf">${esc(i.uf)}</span>`:""}${i.habitantes?`<span class="hab">${habTxt(i)}</span>`:""}${i.novo?'<span class="novo">novo</span>':""}</div><div class="t2">${esc(sub)}</div></div>
     <div class="inf"><div class="val ${x>=1.8?"alto":""}">${i.faco?brl(i.faco.valor,0)+`<small>${x.toLocaleString("pt-BR",{maximumFractionDigits:1})}× SUS</small>`:'<small>–</small>'}</div>${prz}</div>
     <button type="button" class="estrela" data-estrela aria-pressed="${m==="acomp"}" aria-label="${m==="acomp"?"Deixar de acompanhar":"Acompanhar"}">${m==="acomp"?"★":"☆"}</button>
   </div>`;
@@ -621,6 +623,7 @@ function detalhe(id){
       <div><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">${curto(i.valor_total)} no total</div></div>
     </div>`:""}
     <dl class="dl">
+      ${ln("Habitantes",i.habitantes?habTxt(i).replace(" hab.","")+" (IBGE, estimativa 2025)":"")}
       ${ln("Órgão",esc(i.orgao))}
       ${ln("Modalidade",esc(i.modalidade))}
       ${ln("Propostas",i.abertura?fdata(i.abertura)+(i.encerramento?" até "+fdata(i.encerramento):""):"")}

@@ -538,6 +538,24 @@ def gerar_html(dados):
 PLATAFORMAS_NOMES = {"Portal de Compras Públicas"} | {n for n, _ in plataformas.LISTAS}
 
 
+UF_IBGE = {"11": "RO", "12": "AC", "13": "AM", "14": "RR", "15": "PA", "16": "AP", "17": "TO", "21": "MA", "22": "PI",
+           "23": "CE", "24": "RN", "25": "PB", "26": "PE", "27": "AL", "28": "SE", "29": "BA", "31": "MG", "32": "ES",
+           "33": "RJ", "35": "SP", "41": "PR", "42": "SC", "43": "RS", "50": "MS", "51": "MT", "52": "GO", "53": "DF"}
+
+
+def _nome(s):
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower())
+
+
+POP = load("populacao.json", {}).get("habitantes", {})
+POP_NOME = {(_nome(v[0]), UF_IBGE.get(k[:2], "")): POP.get(k) for k, v in MUN.items()}
+
+
+def habitantes(municipio, uf):
+    """População estimada pelo IBGE (2025) a partir do nome da cidade e da UF."""
+    return POP_NOME.get((_nome(municipio), (uf or "").upper())) if municipio else None
+
+
 DIARIO_ABERTO_DESDE = (datetime.fromisoformat(HOJE) - timedelta(days=60)).strftime("%Y-%m-%d")
 
 
@@ -562,6 +580,7 @@ def revisar_dados(dados):
             and (i.get("publicado") or i.get("primeira_vez") or "")[:10] >= DIARIO_ABERTO_DESDE
             and regras.cirurgia_ofertada(i.get("objeto") or "")
             and regras.diario_contratacao(i.get("objeto") or ""))
+        i["habitantes"] = habitantes(i.get("municipio"), i.get("uf"))
         ids.add(i["id"])
         revisados.append(i)
     dados["itens"] = revisados
