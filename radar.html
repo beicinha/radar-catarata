@@ -90,7 +90,7 @@ button{font:inherit;color:inherit}
 .ed-loc .uf{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);margin-left:6px}
 .ed-org{font-size:13px;color:var(--muted);margin-top:2px;overflow-wrap:anywhere}
 .ed-pills{display:flex;flex-wrap:wrap;gap:6px}
-.fatos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.fatos{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
 .fato{background:var(--surface-2);border-radius:10px;padding:10px 12px;min-width:0}
 .fato .k{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .fato .v{font-family:var(--f-mono);font-size:16px;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
@@ -251,7 +251,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
   @keyframes gavetaE{from{transform:translateX(-30px);opacity:.6}to{transform:none;opacity:1}}
 }
 @media (prefers-reduced-motion:reduce){.side{transition:none}}
-.hab{font-size:11px;color:var(--muted);margin-left:6px;font-weight:400;white-space:nowrap}
+.hab{font-size:13px;color:var(--text,inherit);margin-left:8px;font-weight:600;white-space:nowrap;opacity:.85}
 </style>
 
 <div class="app">
@@ -362,7 +362,7 @@ const CATS = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médic
 const CAT0 = ["Catarata","Oftalmologia","Mutirão cirúrgico","Chamamento médico"];
 const SITS = [["aberto","Sem vencedor"],["vencedor","Com credenciado"]];
 
-const habTxt=i=>i.habitantes?i.habitantes.toLocaleString("pt-BR")+" hab.":"";
+const habTxt=i=>i.habitantes?"👥 "+i.habitantes.toLocaleString("pt-BR")+" habitantes":"";
 D.itens.forEach(it=>{
   it.priv = it.fonte==="Plataforma privada";
   it.mapa = it.fonte==="Mapeamento";
@@ -492,17 +492,17 @@ function cartao(i,idx){
       <div class="fato ${x>=1.8?"dest":""}"><div class="k">Por catarata</div><div class="v">${i.faco?brl(i.faco.valor,0):"–"}</div><div class="s">${i.faco?x.toLocaleString("pt-BR",{maximumFractionDigits:1})+"× tabela SUS":"valor no edital"}</div></div>
       <div class="fato"><div class="k">Cirurgias</div><div class="v">${i.faco&&i.faco.qtd>1?Math.round(i.faco.qtd).toLocaleString("pt-BR"):"–"}</div><div class="s">${i.valor_total?curto(i.valor_total)+" no total":"previstas"}</div></div>
       <div class="fato ${urg?"urg":""}"><div class="k">Encerra</div><div class="v">${i.encerramento?fdata(i.encerramento):"–"}</div><div class="s">${i.d!=null?prazoTxt(i.d):"sem data"}</div></div>
-      <div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div>
+      <div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div><div class="fato"><div class="k">Habitantes</div><div class="v">${i.habitantes?i.habitantes.toLocaleString("pt-BR"):"–"}</div><div class="s">IBGE 2025</div></div>
     </div>`;
   } else if(i.mapa){
     fatos=`<div class="fatos">
       <div class="fato"><div class="k">Fornecedor</div><div class="v" style="font-size:13px">${esc((i.vencedores||[])[0]||"ver documento")}</div><div class="s">${esc(i.fornecedor_cnpj||i.diario_nome||"")}</div></div>
       <div class="fato"><div class="k">Valor</div><div class="v">${i.valor_total?curto(i.valor_total):"–"}</div><div class="s">${i.assinatura?"assinado "+fdata(i.assinatura):"publicado "+fdata(i.publicado)}</div></div>
       <div class="fato ${i.vig!=null&&i.vig<=90?"urg":""}"><div class="k">Vigência até</div><div class="v">${i.vigencia_fim?fdata(i.vigencia_fim):"–"}</div><div class="s">${i.vig!=null?(i.vig<0?"encerrado":prazoTxt(i.vig)):"não informada"}</div></div>
-      <div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div>
+      <div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div><div class="fato"><div class="k">Habitantes</div><div class="v">${i.habitantes?i.habitantes.toLocaleString("pt-BR"):"–"}</div><div class="s">IBGE 2025</div></div>
     </div>${i.credenciamento_aberto?'<div class="ed-venc">Credenciamento: outros prestadores podem conseguir entrar — conferir o edital.</div>':""}`;
   } else if(i.fonte==="Diário Oficial"){
-    fatos=`<div class="fatos"><div class="fato"><div class="k">Publicado</div><div class="v">${fdata(i.publicado)}</div><div class="s">diário municipal</div></div><div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div></div>`;
+    fatos=`<div class="fatos"><div class="fato"><div class="k">Publicado</div><div class="v">${fdata(i.publicado)}</div><div class="s">diário municipal</div></div><div class="fato"><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">de Monte Alto</div></div><div class="fato"><div class="k">Habitantes</div><div class="v">${i.habitantes?i.habitantes.toLocaleString("pt-BR"):"–"}</div><div class="s">IBGE 2025</div></div></div>`;
   }
   const venc=(i.vencedores||[]).length?`<div class="ed-venc">Já credenciados: ${esc(i.vencedores.slice(0,3).join(" · "))}${i.vencedores.length>3?" e outros":""}</div>`:"";
   const abrir=i.mapa?"Abrir documento":i.priv?"Abrir na plataforma":i.fonte==="PNCP"?"Abrir edital":i.fonte==="Diário Oficial"?"Abrir diário":"Abrir no site";
@@ -623,7 +623,7 @@ function detalhe(id){
       <div><div class="k">Distância</div><div class="v">${i.dist_km!=null?i.dist_km.toLocaleString("pt-BR")+" km":"–"}</div><div class="s">${curto(i.valor_total)} no total</div></div>
     </div>`:""}
     <dl class="dl">
-      ${ln("Habitantes",i.habitantes?habTxt(i).replace(" hab.","")+" (IBGE, estimativa 2025)":"")}
+      ${ln("Habitantes",i.habitantes?i.habitantes.toLocaleString("pt-BR")+" (IBGE, estimativa 2025)":"")}
       ${ln("Órgão",esc(i.orgao))}
       ${ln("Modalidade",esc(i.modalidade))}
       ${ln("Propostas",i.abertura?fdata(i.abertura)+(i.encerramento?" até "+fdata(i.encerramento):""):"")}
