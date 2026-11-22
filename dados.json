@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21 18:14",
+ "atualizado": "2026-11-21 22:26",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -33,7 +33,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -112,7 +111,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -218,7 +216,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -323,7 +320,6 @@
     "facectomia",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -414,7 +410,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -511,7 +506,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -711,7 +705,6 @@
     "facectomia",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -804,7 +797,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -917,7 +909,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -1195,7 +1186,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -1293,7 +1283,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -1353,7 +1342,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -1596,16 +1584,16 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "multirão de catarata",
-    "multirão",
+    "multirão de facoemulsificação",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas",
@@ -1889,7 +1877,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -1979,10 +1966,8 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -2084,7 +2069,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -2277,10 +2261,8 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -2503,7 +2485,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -2594,7 +2575,6 @@
     "facectomia",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -2679,7 +2659,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -2788,13 +2767,12 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas"
@@ -2868,7 +2846,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -2984,7 +2961,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -3054,7 +3030,6 @@
     "facectomia",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -3175,9 +3150,7 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -3287,7 +3260,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmo",
     "cirurgias oftalmológicas",
@@ -3374,7 +3346,6 @@
     "cirurgias de catarata",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -3479,7 +3450,7 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -3704,7 +3675,7 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -3781,7 +3752,7 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -3865,7 +3836,7 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -4109,7 +4080,7 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -4236,7 +4207,7 @@
     "facectomia",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -4434,10 +4405,9 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -4536,7 +4506,7 @@
    "termos": [
     "catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "pterígio",
     "oftalmológica",
@@ -4609,7 +4579,7 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -4684,7 +4654,7 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -4806,12 +4776,13 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
+    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -4907,12 +4878,13 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -5002,16 +4974,16 @@
     "facectomia",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmo",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
+    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -5157,12 +5129,13 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -5240,12 +5213,12 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "olhos",
     "cirurgias oftalmológicas",
     "pterígio",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -5315,13 +5288,13 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
+    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -5408,14 +5381,16 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -5488,13 +5463,14 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
+    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -6688,8 +6664,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "catarata",
-    "oftalmo",
-    "olhos"
+    "oftalmo"
    ],
    "req": {
     "status": "ok",
@@ -6920,7 +6895,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmo",
     "cirurgia ocular",
@@ -6959,7 +6933,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -7000,13 +6973,13 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas",
@@ -7100,7 +7073,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -7205,7 +7177,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas",
@@ -7239,7 +7210,6 @@
     "facoemulsificacao",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -7456,7 +7426,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -7465,6 +7434,7 @@
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas",
@@ -7601,7 +7571,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -7689,7 +7658,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -7698,6 +7666,7 @@
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas",
@@ -7786,7 +7755,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -7881,7 +7849,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -7971,7 +7938,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -8089,7 +8055,6 @@
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -8255,7 +8220,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -8365,9 +8329,7 @@
     "facectomia",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -8475,7 +8437,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -8588,7 +8549,6 @@
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -8669,7 +8629,7 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -8765,7 +8725,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -8874,7 +8834,7 @@
     "facectomia",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -9065,7 +9025,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -9075,6 +9035,7 @@
     "cirurgias eletivas",
     "cirurgia eletiva",
     "oferta de cuidados integrados",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas",
@@ -9169,7 +9130,7 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -9257,7 +9218,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -9266,6 +9227,7 @@
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas",
@@ -9395,7 +9357,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -9623,7 +9585,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -9704,11 +9666,12 @@
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -9796,13 +9759,14 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
+    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -9903,7 +9867,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -9912,6 +9876,7 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
+    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -10196,6 +10161,7 @@
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "vitrectomia",
     "yag laser",
@@ -10791,6 +10757,7 @@
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "yag laser",
     "capsulotomia"
@@ -11097,7 +11064,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "oftalmológica",
@@ -11215,7 +11181,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "oftalmológica",
@@ -11331,7 +11296,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olhos",
     "oftalmológica",
@@ -11365,7 +11329,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -11474,7 +11437,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olhos",
     "oftalmológica",
@@ -11512,7 +11474,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -11604,7 +11565,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -11635,7 +11595,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -11667,7 +11626,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas",
@@ -11702,7 +11660,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "olhos",
@@ -11777,7 +11734,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olhos",
     "cirurgia ocular",
@@ -11877,7 +11833,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -11995,7 +11950,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -12028,7 +11982,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12061,7 +12014,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12296,7 +12248,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmo",
     "oftalmológica",
@@ -12328,7 +12279,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12359,7 +12309,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -12440,7 +12389,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12547,7 +12495,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12650,7 +12597,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12757,7 +12703,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -12878,7 +12823,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -12997,7 +12941,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -13105,7 +13048,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -13166,7 +13108,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -13198,10 +13139,8 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -13272,10 +13211,8 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -13347,7 +13284,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -13437,7 +13373,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -13502,7 +13437,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -13599,7 +13533,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -13826,7 +13759,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmo",
     "olho",
@@ -13915,7 +13847,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -13990,7 +13921,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -14076,7 +14006,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -14308,7 +14237,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -14417,7 +14345,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -14501,11 +14428,11 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas"
@@ -14668,7 +14595,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -14757,7 +14683,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -14836,7 +14761,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas",
@@ -14953,7 +14877,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -15053,7 +14976,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -15147,7 +15069,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oferta de cuidados integrados",
     "oftalmológica",
@@ -15241,7 +15162,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "procedimentos oftalmológicos",
@@ -15293,7 +15213,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -15370,7 +15289,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -15484,7 +15402,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -15565,9 +15482,7 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "oftalmológica",
     "oftalmológicas"
    ],
@@ -15800,7 +15715,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -15928,7 +15842,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -15995,12 +15908,12 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmo",
     "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas"
@@ -16062,7 +15975,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "olho",
     "oftalmológica",
@@ -16120,7 +16032,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmo",
     "cirurgia ocular",
@@ -16181,7 +16092,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -16253,7 +16163,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -16344,7 +16253,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -16436,7 +16344,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -16516,7 +16423,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -16609,7 +16515,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -16701,7 +16606,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -16779,7 +16683,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "mutirão de cirurgias",
@@ -16878,7 +16781,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "oftalmológica",
@@ -16947,7 +16849,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "mutirão de cirurgias",
@@ -17046,7 +16947,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "mutirão de cirurgias",
@@ -17145,7 +17045,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -17240,7 +17139,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -17353,7 +17251,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -17449,7 +17346,6 @@
    "termos": [
     "oftalmologia",
     "oftalmológico",
-    "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -17559,7 +17455,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -17635,7 +17531,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -17746,7 +17642,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -17837,7 +17733,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -17913,7 +17809,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas",
@@ -17999,7 +17895,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -18115,9 +18011,8 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "olhos",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -18217,7 +18112,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -18284,10 +18179,9 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -18351,7 +18245,7 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -18578,7 +18472,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -18662,7 +18556,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -18761,11 +18655,12 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
     "oftalmológicas"
@@ -18863,7 +18758,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -18949,7 +18844,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -19040,7 +18935,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmo",
     "procedimentos oftalmológicos",
@@ -19134,7 +19029,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -19222,7 +19117,7 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
@@ -19323,7 +19218,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmológica",
     "oftalmológicas"
@@ -19390,10 +19285,9 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -19482,10 +19376,11 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -19581,9 +19476,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -19791,9 +19687,10 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -19898,9 +19795,10 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -19966,9 +19864,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20066,9 +19965,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20144,10 +20044,11 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20359,9 +20260,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20438,9 +20340,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20544,10 +20447,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "olhos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20626,9 +20529,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20710,9 +20614,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20931,11 +20836,12 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -20991,9 +20897,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -21062,11 +20969,12 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmo",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -21243,11 +21151,12 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -21397,10 +21306,11 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oferta de cuidados integrados",
     "oftalmológica",
+    "oftalmológicas",
     "retinopatia"
    ],
    "req": {
@@ -21477,9 +21387,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -21705,7 +21616,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
@@ -21714,6 +21625,7 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
+    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -21837,9 +21749,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22049,9 +21962,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22134,9 +22048,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22218,11 +22133,12 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22351,10 +22267,11 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
     "oftalmo",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22430,9 +22347,10 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22506,9 +22424,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22567,9 +22486,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22767,9 +22687,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -22967,9 +22888,10 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológicos",
+    "oftalmológico",
     "oftalmologista",
-    "oftalmológica"
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -24214,7 +24136,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "olho",
-    "olhos",
     "procedimentos oftalmológicos",
     "yag laser",
     "capsulotomia"
@@ -24278,635 +24199,6 @@
    },
    "chamada_diario": false,
    "habitantes": 54027
-  },
-  {
-   "id": "pncp:18151467000106/2026/1",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
-   "modalidade": "Credenciamento",
-   "objeto": "[LICITANET] - Futura e eventual contratação de pessoa jurídica especializada para realização de consultas, exames, procedimentos médicos na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
-   "valor_total": 181726.0,
-   "faco": null,
-   "abertura": "2026-01-23T00:00",
-   "encerramento": "2028-01-21T23:59",
-   "publicado": "2026-01-23",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://portal.licitanet.com.br/acesso-visitante/Wkptb25aS28=",
-   "link": "https://pncp.gov.br/app/editais/18151467000106/2026/1",
-   "dist_km": 262,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "olhos",
-    "procedimentos oftalmológicos",
-    "yag laser",
-    "capsulotomia"
-   ],
-   "req": {
-    "status": "sem_texto",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "169938_editais_1769193429.zip"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 2,
-    "filantropico": 0,
-    "olho": 5,
-    "privado": 13,
-    "total": 20,
-    "est": [
-     {
-      "cnes": 2151855,
-      "nome": "Hospital Santa Catarina Anexo Hmmdolc",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(34)32330300"
-     },
-     {
-      "cnes": 2209179,
-      "nome": "Hospital Odontologico Da Universidade Federal De Uberlandia",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(34)32258138"
-     },
-     {
-      "cnes": 722146,
-      "nome": "Ceo Olhos",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3211-3017"
-     },
-     {
-      "cnes": 2697254,
-      "nome": "Iso Olhos",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3230 - 5050"
-     },
-     {
-      "cnes": 3015297,
-      "nome": "Hobc",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "(34)32579100"
-     },
-     {
-      "cnes": 3221393,
-      "nome": "Oftalmo Clinica",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3235-7994"
-     },
-     {
-      "cnes": 3510999,
-      "nome": "Hco Hospital De Cirugia Ocular",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "34 32912400"
-     },
-     {
-      "cnes": 738654,
-      "nome": "Alysson Marcondes Cirurgia Plastica",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "34 3216-1155"
-     },
-     {
-      "cnes": 965723,
-      "nome": "Centro Medico Clinico E Hospitalar Carlesso",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "34 99662 6321"
-     },
-     {
-      "cnes": 2146355,
-      "nome": "Hospital De Clinicas De Uberlandia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(34)32182111"
-     },
-     {
-      "cnes": 2151812,
-      "nome": "Hospital Santa Genoveva",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(34)3277-9000"
-     },
-     {
-      "cnes": 2151820,
-      "nome": "Hospital E Maternidade Sao Francisco De Paula Ltda",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(34)32363616"
-     },
-     {
-      "cnes": 2151839,
-      "nome": "Hospital Do Triangulo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "34 3292 3800"
-     },
-     {
-      "cnes": 2151847,
-      "nome": "Hospital Santa Marta",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "34 32110051"
-     },
-     {
-      "cnes": 2151871,
-      "nome": "Hospital Santa Clara",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "34 32396000"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 761835
-  },
-  {
-   "id": "pncp:23804149000129/2026/40",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Ponte Nova",
-   "orgao": "MUNICIPIO DE PONTE NOVA",
-   "modalidade": "Credenciamento",
-   "objeto": "Credenciamento para contratação de estabelecimentos de saúde para realização de serviços oftalmológicos.",
-   "valor_total": 3256414.3,
-   "faco": null,
-   "abertura": "2026-01-05T17:12",
-   "encerramento": "2026-12-31T17:13",
-   "publicado": "2025-12-30",
-   "vencedores": [
-    "HOSPITAL DE OLHOS LUVERE LTDA",
-    "FUNDACAO FILANT E BENEF DE SAUDE ARNALDO GAVAZZA FILHO"
-   ],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/23804149000129/2026/40",
-   "dist_km": 590,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "olhos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…erviços deverá ser executada no Município de Ponte Nova de segunda à sexta-feira, em estabelecimento próprio da empresa credenciada, que atenda a todas as exigências legais para o tipo de empreendimento, inclusive de Vigilância Sanitária; 5.1.4. Os serviços contratados serão re…"
-     },
-     {
-      "r": "Atendimento no município/região",
-      "t": "…tos efetivamente realizados. 1.7. Os serviços deverão ser obrigatoriamente prestados no território do município, de forma a assegurar acessibilidade, resolutividade e continuidade do acompanhamento clínico dos usuários, observando horários, fluxos e capacidade operacional compatív…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…ão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo do CNES (Cadastro Nacional de Estabelecimentos de Saúde) emitido no site https://cnes.datasus.gov.br Declarações 9.22. O credenciante deverá apresentar declarações, subscritas p…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…lência expedida pelo distribuidor da sede do fornecedor . Qualificação Técnica 9.20. Alvará Sanitário válido emitido pelo órgão municipal competente ou documento equivalente emitido por órgão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…tes da Lei nº 14.133, de 2021, pelas razões constantes do Estudo Técnico Preliminar. Vistoria 4.5. Não há necessidade de realização de avaliação prévia do local de execução dos serviços. 5. MODELO DE EXECUÇÃO DO OBJETO Condições de execução 5.1. A execução do obj…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…oriedade do cumprimento das disposições contidas no Termo de Referência, assumindo o credenciado o compromisso de executar o objeto nos seus termos, bem como de fornecer os materiais, equipamentos, ferramentas e utensílios necessários, em quantidades e qualidades adequadas à perfeita execução contratual, promovendo, quando requerido, sua substituição…"
-     }
-    ],
-    "emails": [
-     "licitacao@pontenova.mg.gov.br",
-     "licitacao@pontenova.mg.gob.br"
-    ],
-    "lidos": [
-     "Edital 211-2025 Credenciamento servicos oftamologicos.docx.pdf",
-     "TR_Cred_Serv_Oftalmologicos.pdf",
-     "ETP_Cred_Serv_Oftalmologicos.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 2,
-    "olho": 0,
-    "privado": 1,
-    "total": 3,
-    "est": [
-     {
-      "cnes": 2111640,
-      "nome": "Hospital Nossa Senhora Das Dores",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "3138192600"
-     },
-     {
-      "cnes": 2206382,
-      "nome": "Hospital Arnaldo Gavazza Filho",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "31-38195000"
-     },
-     {
-      "cnes": 2217163,
-      "nome": "Mater Clinica Consultar",
-      "tipo": "Pronto-socorro",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(31)38177000"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 59638
-  },
-  {
-   "id": "pncp:18431312000620/2026/1",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Uberlândia",
-   "orgao": "MUNICIPIO DE UBERLANDIA",
-   "modalidade": "Credenciamento",
-   "objeto": "Prestação de serviços de realização de consultas, exames e procedimentos ambulatoriais e hospitalar em Oftalmologia para atender a Rede Municipal de Saúde de acordo com as diretrizes do Sistema Único de Saúde - SUS, em atendimento à Secretaria Municipal de Saúde.",
-   "valor_total": 30398064.0,
-   "faco": null,
-   "abertura": "2025-11-19T08:00",
-   "encerramento": "2030-11-18T17:00",
-   "publicado": "2025-11-18",
-   "vencedores": [
-    "MICHELLE MARIA SOUZA RAMOS RESENDE LTDA",
-    "ISO OLHOS - INSTITUTO DE SAUDE OCULAR LTDA",
-    "NEO OFTALMOLOGIA - NUCLEO ESPECIALIZADO EM OFTALMOLOGIA DE UBERLANDIA LTDA",
-    "LEMOUR SAUDE CLINICA POPULAR DE ESPECIALIDADES MEDICAS LTDA",
-    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
-   ],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/18431312000620/2026/1",
-   "dist_km": 262,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "olhos",
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…icada a DCRAM/SMS, por meio de atualização no cadastro de estabelecimento de saúde – CNES. 7.1.34. Não será paga qualquer importância a título de honorários ou serviços prestados concernentes aos procedimentos inscritos na tabela. 7.1.35. O modelo de atendime…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…ntratadas Ações Valor Total Valor Alcançado Programa Qualidade Interno Instituído 10 Alvará Sanitário 10 Nº procedimentos realizados/Nº de procedimentos contratadas 30 Manter atualizados os atendimentos no sistema FastMedic e/ou Sistemas utilizados 20 1) Possui condições…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…o e o somatório de diferentes atestados executados de forma concomitante; 11.3.3. Os atestados de capacidade técnica poderão ser apresentados em nome da matriz ou da filial do fornecedor; 11.3.4. Os critérios acima, atendem ao art. 67 da Lei Federal nº 14.133/2021, a Portaria de Consol…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…o contrato. 8.2.6. Permitir ao CONTRATANTE a fiscalização junto à CONTRATADA, para a vistoria dos serviços e o livre acesso às dependências, bem como prestar, quando solicitada, as informações visando o bom andamento do(s) serviço(s). 8.2.7. Responsabilizar-se po…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…. Materiais a serem disponibilizados 8.3.1. Para a perfeita execução dos serviços, a Contratada deverá disponibilizar os materiais, equipamentos, ferramentas, insumos e utensílios necessários, nas quantidades estimadas e qualidades a seguir estabelecidas, promovendo sua substituição quando necessário, sem que ocasione prejuízo à prest…"
-     },
-     {
-      "r": "Aceita consórcio de empresas",
-      "t": "…stituí -lo, ou consularizados pelos respectivos consulados ou embaixadas. 4.4 Quando permitida a participação de consórcio de empresas, a habilitação técnica, quando exigida, será feita por meio do somatório dos quantitativos de cada consorciado e, para efeito de habilitação econômico -finan…"
-     }
-    ],
-    "emails": [
-     "contratacaodireta@uberlandia.mg.gov.br"
-    ],
-    "lidos": [
-     "Termo de Referencia isolado.pdf",
-     "Edital seus anexos.pdf",
-     "Aviso de Credenciamento.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 2,
-    "filantropico": 0,
-    "olho": 5,
-    "privado": 13,
-    "total": 20,
-    "est": [
-     {
-      "cnes": 2151855,
-      "nome": "Hospital Santa Catarina Anexo Hmmdolc",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(34)32330300"
-     },
-     {
-      "cnes": 2209179,
-      "nome": "Hospital Odontologico Da Universidade Federal De Uberlandia",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(34)32258138"
-     },
-     {
-      "cnes": 722146,
-      "nome": "Ceo Olhos",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3211-3017"
-     },
-     {
-      "cnes": 2697254,
-      "nome": "Iso Olhos",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3230 - 5050"
-     },
-     {
-      "cnes": 3015297,
-      "nome": "Hobc",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "(34)32579100"
-     },
-     {
-      "cnes": 3221393,
-      "nome": "Oftalmo Clinica",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "34 3235-7994"
-     },
-     {
-      "cnes": 3510999,
-      "nome": "Hco Hospital De Cirugia Ocular",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "34 32912400"
-     },
-     {
-      "cnes": 738654,
-      "nome": "Alysson Marcondes Cirurgia Plastica",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "34 3216-1155"
-     },
-     {
-      "cnes": 965723,
-      "nome": "Centro Medico Clinico E Hospitalar Carlesso",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "34 99662 6321"
-     },
-     {
-      "cnes": 2146355,
-      "nome": "Hospital De Clinicas De Uberlandia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(34)32182111"
-     },
-     {
-      "cnes": 2151812,
-      "nome": "Hospital Santa Genoveva",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(34)3277-9000"
-     },
-     {
-      "cnes": 2151820,
-      "nome": "Hospital E Maternidade Sao Francisco De Paula Ltda",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(34)32363616"
-     },
-     {
-      "cnes": 2151839,
-      "nome": "Hospital Do Triangulo",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "34 3292 3800"
-     },
-     {
-      "cnes": 2151847,
-      "nome": "Hospital Santa Marta",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "34 32110051"
-     },
-     {
-      "cnes": 2151871,
-      "nome": "Hospital Santa Clara",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "34 32396000"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 761835
-  },
-  {
-   "id": "pncp:00394452000103/2023/15471",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "GO",
-   "municipio": "Cristalina",
-   "orgao": "COMANDO DO EXERCITO",
-   "modalidade": "Credenciamento",
-   "objeto": "Contratação dos serviços médico-hospitalares, fonoaudiologia, psicologia, nutrição, oftalmologia, fisioterapia, odontologia radiológica e exames laboratoriais prestados pelas Organizações Civis de Saúde (OCS), eventualmente credenciados no presente processo administrativo, se dará mediante adesão, por parte dos interessados neste credenciamento, aos parâmetros previamente autorizadas pela Diretoria de Saúde, órgão do Departamento-Geral do Pessoal (DGP), a quem compete estabelecer os valores a serem pagos pelos serviços prestados, conforme a região do país em que se localiza a Organização Milit",
-   "valor_total": 504835.44,
-   "faco": null,
-   "abertura": "2024-10-30T10:00",
-   "encerramento": "2029-10-30T16:00",
-   "publicado": "2024-10-29",
-   "vencedores": [
-    "CEME MEDICINE LTDA",
-    "HOSPITAL JOLART LTDA",
-    "SOCIEDADE MEDICA LUZIANIA LTDA",
-    "A F FREITAS CLINICA MEDICA LTDA",
-    "LABORATORIO SABIN DE ANALISES CLINICAS S.A.",
-    "KARINE DOS REIS SOARES - FISIOTERAPIA",
-    "AGILE RH & SAUDE OCUPACIONAL LTDA",
-    "ALINE VIEIRA FISIOTERAPIA LTDA",
-    "RIBEIRO E XAVIER LTDA",
-    "FISIOMOV LTDA",
-    "MG CLINICA DE OLHOS LTDA",
-    "QUALIMAGEM RADIOLOGIA LTDA",
-    "DEISY DA SILVA GONCALVES",
-    "CENTRUS - CENTRO DE TOMOGRAFIA COMPUTADORIZADA, RESSONANCIA MAGNETICA E ULTRA - SONOGRAFIA LTDA"
-   ],
-   "docs_resultado": [
-    "15 - MINUTA CONTRATO FISIO E FONO.docx",
-    "16 - MINUTA CONTRATO LAB.docx",
-    "17 - MINUTA CONTRATO PSICOLOGIA.docx",
-    "18 - MINUTA CONTRATO NUTRICAO.docx",
-    "19 - MINUTA CONTRATO CLINICAS MEDICAS ESPECIALIZADAS.docx"
-   ],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/00394452000103/2023/15471",
-   "dist_km": 509,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "olhos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "1 - EDITAL.pdf",
-     "14 - ANEXO H - LISTA DE PARAMETROS DE REMUNERACAO DE SERVICOS HOSPITALARES -.pdf",
-     "2 - TERMO DE REFERENCIA.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
-    "est": [
-     {
-      "cnes": 2383896,
-      "nome": "Hospital Municipal De Cristalina Chaud Salles",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)36121010"
-     },
-     {
-      "cnes": 6829228,
-      "nome": "Hospital Nossa Senhora Do Rosario",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     }
-    ],
-    "data": "2026-11-21"
-   },
-   "chamada_diario": false,
-   "habitantes": 66827
   },
   {
    "id": "pncp:76206606000140/2026/77",
@@ -25172,6 +24464,7 @@
     "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos"
    ],
    "req": {
@@ -25962,6 +25255,435 @@
    "habitantes": 3073
   },
   {
+   "id": "pncp:18151467000106/2026/1",
+   "fonte": "PNCP",
+   "categoria": "Material/compra",
+   "uf": "MG",
+   "municipio": "Uberlândia",
+   "orgao": "CONSORCIO PUBLICO INTERMUNICIPAL DE SAUDE DO TRIANGULO MINEIRO",
+   "modalidade": "Credenciamento",
+   "objeto": "[LICITANET] - Futura e eventual contratação de pessoa jurídica especializada para realização de consultas, exames, procedimentos médicos na especialidade de oftalmologia, visando atender os municípios consorciados do AMVAP SAÚDE.",
+   "valor_total": 181726.0,
+   "faco": null,
+   "abertura": "2026-01-23T00:00",
+   "encerramento": "2028-01-21T23:59",
+   "publicado": "2026-01-23",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://portal.licitanet.com.br/acesso-visitante/Wkptb25aS28=",
+   "link": "https://pncp.gov.br/app/editais/18151467000106/2026/1",
+   "dist_km": 262,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "procedimentos oftalmológicos",
+    "yag laser",
+    "capsulotomia"
+   ],
+   "req": {
+    "status": "sem_texto",
+    "oferece": [],
+    "exige": [],
+    "emails": [],
+    "lidos": [
+     "169938_editais_1769193429.zip"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 2,
+    "filantropico": 0,
+    "olho": 5,
+    "privado": 13,
+    "total": 20,
+    "est": [
+     {
+      "cnes": 2151855,
+      "nome": "Hospital Santa Catarina Anexo Hmmdolc",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32330300"
+     },
+     {
+      "cnes": 2209179,
+      "nome": "Hospital Odontologico Da Universidade Federal De Uberlandia",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32258138"
+     },
+     {
+      "cnes": 722146,
+      "nome": "Ceo Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "34 3211-3017"
+     },
+     {
+      "cnes": 2697254,
+      "nome": "Iso Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "34 3230 - 5050"
+     },
+     {
+      "cnes": 3015297,
+      "nome": "Hobc",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "(34)32579100"
+     },
+     {
+      "cnes": 3221393,
+      "nome": "Oftalmo Clinica",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "34 3235-7994"
+     },
+     {
+      "cnes": 3510999,
+      "nome": "Hco Hospital De Cirugia Ocular",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "34 32912400"
+     },
+     {
+      "cnes": 738654,
+      "nome": "Alysson Marcondes Cirurgia Plastica",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 3216-1155"
+     },
+     {
+      "cnes": 965723,
+      "nome": "Centro Medico Clinico E Hospitalar Carlesso",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 99662 6321"
+     },
+     {
+      "cnes": 2146355,
+      "nome": "Hospital De Clinicas De Uberlandia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32182111"
+     },
+     {
+      "cnes": 2151812,
+      "nome": "Hospital Santa Genoveva",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(34)3277-9000"
+     },
+     {
+      "cnes": 2151820,
+      "nome": "Hospital E Maternidade Sao Francisco De Paula Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(34)32363616"
+     },
+     {
+      "cnes": 2151839,
+      "nome": "Hospital Do Triangulo",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "34 3292 3800"
+     },
+     {
+      "cnes": 2151847,
+      "nome": "Hospital Santa Marta",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "34 32110051"
+     },
+     {
+      "cnes": 2151871,
+      "nome": "Hospital Santa Clara",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 32396000"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 761835
+  },
+  {
+   "id": "pncp:18431312000620/2026/1",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Uberlândia",
+   "orgao": "MUNICIPIO DE UBERLANDIA",
+   "modalidade": "Credenciamento",
+   "objeto": "Prestação de serviços de realização de consultas, exames e procedimentos ambulatoriais e hospitalar em Oftalmologia para atender a Rede Municipal de Saúde de acordo com as diretrizes do Sistema Único de Saúde - SUS, em atendimento à Secretaria Municipal de Saúde.",
+   "valor_total": 30398064.0,
+   "faco": null,
+   "abertura": "2025-11-19T08:00",
+   "encerramento": "2030-11-18T17:00",
+   "publicado": "2025-11-18",
+   "vencedores": [
+    "MICHELLE MARIA SOUZA RAMOS RESENDE LTDA",
+    "ISO OLHOS - INSTITUTO DE SAUDE OCULAR LTDA",
+    "NEO OFTALMOLOGIA - NUCLEO ESPECIALIZADO EM OFTALMOLOGIA DE UBERLANDIA LTDA",
+    "LEMOUR SAUDE CLINICA POPULAR DE ESPECIALIDADES MEDICAS LTDA",
+    "HBC - HOSPITAL BRASIL CENTRAL LTDA"
+   ],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/18431312000620/2026/1",
+   "dist_km": 262,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…icada a DCRAM/SMS, por meio de atualização no cadastro de estabelecimento de saúde – CNES. 7.1.34. Não será paga qualquer importância a título de honorários ou serviços prestados concernentes aos procedimentos inscritos na tabela. 7.1.35. O modelo de atendime…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…ntratadas Ações Valor Total Valor Alcançado Programa Qualidade Interno Instituído 10 Alvará Sanitário 10 Nº procedimentos realizados/Nº de procedimentos contratadas 30 Manter atualizados os atendimentos no sistema FastMedic e/ou Sistemas utilizados 20 1) Possui condições…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…o e o somatório de diferentes atestados executados de forma concomitante; 11.3.3. Os atestados de capacidade técnica poderão ser apresentados em nome da matriz ou da filial do fornecedor; 11.3.4. Os critérios acima, atendem ao art. 67 da Lei Federal nº 14.133/2021, a Portaria de Consol…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…o contrato. 8.2.6. Permitir ao CONTRATANTE a fiscalização junto à CONTRATADA, para a vistoria dos serviços e o livre acesso às dependências, bem como prestar, quando solicitada, as informações visando o bom andamento do(s) serviço(s). 8.2.7. Responsabilizar-se po…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…. Materiais a serem disponibilizados 8.3.1. Para a perfeita execução dos serviços, a Contratada deverá disponibilizar os materiais, equipamentos, ferramentas, insumos e utensílios necessários, nas quantidades estimadas e qualidades a seguir estabelecidas, promovendo sua substituição quando necessário, sem que ocasione prejuízo à prest…"
+     },
+     {
+      "r": "Aceita consórcio de empresas",
+      "t": "…stituí -lo, ou consularizados pelos respectivos consulados ou embaixadas. 4.4 Quando permitida a participação de consórcio de empresas, a habilitação técnica, quando exigida, será feita por meio do somatório dos quantitativos de cada consorciado e, para efeito de habilitação econômico -finan…"
+     }
+    ],
+    "emails": [
+     "contratacaodireta@uberlandia.mg.gov.br"
+    ],
+    "lidos": [
+     "Termo de Referencia isolado.pdf",
+     "Edital seus anexos.pdf",
+     "Aviso de Credenciamento.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 2,
+    "filantropico": 0,
+    "olho": 5,
+    "privado": 13,
+    "total": 20,
+    "est": [
+     {
+      "cnes": 2151855,
+      "nome": "Hospital Santa Catarina Anexo Hmmdolc",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32330300"
+     },
+     {
+      "cnes": 2209179,
+      "nome": "Hospital Odontologico Da Universidade Federal De Uberlandia",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32258138"
+     },
+     {
+      "cnes": 722146,
+      "nome": "Ceo Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "34 3211-3017"
+     },
+     {
+      "cnes": 2697254,
+      "nome": "Iso Olhos",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "34 3230 - 5050"
+     },
+     {
+      "cnes": 3015297,
+      "nome": "Hobc",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "(34)32579100"
+     },
+     {
+      "cnes": 3221393,
+      "nome": "Oftalmo Clinica",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "34 3235-7994"
+     },
+     {
+      "cnes": 3510999,
+      "nome": "Hco Hospital De Cirugia Ocular",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "34 32912400"
+     },
+     {
+      "cnes": 738654,
+      "nome": "Alysson Marcondes Cirurgia Plastica",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 3216-1155"
+     },
+     {
+      "cnes": 965723,
+      "nome": "Centro Medico Clinico E Hospitalar Carlesso",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 99662 6321"
+     },
+     {
+      "cnes": 2146355,
+      "nome": "Hospital De Clinicas De Uberlandia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(34)32182111"
+     },
+     {
+      "cnes": 2151812,
+      "nome": "Hospital Santa Genoveva",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(34)3277-9000"
+     },
+     {
+      "cnes": 2151820,
+      "nome": "Hospital E Maternidade Sao Francisco De Paula Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(34)32363616"
+     },
+     {
+      "cnes": 2151839,
+      "nome": "Hospital Do Triangulo",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "34 3292 3800"
+     },
+     {
+      "cnes": 2151847,
+      "nome": "Hospital Santa Marta",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "34 32110051"
+     },
+     {
+      "cnes": 2151871,
+      "nome": "Hospital Santa Clara",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "34 32396000"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 761835
+  },
+  {
    "id": "pncp:88814181000130/2025/551",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -26194,6 +25916,204 @@
    },
    "chamada_diario": false,
    "habitantes": 21155
+  },
+  {
+   "id": "pncp:23804149000129/2026/40",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Ponte Nova",
+   "orgao": "MUNICIPIO DE PONTE NOVA",
+   "modalidade": "Credenciamento",
+   "objeto": "Credenciamento para contratação de estabelecimentos de saúde para realização de serviços oftalmológicos.",
+   "valor_total": 3256414.3,
+   "faco": null,
+   "abertura": "2026-01-05T17:12",
+   "encerramento": "2026-12-31T17:13",
+   "publicado": "2025-12-30",
+   "vencedores": [
+    "HOSPITAL DE OLHOS LUVERE LTDA",
+    "FUNDACAO FILANT E BENEF DE SAUDE ARNALDO GAVAZZA FILHO"
+   ],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/23804149000129/2026/40",
+   "dist_km": 590,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "olhos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
+      "t": "…erviços deverá ser executada no Município de Ponte Nova de segunda à sexta-feira, em estabelecimento próprio da empresa credenciada, que atenda a todas as exigências legais para o tipo de empreendimento, inclusive de Vigilância Sanitária; 5.1.4. Os serviços contratados serão re…"
+     },
+     {
+      "r": "Atendimento no município/região",
+      "t": "…tos efetivamente realizados. 1.7. Os serviços deverão ser obrigatoriamente prestados no território do município, de forma a assegurar acessibilidade, resolutividade e continuidade do acompanhamento clínico dos usuários, observando horários, fluxos e capacidade operacional compatív…"
+     },
+     {
+      "r": "CNES ativo",
+      "t": "…ão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo do CNES (Cadastro Nacional de Estabelecimentos de Saúde) emitido no site https://cnes.datasus.gov.br Declarações 9.22. O credenciante deverá apresentar declarações, subscritas p…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…lência expedida pelo distribuidor da sede do fornecedor . Qualificação Técnica 9.20. Alvará Sanitário válido emitido pelo órgão municipal competente ou documento equivalente emitido por órgão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…tes da Lei nº 14.133, de 2021, pelas razões constantes do Estudo Técnico Preliminar. Vistoria 4.5. Não há necessidade de realização de avaliação prévia do local de execução dos serviços. 5. MODELO DE EXECUÇÃO DO OBJETO Condições de execução 5.1. A execução do obj…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…oriedade do cumprimento das disposições contidas no Termo de Referência, assumindo o credenciado o compromisso de executar o objeto nos seus termos, bem como de fornecer os materiais, equipamentos, ferramentas e utensílios necessários, em quantidades e qualidades adequadas à perfeita execução contratual, promovendo, quando requerido, sua substituição…"
+     }
+    ],
+    "emails": [
+     "licitacao@pontenova.mg.gov.br",
+     "licitacao@pontenova.mg.gob.br"
+    ],
+    "lidos": [
+     "Edital 211-2025 Credenciamento servicos oftamologicos.docx.pdf",
+     "TR_Cred_Serv_Oftalmologicos.pdf",
+     "ETP_Cred_Serv_Oftalmologicos.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 2,
+    "olho": 0,
+    "privado": 1,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 2111640,
+      "nome": "Hospital Nossa Senhora Das Dores",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "3138192600"
+     },
+     {
+      "cnes": 2206382,
+      "nome": "Hospital Arnaldo Gavazza Filho",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "31-38195000"
+     },
+     {
+      "cnes": 2217163,
+      "nome": "Mater Clinica Consultar",
+      "tipo": "Pronto-socorro",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(31)38177000"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 59638
+  },
+  {
+   "id": "pncp:00394452000103/2023/15471",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "GO",
+   "municipio": "Cristalina",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Credenciamento",
+   "objeto": "Contratação dos serviços médico-hospitalares, fonoaudiologia, psicologia, nutrição, oftalmologia, fisioterapia, odontologia radiológica e exames laboratoriais prestados pelas Organizações Civis de Saúde (OCS), eventualmente credenciados no presente processo administrativo, se dará mediante adesão, por parte dos interessados neste credenciamento, aos parâmetros previamente autorizadas pela Diretoria de Saúde, órgão do Departamento-Geral do Pessoal (DGP), a quem compete estabelecer os valores a serem pagos pelos serviços prestados, conforme a região do país em que se localiza a Organização Milit",
+   "valor_total": 504835.44,
+   "faco": null,
+   "abertura": "2024-10-30T10:00",
+   "encerramento": "2029-10-30T16:00",
+   "publicado": "2024-10-29",
+   "vencedores": [
+    "CEME MEDICINE LTDA",
+    "HOSPITAL JOLART LTDA",
+    "SOCIEDADE MEDICA LUZIANIA LTDA",
+    "A F FREITAS CLINICA MEDICA LTDA",
+    "LABORATORIO SABIN DE ANALISES CLINICAS S.A.",
+    "KARINE DOS REIS SOARES - FISIOTERAPIA",
+    "AGILE RH & SAUDE OCUPACIONAL LTDA",
+    "ALINE VIEIRA FISIOTERAPIA LTDA",
+    "RIBEIRO E XAVIER LTDA",
+    "FISIOMOV LTDA",
+    "MG CLINICA DE OLHOS LTDA",
+    "QUALIMAGEM RADIOLOGIA LTDA",
+    "DEISY DA SILVA GONCALVES",
+    "CENTRUS - CENTRO DE TOMOGRAFIA COMPUTADORIZADA, RESSONANCIA MAGNETICA E ULTRA - SONOGRAFIA LTDA"
+   ],
+   "docs_resultado": [
+    "15 - MINUTA CONTRATO FISIO E FONO.docx",
+    "16 - MINUTA CONTRATO LAB.docx",
+    "17 - MINUTA CONTRATO PSICOLOGIA.docx",
+    "18 - MINUTA CONTRATO NUTRICAO.docx",
+    "19 - MINUTA CONTRATO CLINICAS MEDICAS ESPECIALIZADAS.docx"
+   ],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2023/15471",
+   "dist_km": 509,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "olhos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [],
+    "emails": [],
+    "lidos": [
+     "1 - EDITAL.pdf",
+     "14 - ANEXO H - LISTA DE PARAMETROS DE REMUNERACAO DE SERVICOS HOSPITALARES -.pdf",
+     "2 - TERMO DE REFERENCIA.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2383896,
+      "nome": "Hospital Municipal De Cristalina Chaud Salles",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)36121010"
+     },
+     {
+      "cnes": 6829228,
+      "nome": "Hospital Nossa Senhora Do Rosario",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     }
+    ],
+    "data": "2026-11-21"
+   },
+   "chamada_diario": false,
+   "habitantes": 66827
   },
   {
    "id": "pncp:07720960000175/2026/10",
@@ -44251,13 +44171,12 @@
   {
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": true,
-   "obs": "procura parcial: 4 de 98 consultas sem resposta",
+   "obs": "procura parcial: 3 de 92 consultas sem resposta",
    "itens": 253
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 14
   },
   {
@@ -44405,6 +44324,6 @@
    "itens": 0
   }
  ],
- "rodada": "44950467803",
- "concluido": "2026-11-21 18:42"
+ "rodada": "44971426911",
+ "concluido": "2026-11-21 22:46"
 }
