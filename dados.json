@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22 13:42",
+ "atualizado": "2026-11-22 19:10",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -318,7 +318,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "oftalmologia",
@@ -706,7 +705,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "oftalmologia",
@@ -912,7 +910,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -1189,7 +1186,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
@@ -1199,6 +1195,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "mutirão de catarata",
@@ -1589,7 +1586,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
@@ -1599,9 +1595,9 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "multirão de catarata",
-    "multirão",
     "multirão de facoemulsificação",
     "cirurgias eletivas",
     "cirurgia eletiva",
@@ -1779,7 +1775,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular"
@@ -1883,7 +1878,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
@@ -1893,6 +1887,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -1973,7 +1968,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -1983,6 +1977,7 @@
     "olho",
     "olhos",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -2177,7 +2172,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "olho",
@@ -2269,7 +2263,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
@@ -2280,6 +2273,7 @@
     "olho",
     "olhos",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -2586,7 +2580,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "oftalmologia",
@@ -2595,6 +2588,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -2670,7 +2664,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -2679,6 +2672,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -2868,6 +2862,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
@@ -2974,7 +2969,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -3051,6 +3045,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -3172,6 +3167,7 @@
     "oftalmológicos",
     "oftalmologista",
     "olhos",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
@@ -3276,7 +3272,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -3468,11 +3463,9 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
@@ -3698,7 +3691,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -3776,7 +3768,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -3861,7 +3852,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
@@ -3925,8 +3915,8 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
+    "cirurgia ocular",
     "pterígio"
    ],
    "req": {
@@ -4101,11 +4091,9 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -4228,16 +4216,15 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -4427,16 +4414,15 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "olhos",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -4533,7 +4519,6 @@
    "termos": [
     "catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "pterígio",
@@ -4603,15 +4588,14 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -4682,7 +4666,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -4801,13 +4784,12 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
@@ -4907,9 +4889,9 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
@@ -5003,7 +4985,6 @@
     "facectomia",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
@@ -5157,10 +5138,8 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -5245,7 +5224,6 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olhos",
@@ -5319,13 +5297,12 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olhos",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
@@ -5412,11 +5389,9 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -5499,9 +5474,9 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -5660,12 +5635,12 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -5806,13 +5781,12 @@
     "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -6052,9 +6026,8 @@
     "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
-    "cirurgia de facoemulsificação"
+    "cirurgia de facoemulsificação",
+    "cirurgia ocular"
    ],
    "req": {
     "status": "ok",
@@ -6267,6 +6240,7 @@
     "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos"
@@ -6363,9 +6337,8 @@
     "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
+    "cirurgia ocular",
     "mutirão de catarata",
     "mutirão de cirurgias",
     "mutirão de facoemulsificação"
@@ -6491,10 +6464,10 @@
    "termos": [
     "catarata",
     "cirurgia de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
+    "cirurgias de catarata",
     "cirurgia de facoemulsificação",
     "lente intraocular",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos"
@@ -6550,13 +6523,13 @@
    "termos": [
     "catarata",
     "cirurgia de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
+    "cirurgias de catarata",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio"
    ],
@@ -6918,7 +6891,6 @@
    "primeira_vez": "2026-11-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -6958,7 +6930,6 @@
    "primeira_vez": "2026-11-07",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -6998,7 +6969,6 @@
    "primeira_vez": "2026-11-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -7100,7 +7070,6 @@
    "primeira_vez": "2026-11-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -7205,7 +7174,6 @@
    "primeira_vez": "2026-11-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
@@ -7240,7 +7208,6 @@
    "primeira_vez": "2026-11-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
@@ -7456,7 +7423,6 @@
    "primeira_vez": "2026-11-07",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -7464,6 +7430,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
@@ -7601,7 +7568,6 @@
    "primeira_vez": "2026-10-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -7609,6 +7575,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
@@ -7686,7 +7653,6 @@
    "primeira_vez": "2026-10-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
@@ -7696,6 +7662,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
@@ -7784,13 +7751,13 @@
    "primeira_vez": "2026-10-21",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -7878,7 +7845,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -7969,7 +7935,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -8086,7 +8051,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
@@ -8095,6 +8059,7 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "redução de filas",
@@ -8252,12 +8217,12 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -8360,7 +8325,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "oftalmologia",
@@ -8368,6 +8332,7 @@
     "oftalmológicos",
     "oftalmologista",
     "olhos",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -8470,7 +8435,6 @@
    "primeira_vez": "2026-10-19",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
@@ -8583,12 +8547,12 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
@@ -8663,11 +8627,9 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -8761,12 +8723,11 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
@@ -8868,16 +8829,15 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -9061,14 +9021,13 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
@@ -9165,11 +9124,9 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -9255,14 +9212,13 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
@@ -9394,10 +9350,8 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
@@ -9623,14 +9577,13 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -9703,11 +9656,9 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "lente intraocular",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -9798,12 +9749,11 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -9906,14 +9856,13 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -10001,9 +9950,8 @@
    "dist_km": 1938,
    "primeira_vez": "2026-10-18",
    "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -10068,13 +10016,12 @@
    "dist_km": 2031,
    "primeira_vez": "2026-10-18",
    "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "yag laser",
@@ -10191,11 +10138,10 @@
    "dist_km": 1818,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
@@ -10327,14 +10273,13 @@
    "dist_km": 1019,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "oftalmo",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "vitrectomia",
@@ -10546,146 +10491,6 @@
    "habitantes": 691875
   },
   {
-   "id": "pncp:27080605001249/2026/1",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "ES",
-   "municipio": "Cariacica",
-   "orgao": "SECRETARIA DE ESTADO DA SAUDE",
-   "modalidade": "Credenciamento",
-   "objeto": "Abertura de processo de credenciamento de serviços médicos especializados em Oftalmologia para atender pacientes assistidos pela Regional Metropolitana de Saúde (TR 002/2025 e ETP 002/2025)",
-   "valor_total": 11241172.8,
-   "faco": {
-    "valor": 3.37,
-    "qtd": 68400.0,
-    "desc": "Material Especial Oftalmologia adicionais: compatibilidade específica c/ equipamento, aplicação: p/ uso em facoemulsificador, componente 1: "
-   },
-   "abertura": "2025-07-03T15:00",
-   "encerramento": "2026-12-31T17:00",
-   "publicado": "2025-07-03",
-   "vencedores": [
-    "RCS SOLUCOES MEDICAS S/A",
-    "VITREA BRASIL SERVICOS MEDICOS ESPECIALIZADOS LTDA"
-   ],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/27080605001249/2026/1",
-   "dist_km": 847,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
-    "olho"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…mento da produção dos serviços realizados apresentado pelo credenciado à SRSV, sob o CNES (Cadastro Nacional de Estabelecimento de Saúde) do estabelecimento credenciado, conforme as regras do Ministério da Saúde. 3.5 - Cada CREDENCIADO poderá receber um pagam…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…das, conforme previsto no artigo 3º da Lei nº 14.510, de 27 de dezembro de 2022. 4.3 Alvará Sanitário (ou Licença Sanitária/Licença de Funcionamento) da proponente, expedido pela Vigilância Sanitária Estadual (conforme a Lei Estadual nº 6.066/99, art. 40), ou correspon d…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…atestado indique expressamente a conclusão da parcela a ser comprovada, para fins de capacidade técnico-operacional. 4.8 A proponente deverá comprovar sua experiência anterior na execução de todos os serviços discriminados no Anexo I. 4.9 Os atestados de capacidade técnica podem ser a…"
-     },
-     {
-      "r": "CRM do estado do órgão",
-      "t": "…edicina; 1.22 - Devido os serviços serem de atendimentos pr esenciais, o Registro do CRM da especialidade Médica deve ser do estado do Espírito Santo. 2025-DNZ4VH - E-DOCS - DOCUMENTO ORIGINAL 04/06/2025 07:24 PÁGINA 24 / 78 GOVERNO DO ESTADO DO ESPÍRITO SANTO SECRETARIA DE ESTADO DA SAÚDE SUPERINTENDÊN…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…úmero no Código Brasileiro de Ocupações é 225265, devidamente habilitado: médico com título de especialista em oftalmologia, sendo que a habilitação pode ser comprovada por certificado de Residência Médica reconhecida pelo Ministério da Educação (MEC), título de especialista d…"
-     },
-     {
-      "r": "Balanço e índices financeiros",
-      "t": "…m de cumprir todos os demais requisitos de habilitação exigidos por este Edital. 3.4 Balanço Patrimonial (BP) e Demonstração de Resultado de Exercício (DRE) dos 2 (dois) últimos exercícios sociais, comprovando: 3.4.1 Índices de Liquidez Geral (LG), Liquidez Corrente (LC), e…"
-     },
-     {
-      "r": "Capital/patrimônio mínimo",
-      "t": "…cada exercício a que se referem as demonstrações contábeis, bem como demonstrando o patrimônio líquido mínimo exigido no último exercício. 3.7 As empresas criadas no exercício financeiro do presente procedimento de credenciamento deverão atender a todas as exigências da habilita…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…. Materiais a serem disponibilizados 5.16 - Para a perfeita execução dos serviços, a Contratada deverá disponibilizar todos os profissionais, materiais, equipamentos, ferramentas, insumos e utensílios necessários à perfeita e integral execução dos serviços, promovendo sua substituição quando necessário. Informações relevantes para o dimensionamento da pro…"
-     }
-    ],
-    "emails": [
-     "credenciamento.srsv@saude.es.gov.br"
-    ],
-    "lidos": [
-     "SESA_-_EDITAL_001-25_-_CREDENCIAMENTO_SERVICOS_DE_OFTALMOLOGIA (1).pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 3,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 2,
-    "total": 5,
-    "est": [
-     {
-      "cnes": 2465752,
-      "nome": "Hospital Estadual De Atencao Clinica",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(27) 33368702"
-     },
-     {
-      "cnes": 2546973,
-      "nome": "Hospital Pedro Fontes",
-      "tipo": "Unidade mista",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "(27) 32843017"
-     },
-     {
-      "cnes": 5731186,
-      "nome": "Maternidade Municipal De Cariacica",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "27 33436930"
-     },
-     {
-      "cnes": 2494450,
-      "nome": "Hospital Meridional",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(27)33462000"
-     },
-     {
-      "cnes": 3340503,
-      "nome": "Hospital E Maternidade Sao Francisco De Assis Ltda",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "27 33463735"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 376200
-  },
-  {
    "id": "pncp:87334918000155/2025/139",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -10710,9 +10515,8 @@
    "dist_km": 1000,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
@@ -10786,9 +10590,8 @@
    "dist_km": 929,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "facoemulsificação",
-    "facoemulsificacao",
     "cirurgia de facoemulsificação",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
@@ -13206,6 +13009,7 @@
     "olho",
     "olhos",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "oftalmológica",
     "oftalmológicas",
@@ -13279,6 +13083,7 @@
     "olho",
     "olhos",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "oftalmológica",
     "oftalmológicas",
@@ -16126,6 +15931,7 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "agora tem especialistas",
     "oferta de cuidados integrados",
@@ -17450,7 +17256,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -17561,7 +17366,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -17638,7 +17442,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -17750,7 +17553,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -17842,7 +17644,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
@@ -17919,7 +17720,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -18006,7 +17806,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -18123,7 +17922,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olhos",
@@ -18226,7 +18024,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
@@ -18294,7 +18091,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
@@ -18362,7 +18158,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -18590,7 +18385,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -18675,7 +18469,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -18775,7 +18568,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -18879,7 +18671,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -18966,7 +18757,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -19058,7 +18848,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
@@ -19153,7 +18942,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -19242,7 +19030,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -19344,7 +19131,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -19412,12 +19198,12 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "olhos",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -19504,7 +19290,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -19605,7 +19390,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -19817,7 +19601,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -19926,7 +19709,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -19996,7 +19778,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -20098,7 +19879,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -20178,7 +19958,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
@@ -20395,7 +20174,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -20476,7 +20254,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -20584,7 +20361,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olhos",
@@ -20668,7 +20444,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -20754,7 +20529,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -20977,7 +20751,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -21039,7 +20812,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -21112,7 +20884,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
@@ -21295,7 +21066,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -21451,7 +21221,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oferta de cuidados integrados",
@@ -21533,7 +21302,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -21763,11 +21531,11 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
@@ -21896,7 +21664,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -22110,7 +21877,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -22197,7 +21963,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -22283,7 +22048,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
@@ -22418,7 +22182,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
@@ -22499,7 +22262,6 @@
    "primeira_vez": "2026-10-18",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -22577,7 +22339,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -22640,7 +22401,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -22842,7 +22602,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "oftalmologia",
-    "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
@@ -24068,6 +23827,144 @@
    },
    "chamada_diario": false,
    "habitantes": 118258
+  },
+  {
+   "id": "pncp:27080605001249/2026/1",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "ES",
+   "municipio": "Cariacica",
+   "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+   "modalidade": "Credenciamento",
+   "objeto": "Abertura de processo de credenciamento de serviços médicos especializados em Oftalmologia para atender pacientes assistidos pela Regional Metropolitana de Saúde (TR 002/2025 e ETP 002/2025)",
+   "valor_total": 11241172.8,
+   "faco": {
+    "valor": 3.37,
+    "qtd": 68400.0,
+    "desc": "Material Especial Oftalmologia adicionais: compatibilidade específica c/ equipamento, aplicação: p/ uso em facoemulsificador, componente 1: "
+   },
+   "abertura": "2025-07-03T15:00",
+   "encerramento": "2026-12-31T17:00",
+   "publicado": "2025-07-03",
+   "vencedores": [
+    "RCS SOLUCOES MEDICAS S/A",
+    "VITREA BRASIL SERVICOS MEDICOS ESPECIALIZADOS LTDA"
+   ],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/27080605001249/2026/1",
+   "dist_km": 847,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "olho"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…mento da produção dos serviços realizados apresentado pelo credenciado à SRSV, sob o CNES (Cadastro Nacional de Estabelecimento de Saúde) do estabelecimento credenciado, conforme as regras do Ministério da Saúde. 3.5 - Cada CREDENCIADO poderá receber um pagam…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…das, conforme previsto no artigo 3º da Lei nº 14.510, de 27 de dezembro de 2022. 4.3 Alvará Sanitário (ou Licença Sanitária/Licença de Funcionamento) da proponente, expedido pela Vigilância Sanitária Estadual (conforme a Lei Estadual nº 6.066/99, art. 40), ou correspon d…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…atestado indique expressamente a conclusão da parcela a ser comprovada, para fins de capacidade técnico-operacional. 4.8 A proponente deverá comprovar sua experiência anterior na execução de todos os serviços discriminados no Anexo I. 4.9 Os atestados de capacidade técnica podem ser a…"
+     },
+     {
+      "r": "CRM do estado do órgão",
+      "t": "…edicina; 1.22 - Devido os serviços serem de atendimentos pr esenciais, o Registro do CRM da especialidade Médica deve ser do estado do Espírito Santo. 2025-DNZ4VH - E-DOCS - DOCUMENTO ORIGINAL 04/06/2025 07:24 PÁGINA 24 / 78 GOVERNO DO ESTADO DO ESPÍRITO SANTO SECRETARIA DE ESTADO DA SAÚDE SUPERINTENDÊN…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…úmero no Código Brasileiro de Ocupações é 225265, devidamente habilitado: médico com título de especialista em oftalmologia, sendo que a habilitação pode ser comprovada por certificado de Residência Médica reconhecida pelo Ministério da Educação (MEC), título de especialista d…"
+     },
+     {
+      "r": "Balanço e índices financeiros",
+      "t": "…m de cumprir todos os demais requisitos de habilitação exigidos por este Edital. 3.4 Balanço Patrimonial (BP) e Demonstração de Resultado de Exercício (DRE) dos 2 (dois) últimos exercícios sociais, comprovando: 3.4.1 Índices de Liquidez Geral (LG), Liquidez Corrente (LC), e…"
+     },
+     {
+      "r": "Capital/patrimônio mínimo",
+      "t": "…cada exercício a que se referem as demonstrações contábeis, bem como demonstrando o patrimônio líquido mínimo exigido no último exercício. 3.7 As empresas criadas no exercício financeiro do presente procedimento de credenciamento deverão atender a todas as exigências da habilita…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…. Materiais a serem disponibilizados 5.16 - Para a perfeita execução dos serviços, a Contratada deverá disponibilizar todos os profissionais, materiais, equipamentos, ferramentas, insumos e utensílios necessários à perfeita e integral execução dos serviços, promovendo sua substituição quando necessário. Informações relevantes para o dimensionamento da pro…"
+     }
+    ],
+    "emails": [
+     "credenciamento.srsv@saude.es.gov.br"
+    ],
+    "lidos": [
+     "SESA_-_EDITAL_001-25_-_CREDENCIAMENTO_SERVICOS_DE_OFTALMOLOGIA (1).pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 3,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 2,
+    "total": 5,
+    "est": [
+     {
+      "cnes": 2465752,
+      "nome": "Hospital Estadual De Atencao Clinica",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(27) 33368702"
+     },
+     {
+      "cnes": 2546973,
+      "nome": "Hospital Pedro Fontes",
+      "tipo": "Unidade mista",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": "(27) 32843017"
+     },
+     {
+      "cnes": 5731186,
+      "nome": "Maternidade Municipal De Cariacica",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "27 33436930"
+     },
+     {
+      "cnes": 2494450,
+      "nome": "Hospital Meridional",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(27)33462000"
+     },
+     {
+      "cnes": 3340503,
+      "nome": "Hospital E Maternidade Sao Francisco De Assis Ltda",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "27 33463735"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 376200
   },
   {
    "id": "pncp:18659334000137/2025/353",
@@ -39675,13 +39572,12 @@
   {
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": true,
-   "obs": "procura parcial: 2 de 98 consultas sem resposta",
+   "obs": "procura parcial: 5 de 95 consultas sem resposta",
    "itens": 253
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 14
   },
   {
@@ -39693,8 +39589,8 @@
   {
    "nome": "PNCP – contratos e atas assinados (mapeamento)",
    "ok": true,
-   "itens": 249,
-   "parcial": "3 de 17 consultas sem resposta"
+   "obs": "atualizado uma vez por dia",
+   "itens": 249
   },
   {
    "nome": "Portal de Compras Públicas",
@@ -39829,6 +39725,6 @@
    "itens": 0
   }
  ],
- "rodada": "45045313321",
- "concluido": "2026-11-22 14:10"
+ "rodada": "45076172177",
+ "concluido": "2026-11-22 19:31"
 }
