@@ -557,5 +557,19 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "priv:pcp:525383": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-23T10:11:21.765855-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-23T10:11:21.765855-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
   }
 }
