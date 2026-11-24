@@ -599,5 +599,19 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "dou:https://www.diariomunicipal.com.br/famep/materia/2AF29991": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-24T07:36:31.699857-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-24T07:36:31.699857-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
   }
 }
