@@ -609,7 +609,49 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-24T07:36:31.699857-03:00",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
+      "tentativas": 2,
+      "aceitas": 0
+    }
+  },
+  "pncp:45781184000102/2026/575": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "pncp:06553606000130/2026/182": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    }
+  },
+  "priv:pcp:527417": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-24T18:13:19.436305-03:00",
       "tentativas": 1,
       "aceitas": 0
     }
