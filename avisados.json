@@ -571,5 +571,33 @@
       "tentativas": 1,
       "aceitas": 1
     }
+  },
+  "pncp:45781184000102/2026/571": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-23T21:51:11.723399-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-23T21:51:11.723399-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
+  },
+  "pncp:07705817000104/2026/157": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-23T21:51:11.723399-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "aceito_sem_confirmacao",
+      "ultima_tentativa": "2026-11-23T21:51:11.723399-03:00",
+      "tentativas": 1,
+      "aceitas": 1
+    }
   }
 }
