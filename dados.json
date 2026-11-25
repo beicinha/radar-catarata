@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25 10:38",
+ "atualizado": "2026-11-25 19:50",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -28392,6 +28392,43 @@
    "habitantes": 47066
   },
   {
+   "id": "priv:pcp:527846",
+   "fonte": "Plataforma privada",
+   "plataforma_nome": "Portal de Compras Públicas",
+   "categoria": "Catarata",
+   "uf": "PA",
+   "municipio": "Mojuí dos Campos",
+   "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+   "modalidade": "Credenciamento 003/2026 · Aguardando Inicio de Recebimento de Propostas",
+   "objeto": "CREDENCIAMENTO DE PROCEDIMENTOS DE BAIXA E MÉDIA COMPLEXIDADE AMBULATORIAL E HOSPITALAR EM OFTALMOLOGIA DO PROGRAMA PARÁ ZERO CATARATA CONFORME PORTARIA SESPA Nº 115/2025, PARA ATENDER O FUNDO MUNICIPAL DE SAÚDE DE MOJUÍ DOS CAMPOS /PA",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "2026-11-26T09:00",
+   "encerramento": "2026-12-16T14:00",
+   "publicado": "2026-11-25",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/pa/prefeitura-municipal-de-mojui-dos-campos-2502/cred-003-2026-2026-527846",
+   "link": "https://www.portaldecompraspublicas.com.br/processos/pa/prefeitura-municipal-de-mojui-dos-campos-2502/cred-003-2026-2026-527846",
+   "dist_km": 2171,
+   "primeira_vez": "2026-11-25",
+   "termos": [
+    "catarata",
+    "oftalmol"
+   ],
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-25"
+   },
+   "chamada_diario": false,
+   "habitantes": 25818
+  },
+  {
    "id": "priv:pcp:525383",
    "fonte": "Plataforma privada",
    "plataforma_nome": "Portal de Compras Públicas",
@@ -29140,6 +29177,30 @@
    },
    "chamada_diario": false,
    "habitantes": 76844
+  },
+  {
+   "id": "oss:https://drive.google.com/file/d/1X3rTHqU7K27f9Y54S08-1db363pLmoSf/view?usp=sharing",
+   "fonte": "Site OSS/AME",
+   "categoria": "Chamamento médico",
+   "uf": "SP",
+   "municipio": "",
+   "orgao": "Grupo Santa Casa de Franca (AMEs Avaré, Franca e outros)",
+   "modalidade": "Chamamento/edital da OSS",
+   "objeto": "Edital de credenciamento",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "",
+   "publicado": "",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://drive.google.com/file/d/1X3rTHqU7K27f9Y54S08-1db363pLmoSf/view?usp=sharing",
+   "dist_km": null,
+   "primeira_vez": "2026-11-25",
+   "termos": [],
+   "chamada_diario": false,
+   "habitantes": null
   },
   {
    "id": "oss:https://www.amedracena.com.br/editalmedico",
@@ -44130,14 +44191,13 @@
  "fontes_status": [
   {
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
-   "ok": true,
-   "obs": "procura parcial: 7 de 91 consultas sem resposta",
+   "ok": false,
+   "erro": "Coleta incompleta; dados anteriores preservados",
    "itens": 248
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": false,
-   "erro": "Fonte indisponível; dados anteriores preservados",
+   "ok": true,
    "itens": 13
   },
   {
@@ -44155,7 +44215,7 @@
   {
    "nome": "Portal de Compras Públicas",
    "ok": true,
-   "itens": 8
+   "itens": 9
   },
   {
    "nome": "BLL Compras",
@@ -44170,7 +44230,7 @@
   {
    "nome": "Grupo Santa Casa de Franca (AMEs Avaré, Franca e outros)",
    "ok": true,
-   "itens": 0
+   "itens": 1
   },
   {
    "nome": "Fundação do ABC (FUABC)",
@@ -44285,6 +44345,6 @@
    "itens": 0
   }
  ],
- "rodada": "45625555742",
- "concluido": "2026-11-25 11:26"
+ "rodada": "45716500903",
+ "concluido": "2026-11-25 20:08"
 }
