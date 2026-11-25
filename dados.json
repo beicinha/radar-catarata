@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25 00:42",
+ "atualizado": "2026-11-25 10:38",
  "base": "Monte Alto/SP",
  "itens": [
   {
@@ -11,13 +11,13 @@
    "orgao": "MUNICIPIO DE NOVA ODESSA",
    "modalidade": "Pregão - Eletrônico",
    "objeto": "CONTRATAÇÃO DE EMPRESA PARA REALIZAÇÃO DE CIRURGIA DE CATARATA E PTERÍGIO PARA ATENDIMENTO DOS USUÁRIOS DA REDE MUNICIPAL DE SAÚDE",
-   "valor_total": null,
+   "valor_total": 898130.8,
    "faco": {
     "valor": 1550.0,
     "qtd": 492.0,
     "desc": "CIRURGIA DE CATARATA"
    },
-   "abertura": "",
+   "abertura": "2026-11-24T17:00",
    "encerramento": "2026-12-09T08:29",
    "publicado": "2026-11-24",
    "vencedores": [],
@@ -923,7 +923,6 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -1017,8 +1016,7 @@
     "pterígio",
     "oferta de cuidados integrados",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -1092,223 +1090,6 @@
    "habitantes": 28202
   },
   {
-   "id": "pncp:03277610000125/2026/603",
-   "fonte": "PNCP",
-   "categoria": "Catarata",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "MINISTERIO DA DEFESA",
-   "modalidade": "Pregão - Eletrônico",
-   "objeto": "Aquisição de OPME para realização de cirurgias de facoemulsificação (cataratas), com implante de lente intraocular, com comodato de equipamentos e acessórios, para atender as necessidades da Seção de Oftalmologia do HFA",
-   "valor_total": 2014177.46,
-   "faco": null,
-   "abertura": "2026-11-12T09:00",
-   "encerramento": "2026-11-25T09:00",
-   "publicado": "2026-11-12",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=11240805002972026",
-   "link": "https://pncp.gov.br/app/editais/03277610000125/2026/603",
-   "dist_km": 613,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "catarata",
-    "cirurgia de catarata",
-    "cirurgias de catarata",
-    "facoemulsificação",
-    "facoemulsificacao",
-    "cirurgia de facoemulsificação",
-    "lente intraocular",
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "cirurgia ocular",
-    "cirurgias oftalmológicas",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
-    "vitrectomia"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…te seja dispensada da AFE, deverá apresentar documento de comprovação da dispensa; e Licença Sanitária Estadual ou Municipal vigente, nos termos do artigo 21 da Lei n.º 5.991, de 17 de dezembro de 1973. Caso a licitante seja dispensada da Licença, deverá apresentar docume…"
-     }
-    ],
-    "emails": [],
-    "lidos": [
-     "232/2026.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 9,
-    "filantropico": 1,
-    "olho": 2,
-    "privado": 5,
-    "total": 20,
-    "est": [
-     {
-      "cnes": 10464,
-      "nome": "Hran",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "61 3254300"
-     },
-     {
-      "cnes": 10472,
-      "nome": "Hrg",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 10480,
-      "nome": "Hospital Regional De Ceilandia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 10499,
-      "nome": "Hrt Hospital Regional De Taguatinga",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)20171700"
-     },
-     {
-      "cnes": 10502,
-      "nome": "Hrs",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)34879200"
-     },
-     {
-      "cnes": 10529,
-      "nome": "Hrpl",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61) 33899169"
-     },
-     {
-      "cnes": 10537,
-      "nome": "Hospital Materno Infantil Dr Antonio Lisboa",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)34457500"
-     },
-     {
-      "cnes": 10545,
-      "nome": "Hrbz",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61) 3449-6392"
-     },
-     {
-      "cnes": 10561,
-      "nome": "Hfa",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "61 39662141"
-     },
-     {
-      "cnes": 10456,
-      "nome": "Hospital De Base Do Distrito Federal",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "6133151450"
-     },
-     {
-      "cnes": 255416,
-      "nome": "Hodf",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "61 37712020"
-     },
-     {
-      "cnes": 777153,
-      "nome": "Hospital Dos Olhos Do Gama",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "34424000"
-     },
-     {
-      "cnes": 10510,
-      "nome": "Hospital Universitario De Brasilia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 49867,
-      "nome": "Hospital Aguas Claras",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "30474664"
-     },
-     {
-      "cnes": 223441,
-      "nome": "Hospital Santa Lucia Gama",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "61-37054000"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 2996899
-  },
-  {
    "id": "pncp:12008540000109/2026/58",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -1351,11 +1132,9 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "mutirão de catarata",
-    "mutirão de cirurgias",
     "mutirão de facoemulsificação",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -1445,8 +1224,7 @@
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -1506,8 +1284,7 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -1752,13 +1529,11 @@
     "cirurgias oftalmológicas",
     "multirão de catarata",
     "multirão",
-    "multirão de facoemulsificação",
     "cirurgias eletivas",
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -2048,7 +1823,6 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -2132,14 +1906,12 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -2237,8 +2009,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -2430,14 +2201,12 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -2658,7 +2427,6 @@
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser"
    ],
    "req": {
@@ -2753,7 +2521,6 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -2838,7 +2605,6 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -2940,15 +2706,13 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -3027,7 +2791,6 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "glaucoma"
    ],
@@ -3140,8 +2903,7 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "sem_texto",
@@ -3211,7 +2973,6 @@
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "glaucoma"
    ],
    "req": {
@@ -3328,12 +3089,10 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -3444,8 +3203,7 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -3529,8 +3287,7 @@
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -3636,8 +3393,7 @@
     "olho",
     "cirurgia de olho",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -3861,9 +3617,7 @@
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -3940,9 +3694,7 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
-    "cirurgia eletiva",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgia eletiva"
    ],
    "req": {
     "status": "ok",
@@ -4025,9 +3777,7 @@
     "olho",
     "cirurgia de olho",
     "cirurgias oftalmológicas",
-    "pterígio",
-    "oftalmológica",
-    "oftalmológicas"
+    "pterígio"
    ],
    "req": {
     "status": "ok",
@@ -4268,9 +4018,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -4401,8 +4149,6 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -4595,14 +4341,11 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -4697,9 +4440,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "pterígio",
-    "oftalmológica",
-    "oftalmológicas"
+    "pterígio"
    ],
    "req": {
     "status": "ok",
@@ -4774,9 +4515,8 @@
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "glaucoma"
    ],
    "req": {
@@ -4846,8 +4586,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -4969,9 +4708,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -5071,9 +4809,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
-    "pterígio",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "pterígio"
    ],
    "req": {
     "status": "ok",
@@ -5168,12 +4905,10 @@
     "oftalmologista",
     "oftalmo",
     "olho",
-    "olhos",
     "cirurgia de olho",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -5322,10 +5057,9 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgias oftalmológicas",
     "pterígio",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -5406,10 +5140,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
-    "pterígio",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "pterígio"
    ],
    "req": {
     "status": "ok",
@@ -5482,11 +5214,9 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -5576,13 +5306,12 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
+    "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -5659,10 +5388,9 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -5751,10 +5479,9 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "glaucoma"
    ],
@@ -5828,6 +5555,7 @@
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "vitrectomia",
@@ -5968,12 +5696,14 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
+    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "facectomia",
     "lente intraocular",
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "vitrectomia",
@@ -6213,6 +5943,7 @@
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
+    "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "cirurgia ocular"
    ],
@@ -6328,8 +6059,10 @@
    "dist_km": 1469,
    "primeira_vez": "2026-10-17",
    "termos": [
+    "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos"
    ],
@@ -6422,9 +6155,11 @@
    "dist_km": 1914,
    "primeira_vez": "2026-10-17",
    "termos": [
+    "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos"
    ],
@@ -6517,13 +6252,13 @@
    "dist_km": 1560,
    "primeira_vez": "2026-10-18",
    "termos": [
+    "catarata",
     "cirurgia de catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "cirurgia ocular",
     "mutirão de catarata",
-    "mutirão de cirurgias",
     "mutirão de facoemulsificação"
    ],
    "req": {
@@ -6645,12 +6380,13 @@
    "dist_km": 2090,
    "primeira_vez": "2026-10-18",
    "termos": [
-    "cirurgia de catarata",
+    "catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "lente intraocular",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos"
    ],
@@ -6703,15 +6439,16 @@
    "dist_km": 1924,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "cirurgia de catarata",
+    "catarata",
     "cirurgias de catarata",
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "facectomia",
     "lente intraocular",
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio"
    ],
    "req": {
@@ -6794,6 +6531,260 @@
    },
    "chamada_diario": false,
    "habitantes": 66585
+  },
+  {
+   "id": "pncp:05448380000145/2025/7",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "DF",
+   "municipio": "Brasília",
+   "orgao": "FUNDO CONSTITUCIONAL DO DISTRITO FEDERAL - FCDF",
+   "modalidade": "Credenciamento",
+   "objeto": "Formação de rede de entidades e profissionais de saúde a serem credenciados e contratados para prestação de serviços ambulatoriais e de emergência em OFTALMOLOGIA para complementação da assistência à saúde de militares do Corpo de Bombeiros Militar do Distrito Federal, dependentes e pensionistas, conforme especificações, quantitativos e condições estabelecidos neste instrumento.",
+   "valor_total": 1.0,
+   "faco": null,
+   "abertura": "2024-11-14T14:00",
+   "encerramento": "2029-11-14T18:00",
+   "publicado": "2024-11-14",
+   "vencedores": [
+    "MEDICINA DA VISAO - CLINICA OFTALMOLOGICA LTDA",
+    "CLINICA GALENO SERVICOS MEDICOS LTDA",
+    "DAVITA SERVICOS DE NEFROLOGIA ALVORADA LTDA",
+    "AVALLON DERMATOLOGIA E OFTALMOLOGIA LTDA",
+    "HOSPITAL PACINI LTDA",
+    "PREMIUM OFTALMOLOGIA LTDA",
+    "HOSL SERVICOS OFTALMOLOGICOS LTDA",
+    "INSTITUTO DE OLHOS DE TAGUATINGA LTDA",
+    "MACHADO & PEREIRA SERVICOS MEDICOS E OFTALMOLOGICOS LTDA",
+    "CLINICA DE OLHOS TEIXEIRA PINTO LTDA",
+    "NEUROLOGIA, PSIQUIATRIA E OFTALMOLOGIA DE BRASILIA LTDA",
+    "OFTALMOCENTER OFTALMOLOGIA SAO BRAZ LTDA",
+    "HOBRASIL HOSPITAIS OFTALMOLOGICOS DO BRASIL LTDA",
+    "INBOL - INSTITUTO BRASILIENSE DE OLHOS LTDA",
+    "EYE CENTER INSTITUTO NACIONAL DE OFTALMOLOGIA LTDA",
+    "AUGE HOSPITAL DE OLHOS E FACE LTDA",
+    "SUPREMA OFTALMOLOGIA LTDA",
+    "OCULARE OFTALMOLOGIA LTDA",
+    "CLINICA DE OFTALMOLOGIA PEDIATRICA JOAO CARLOS LTDA",
+    "INSTITUTO DE CATARATA DE BRASILIA LTDA",
+    "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA",
+    "BOA VISTA OFTALMOLOGIA LTDA",
+    "SUCESSO OFTALMOLOGIA LTDA",
+    "VIVA OFTALMO MEDICINA ESPECIALIZADA LTDA",
+    "CLINICA DE OLHOS DR. PAULO LEMES LTDA",
+    "NUCLEO DE DIAGNOSE E MICROCIRURGIA OCULAR DE BRASILIA LTDA",
+    "CBV-CENTRO BRASILEIRO DA VISAO SA"
+   ],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/05448380000145/2025/7",
+   "dist_km": 613,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "catarata",
+    "oftalmo"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
+      "t": "…para ﬁns de pagamento. 1.11.3. A falta de determinada apresentação da medicação nas instalações da credenciada não lhe permite cobrar por outra de preço superior. 1.11.4. Medicamentos que não constem no referido guia serão remunerados pelo seu custo, por meio da apresentação de n…"
+     },
+     {
+      "r": "CNES ativo",
+      "t": "…inscrição da empresa/ins\u0000tuição no Cadastro Nacional de Estabelecimentos de Saúde – CNES, ob\u0000do no site h\u0000ps://cer\u0000does-apf.apps.tcu.gov.br/. 6.4.3. Termo de responsabilidade técnica expedido pela Secretaria de Estado da Saúde do Distrito Federal ou Vigilânc…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…ções que ensejaram o credenciamento, em especial no que tange à regularidade ﬁscal e capacidade técnico-operacional. 15.17. Apresentar, quando solicitado pelo CBMDF, relação completa dos proﬁssionais, indicando os cargos, funções e respec\u0000vos nomes completos, bem como o demonstra\u0000vo d…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…resentação de cer\u0000ﬁcado de especialidade ou Registro de Qualiﬁcação de Especialista (RQE), conforme cada caso. b) Comprovação que possui em seu Quadro Permanente de Pessoal, proﬁssional reconhecido pelo respec\u0000vo Conselho de Classe, que será o responsável té…"
+     },
+     {
+      "r": "Balanço e índices financeiros",
+      "t": "…ilizado no Anexo V do presente edital. 6.5. QUALIFICAÇÃO ECONÔMICO-FINANCEIRA 6.5.1. Balanço patrimonial, demonstração de resultado de exercício e demais demonstrações contábeis dos 2 (dois) úl\u0000mos exercícios sociais. 6.5.2. Pessoas Jurídicas cons\u0000tuídas há menos de 2 (dois…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…quação da proposta poderão ser sanadas pelo e-mail: disau.sacre@cbm.df.gov.br. 8. DA VISTORIA 8.1. A vistoria técnica nos estabelecimentos interessados ao credenciamento, serão realizados após a entrega e conferência dos documentos à SACRE, para con\u0000nuidade do pr…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…mente dos beneﬁciários, a credenciada ﬁca obrigada a observar o seguinte: 16.13.1. A credenciada ﬁca expressamente proibida de cobrar do paciente ou responsável qualquer valor referente ao pagamento de honorários, materiais, medicamentos ou procedimentos que lhe serão prestados e que estejam previstos diretamente ou indiretamente neste Termo de Referência. O mesmo caberá a honorários ou serviços que já l…"
+     }
+    ],
+    "emails": [],
+    "lidos": [
+     "Edital n 5-2024.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 9,
+    "filantropico": 1,
+    "olho": 2,
+    "privado": 5,
+    "total": 20,
+    "est": [
+     {
+      "cnes": 10464,
+      "nome": "Hran",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "61 3254300"
+     },
+     {
+      "cnes": 10472,
+      "nome": "Hrg",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 10480,
+      "nome": "Hospital Regional De Ceilandia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 10499,
+      "nome": "Hrt Hospital Regional De Taguatinga",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)20171700"
+     },
+     {
+      "cnes": 10502,
+      "nome": "Hrs",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)34879200"
+     },
+     {
+      "cnes": 10529,
+      "nome": "Hrpl",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61) 33899169"
+     },
+     {
+      "cnes": 10537,
+      "nome": "Hospital Materno Infantil Dr Antonio Lisboa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)34457500"
+     },
+     {
+      "cnes": 10545,
+      "nome": "Hrbz",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61) 3449-6392"
+     },
+     {
+      "cnes": 10561,
+      "nome": "Hfa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": "61 39662141"
+     },
+     {
+      "cnes": 10456,
+      "nome": "Hospital De Base Do Distrito Federal",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "6133151450"
+     },
+     {
+      "cnes": 255416,
+      "nome": "Hodf",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "61 37712020"
+     },
+     {
+      "cnes": 777153,
+      "nome": "Hospital Dos Olhos Do Gama",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "34424000"
+     },
+     {
+      "cnes": 10510,
+      "nome": "Hospital Universitario De Brasilia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 49867,
+      "nome": "Hospital Aguas Claras",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "30474664"
+     },
+     {
+      "cnes": 223441,
+      "nome": "Hospital Santa Lucia Gama",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "61-37054000"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 2996899
   },
   {
    "id": "pncp:15126437000305/2026/4537",
@@ -7104,8 +7095,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -7331,7 +7321,6 @@
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -7473,7 +7462,6 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "capsulotomia",
     "glaucoma"
@@ -7565,7 +7553,6 @@
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia"
    ],
    "req": {
@@ -7658,7 +7645,6 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -7752,7 +7738,6 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -7841,7 +7826,6 @@
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia"
    ],
    "req": {
@@ -7964,7 +7948,6 @@
     "redução de filas",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -8125,8 +8108,7 @@
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -8232,13 +8214,11 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -8345,8 +8325,7 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -8460,8 +8439,7 @@
     "cirurgias eletivas",
     "cirurgia eletiva",
     "0405050372",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -8541,7 +8519,6 @@
     "pterígio",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -8637,8 +8614,7 @@
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -8750,8 +8726,6 @@
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -8946,8 +8920,6 @@
     "oferta de cuidados integrados",
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia",
     "glaucoma",
@@ -9044,9 +9016,7 @@
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -9140,8 +9110,6 @@
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -9273,9 +9241,8 @@
     "oftalmologista",
     "olho",
     "cirurgia de olho",
+    "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -9502,10 +9469,9 @@
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "glaucoma"
    ],
    "req": {
@@ -9580,9 +9546,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -9674,10 +9639,9 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -9784,10 +9748,9 @@
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia"
@@ -9874,6 +9837,7 @@
     "facoemulsificacao",
     "cirurgia de facoemulsificação",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
     "glaucoma"
@@ -9945,6 +9909,7 @@
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "yag laser",
     "capsulotomia",
@@ -10061,13 +10026,15 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "vitrectomia",
     "yag laser",
@@ -10195,13 +10162,14 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "facectomia",
     "lente intraocular",
     "oftalmo",
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "vitrectomia",
     "yag laser",
@@ -10440,6 +10408,7 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
+    "facoemulsificacao",
     "olho"
    ],
    "req": {
@@ -10576,8 +10545,9 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "cirurgias eletivas",
     "cirurgia eletiva",
     "0405050372"
@@ -10651,11 +10621,13 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "facoemulsificação",
-    "cirurgia de facoemulsificação",
+    "facoemulsificacao",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "cirurgias eletivas",
     "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
     "yag laser",
     "capsulotomia"
@@ -10733,6 +10705,7 @@
     "facectomia",
     "olho",
     "cirurgia de olho",
+    "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
     "vitrectomia"
    ],
@@ -10976,14 +10949,14 @@
    "orgao": "MUNICIPIO DE UNIAO",
    "modalidade": "Credenciamento",
    "objeto": "[Portal de Compras Públicas] - CREDENCIAMENTO DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS MÉDICOS OFTALMOLÓGICOS, COM REALIZAÇÃO DE CIRURGIA DE PTERÍGIO MONOCULAR E CAPSULOTOMIA A LASER MONOCULAR, PARA ATENDER ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE UNIÃO-PI",
-   "valor_total": null,
+   "valor_total": 412479.0,
    "faco": null,
-   "abertura": "",
+   "abertura": "2026-11-24T14:00",
    "encerramento": "2026-12-08T18:00",
    "publicado": "2026-11-24",
    "vencedores": [],
    "docs_resultado": [],
-   "plataforma": "",
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/PI/PREFEITURA-MUNICIPAL-DE-UNIAO-2372/CRED-023-2026-2026-527417",
    "link": "https://pncp.gov.br/app/editais/06553606000130/2026/182",
    "dist_km": 1952,
    "primeira_vez": "2026-11-24",
@@ -11347,38 +11320,6 @@
    "habitantes": 20186
   },
   {
-   "id": "pncp:80673411000187/2026/461",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "SC",
-   "municipio": "Florianópolis",
-   "orgao": "FUNDO ESTADUAL DE SAUDE",
-   "modalidade": "Dispensa",
-   "objeto": "Contratação emergencial, por meio de Dispensa de Licitação amparada no art. 75, inciso VIII, da Lei nº 14.133/2021, e clínica especializada para fornecimento de\nAvaliação médica com oftalmologista especialista em córnea e lentes de contato RÍGIDAS ESCLERAIS (linhagás-permeável), com adaptação e fornecimento das lentes necessárias, em ambos os olhos, moldadas de acordo com a curvatura e topografia ",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "2026-11-25T10:00",
-   "publicado": "2026-11-19",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/80673411000187/2026/461",
-   "dist_km": 704,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "olhos",
-    "oftalmológica",
-    "oftalmológicas"
-   ],
-   "chamada_diario": false,
-   "habitantes": 587486
-  },
-  {
    "id": "pncp:44531788000138/2026/239",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -11488,38 +11429,6 @@
    },
    "chamada_diario": false,
    "habitantes": 76844
-  },
-  {
-   "id": "pncp:80673411000187/2026/460",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "SC",
-   "municipio": "Florianópolis",
-   "orgao": "FUNDO ESTADUAL DE SAUDE",
-   "modalidade": "Dispensa",
-   "objeto": "Contratação   emergencial   de  clínica   especializada   para   fornecimento   de avaliação   médica   com   oftalmologista   especialista   em   córnea   e   lentes   de   contato RÍGIDA ESCLERAIS  (linha gás permeável),  com adaptação e fornecimento das lentes necessárias, EM AMBOS OS OLHOS, para atendimento de demanda judicial, autos n°0303008-19.2015.8.24.0073, paciente A. S., por meio de Dis",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "2026-11-25T09:00",
-   "publicado": "2026-11-19",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/80673411000187/2026/460",
-   "dist_km": 704,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "olhos",
-    "oftalmológica",
-    "oftalmológicas"
-   ],
-   "chamada_diario": false,
-   "habitantes": 587486
   },
   {
    "id": "pncp:13908702000110/2026/166",
@@ -11743,7 +11652,6 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
@@ -11817,7 +11725,6 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "pterígio",
@@ -12368,8 +12275,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "chamada_diario": false,
    "habitantes": 127112
@@ -12401,8 +12307,7 @@
     "oftalmologista",
     "cirurgias oftalmológicas",
     "pterígio",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -12480,8 +12385,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -12563,113 +12467,6 @@
    "habitantes": 107297
   },
   {
-   "id": "pncp:11503081000169/2026/47",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "PE",
-   "municipio": "São José do Egito",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE SAO JOSE DO EGITO",
-   "modalidade": "Credenciamento",
-   "objeto": "[Portal de Compras Públicas] - Contratação de Empresa Especializada para prestação de serviços de Feira de Saúde Oftalmológica, contemplando Consultas Médicas Oftalmológicas, fornecimento de Óculos com lentes corretivas e Exames de apoio diagnóstico (Ultrassonografia de globo ocular/órbita e Retinografia colorida binocular), por período de 12 (doze) meses, visando atender ao Fundo Municipal de Saúde de São José do Egito/PE.",
-   "valor_total": 500000.0,
-   "faco": null,
-   "abertura": "2026-11-09T14:00",
-   "encerramento": "2026-11-25T07:00",
-   "publicado": "2026-11-09",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/PE/Fundo-Municipal-de-Saude-de-Sao-Jose-do-Egito-4920/CRED-009-2026-2026-523914",
-   "link": "https://pncp.gov.br/app/editais/11503081000169/2026/47",
-   "dist_km": 1951,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "oftalmologia",
-    "oftalmológico",
-    "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…cumprimento dos requisitos para a habilitação e da proposta; 22. Registro da Empresa CNES; A falta de veracidade de qualquer das informações ora aqui prestadas pela empresa implicará no indeferimento de sua habilitação, independente das sanções cabíveis . Os…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…ra em funcionamento no País, e ato de registro ou autorização para funcionamento; 3. Licença de Funcionamento (Alvará) atualizada; 4. Balanço patrimonial, demonstração de resultado de exercício e d emais demo nstrações contábeis dos dois ú ltimos exercícios sociais. Os referidos…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…serviços, contemplando no mínimo: médico(s) oftalmologista(s) com registro no CRM e Registro de Qualificação de Especialista (RQE); equipe de apoio para acolhimento, triagem e registro; tabela ou projetor de optotipo s; refr ator ou caixa de provas com armação de provas; lâmpada de fenda; tonô…"
-     },
-     {
-      "r": "Balanço e índices financeiros",
-      "t": "…autorização para funcionamento; 3. Licença de Funcionamento (Alvará) atualizada; 4. Balanço patrimonial, demonstração de resultado de exercício e d emais demo nstrações contábeis dos dois ú ltimos exercícios sociais. Os referidos documentos limitar –se–ão ao último exercíc…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…á emitido e assinatura pelas partes, apenas após o decurso do prazo de observação ou vistoria, que comprove o atendimento das exigências contratuais, não podendo esse prazo ser superior a 90 (noventa) dias, salvo em ca sos excepcionais, devidamente justificados.…"
-     },
-     {
-      "r": "Aceita consórcio de empresas",
-      "t": "…eracional, de mais de um adjudicatário por lote; qu er seja na forma material, sendo permitida a participação de consórcio, nos termos da norma vigente, bem como ocorrer a autorização para a realização de subcontratação. 12.Resultados pretendidos A Administração almeja com a contratação da p…"
-     }
-    ],
-    "emails": [],
-    "lidos": [
-     "1._CREDENCIAMENTO_009.2026__parte_01_.pdf",
-     "2._CREDENCIAMENTO_N__009.2026_-_FEIRA_DE_SA_DE__parte_02_.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 2,
-    "total": 3,
-    "est": [
-     {
-      "cnes": 2715317,
-      "nome": "Hospital Maria Rafael De Siqueira",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(87)38441192"
-     },
-     {
-      "cnes": 2429543,
-      "nome": "Clips Ii",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(81)38441209"
-     },
-     {
-      "cnes": 2635798,
-      "nome": "Clinica Santa Maria",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "87 38441942"
-     }
-    ],
-    "data": "2026-11-07"
-   },
-   "chamada_diario": false,
-   "habitantes": 32508
-  },
-  {
    "id": "pncp:01612481000159/2026/12",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -12698,8 +12495,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -12760,8 +12556,7 @@
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "chamada_diario": false,
    "habitantes": 6730729
@@ -12792,12 +12587,10 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -12866,12 +12659,10 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
     "cirurgias oftalmológicas",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -12940,8 +12731,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13005,8 +12795,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13234,8 +13023,7 @@
     "oftalmologista",
     "oftalmo",
     "olho",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13322,8 +13110,7 @@
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13396,8 +13183,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13483,8 +13269,7 @@
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13714,8 +13499,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -13824,8 +13608,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "sem_texto",
@@ -13912,8 +13695,7 @@
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -14076,8 +13858,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -14165,7 +13946,6 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmológica",
-    "oftalmológicas",
     "glaucoma"
    ],
    "req": {
@@ -14283,7 +14063,6 @@
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia",
     "retinopatia"
@@ -14381,8 +14160,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -14477,7 +14255,6 @@
     "oftalmologista",
     "oferta de cuidados integrados",
     "oftalmológica",
-    "oftalmológicas",
     "retinopatia"
    ],
    "req": {
@@ -14572,7 +14349,6 @@
     "olho",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -14622,8 +14398,7 @@
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -14700,8 +14475,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "sem_texto",
@@ -14815,8 +14589,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -14895,9 +14668,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15130,8 +14901,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15258,8 +15028,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15331,8 +15100,7 @@
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "sem_texto",
@@ -15394,8 +15162,7 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15457,8 +15224,7 @@
     "agora tem especialistas",
     "oferta de cuidados integrados",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "sem_texto",
@@ -15512,8 +15278,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15585,8 +15350,7 @@
     "oftalmológicos",
     "oftalmologista",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15676,8 +15440,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15767,8 +15530,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15848,8 +15610,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -15940,8 +15701,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16032,8 +15792,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16111,10 +15870,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "mutirão de cirurgias",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16210,8 +15967,7 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16279,10 +16035,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "mutirão de cirurgias",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16378,10 +16132,8 @@
     "oftalmológicos",
     "oftalmologista",
     "cirurgias oftalmológicas",
-    "mutirão de cirurgias",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16476,8 +16228,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16573,7 +16324,6 @@
     "oftalmologista",
     "procedimentos oftalmológicos",
     "oftalmológica",
-    "oftalmológicas",
     "glaucoma"
    ],
    "req": {
@@ -16684,8 +16434,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16780,8 +16529,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16891,8 +16639,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -16970,8 +16717,7 @@
     "oftalmologista",
     "cirurgias oftalmológicas",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -17080,8 +16826,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmológica"
    ],
    "req": {
     "status": "ok",
@@ -17172,9 +16917,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -17249,8 +16992,6 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas",
     "retinopatia"
    ],
    "req": {
@@ -17335,9 +17076,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -17453,11 +17192,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "olhos",
     "cirurgias oftalmológicas",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "sem_texto",
@@ -17556,9 +17292,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -17625,13 +17359,10 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia",
     "glaucoma"
@@ -17691,9 +17422,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -17919,9 +17648,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -18004,9 +17731,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -18109,9 +17834,7 @@
     "cirurgias eletivas",
     "cirurgia eletiva",
     "procedimentos cirúrgicos eletivos",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -18208,9 +17931,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -18295,9 +18016,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -18389,9 +18108,7 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -18482,9 +18199,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -18572,9 +18287,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -18672,9 +18386,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -18742,13 +18454,11 @@
     "oftalmológicos",
     "oftalmologista",
     "olho",
-    "olhos",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "yag laser",
     "capsulotomia"
    ],
@@ -18833,8 +18543,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -18932,9 +18641,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19144,9 +18851,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19253,9 +18958,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19323,9 +19026,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19425,9 +19126,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19506,9 +19205,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -19722,9 +19419,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19803,9 +19498,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19911,10 +19604,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "olhos",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -19995,9 +19685,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -20081,9 +19769,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -20305,9 +19991,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -20365,9 +20050,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -20440,9 +20123,7 @@
     "oftalmológicos",
     "oftalmologista",
     "oftalmo",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -20622,9 +20303,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -20778,8 +20458,6 @@
     "oftalmológicos",
     "oftalmologista",
     "oferta de cuidados integrados",
-    "oftalmológica",
-    "oftalmológicas",
     "retinopatia"
    ],
    "req": {
@@ -20858,9 +20536,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -21092,10 +20768,9 @@
     "olho",
     "cirurgia de olho",
     "cirurgia ocular",
+    "cirurgias oftalmológicas",
     "pterígio",
     "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas",
     "vitrectomia",
     "yag laser",
     "capsulotomia",
@@ -21221,9 +20896,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -21435,9 +21108,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -21522,9 +21193,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -21609,9 +21278,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -21743,9 +21411,7 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "oftalmo",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmo"
    ],
    "req": {
     "status": "ok",
@@ -21823,9 +21489,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -21901,9 +21565,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -21964,9 +21626,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -22166,9 +21826,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -22368,9 +22026,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -22573,9 +22229,8 @@
     "oftalmológico",
     "oftalmológicos",
     "oftalmologista",
-    "procedimentos oftalmológicos",
-    "oftalmológica",
-    "oftalmológicas"
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
    ],
    "req": {
     "status": "ok",
@@ -22730,9 +22385,7 @@
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista",
-    "oftalmológica",
-    "oftalmológicas"
+    "oftalmologista"
    ],
    "req": {
     "status": "ok",
@@ -22765,6 +22418,215 @@
    },
    "chamada_diario": false,
    "habitantes": 11182
+  },
+  {
+   "id": "pncp:13825476000103/2026/17",
+   "fonte": "PNCP",
+   "categoria": "Material/compra",
+   "uf": "BA",
+   "municipio": "Santo Antônio de Jesus",
+   "orgao": "MUNICIPIO DE SANTO ANTONIO DE JESUS",
+   "modalidade": "Credenciamento",
+   "objeto": "Contratação de serviços de saúde especializados contínuos, no formato de Oferta de Cuidados Integrados (OCI), a serem executados sem regime de dedicação exclusiva de mão de obra. [Itens do edital: Consulta médica - oftalmologia Consulta médica - oftalmologia | Consulta médica - oftalmologia Consulta médica - oftalmologia | Consulta médica - oftalmologia Consulta médica - oftalmologia | Consulta mé",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "2027-05-26T18:00",
+   "publicado": "2026-02-25",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/13825476000103/2026/17",
+   "dist_km": 1347,
+   "primeira_vez": "2026-11-21",
+   "termos": [
+    "oftalmologia",
+    "oftalmológico",
+    "oftalmológicos",
+    "oftalmologista",
+    "oferta de cuidados integrados"
+   ],
+   "chamada_diario": false,
+   "habitantes": 109791
+  },
+  {
+   "id": "pncp:75476556000158/2026/23",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "PR",
+   "municipio": "Paraíso do Norte",
+   "orgao": "MUNICIPIO DE PARAISO DO NORTE",
+   "modalidade": "Credenciamento",
+   "objeto": "Credenciamento de pessoa jurídica para a prestação de serviços médicos especializados, por meio de consultas médicas nas especialidades de Neuropediatria, Endocrinologia, Psiquiatria, Oftalmologia, Neurologia, Otorrinolaringologia e Cardiologia, visando suprir a demanda reprimida dos usuários do Sistema Único de Saúde (SUS) do Município de Paraíso do Norte, conforme especificações constantes no Termo de Referência.",
+   "valor_total": 329165.0,
+   "faco": null,
+   "abertura": "2026-02-26T00:00",
+   "encerramento": "2027-02-26T23:59",
+   "publicado": "2026-02-25",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/75476556000158/2026/23",
+   "dist_km": 479,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "oftalmologia",
+    "oftalmológico",
+    "oftalmológicos",
+    "oftalmologista"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…Relativos à Qualificação Técnica: a) Cadastro Nacional de Estabelecimento de Saúde – CNES da empresa; b) Comprovação do Registro da Empresa no CRM (Conselho Regional de Medicina) e Certidão de Regularidade junto ao Conselho; c) Cópia da Cédula de identidade e…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…ia e apresentação da documentação de habilitação (CRM e comprovação de especialidade/RQE), ficando sujeita à aprovação do Departamento Municipal de Saúde. O credenciado deverá disponibilizar e manter agenda compatível com a demanda encaminhada pelo TFD, info…"
+     }
+    ],
+    "emails": [
+     "compras@paraisodonorte.pr.gov.br",
+     "licitacao@paraisodonorte.pr.gov.br"
+    ],
+    "lidos": [
+     "Relatorio__Edital__WCO6211022420YPIDGLSXJYKTN8.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 253855,
+      "nome": "Ispas",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": false,
+      "tel": "44 34311195"
+     },
+     {
+      "cnes": 2753979,
+      "nome": "Hospital Paraiso",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(44)34311661"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 13728
+  },
+  {
+   "id": "pncp:01617317000134/2026/5",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "PA",
+   "municipio": "Sapucaia",
+   "orgao": "MUNICIPIO DE SAPUCAIA",
+   "modalidade": "Credenciamento",
+   "objeto": "[Portal de Compras Públicas] - CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS NA ÁREA DA PEDIATRIA, UROLOGIA, CARDIOLOGIA, PSICOLOGIA, OFTALMOLOGIA, GINECOLOGIA, ORTOPEDIA, DERMATOLOGIA E CONTRATAÇÃO DE MÉDICOS E PLANTONISTAS, JUNTO A REDE MUNICIPAL DE SAÚDE DE SAPUCAIA/PA.",
+   "valor_total": 1676239.86,
+   "faco": null,
+   "abertura": "2026-02-20T17:15",
+   "encerramento": "2027-02-18T08:00",
+   "publicado": "2026-02-20",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://portaldecompraspublicas.com.br/processos/PA/Prefeitura-Municipal-de-Sapucaia-2043/CRED-001-FMS-2026-2026-457180",
+   "link": "https://pncp.gov.br/app/editais/01617317000134/2026/5",
+   "dist_km": 1598,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "oftalmologia",
+    "oftalmológico",
+    "oftalmológicos",
+    "oftalmologista"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…m o objeto licitado. b) Inscrição no Cadastro Nacional de Estabelecimento de Saúde – CNES, com lista de serviços que serão realizados pelo prestador, devidamente atualizado. c) Curriculum Vitae resumido do Diretor Clínico, com cópia do diploma, certificado de…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…comprovação de quantitativo mínimo de 4%, a apresentação e o somatório de diferentes atestados de capacidade técnica executados de forma concomitante. 11.1.2 Os atestados de capacidade técnica poderão ser apresentados em nome da matriz ou da filial da empresa licitante. GOVERNO DO PARÁ…"
+     },
+     {
+      "r": "Balanço e índices financeiros",
+      "t": "…falência ou recuperação judicial expedida pelo distribuidor da sede do licitante; b) Balanço patrimonial e demonstrações contábeis dos últimos 02 (dois) exercícios sociais, e as demonstrações contábeis deverão ser apresentados por cópia do seu termo de abertura, documento c…"
+     }
+    ],
+    "emails": [],
+    "lidos": [
+     "EDITAL DE LICITACAO - CREDENCIAMENTO-Ass.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 3001083,
+      "nome": "Hospital Municipal De Sapucaia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "94 3382 2142"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 6212
+  },
+  {
+   "id": "pncp:15126437000305/2026/4845",
+   "fonte": "PNCP",
+   "categoria": "Material/compra",
+   "uf": "MG",
+   "municipio": "Juiz de Fora",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "modalidade": "Pregão - Eletrônico",
+   "objeto": "Aquisição de medicamentos do aparelho respiratório, anti-inflamatórios, analgésicos, antitérmicos, imunoterapia e alergia, dermatológicos, odontológicos e oftálmicos (Fracassados no TR 12/2026), Aquisição de medicamentos antimicrobianos (Fracassados no TR 13/2026) e medicamentos recém padronizados do Hospital Universitário da Universidade Federal de Juiz de Fora (HU-UFJF)",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "2026-12-07T09:00",
+   "publicado": "2026-11-25",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4845",
+   "dist_km": 536,
+   "primeira_vez": "2026-11-25",
+   "termos": [
+    "oftalmo"
+   ],
+   "chamada_diario": false,
+   "habitantes": 567730
   },
   {
    "id": "pncp:27165554000103/2026/585",
@@ -22869,32 +22731,6 @@
    ],
    "chamada_diario": false,
    "habitantes": 25240
-  },
-  {
-   "id": "pncp:15126437000305/2026/4687",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "ES",
-   "municipio": "Vitória",
-   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
-   "modalidade": "Pregão - Eletrônico",
-   "objeto": "Aquisição de PRODUTOS PARA SAÚDE - DISPOSITIVOS MÉDICOS, LABORATORIAIS, APOIO CIRÚRGICO-OFTÁLMICO, MATERIAIS DE CONTENÇÃO DE RESÍDUOS​​​​​​​ E MEDICAMENTOS",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "2026-11-25T09:00",
-   "publicado": "2026-11-12",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4687",
-   "dist_km": 857,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "oftalmo"
-   ],
-   "chamada_diario": false,
-   "habitantes": 343378
   },
   {
    "id": "pncp:00394544000185/2026/2463",
@@ -23447,260 +23283,6 @@
    "habitantes": 2415872
   },
   {
-   "id": "pncp:05448380000145/2025/7",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "DF",
-   "municipio": "Brasília",
-   "orgao": "FUNDO CONSTITUCIONAL DO DISTRITO FEDERAL - FCDF",
-   "modalidade": "Credenciamento",
-   "objeto": "Formação de rede de entidades e profissionais de saúde a serem credenciados e contratados para prestação de serviços ambulatoriais e de emergência em OFTALMOLOGIA para complementação da assistência à saúde de militares do Corpo de Bombeiros Militar do Distrito Federal, dependentes e pensionistas, conforme especificações, quantitativos e condições estabelecidos neste instrumento.",
-   "valor_total": 1.0,
-   "faco": null,
-   "abertura": "2024-11-14T14:00",
-   "encerramento": "2029-11-14T18:00",
-   "publicado": "2024-11-14",
-   "vencedores": [
-    "MEDICINA DA VISAO - CLINICA OFTALMOLOGICA LTDA",
-    "CLINICA GALENO SERVICOS MEDICOS LTDA",
-    "DAVITA SERVICOS DE NEFROLOGIA ALVORADA LTDA",
-    "AVALLON DERMATOLOGIA E OFTALMOLOGIA LTDA",
-    "HOSPITAL PACINI LTDA",
-    "PREMIUM OFTALMOLOGIA LTDA",
-    "HOSL SERVICOS OFTALMOLOGICOS LTDA",
-    "INSTITUTO DE OLHOS DE TAGUATINGA LTDA",
-    "MACHADO & PEREIRA SERVICOS MEDICOS E OFTALMOLOGICOS LTDA",
-    "CLINICA DE OLHOS TEIXEIRA PINTO LTDA",
-    "NEUROLOGIA, PSIQUIATRIA E OFTALMOLOGIA DE BRASILIA LTDA",
-    "OFTALMOCENTER OFTALMOLOGIA SAO BRAZ LTDA",
-    "HOBRASIL HOSPITAIS OFTALMOLOGICOS DO BRASIL LTDA",
-    "INBOL - INSTITUTO BRASILIENSE DE OLHOS LTDA",
-    "EYE CENTER INSTITUTO NACIONAL DE OFTALMOLOGIA LTDA",
-    "AUGE HOSPITAL DE OLHOS E FACE LTDA",
-    "SUPREMA OFTALMOLOGIA LTDA",
-    "OCULARE OFTALMOLOGIA LTDA",
-    "CLINICA DE OFTALMOLOGIA PEDIATRICA JOAO CARLOS LTDA",
-    "INSTITUTO DE CATARATA DE BRASILIA LTDA",
-    "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA",
-    "BOA VISTA OFTALMOLOGIA LTDA",
-    "SUCESSO OFTALMOLOGIA LTDA",
-    "VIVA OFTALMO MEDICINA ESPECIALIZADA LTDA",
-    "CLINICA DE OLHOS DR. PAULO LEMES LTDA",
-    "NUCLEO DE DIAGNOSE E MICROCIRURGIA OCULAR DE BRASILIA LTDA",
-    "CBV-CENTRO BRASILEIRO DA VISAO SA"
-   ],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/05448380000145/2025/7",
-   "dist_km": 613,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "oftalmo",
-    "olhos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…para ﬁns de pagamento. 1.11.3. A falta de determinada apresentação da medicação nas instalações da credenciada não lhe permite cobrar por outra de preço superior. 1.11.4. Medicamentos que não constem no referido guia serão remunerados pelo seu custo, por meio da apresentação de n…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…inscrição da empresa/ins\u0000tuição no Cadastro Nacional de Estabelecimentos de Saúde – CNES, ob\u0000do no site h\u0000ps://cer\u0000does-apf.apps.tcu.gov.br/. 6.4.3. Termo de responsabilidade técnica expedido pela Secretaria de Estado da Saúde do Distrito Federal ou Vigilânc…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…ções que ensejaram o credenciamento, em especial no que tange à regularidade ﬁscal e capacidade técnico-operacional. 15.17. Apresentar, quando solicitado pelo CBMDF, relação completa dos proﬁssionais, indicando os cargos, funções e respec\u0000vos nomes completos, bem como o demonstra\u0000vo d…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…resentação de cer\u0000ﬁcado de especialidade ou Registro de Qualiﬁcação de Especialista (RQE), conforme cada caso. b) Comprovação que possui em seu Quadro Permanente de Pessoal, proﬁssional reconhecido pelo respec\u0000vo Conselho de Classe, que será o responsável té…"
-     },
-     {
-      "r": "Balanço e índices financeiros",
-      "t": "…ilizado no Anexo V do presente edital. 6.5. QUALIFICAÇÃO ECONÔMICO-FINANCEIRA 6.5.1. Balanço patrimonial, demonstração de resultado de exercício e demais demonstrações contábeis dos 2 (dois) úl\u0000mos exercícios sociais. 6.5.2. Pessoas Jurídicas cons\u0000tuídas há menos de 2 (dois…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…quação da proposta poderão ser sanadas pelo e-mail: disau.sacre@cbm.df.gov.br. 8. DA VISTORIA 8.1. A vistoria técnica nos estabelecimentos interessados ao credenciamento, serão realizados após a entrega e conferência dos documentos à SACRE, para con\u0000nuidade do pr…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…mente dos beneﬁciários, a credenciada ﬁca obrigada a observar o seguinte: 16.13.1. A credenciada ﬁca expressamente proibida de cobrar do paciente ou responsável qualquer valor referente ao pagamento de honorários, materiais, medicamentos ou procedimentos que lhe serão prestados e que estejam previstos diretamente ou indiretamente neste Termo de Referência. O mesmo caberá a honorários ou serviços que já l…"
-     }
-    ],
-    "emails": [],
-    "lidos": [
-     "Edital n 5-2024.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 9,
-    "filantropico": 1,
-    "olho": 2,
-    "privado": 5,
-    "total": 20,
-    "est": [
-     {
-      "cnes": 10464,
-      "nome": "Hran",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "61 3254300"
-     },
-     {
-      "cnes": 10472,
-      "nome": "Hrg",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 10480,
-      "nome": "Hospital Regional De Ceilandia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 10499,
-      "nome": "Hrt Hospital Regional De Taguatinga",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)20171700"
-     },
-     {
-      "cnes": 10502,
-      "nome": "Hrs",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)34879200"
-     },
-     {
-      "cnes": 10529,
-      "nome": "Hrpl",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61) 33899169"
-     },
-     {
-      "cnes": 10537,
-      "nome": "Hospital Materno Infantil Dr Antonio Lisboa",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)34457500"
-     },
-     {
-      "cnes": 10545,
-      "nome": "Hrbz",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61) 3449-6392"
-     },
-     {
-      "cnes": 10561,
-      "nome": "Hfa",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": false,
-      "tel": "61 39662141"
-     },
-     {
-      "cnes": 10456,
-      "nome": "Hospital De Base Do Distrito Federal",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "6133151450"
-     },
-     {
-      "cnes": 255416,
-      "nome": "Hodf",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "61 37712020"
-     },
-     {
-      "cnes": 777153,
-      "nome": "Hospital Dos Olhos Do Gama",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "34424000"
-     },
-     {
-      "cnes": 10510,
-      "nome": "Hospital Universitario De Brasilia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 49867,
-      "nome": "Hospital Aguas Claras",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "30474664"
-     },
-     {
-      "cnes": 223441,
-      "nome": "Hospital Santa Lucia Gama",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "61-37054000"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 2996899
-  },
-  {
    "id": "pncp:01202226000138/2025/8",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -23723,6 +23305,7 @@
    "termos": [
     "olho",
     "cirurgia de olho",
+    "cirurgias oftalmológicas",
     "procedimentos oftalmológicos"
    ],
    "req": {
@@ -24036,7 +23619,6 @@
    "primeira_vez": "2026-10-17",
    "termos": [
     "olho",
-    "olhos",
     "procedimentos oftalmológicos",
     "yag laser",
     "capsulotomia"
@@ -24102,6 +23684,879 @@
    "habitantes": 54027
   },
   {
+   "id": "pncp:12359535000132/2026/8",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "CE",
+   "municipio": "Guaiúba",
+   "orgao": "MUNICIPIO DE GUAIUBA",
+   "modalidade": "Credenciamento",
+   "objeto": "CREDENCIAMENTO DE EMPRESA PRESTADORA DE SERVIÇOS NA ÁREA DE OFTALMOLOGIA, APTA AO ATENDIMENTO DAS NORMATIVAS DO SISTEMA ÚNICO DE SAÚDE (SUS), COMPREENDENDO REALIZAÇÃO DE CIRURGIAS OFTALMOLOGICAS, COM FORNECIMENTO DE MÉDICO ESPECIALIZADO NA ÁREA DE OFTALMOLOGIA, MÃO DE OBRA QUALIFICADA E INSUMOS PARA REALIZAÇÃO DOS PROCEDIMENTOS DE FORMA A COMPLEMENTAR A REDE DE ASSISTENCIAL DE SAÚDE DO MUNICIPIO DE GUAIUBA/CE.",
+   "valor_total": 715395.0,
+   "faco": null,
+   "abertura": "2026-02-13T08:00",
+   "encerramento": "2026-12-31T14:00",
+   "publicado": "2026-02-12",
+   "vencedores": [
+    "LPM SAUDE HUMANA E SERVICOS SOCIAIS LTDA"
+   ],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/12359535000132/2026/8",
+   "dist_km": 2191,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias oftalmológicas",
+    "pterígio",
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [
+     {
+      "r": "Órgão cede o centro cirúrgico/hospital",
+      "t": "…que venha a ser implementado no âmbito do SUS; n) Oferecer condições téc nicas, nas instalações físicas (que serão cedidas pelo município), equipamentos e recursos adequados à prestação de serviços técnico -profissionais especializados na área descrita; o) Submeter-se a avaliações sistemát…"
+     }
+    ],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…omprovação de in scrição no (empresa) Cadastro Nacional de Estabelecimento de Saúde (CNES); 5.2.3.5 Comprovar registro de especialidade (RQE) no Conselho Regional de Medicina do Estado do Ceará, do profissional que ir ar realizar os procedimentos, objeto dest…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…l em características, quantidades e prazos co m o objeto do presente edital. 5.2.3.2 Licença Sanitária da empresa participante, expedida pelo órgão competente local, em plena vigência; 5.2.3.3 A empresa apresente, devido certificado de Inscrição de pessoa Jurídica no Cons…"
+     },
+     {
+      "r": "CRM do estado do órgão",
+      "t": "…stabelecimento de Saúde (CNES); 5.2.3.5 Comprovar registro de especialidade (RQE) no Conselho Regional de Medicina do Estado do Ceará, do profissional que ir ar realizar os procedimentos, objeto deste certame. 5.2.3.6 Certidão N egativa de Conduta Ético -profissional junto ao CRM do responsável t…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…nal de Estabelecimento de Saúde (CNES); 5.2.3.5 Comprovar registro de especialidade (RQE) no Conselho Regional de Medicina do Estado do Ceará, do profissional que ir ar realizar os procedimentos, objeto deste certame. 5.2.3.6 Certidão N egativa de Conduta Ét…"
+     },
+     {
+      "r": "Balanço e índices financeiros",
+      "t": "…ão de curso; (Médico/Enfermeiro) 5.2.4. QUALIFICAÇÃO ECONÔMICO-FINANCEIRA 5.2.4.1.1. Balanço patrimonial, demonstração de resultado de exercício e demais demonstrações contábeis dos 2 (dois) últimos exercícios sociais (já exigíveis e apresentados na forma da lei, devidament…"
+     },
+     {
+      "r": "Capital/patrimônio mínimo",
+      "t": "…G) e Liquidez Corrente (LC), será exigido para fins de habilitação capital mínimo OU patrimônio líquido mínimo de até 10% do valor total estimado da contratação. 5.2.4.1.5. As empresas criadas no exercício financeiro da licitação deverão atender a todas as exigências da habilitaç…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…cer todos os insumos necessários para a realização dos procedimentos oftalmológicos, incluindo materiais descartáveis, medicamentos e soluções. Cumprimento de normas e regulamentações: A empresa deve obedecer às normas e regulamentações pertinentes à prática da oftalmologia…"
+     }
+    ],
+    "emails": [
+     "licitacao@guaiuba.ce.gov.br"
+    ],
+    "lidos": [
+     "EDITAL.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 25158
+  },
+  {
+   "id": "pncp:13796016000102/2026/1",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "BA",
+   "municipio": "Tapiramutá",
+   "orgao": "MUNICIPIO DE TAPIRAMUTA",
+   "modalidade": "Credenciamento",
+   "objeto": "CHAMAMENTO PÚBLICO OBJETIVANDO O CREDENCIAMENTO DE PESSOAS FÍSICAS E/OU JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS MÉDICOS PARA AS SEGUINTES ESPECIALIDADES: MÉDICO PLANTONISTA, MÉDICO PEDIATRA, MÉDICO PSIQUIATRA, MÉDICO GINECOLOGISTA, MÉDICO AUTORIZADOR DE INTERNAÇÃO HOSPITALAR (AIH), MÉDICO ULTRASSONOGRAFISTA, MÉDICO NA UBSF NOVA LAGOA, MÉDICO NA UBSF MÁRIO TOURINHO JR., MÉDICO NA UBSF RUA NOVA, MÉDICO NA UBSF JOSÉ LINO, MÉDICO NA UBSF RAIMUNDO FERREIRO, MÉDICO AVALIADOR CIRURGIÃO GERAL, MÉDICO OFTALMOLOGISTA, MÉDICO ORTOPEDISTA, MÉDICO CARDIOLOGISTA, MÉDICO UROLOGISTA, MÉDICO ENDOSCOPISTA E MÉDICO",
+   "valor_total": 3450612.0,
+   "faco": null,
+   "abertura": "2026-01-02T08:00",
+   "encerramento": "2027-01-02T08:00",
+   "publicado": "2026-01-05",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/13796016000102/2026/1",
+   "dist_km": 1330,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias oftalmológicas",
+    "cirurgias eletivas",
+    "cirurgia eletiva",
+    "procedimentos cirúrgicos eletivos",
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…ão das instalações onde ser ão desempenhados os serviços, mediante a apresentação de Alvará de Funcionamento expedido pelo Município cuja sede esteja localizada, exceto para os casos em que os serviços forem prestados nas unidades de saúde do Município; j) Alvará expedido pela…"
+     }
+    ],
+    "emails": [
+     "licitacaotapir@gmail.com"
+    ],
+    "lidos": [
+     "EDITAL CRED N001 2026"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2524805,
+      "nome": "Hospital Municipal Dr Jose Nery",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(74) 36352194"
+     },
+     {
+      "cnes": 2799499,
+      "nome": "Cemon",
+      "tipo": "Unidade mista",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(74) 6352207"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 16226
+  },
+  {
+   "id": "pncp:18663401000197/2025/376",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Guaxupé",
+   "orgao": "MUNICIPIO DE GUAXUPE",
+   "modalidade": "Credenciamento",
+   "objeto": "CREDENCIAMENTO de empresas para prestação de serviços de consultas médicas especializadas nas áreas de Angiologia/Avaliação de Cirurgia Vascular, Cardiologia, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Gastroenterologia/Avaliação de Cirurgia Gastroenterológica, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Neurologia, Oftalmologia (incluso os exames de tonometria, fundoscopia e biomicroscopia), Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Anestesista (Avaliação anestésica), Ortopedia, Cirurgia Geral para realização de consultas e pequenas ci",
+   "valor_total": 36890322.4,
+   "faco": null,
+   "abertura": "2025-12-19T00:00",
+   "encerramento": "2027-01-06T23:59",
+   "publicado": "2025-12-19",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://app2.ammlicita.org.br/pesquisa/86616",
+   "link": "https://pncp.gov.br/app/editais/18663401000197/2025/376",
+   "dist_km": 185,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [
+     {
+      "r": "Órgão faz o transporte dos pacientes",
+      "t": "…io de Guaxupé, ou nas Unidades de Atenção Especializada do Sistema Único de Saúde do Município de Guaxupé, facilitando o acesso e deslocamento dos pacientes, permitindo um melhor acompanhamento do tratamento dos usuários. 3.1. As especificações técnicas contidas no presente documento, in clusive quanto ao detalha- mento, req…"
+     }
+    ],
+    "exige": [
+     {
+      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
+      "t": "…ir nos dias e horários a serem definidos pelo contratante. Ainda, poderá ate nder em clínica própria, desde que situada no próprio Município de Guaxupé e os dias e horários de atendimento serão previamente acor- dados entre o prestador de serviço e a Secretaria Municipa…"
+     },
+     {
+      "r": "Atendimento no município/região",
+      "t": "…1/0001-97 CEP 37830-026 – Fone (35) 3559 1021 - Site www.guaxupe.mg.gov.br desde que sediados no Município de Guaxupé, ou nas Un idades de Atenção Especializada do Sistema Único de S aúde do Município de Guaxupé, conforme autorização prévia emitida pela Secretaria Municipal d…"
+     },
+     {
+      "r": "CNES ativo",
+      "t": "…dispensado (anexo);  Inscrição no Cadastro Nacional de Estabelecimentos de Saúd e – CNES, bem como as questões relativas a estrutura, mantendo-os devidamente atualiza do e ativo de acordo com as normas e determinações do Ministério da Saúde;  Quando o prest…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…ndições que ensejam credenciamento, em especial no que tange à regularidade fiscal e capacidade técnico-operacional; 5.1.3.2. Apresentar inscrição da empresa e do responsável técnico n o Conselho Regional de Medicina do Estado de Minas Gerais, declaração formal de que terá disponível,…"
+     },
+     {
+      "r": "CRM do estado do órgão",
+      "t": "…o-operacional; 5.1.3.2. Apresentar inscrição da empresa e do responsável técnico n o Conselho Regional de Medicina do Estado de Minas Gerais, declaração formal de que terá disponível, para a execução do serviço objeto desta licitação, pro fissionais com formação nas especialidades descritas no it…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…fissionais médicos deverão comprovar certificado de co nclusão de residência médica (RQE) ou especialização/formação na especialidade contratada. A carga horária mínima para um curso de especialização ace ita será de no mínimo 360 horas-aula, conforme estabe…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…cia. 4.5. Subcontratação: Não é admitida a subcontratação do objeto contratual. 4.6. Vistoria: Quando a avaliação prévia do local de execução dos serviços for n ecessária para o conhecimento pleno das condições e peculiaridades do objeto a ser contratado, é asseg…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…5.1.3. Materiais a serem disponibilizados: Para a perfeita execução dos serviços, a Contratada em clínica própria deverá disponibilizar os materiais, equip amentos, ferramentas e utensílios necessários ao atendimento, promovendo sua substituição quando necessário. 5.2. Garantia, manutenção e assistência técnica: (art…"
+     }
+    ],
+    "emails": [],
+    "lidos": [
+     "EDITAL_Credenciamento_015_2025_completo_numerado.pdf",
+     "CR_015_2025_Primeiro_Parecer_Juridico.pdf",
+     "CR_015_2025_Planilha_de_Afericao_de_Precos.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2796449,
+      "nome": "Santa Casa De Misericordia De Guaxupe",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 490814,
+      "nome": "Life Medical Hospital Eireli",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(35)3406-0405"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 52744
+  },
+  {
+   "id": "pncp:01974088000105/2025/130",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MT",
+   "municipio": "Primavera do Leste",
+   "orgao": "MUNICIPIO DE PRIMAVERA DO LESTE",
+   "modalidade": "Credenciamento",
+   "objeto": "ABERTURA DE CREDENCIAMENTO PARA PRESTAÇÃO DE SERVIÇOS OFTALMOLOGICOS",
+   "valor_total": 4426716.6,
+   "faco": null,
+   "abertura": "2025-12-08T10:35",
+   "encerramento": "2030-12-08T10:36",
+   "publicado": "2025-12-08",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.primaveradoleste.mt.gov.br/Licitacoes/Chamamento-para-credenciamento/",
+   "link": "https://pncp.gov.br/app/editais/01974088000105/2025/130",
+   "dist_km": 881,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [],
+    "emails": [],
+    "lidos": [
+     "1_Requisicao_do_Setor_demandante.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 1,
+    "privado": 4,
+    "total": 4,
+    "est": [
+     {
+      "cnes": 7790341,
+      "nome": "Hop Hospital De Olhos De Primavera",
+      "tipo": "Clínica especializada",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "(66) 9 9212-7075"
+     },
+     {
+      "cnes": 2397463,
+      "nome": "Hospital E Maternidade Sta Maria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(66) 3498-1235"
+     },
+     {
+      "cnes": 2397676,
+      "nome": "Hospital Das Clinicas Primavera Primavera Do Leste",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(66) 3498-1055"
+     },
+     {
+      "cnes": 3636364,
+      "nome": "Centro Medico Das Nacoes Hospital E Maternidade",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(66) 3500-2111"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 96006
+  },
+  {
+   "id": "pncp:88199971000153/2025/175",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "RS",
+   "municipio": "Três Coroas",
+   "orgao": "MUNICIPIO DE TRES COROAS",
+   "modalidade": "Credenciamento",
+   "objeto": "Credenciamento de pessoas juridicas especializadas na prestacao de servicos medicos na area de oftalmologia compreendendo consultas exames diagnosticos procedimentos ambulatoriais e cirurgicos de forma complementar a rede publica de saude com remuneracao por producao conforme demanda da Secretaria de Saude",
+   "valor_total": 180000.0,
+   "faco": null,
+   "abertura": "2025-10-30T12:00",
+   "encerramento": "2030-10-30T12:00",
+   "publicado": "2025-11-18",
+   "vencedores": [
+    "CLINICA MEDICA IGREJINHA LTDA"
+   ],
+   "docs_resultado": [],
+   "plataforma": " ",
+   "link": "https://pncp.gov.br/app/editais/88199971000153/2025/175",
+   "dist_km": 945,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…Correa, n° 380 – Três Coroas – RS – CEP 95.660-000 – Fone: 0800 000 8932 l) Cópia do CNES (Cadastro Nacional dos Estabelecimentos de Saúde); m) Comprovação de capacidade técnica (atestados de capacidade ou portfolio); n) Relação dos profissionais com registro…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…S; g) Alvará de localização fornecido pelo Município da sede da empresa; h) Cópia do Alvará de Funcionamento (Saúde) segundo a legislação vigente; i) Relação dos exames e serviços que se propõe a realizar (tabela SUS); j) Nome do responsável técnico e registro no Conselho Regio…"
+     }
+    ],
+    "emails": [
+     "licitacoes3@trescoroas.rs.gov.br"
+    ],
+    "lidos": [
+     "Chamamento 01225",
+     "Chamamento 01225  ret",
+     "ESTUDO TECNICO PRELIMINAROFTALMO"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2257467,
+      "nome": "Hospital Dr Oswaldo Diesel",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(51)35461236"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 24428
+  },
+  {
+   "id": "pncp:18404780000109/2025/41",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Teófilo Otoni",
+   "orgao": "MUNICIPIO DE TEOFILO OTONI",
+   "modalidade": "Credenciamento",
+   "objeto": "CREDENCIAMENTO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS MEDICOS OFTALMOLÓGICOS, ABRANGENDO CONSULTAS, EXAMES, PROCEDIMENTOS E CIRURGIAS DE MEDIA E ALTA COMPLEXIDADE.",
+   "valor_total": 13614675.54,
+   "faco": null,
+   "abertura": "2025-08-19T08:00",
+   "encerramento": "2030-12-31T16:00",
+   "publicado": "2025-08-19",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/18404780000109/2025/41",
+   "dist_km": 824,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "cirurgias oftalmológicas",
+    "oferta de cuidados integrados",
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…Estadual; b) Registro da empresa no Cadastro Nacional de Estabelecimentos de Saúde – CNES; e os serviços a serem executados estão de AnexoIII; Sob pena de inabilitação, todos os documentos apres entados para habilitaç ão deverão estar em nome da empresa a ser…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…a) dias, contados a partir da data da sua expedição. 7.1.4 – Qualificação Técnica a) Alvará Sanitário, vigente emitido pe b) Registro da empresa no Cadastro Nacional de Estabelecimentos de Saúde c) Registro da empresa no Conselho da respectiva categoria. 7.1.5 Das Declar…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…s legislação pertinente e vigente. É de responsabilidade exclusiva e integr al do(a) CREDENCIADO(A) a utilização de pessoal e o fornecimento dos insumos (incluindo a coleta) necessários para a execução do objeto pactuado, incluindo previdenciários , sociais e comerciais, resultantes , cujos ônus e obrigações em nenhuma h…"
+     }
+    ],
+    "emails": [
+     "licitacao@teofilootoni.mg.gov.br"
+    ],
+    "lidos": [
+     "EDITAL CREDENCIAMENTO 003-2025 - OFTAMOLOGIA.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 1,
+    "filantropico": 5,
+    "olho": 1,
+    "privado": 1,
+    "total": 7,
+    "est": [
+     {
+      "cnes": 2211254,
+      "nome": "Hospital Municipal Dr Raimundo Gobira",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(33)35292300"
+     },
+     {
+      "cnes": 2184834,
+      "nome": "Hospital Bom Samaritano",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "(33)35214443"
+     },
+     {
+      "cnes": 2208172,
+      "nome": "Hospital Santa Rosalia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "33 35291500"
+     },
+     {
+      "cnes": 2210924,
+      "nome": "Hospital Philadelfia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "33 35224247"
+     },
+     {
+      "cnes": 7712170,
+      "nome": "Unihealth Pronto Atendimento E Hospital Tres Vales",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "11 47947003"
+     },
+     {
+      "cnes": 8203695,
+      "nome": "Hospital Regional De Teofilo Otoni",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "3331920100"
+     },
+     {
+      "cnes": 9644040,
+      "nome": "Ocular Centro De Oftalmologia",
+      "tipo": "Hospital especializado",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "33 35210217"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 142851
+  },
+  {
+   "id": "pncp:19769660000160/2025/401",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Conselheiro Pena",
+   "orgao": "MUNICIPIO DE CONSELHEIRO PENA",
+   "modalidade": "Credenciamento",
+   "objeto": "CREDENCIAMENTO DE PESSOA JURIDICA PARA PRESTAÇAO DE SERVIÇOS MEDICOS ESPECIALIZADO EM OFTALMOLOGIA EXAMES E CONSULTAS PARA OS PACIENTES DA SECRETARIA MUNICIPAL DE SAÚDE.",
+   "valor_total": 703763.1,
+   "faco": null,
+   "abertura": "2025-12-01T09:00",
+   "encerramento": "2027-12-01T09:00",
+   "publicado": "2025-12-09",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.conselheiropena.mg.gov.br/detalhe-da-licitacao/info/inex-36-2025/21023",
+   "link": "https://pncp.gov.br/app/editais/19769660000160/2025/401",
+   "dist_km": 769,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "pterígio",
+    "retinopatia"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "CNES ativo",
+      "t": "…), Oferta de Cuidado Integrado. 3.1.3. O estabelecimento deverá possuir inscrição no CNES, e possuir obrigatoriamente alvará sanitário em dia. Tratar os pacientes com cordialidade e não reincidir de forma constante em cancelamento de agendas. 3.1.4. A contrat…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "….1.3. O estabelecimento deverá possuir inscrição no CNES, e possuir obrigatoriamente alvará sanitário em dia. Tratar os pacientes com cordialidade e não reincidir de forma constante em cancelamento de agendas. 3.1.4. A contratação deverá atender aos seguintes requisitos…"
+     },
+     {
+      "r": "Balanço e índices financeiros",
+      "t": "…ribuidor da sede do fornecedor - Lei nº 14.133, de 2021, art. 69, caput, inciso II); Balanço Patrimonial, acompanhado dos respectivos demonstrativos contábeis, correspondentes aos 2 (dois) últimos exercício social, já exigíveis e apresentados na forma da lei, devendo ser as…"
+     },
+     {
+      "r": "Consórcio de empresas vedado",
+      "t": "…e sua apresentação válida. NÃO PARTICIPAÇÃO DE EMPRESAS EM CONSÓRCIO Nesta Licitação não será permitida a participação de empresas em consórcio, pois o objeto do certame não apresenta nenhuma complexidade que justifique a participação. ENTREGA DO MATERIAL/PRESTAÇÃO DOS SERVIÇOS: Os serviços serão prestados confo…"
+     }
+    ],
+    "emails": [
+     "compraselicitacoes@conselheiropena.mg.gov.br"
+    ],
+    "lidos": [
+     "Edital"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 1,
+    "olho": 0,
+    "privado": 0,
+    "total": 1,
+    "est": [
+     {
+      "cnes": 2200481,
+      "nome": "Hospital Padre Geraldo Hogervorst",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "33 32613115"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 21052
+  },
+  {
+   "id": "pncp:76206606000140/2025/589",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "PR",
+   "municipio": "Foz do Iguaçu",
+   "orgao": "MUNICIPIO DE FOZ DO IGUACU",
+   "modalidade": "Credenciamento",
+   "objeto": "Credenciamento de pessoa jurídica para prestação de serviços para Oferta do Cuidado Integrado (OCI) em Oftalmologia para atender a demanda da Secretaria Municipal de Saúde de Foz do Iguaçu/ PR",
+   "valor_total": 998720.0,
+   "faco": null,
+   "abertura": "2025-12-04T08:00",
+   "encerramento": "2035-12-04T08:00",
+   "publicado": "2025-12-04",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/76206606000140/2025/589",
+   "dist_km": 782,
+   "primeira_vez": "2026-11-21",
+   "termos": [
+    "oferta de cuidados integrados"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
+      "t": "…ção do serviço conforme todas as especificações do edital. 5.37 Realizar as OCIs nas instalações da contratada. 5.38 Realizar as OCIs em conformidade com as especificações constantes nos descritivos do edital de chamamento público e neste Termo de Referência. 5.39 Assumir todas a…"
+     },
+     {
+      "r": "CNES ativo",
+      "t": "…fissionais, equipamentos, serviços e demais informações relativas à sua inscrição no CNES. 5.59 Providenciar imediatamente a correção de qualquer inconformidade na prestação de serviços ao SUS apontada pela Contratante.  Das Obrigações da CONTRATANTE 5.60 Pr…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…ar declaração do órgão expedidor informando sua isenção.  Qualificação Técnica 8.23 Licença Sanitária válida emitida pelo órgão de vigilância sanitária competente 8.24 Alvará de funcionamento atualizado do estabelecimento. 8.25 Memorial descritivo da empresa, com inclusã…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…expedida pelos distribuidores da sede da comarca da pessoa jurídica. 8.16 Apresentar Atestado de Capacidade Técnica ou declaração emitida por pessoa jurídica de direito público ou privado, com identificação do emitente e cargo que ocupa, comprovando que a proponente forneceu itens com…"
+     },
+     {
+      "r": "CRM-PR",
+      "t": "…de formação Médica e número de inscrição no Conselho Regional de Medicina do Paraná (CRM-PR) ou a comprovação de transferência. 8.28.2 Currículo resumido dos profissionais responsáveis, indicando formação, experiências anteriores e habilitação técnica; 8.28.3 A…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…formação, experiências anteriores e habilitação técnica; 8.28.3 Apresentar CRM-PR e Registro de Qualificação de Especialista (RQE) do(s) médico(s) responsável(is) pelo laudo. 8.29 Escala de trabalho proposta e capacidade de atendimento semanal/mensal por unidade prestadora. 8.30 Comprovar a qu…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…, manutenção e assistência técnica 4.21 Não se aplica ao objeto desta contratação.  Vistoria e visita técnica 4.22 A habilitação da documentação referente ao credenciamento será avaliada pela Comissão de Credenciamento da SMSA, nomeada pela Portaria nº 82.274, p…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…dados que tiver conhecimento ou acesso em decorrência da execução do serviço. 5.44 A Contratada é responsável pelas despesas com materiais de consumo necessários a execução dos serviços objeto deste contrato. 5.45 Deve disponibilizar de equipamentos necessários ao perfeito e bom desempenho dos serviços, e r…"
+     }
+    ],
+    "emails": [
+     "comissaolicitacao.smsa@gmail.com"
+    ],
+    "lidos": [
+     "3 TERMO DE REFERENCIA- Nº 579-2025 (2).pdf",
+     "13.1 AVISO DE LICITACAO- Nº 40-2025.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 1,
+    "filantropico": 2,
+    "olho": 1,
+    "privado": 4,
+    "total": 7,
+    "est": [
+     {
+      "cnes": 5061989,
+      "nome": "Hospital Municipal Padre Germano Lauck",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "4535211951"
+     },
+     {
+      "cnes": 2591049,
+      "nome": "Hospital Itamed",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "45 35768082"
+     },
+     {
+      "cnes": 6607950,
+      "nome": "Hospital Municipal De Foz Do Iguacu Pro Saude",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "45-3521-1951"
+     },
+     {
+      "cnes": 2593912,
+      "nome": "Hospital E Maternidade Cataratas",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "(45)5235200"
+     },
+     {
+      "cnes": 2673800,
+      "nome": "Hospital Unimed Foz",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(45) 2102-7500"
+     },
+     {
+      "cnes": 4388380,
+      "nome": "Hospital Nossa Senhora Aparecida",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "43-99160-7042"
+     },
+     {
+      "cnes": 8245061,
+      "nome": "Foz Day Hospital",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "41- 99995-5792"
+     }
+    ],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 297352
+  },
+  {
+   "id": "pncp:11430652000182/2026/1",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "SC",
+   "municipio": "Princesa",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DE PRINCESA",
+   "modalidade": "Credenciamento",
+   "objeto": "CREDENCIAMENTO PARA CONTRATAÇÃO DE PESSOA JURÍDICA PARA A PRESTAÇÃO DE SERVIÇOS DE CONSULTAS MÉDICAS ESPECIALIZADAS NAS ÁREAS DE PEDIATRIA (COM RETORNO), PSIQUIATRIA, OTORRINOLARINGOLOGIA (COM RETORNO), OFTALMOLOGIA (COM RETORNO), ORTOPEDIA/TRAUMATOLOGIA (COM RETORNO) E GINECOLOGIA (COM RETORNO), INCLUINDO PROCEDIMENTOS DE COLOCAÇÃO E RETIRADA DE DISPOSITIVO INTRAUTERINO - DIU, DESTINADOS AOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE - SUS RESIDENTES NO MUNICÍPIO DE PRINCESA/SC.",
+   "valor_total": 145599.6,
+   "faco": null,
+   "abertura": "2026-02-10T00:00",
+   "encerramento": "2027-02-10T00:00",
+   "publicado": "2026-02-11",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/11430652000182/2026/1",
+   "dist_km": 775,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "procedimentos oftalmológicos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [
+     {
+      "r": "Órgão faz o transporte dos pacientes",
+      "t": "…os as consultas deverá estar localizada no máximo até 50 quilômetros de distância do Município de Princesa, pois o Município será responsável pelo deslocamento dos pacientes. Caso a distância do estabelecimento seja maior do que 50 quilômetros, o deslocamento será por conta da empresa contratada. 3.8 As consultas serão agendadas conforme nec…"
+     }
+    ],
+    "exige": [
+     {
+      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
+      "t": "…da Secretaria Municipal de Saúde de Princesa. 4.1.2 O atendimento deverá ocorrer em estabelecimento próprio, de responsabilidade do prestador mediante recebimento de autorização da secretaria para a execução do serviço. A localização da clínica que irá realizar as consultas de…"
+     },
+     {
+      "r": "Até 50 km do município",
+      "t": "…Princesa, pois o Município será responsável pelo deslocamento dos pacientes. Caso a distância do estabelecimento seja maior do que 50 quilômetros, o deslocamento será por conta da empresa contratada. 3.8 As consultas serão agendadas conforme necessidade da Secretaria Municipal de Saúde, sendo que, deverão ser real…"
+     },
+     {
+      "r": "CNES ativo",
+      "t": "…cadastramento do estabelecimento no Cadastro Nacional de Estabelecimentos em Saúde – CNES; 5.6.2 Alvará Sanitário da sede da licitante com data de validade vigente, de acordo com a legislação municipal própria. 5.6.3 Declaração formal da licitante de possuir…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…o do estabelecimento no Cadastro Nacional de Estabelecimentos em Saúde – CNES; 5.6.2 Alvará Sanitário da sede da licitante com data de validade vigente, de acordo com a legislação municipal própria. 5.6.3 Declaração formal da licitante de possuir em seu quadro permanente…"
+     },
+     {
+      "r": "Atestado de capacidade técnica",
+      "t": "…ridade desse Profissional no Conselho de Regional de Medicina. 5.6.6 Apresentação de atestado de capacidade técnica em nome da empresa licitante, emitido por pessoa jurídica de direito público ou privado, comprovando a execução de serviço similar ao objeto da presente licitação. O ate…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…. O profissional deverá comprovar possuir Registro de Qualificação de Especialidade (RQE) junto ao Conselho Regional de Medicina na especialidade a qual deseja se credenciar. 5.6.4 A comprovação do vínculo profissional pode se dar mediante a apresentação de…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…ita a usuário; 3.6 As consultas deverão ser realizadas nas dependências das clínicas credenciadas, sendo a mesma responsável pelo fornecimento de todos os materiais e equipamentos necessários a prestação do serviço. 3.7 A localização da clínica que irá realizar os as consultas deverá estar localizada no máximo até 50 quilômetros de…"
+     }
+    ],
+    "emails": [
+     "lgpd@princesa.sc.gov.br",
+     "saudeprincesa@yahoo.com.br"
+    ],
+    "lidos": [
+     "edital_1_2026_13341_documento.pdf",
+     "Autorizacao_para_abertura_do_processo_de_contratacao.pdf",
+     "ETP_consultas.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 0,
+    "total": 0,
+    "est": [],
+    "data": "2026-11-18"
+   },
+   "chamada_diario": false,
+   "habitantes": 3073
+  },
+  {
    "id": "pncp:18151467000106/2026/1",
    "fonte": "PNCP",
    "categoria": "Material/compra",
@@ -24122,7 +24577,6 @@
    "dist_km": 262,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "olhos",
     "procedimentos oftalmológicos",
     "yag laser",
     "capsulotomia"
@@ -24301,115 +24755,6 @@
    "habitantes": 761835
   },
   {
-   "id": "pncp:23804149000129/2026/40",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Ponte Nova",
-   "orgao": "MUNICIPIO DE PONTE NOVA",
-   "modalidade": "Credenciamento",
-   "objeto": "Credenciamento para contratação de estabelecimentos de saúde para realização de serviços oftalmológicos.",
-   "valor_total": 3256414.3,
-   "faco": null,
-   "abertura": "2026-01-05T17:12",
-   "encerramento": "2026-12-31T17:13",
-   "publicado": "2025-12-30",
-   "vencedores": [
-    "HOSPITAL DE OLHOS LUVERE LTDA",
-    "FUNDACAO FILANT E BENEF DE SAUDE ARNALDO GAVAZZA FILHO"
-   ],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/23804149000129/2026/40",
-   "dist_km": 590,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "olhos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…erviços deverá ser executada no Município de Ponte Nova de segunda à sexta-feira, em estabelecimento próprio da empresa credenciada, que atenda a todas as exigências legais para o tipo de empreendimento, inclusive de Vigilância Sanitária; 5.1.4. Os serviços contratados serão re…"
-     },
-     {
-      "r": "Atendimento no município/região",
-      "t": "…tos efetivamente realizados. 1.7. Os serviços deverão ser obrigatoriamente prestados no território do município, de forma a assegurar acessibilidade, resolutividade e continuidade do acompanhamento clínico dos usuários, observando horários, fluxos e capacidade operacional compatív…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…ão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo do CNES (Cadastro Nacional de Estabelecimentos de Saúde) emitido no site https://cnes.datasus.gov.br Declarações 9.22. O credenciante deverá apresentar declarações, subscritas p…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…lência expedida pelo distribuidor da sede do fornecedor . Qualificação Técnica 9.20. Alvará Sanitário válido emitido pelo órgão municipal competente ou documento equivalente emitido por órgão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…tes da Lei nº 14.133, de 2021, pelas razões constantes do Estudo Técnico Preliminar. Vistoria 4.5. Não há necessidade de realização de avaliação prévia do local de execução dos serviços. 5. MODELO DE EXECUÇÃO DO OBJETO Condições de execução 5.1. A execução do obj…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…oriedade do cumprimento das disposições contidas no Termo de Referência, assumindo o credenciado o compromisso de executar o objeto nos seus termos, bem como de fornecer os materiais, equipamentos, ferramentas e utensílios necessários, em quantidades e qualidades adequadas à perfeita execução contratual, promovendo, quando requerido, sua substituição…"
-     }
-    ],
-    "emails": [
-     "licitacao@pontenova.mg.gov.br",
-     "licitacao@pontenova.mg.gob.br"
-    ],
-    "lidos": [
-     "Edital 211-2025 Credenciamento servicos oftamologicos.docx.pdf",
-     "TR_Cred_Serv_Oftalmologicos.pdf",
-     "ETP_Cred_Serv_Oftalmologicos.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 2,
-    "olho": 0,
-    "privado": 1,
-    "total": 3,
-    "est": [
-     {
-      "cnes": 2111640,
-      "nome": "Hospital Nossa Senhora Das Dores",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "3138192600"
-     },
-     {
-      "cnes": 2206382,
-      "nome": "Hospital Arnaldo Gavazza Filho",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "31-38195000"
-     },
-     {
-      "cnes": 2217163,
-      "nome": "Mater Clinica Consultar",
-      "tipo": "Pronto-socorro",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(31)38177000"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 59638
-  },
-  {
    "id": "pncp:18431312000620/2026/1",
    "fonte": "PNCP",
    "categoria": "Oftalmologia",
@@ -24436,7 +24781,6 @@
    "dist_km": 262,
    "primeira_vez": "2026-10-17",
    "termos": [
-    "olhos",
     "procedimentos oftalmológicos"
    ],
    "req": {
@@ -24640,987 +24984,6 @@
    },
    "chamada_diario": false,
    "habitantes": 761835
-  },
-  {
-   "id": "pncp:00394452000103/2023/15471",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "GO",
-   "municipio": "Cristalina",
-   "orgao": "COMANDO DO EXERCITO",
-   "modalidade": "Credenciamento",
-   "objeto": "Contratação dos serviços médico-hospitalares, fonoaudiologia, psicologia, nutrição, oftalmologia, fisioterapia, odontologia radiológica e exames laboratoriais prestados pelas Organizações Civis de Saúde (OCS), eventualmente credenciados no presente processo administrativo, se dará mediante adesão, por parte dos interessados neste credenciamento, aos parâmetros previamente autorizadas pela Diretoria de Saúde, órgão do Departamento-Geral do Pessoal (DGP), a quem compete estabelecer os valores a serem pagos pelos serviços prestados, conforme a região do país em que se localiza a Organização Milit",
-   "valor_total": 504835.44,
-   "faco": null,
-   "abertura": "2024-10-30T10:00",
-   "encerramento": "2029-10-30T16:00",
-   "publicado": "2024-10-29",
-   "vencedores": [
-    "CEME MEDICINE LTDA",
-    "HOSPITAL JOLART LTDA",
-    "SOCIEDADE MEDICA LUZIANIA LTDA",
-    "A F FREITAS CLINICA MEDICA LTDA",
-    "LABORATORIO SABIN DE ANALISES CLINICAS S.A.",
-    "KARINE DOS REIS SOARES - FISIOTERAPIA",
-    "AGILE RH & SAUDE OCUPACIONAL LTDA",
-    "ALINE VIEIRA FISIOTERAPIA LTDA",
-    "RIBEIRO E XAVIER LTDA",
-    "FISIOMOV LTDA",
-    "MG CLINICA DE OLHOS LTDA",
-    "QUALIMAGEM RADIOLOGIA LTDA",
-    "DEISY DA SILVA GONCALVES",
-    "CENTRUS - CENTRO DE TOMOGRAFIA COMPUTADORIZADA, RESSONANCIA MAGNETICA E ULTRA - SONOGRAFIA LTDA"
-   ],
-   "docs_resultado": [
-    "15 - MINUTA CONTRATO FISIO E FONO.docx",
-    "16 - MINUTA CONTRATO LAB.docx",
-    "17 - MINUTA CONTRATO PSICOLOGIA.docx",
-    "18 - MINUTA CONTRATO NUTRICAO.docx",
-    "19 - MINUTA CONTRATO CLINICAS MEDICAS ESPECIALIZADAS.docx"
-   ],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/00394452000103/2023/15471",
-   "dist_km": 509,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "olhos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "1 - EDITAL.pdf",
-     "14 - ANEXO H - LISTA DE PARAMETROS DE REMUNERACAO DE SERVICOS HOSPITALARES -.pdf",
-     "2 - TERMO DE REFERENCIA.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
-    "est": [
-     {
-      "cnes": 2383896,
-      "nome": "Hospital Municipal De Cristalina Chaud Salles",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(61)36121010"
-     },
-     {
-      "cnes": 6829228,
-      "nome": "Hospital Nossa Senhora Do Rosario",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     }
-    ],
-    "data": "2026-11-21"
-   },
-   "chamada_diario": false,
-   "habitantes": 66827
-  },
-  {
-   "id": "pncp:12359535000132/2026/8",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "CE",
-   "municipio": "Guaiúba",
-   "orgao": "MUNICIPIO DE GUAIUBA",
-   "modalidade": "Credenciamento",
-   "objeto": "CREDENCIAMENTO DE EMPRESA PRESTADORA DE SERVIÇOS NA ÁREA DE OFTALMOLOGIA, APTA AO ATENDIMENTO DAS NORMATIVAS DO SISTEMA ÚNICO DE SAÚDE (SUS), COMPREENDENDO REALIZAÇÃO DE CIRURGIAS OFTALMOLOGICAS, COM FORNECIMENTO DE MÉDICO ESPECIALIZADO NA ÁREA DE OFTALMOLOGIA, MÃO DE OBRA QUALIFICADA E INSUMOS PARA REALIZAÇÃO DOS PROCEDIMENTOS DE FORMA A COMPLEMENTAR A REDE DE ASSISTENCIAL DE SAÚDE DO MUNICIPIO DE GUAIUBA/CE.",
-   "valor_total": 715395.0,
-   "faco": null,
-   "abertura": "2026-02-13T08:00",
-   "encerramento": "2026-12-31T14:00",
-   "publicado": "2026-02-12",
-   "vencedores": [
-    "LPM SAUDE HUMANA E SERVICOS SOCIAIS LTDA"
-   ],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/12359535000132/2026/8",
-   "dist_km": 2191,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "pterígio",
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [
-     {
-      "r": "Órgão cede o centro cirúrgico/hospital",
-      "t": "…que venha a ser implementado no âmbito do SUS; n) Oferecer condições téc nicas, nas instalações físicas (que serão cedidas pelo município), equipamentos e recursos adequados à prestação de serviços técnico -profissionais especializados na área descrita; o) Submeter-se a avaliações sistemát…"
-     }
-    ],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…omprovação de in scrição no (empresa) Cadastro Nacional de Estabelecimento de Saúde (CNES); 5.2.3.5 Comprovar registro de especialidade (RQE) no Conselho Regional de Medicina do Estado do Ceará, do profissional que ir ar realizar os procedimentos, objeto dest…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…l em características, quantidades e prazos co m o objeto do presente edital. 5.2.3.2 Licença Sanitária da empresa participante, expedida pelo órgão competente local, em plena vigência; 5.2.3.3 A empresa apresente, devido certificado de Inscrição de pessoa Jurídica no Cons…"
-     },
-     {
-      "r": "CRM do estado do órgão",
-      "t": "…stabelecimento de Saúde (CNES); 5.2.3.5 Comprovar registro de especialidade (RQE) no Conselho Regional de Medicina do Estado do Ceará, do profissional que ir ar realizar os procedimentos, objeto deste certame. 5.2.3.6 Certidão N egativa de Conduta Ético -profissional junto ao CRM do responsável t…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…nal de Estabelecimento de Saúde (CNES); 5.2.3.5 Comprovar registro de especialidade (RQE) no Conselho Regional de Medicina do Estado do Ceará, do profissional que ir ar realizar os procedimentos, objeto deste certame. 5.2.3.6 Certidão N egativa de Conduta Ét…"
-     },
-     {
-      "r": "Balanço e índices financeiros",
-      "t": "…ão de curso; (Médico/Enfermeiro) 5.2.4. QUALIFICAÇÃO ECONÔMICO-FINANCEIRA 5.2.4.1.1. Balanço patrimonial, demonstração de resultado de exercício e demais demonstrações contábeis dos 2 (dois) últimos exercícios sociais (já exigíveis e apresentados na forma da lei, devidament…"
-     },
-     {
-      "r": "Capital/patrimônio mínimo",
-      "t": "…G) e Liquidez Corrente (LC), será exigido para fins de habilitação capital mínimo OU patrimônio líquido mínimo de até 10% do valor total estimado da contratação. 5.2.4.1.5. As empresas criadas no exercício financeiro da licitação deverão atender a todas as exigências da habilitaç…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…cer todos os insumos necessários para a realização dos procedimentos oftalmológicos, incluindo materiais descartáveis, medicamentos e soluções. Cumprimento de normas e regulamentações: A empresa deve obedecer às normas e regulamentações pertinentes à prática da oftalmologia…"
-     }
-    ],
-    "emails": [
-     "licitacao@guaiuba.ce.gov.br"
-    ],
-    "lidos": [
-     "EDITAL.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 0,
-    "est": [],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 25158
-  },
-  {
-   "id": "pncp:19769660000160/2025/401",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Conselheiro Pena",
-   "orgao": "MUNICIPIO DE CONSELHEIRO PENA",
-   "modalidade": "Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOA JURIDICA PARA PRESTAÇAO DE SERVIÇOS MEDICOS ESPECIALIZADO EM OFTALMOLOGIA EXAMES E CONSULTAS PARA OS PACIENTES DA SECRETARIA MUNICIPAL DE SAÚDE.",
-   "valor_total": 703763.1,
-   "faco": null,
-   "abertura": "2025-12-01T09:00",
-   "encerramento": "2027-12-01T09:00",
-   "publicado": "2025-12-09",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://www.conselheiropena.mg.gov.br/detalhe-da-licitacao/info/inex-36-2025/21023",
-   "link": "https://pncp.gov.br/app/editais/19769660000160/2025/401",
-   "dist_km": 769,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "pterígio",
-    "retinopatia"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…), Oferta de Cuidado Integrado. 3.1.3. O estabelecimento deverá possuir inscrição no CNES, e possuir obrigatoriamente alvará sanitário em dia. Tratar os pacientes com cordialidade e não reincidir de forma constante em cancelamento de agendas. 3.1.4. A contrat…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "….1.3. O estabelecimento deverá possuir inscrição no CNES, e possuir obrigatoriamente alvará sanitário em dia. Tratar os pacientes com cordialidade e não reincidir de forma constante em cancelamento de agendas. 3.1.4. A contratação deverá atender aos seguintes requisitos…"
-     },
-     {
-      "r": "Balanço e índices financeiros",
-      "t": "…ribuidor da sede do fornecedor - Lei nº 14.133, de 2021, art. 69, caput, inciso II); Balanço Patrimonial, acompanhado dos respectivos demonstrativos contábeis, correspondentes aos 2 (dois) últimos exercício social, já exigíveis e apresentados na forma da lei, devendo ser as…"
-     },
-     {
-      "r": "Consórcio de empresas vedado",
-      "t": "…e sua apresentação válida. NÃO PARTICIPAÇÃO DE EMPRESAS EM CONSÓRCIO Nesta Licitação não será permitida a participação de empresas em consórcio, pois o objeto do certame não apresenta nenhuma complexidade que justifique a participação. ENTREGA DO MATERIAL/PRESTAÇÃO DOS SERVIÇOS: Os serviços serão prestados confo…"
-     }
-    ],
-    "emails": [
-     "compraselicitacoes@conselheiropena.mg.gov.br"
-    ],
-    "lidos": [
-     "Edital"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 1,
-    "olho": 0,
-    "privado": 0,
-    "total": 1,
-    "est": [
-     {
-      "cnes": 2200481,
-      "nome": "Hospital Padre Geraldo Hogervorst",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "33 32613115"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 21052
-  },
-  {
-   "id": "pncp:13796016000102/2026/1",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "BA",
-   "municipio": "Tapiramutá",
-   "orgao": "MUNICIPIO DE TAPIRAMUTA",
-   "modalidade": "Credenciamento",
-   "objeto": "CHAMAMENTO PÚBLICO OBJETIVANDO O CREDENCIAMENTO DE PESSOAS FÍSICAS E/OU JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS MÉDICOS PARA AS SEGUINTES ESPECIALIDADES: MÉDICO PLANTONISTA, MÉDICO PEDIATRA, MÉDICO PSIQUIATRA, MÉDICO GINECOLOGISTA, MÉDICO AUTORIZADOR DE INTERNAÇÃO HOSPITALAR (AIH), MÉDICO ULTRASSONOGRAFISTA, MÉDICO NA UBSF NOVA LAGOA, MÉDICO NA UBSF MÁRIO TOURINHO JR., MÉDICO NA UBSF RUA NOVA, MÉDICO NA UBSF JOSÉ LINO, MÉDICO NA UBSF RAIMUNDO FERREIRO, MÉDICO AVALIADOR CIRURGIÃO GERAL, MÉDICO OFTALMOLOGISTA, MÉDICO ORTOPEDISTA, MÉDICO CARDIOLOGISTA, MÉDICO UROLOGISTA, MÉDICO ENDOSCOPISTA E MÉDICO",
-   "valor_total": 3450612.0,
-   "faco": null,
-   "abertura": "2026-01-02T08:00",
-   "encerramento": "2027-01-02T08:00",
-   "publicado": "2026-01-05",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/13796016000102/2026/1",
-   "dist_km": 1330,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "cirurgias eletivas",
-    "cirurgia eletiva",
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…ão das instalações onde ser ão desempenhados os serviços, mediante a apresentação de Alvará de Funcionamento expedido pelo Município cuja sede esteja localizada, exceto para os casos em que os serviços forem prestados nas unidades de saúde do Município; j) Alvará expedido pela…"
-     }
-    ],
-    "emails": [
-     "licitacaotapir@gmail.com"
-    ],
-    "lidos": [
-     "EDITAL CRED N001 2026"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
-    "est": [
-     {
-      "cnes": 2524805,
-      "nome": "Hospital Municipal Dr Jose Nery",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(74) 36352194"
-     },
-     {
-      "cnes": 2799499,
-      "nome": "Cemon",
-      "tipo": "Unidade mista",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(74) 6352207"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 16226
-  },
-  {
-   "id": "pncp:13825476000103/2026/17",
-   "fonte": "PNCP",
-   "categoria": "Material/compra",
-   "uf": "BA",
-   "municipio": "Santo Antônio de Jesus",
-   "orgao": "MUNICIPIO DE SANTO ANTONIO DE JESUS",
-   "modalidade": "Credenciamento",
-   "objeto": "Contratação de serviços de saúde especializados contínuos, no formato de Oferta de Cuidados Integrados (OCI), a serem executados sem regime de dedicação exclusiva de mão de obra. [Itens do edital: Consulta médica - oftalmologia Consulta médica - oftalmologia | Consulta médica - oftalmologia Consulta médica - oftalmologia | Consulta médica - oftalmologia Consulta médica - oftalmologia | Consulta mé",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "",
-   "encerramento": "2027-05-26T18:00",
-   "publicado": "2026-02-25",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/13825476000103/2026/17",
-   "dist_km": 1347,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "oferta de cuidados integrados"
-   ],
-   "chamada_diario": false,
-   "habitantes": 109791
-  },
-  {
-   "id": "pncp:76206606000140/2025/589",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "PR",
-   "municipio": "Foz do Iguaçu",
-   "orgao": "MUNICIPIO DE FOZ DO IGUACU",
-   "modalidade": "Credenciamento",
-   "objeto": "Credenciamento de pessoa jurídica para prestação de serviços para Oferta do Cuidado Integrado (OCI) em Oftalmologia para atender a demanda da Secretaria Municipal de Saúde de Foz do Iguaçu/ PR",
-   "valor_total": 998720.0,
-   "faco": null,
-   "abertura": "2025-12-04T08:00",
-   "encerramento": "2035-12-04T08:00",
-   "publicado": "2025-12-04",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/76206606000140/2025/589",
-   "dist_km": 782,
-   "primeira_vez": "2026-11-21",
-   "termos": [
-    "oferta de cuidados integrados"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…ção do serviço conforme todas as especificações do edital. 5.37 Realizar as OCIs nas instalações da contratada. 5.38 Realizar as OCIs em conformidade com as especificações constantes nos descritivos do edital de chamamento público e neste Termo de Referência. 5.39 Assumir todas a…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…fissionais, equipamentos, serviços e demais informações relativas à sua inscrição no CNES. 5.59 Providenciar imediatamente a correção de qualquer inconformidade na prestação de serviços ao SUS apontada pela Contratante.  Das Obrigações da CONTRATANTE 5.60 Pr…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…ar declaração do órgão expedidor informando sua isenção.  Qualificação Técnica 8.23 Licença Sanitária válida emitida pelo órgão de vigilância sanitária competente 8.24 Alvará de funcionamento atualizado do estabelecimento. 8.25 Memorial descritivo da empresa, com inclusã…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…expedida pelos distribuidores da sede da comarca da pessoa jurídica. 8.16 Apresentar Atestado de Capacidade Técnica ou declaração emitida por pessoa jurídica de direito público ou privado, com identificação do emitente e cargo que ocupa, comprovando que a proponente forneceu itens com…"
-     },
-     {
-      "r": "CRM-PR",
-      "t": "…de formação Médica e número de inscrição no Conselho Regional de Medicina do Paraná (CRM-PR) ou a comprovação de transferência. 8.28.2 Currículo resumido dos profissionais responsáveis, indicando formação, experiências anteriores e habilitação técnica; 8.28.3 A…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…formação, experiências anteriores e habilitação técnica; 8.28.3 Apresentar CRM-PR e Registro de Qualificação de Especialista (RQE) do(s) médico(s) responsável(is) pelo laudo. 8.29 Escala de trabalho proposta e capacidade de atendimento semanal/mensal por unidade prestadora. 8.30 Comprovar a qu…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…, manutenção e assistência técnica 4.21 Não se aplica ao objeto desta contratação.  Vistoria e visita técnica 4.22 A habilitação da documentação referente ao credenciamento será avaliada pela Comissão de Credenciamento da SMSA, nomeada pela Portaria nº 82.274, p…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…dados que tiver conhecimento ou acesso em decorrência da execução do serviço. 5.44 A Contratada é responsável pelas despesas com materiais de consumo necessários a execução dos serviços objeto deste contrato. 5.45 Deve disponibilizar de equipamentos necessários ao perfeito e bom desempenho dos serviços, e r…"
-     }
-    ],
-    "emails": [
-     "comissaolicitacao.smsa@gmail.com"
-    ],
-    "lidos": [
-     "3 TERMO DE REFERENCIA- Nº 579-2025 (2).pdf",
-     "13.1 AVISO DE LICITACAO- Nº 40-2025.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 2,
-    "olho": 1,
-    "privado": 4,
-    "total": 7,
-    "est": [
-     {
-      "cnes": 5061989,
-      "nome": "Hospital Municipal Padre Germano Lauck",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "4535211951"
-     },
-     {
-      "cnes": 2591049,
-      "nome": "Hospital Itamed",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "45 35768082"
-     },
-     {
-      "cnes": 6607950,
-      "nome": "Hospital Municipal De Foz Do Iguacu Pro Saude",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "45-3521-1951"
-     },
-     {
-      "cnes": 2593912,
-      "nome": "Hospital E Maternidade Cataratas",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "(45)5235200"
-     },
-     {
-      "cnes": 2673800,
-      "nome": "Hospital Unimed Foz",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(45) 2102-7500"
-     },
-     {
-      "cnes": 4388380,
-      "nome": "Hospital Nossa Senhora Aparecida",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "43-99160-7042"
-     },
-     {
-      "cnes": 8245061,
-      "nome": "Foz Day Hospital",
-      "tipo": "Hospital-dia",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "41- 99995-5792"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 297352
-  },
-  {
-   "id": "pncp:18404780000109/2025/41",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Teófilo Otoni",
-   "orgao": "MUNICIPIO DE TEOFILO OTONI",
-   "modalidade": "Credenciamento",
-   "objeto": "CREDENCIAMENTO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS MEDICOS OFTALMOLÓGICOS, ABRANGENDO CONSULTAS, EXAMES, PROCEDIMENTOS E CIRURGIAS DE MEDIA E ALTA COMPLEXIDADE.",
-   "valor_total": 13614675.54,
-   "faco": null,
-   "abertura": "2025-08-19T08:00",
-   "encerramento": "2030-12-31T16:00",
-   "publicado": "2025-08-19",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/18404780000109/2025/41",
-   "dist_km": 824,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "oferta de cuidados integrados",
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…Estadual; b) Registro da empresa no Cadastro Nacional de Estabelecimentos de Saúde – CNES; e os serviços a serem executados estão de AnexoIII; Sob pena de inabilitação, todos os documentos apres entados para habilitaç ão deverão estar em nome da empresa a ser…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…a) dias, contados a partir da data da sua expedição. 7.1.4 – Qualificação Técnica a) Alvará Sanitário, vigente emitido pe b) Registro da empresa no Cadastro Nacional de Estabelecimentos de Saúde c) Registro da empresa no Conselho da respectiva categoria. 7.1.5 Das Declar…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…s legislação pertinente e vigente. É de responsabilidade exclusiva e integr al do(a) CREDENCIADO(A) a utilização de pessoal e o fornecimento dos insumos (incluindo a coleta) necessários para a execução do objeto pactuado, incluindo previdenciários , sociais e comerciais, resultantes , cujos ônus e obrigações em nenhuma h…"
-     }
-    ],
-    "emails": [
-     "licitacao@teofilootoni.mg.gov.br"
-    ],
-    "lidos": [
-     "EDITAL CREDENCIAMENTO 003-2025 - OFTAMOLOGIA.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 1,
-    "filantropico": 5,
-    "olho": 1,
-    "privado": 1,
-    "total": 7,
-    "est": [
-     {
-      "cnes": 2211254,
-      "nome": "Hospital Municipal Dr Raimundo Gobira",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(33)35292300"
-     },
-     {
-      "cnes": 2184834,
-      "nome": "Hospital Bom Samaritano",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(33)35214443"
-     },
-     {
-      "cnes": 2208172,
-      "nome": "Hospital Santa Rosalia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "33 35291500"
-     },
-     {
-      "cnes": 2210924,
-      "nome": "Hospital Philadelfia",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "33 35224247"
-     },
-     {
-      "cnes": 7712170,
-      "nome": "Unihealth Pronto Atendimento E Hospital Tres Vales",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "11 47947003"
-     },
-     {
-      "cnes": 8203695,
-      "nome": "Hospital Regional De Teofilo Otoni",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "3331920100"
-     },
-     {
-      "cnes": 9644040,
-      "nome": "Ocular Centro De Oftalmologia",
-      "tipo": "Hospital especializado",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": true,
-      "tel": "33 35210217"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 142851
-  },
-  {
-   "id": "pncp:11430652000182/2026/1",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "SC",
-   "municipio": "Princesa",
-   "orgao": "FUNDO MUNICIPAL DE SAUDE DE PRINCESA",
-   "modalidade": "Credenciamento",
-   "objeto": "CREDENCIAMENTO PARA CONTRATAÇÃO DE PESSOA JURÍDICA PARA A PRESTAÇÃO DE SERVIÇOS DE CONSULTAS MÉDICAS ESPECIALIZADAS NAS ÁREAS DE PEDIATRIA (COM RETORNO), PSIQUIATRIA, OTORRINOLARINGOLOGIA (COM RETORNO), OFTALMOLOGIA (COM RETORNO), ORTOPEDIA/TRAUMATOLOGIA (COM RETORNO) E GINECOLOGIA (COM RETORNO), INCLUINDO PROCEDIMENTOS DE COLOCAÇÃO E RETIRADA DE DISPOSITIVO INTRAUTERINO - DIU, DESTINADOS AOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE - SUS RESIDENTES NO MUNICÍPIO DE PRINCESA/SC.",
-   "valor_total": 145599.6,
-   "faco": null,
-   "abertura": "2026-02-10T00:00",
-   "encerramento": "2027-02-10T00:00",
-   "publicado": "2026-02-11",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/11430652000182/2026/1",
-   "dist_km": 775,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [
-     {
-      "r": "Órgão faz o transporte dos pacientes",
-      "t": "…os as consultas deverá estar localizada no máximo até 50 quilômetros de distância do Município de Princesa, pois o Município será responsável pelo deslocamento dos pacientes. Caso a distância do estabelecimento seja maior do que 50 quilômetros, o deslocamento será por conta da empresa contratada. 3.8 As consultas serão agendadas conforme nec…"
-     }
-    ],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…da Secretaria Municipal de Saúde de Princesa. 4.1.2 O atendimento deverá ocorrer em estabelecimento próprio, de responsabilidade do prestador mediante recebimento de autorização da secretaria para a execução do serviço. A localização da clínica que irá realizar as consultas de…"
-     },
-     {
-      "r": "Até 50 km do município",
-      "t": "…Princesa, pois o Município será responsável pelo deslocamento dos pacientes. Caso a distância do estabelecimento seja maior do que 50 quilômetros, o deslocamento será por conta da empresa contratada. 3.8 As consultas serão agendadas conforme necessidade da Secretaria Municipal de Saúde, sendo que, deverão ser real…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…cadastramento do estabelecimento no Cadastro Nacional de Estabelecimentos em Saúde – CNES; 5.6.2 Alvará Sanitário da sede da licitante com data de validade vigente, de acordo com a legislação municipal própria. 5.6.3 Declaração formal da licitante de possuir…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…o do estabelecimento no Cadastro Nacional de Estabelecimentos em Saúde – CNES; 5.6.2 Alvará Sanitário da sede da licitante com data de validade vigente, de acordo com a legislação municipal própria. 5.6.3 Declaração formal da licitante de possuir em seu quadro permanente…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…ridade desse Profissional no Conselho de Regional de Medicina. 5.6.6 Apresentação de atestado de capacidade técnica em nome da empresa licitante, emitido por pessoa jurídica de direito público ou privado, comprovando a execução de serviço similar ao objeto da presente licitação. O ate…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…. O profissional deverá comprovar possuir Registro de Qualificação de Especialidade (RQE) junto ao Conselho Regional de Medicina na especialidade a qual deseja se credenciar. 5.6.4 A comprovação do vínculo profissional pode se dar mediante a apresentação de…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…ita a usuário; 3.6 As consultas deverão ser realizadas nas dependências das clínicas credenciadas, sendo a mesma responsável pelo fornecimento de todos os materiais e equipamentos necessários a prestação do serviço. 3.7 A localização da clínica que irá realizar os as consultas deverá estar localizada no máximo até 50 quilômetros de…"
-     }
-    ],
-    "emails": [
-     "lgpd@princesa.sc.gov.br",
-     "saudeprincesa@yahoo.com.br"
-    ],
-    "lidos": [
-     "edital_1_2026_13341_documento.pdf",
-     "Autorizacao_para_abertura_do_processo_de_contratacao.pdf",
-     "ETP_consultas.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 0,
-    "est": [],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 3073
-  },
-  {
-   "id": "pncp:18663401000197/2025/376",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MG",
-   "municipio": "Guaxupé",
-   "orgao": "MUNICIPIO DE GUAXUPE",
-   "modalidade": "Credenciamento",
-   "objeto": "CREDENCIAMENTO de empresas para prestação de serviços de consultas médicas especializadas nas áreas de Angiologia/Avaliação de Cirurgia Vascular, Cardiologia, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Gastroenterologia/Avaliação de Cirurgia Gastroenterológica, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Neurologia, Oftalmologia (incluso os exames de tonometria, fundoscopia e biomicroscopia), Otorrinolaringologia, Pneumologia, Psiquiatria, Reumatologia, Urologia, Anestesista (Avaliação anestésica), Ortopedia, Cirurgia Geral para realização de consultas e pequenas ci",
-   "valor_total": 36890322.4,
-   "faco": null,
-   "abertura": "2025-12-19T00:00",
-   "encerramento": "2027-01-06T23:59",
-   "publicado": "2025-12-19",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://app2.ammlicita.org.br/pesquisa/86616",
-   "link": "https://pncp.gov.br/app/editais/18663401000197/2025/376",
-   "dist_km": 185,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [
-     {
-      "r": "Órgão faz o transporte dos pacientes",
-      "t": "…io de Guaxupé, ou nas Unidades de Atenção Especializada do Sistema Único de Saúde do Município de Guaxupé, facilitando o acesso e deslocamento dos pacientes, permitindo um melhor acompanhamento do tratamento dos usuários. 3.1. As especificações técnicas contidas no presente documento, in clusive quanto ao detalha- mento, req…"
-     }
-    ],
-    "exige": [
-     {
-      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
-      "t": "…ir nos dias e horários a serem definidos pelo contratante. Ainda, poderá ate nder em clínica própria, desde que situada no próprio Município de Guaxupé e os dias e horários de atendimento serão previamente acor- dados entre o prestador de serviço e a Secretaria Municipa…"
-     },
-     {
-      "r": "Atendimento no município/região",
-      "t": "…1/0001-97 CEP 37830-026 – Fone (35) 3559 1021 - Site www.guaxupe.mg.gov.br desde que sediados no Município de Guaxupé, ou nas Un idades de Atenção Especializada do Sistema Único de S aúde do Município de Guaxupé, conforme autorização prévia emitida pela Secretaria Municipal d…"
-     },
-     {
-      "r": "CNES ativo",
-      "t": "…dispensado (anexo);  Inscrição no Cadastro Nacional de Estabelecimentos de Saúd e – CNES, bem como as questões relativas a estrutura, mantendo-os devidamente atualiza do e ativo de acordo com as normas e determinações do Ministério da Saúde;  Quando o prest…"
-     },
-     {
-      "r": "Atestado de capacidade técnica",
-      "t": "…ndições que ensejam credenciamento, em especial no que tange à regularidade fiscal e capacidade técnico-operacional; 5.1.3.2. Apresentar inscrição da empresa e do responsável técnico n o Conselho Regional de Medicina do Estado de Minas Gerais, declaração formal de que terá disponível,…"
-     },
-     {
-      "r": "CRM do estado do órgão",
-      "t": "…o-operacional; 5.1.3.2. Apresentar inscrição da empresa e do responsável técnico n o Conselho Regional de Medicina do Estado de Minas Gerais, declaração formal de que terá disponível, para a execução do serviço objeto desta licitação, pro fissionais com formação nas especialidades descritas no it…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…fissionais médicos deverão comprovar certificado de co nclusão de residência médica (RQE) ou especialização/formação na especialidade contratada. A carga horária mínima para um curso de especialização ace ita será de no mínimo 360 horas-aula, conforme estabe…"
-     },
-     {
-      "r": "Vistoria",
-      "t": "…cia. 4.5. Subcontratação: Não é admitida a subcontratação do objeto contratual. 4.6. Vistoria: Quando a avaliação prévia do local de execução dos serviços for n ecessária para o conhecimento pleno das condições e peculiaridades do objeto a ser contratado, é asseg…"
-     },
-     {
-      "r": "Empresa fornece LIO/insumos",
-      "t": "…5.1.3. Materiais a serem disponibilizados: Para a perfeita execução dos serviços, a Contratada em clínica própria deverá disponibilizar os materiais, equip amentos, ferramentas e utensílios necessários ao atendimento, promovendo sua substituição quando necessário. 5.2. Garantia, manutenção e assistência técnica: (art…"
-     }
-    ],
-    "emails": [],
-    "lidos": [
-     "EDITAL_Credenciamento_015_2025_completo_numerado.pdf",
-     "CR_015_2025_Primeiro_Parecer_Juridico.pdf",
-     "CR_015_2025_Planilha_de_Afericao_de_Precos.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 1,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
-    "est": [
-     {
-      "cnes": 2796449,
-      "nome": "Santa Casa De Misericordia De Guaxupe",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": ""
-     },
-     {
-      "cnes": 490814,
-      "nome": "Life Medical Hospital Eireli",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(35)3406-0405"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 52744
-  },
-  {
-   "id": "pncp:01974088000105/2025/130",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "MT",
-   "municipio": "Primavera do Leste",
-   "orgao": "MUNICIPIO DE PRIMAVERA DO LESTE",
-   "modalidade": "Credenciamento",
-   "objeto": "ABERTURA DE CREDENCIAMENTO PARA PRESTAÇÃO DE SERVIÇOS OFTALMOLOGICOS",
-   "valor_total": 4426716.6,
-   "faco": null,
-   "abertura": "2025-12-08T10:35",
-   "encerramento": "2030-12-08T10:36",
-   "publicado": "2025-12-08",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://www.primaveradoleste.mt.gov.br/Licitacoes/Chamamento-para-credenciamento/",
-   "link": "https://pncp.gov.br/app/editais/01974088000105/2025/130",
-   "dist_km": 881,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [],
-    "emails": [],
-    "lidos": [
-     "1_Requisicao_do_Setor_demandante.pdf"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 0,
-    "olho": 1,
-    "privado": 4,
-    "total": 4,
-    "est": [
-     {
-      "cnes": 7790341,
-      "nome": "Hop Hospital De Olhos De Primavera",
-      "tipo": "Clínica especializada",
-      "hosp": true,
-      "nat": "privado",
-      "olho": true,
-      "sus": false,
-      "tel": "(66) 9 9212-7075"
-     },
-     {
-      "cnes": 2397463,
-      "nome": "Hospital E Maternidade Sta Maria",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(66) 3498-1235"
-     },
-     {
-      "cnes": 2397676,
-      "nome": "Hospital Das Clinicas Primavera Primavera Do Leste",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": true,
-      "tel": "(66) 3498-1055"
-     },
-     {
-      "cnes": 3636364,
-      "nome": "Centro Medico Das Nacoes Hospital E Maternidade",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "privado",
-      "olho": false,
-      "sus": false,
-      "tel": "(66) 3500-2111"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 96006
-  },
-  {
-   "id": "pncp:88199971000153/2025/175",
-   "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "RS",
-   "municipio": "Três Coroas",
-   "orgao": "MUNICIPIO DE TRES COROAS",
-   "modalidade": "Credenciamento",
-   "objeto": "Credenciamento de pessoas juridicas especializadas na prestacao de servicos medicos na area de oftalmologia compreendendo consultas exames diagnosticos procedimentos ambulatoriais e cirurgicos de forma complementar a rede publica de saude com remuneracao por producao conforme demanda da Secretaria de Saude",
-   "valor_total": 180000.0,
-   "faco": null,
-   "abertura": "2025-10-30T12:00",
-   "encerramento": "2030-10-30T12:00",
-   "publicado": "2025-11-18",
-   "vencedores": [
-    "CLINICA MEDICA IGREJINHA LTDA"
-   ],
-   "docs_resultado": [],
-   "plataforma": " ",
-   "link": "https://pncp.gov.br/app/editais/88199971000153/2025/175",
-   "dist_km": 945,
-   "primeira_vez": "2026-10-17",
-   "termos": [
-    "procedimentos oftalmológicos"
-   ],
-   "req": {
-    "status": "ok",
-    "oferece": [],
-    "exige": [
-     {
-      "r": "CNES ativo",
-      "t": "…Correa, n° 380 – Três Coroas – RS – CEP 95.660-000 – Fone: 0800 000 8932 l) Cópia do CNES (Cadastro Nacional dos Estabelecimentos de Saúde); m) Comprovação de capacidade técnica (atestados de capacidade ou portfolio); n) Relação dos profissionais com registro…"
-     },
-     {
-      "r": "Licença sanitária/alvará",
-      "t": "…S; g) Alvará de localização fornecido pelo Município da sede da empresa; h) Cópia do Alvará de Funcionamento (Saúde) segundo a legislação vigente; i) Relação dos exames e serviços que se propõe a realizar (tabela SUS); j) Nome do responsável técnico e registro no Conselho Regio…"
-     }
-    ],
-    "emails": [
-     "licitacoes3@trescoroas.rs.gov.br"
-    ],
-    "lidos": [
-     "Chamamento 01225",
-     "Chamamento 01225  ret",
-     "ESTUDO TECNICO PRELIMINAROFTALMO"
-    ],
-    "conferencia_necessaria": true
-   },
-   "estr": {
-    "publico": 0,
-    "filantropico": 1,
-    "olho": 0,
-    "privado": 0,
-    "total": 1,
-    "est": [
-     {
-      "cnes": 2257467,
-      "nome": "Hospital Dr Oswaldo Diesel",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "filantrópico",
-      "olho": false,
-      "sus": true,
-      "tel": "(51)35461236"
-     }
-    ],
-    "data": "2026-11-18"
-   },
-   "chamada_diario": false,
-   "habitantes": 24428
   },
   {
    "id": "pncp:88814181000130/2025/551",
@@ -25857,111 +25220,313 @@
    "habitantes": 21155
   },
   {
-   "id": "pncp:75476556000158/2026/23",
+   "id": "pncp:03277610000125/2026/603",
    "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "PR",
-   "municipio": "Paraíso do Norte",
-   "orgao": "MUNICIPIO DE PARAISO DO NORTE",
-   "modalidade": "Credenciamento",
-   "objeto": "Credenciamento de pessoa jurídica para a prestação de serviços médicos especializados, por meio de consultas médicas nas especialidades de Neuropediatria, Endocrinologia, Psiquiatria, Oftalmologia, Neurologia, Otorrinolaringologia e Cardiologia, visando suprir a demanda reprimida dos usuários do Sistema Único de Saúde (SUS) do Município de Paraíso do Norte, conforme especificações constantes no Termo de Referência.",
-   "valor_total": 329165.0,
+   "categoria": "Catarata",
+   "uf": "DF",
+   "municipio": "Brasília",
+   "orgao": "MINISTERIO DA DEFESA",
+   "modalidade": "Pregão - Eletrônico",
+   "objeto": "Aquisição de OPME para realização de cirurgias de facoemulsificação (cataratas), com implante de lente intraocular, com comodato de equipamentos e acessórios, para atender as necessidades da Seção de Oftalmologia do HFA",
+   "valor_total": 2014177.46,
    "faco": null,
-   "abertura": "2026-02-26T00:00",
-   "encerramento": "2027-02-26T23:59",
-   "publicado": "2026-02-25",
+   "abertura": "2026-11-12T09:00",
+   "encerramento": "2026-11-25T09:00",
+   "publicado": "2026-11-12",
    "vencedores": [],
    "docs_resultado": [],
-   "plataforma": "",
-   "link": "https://pncp.gov.br/app/editais/75476556000158/2026/23",
-   "dist_km": 479,
-   "primeira_vez": "2026-10-17",
+   "plataforma": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=11240805002972026",
+   "link": "https://pncp.gov.br/app/editais/03277610000125/2026/603",
+   "dist_km": 613,
+   "primeira_vez": "2026-11-21",
    "termos": [
+    "catarata",
+    "cirurgia de catarata",
+    "cirurgias de catarata",
+    "facoemulsificação",
+    "facoemulsificacao",
+    "cirurgia de facoemulsificação",
+    "lente intraocular",
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista"
+    "oftalmologista",
+    "cirurgia ocular",
+    "cirurgias oftalmológicas",
+    "procedimentos oftalmológicos",
+    "oftalmológica",
+    "oftalmológicas",
+    "vitrectomia"
    ],
    "req": {
     "status": "ok",
     "oferece": [],
     "exige": [
      {
-      "r": "CNES ativo",
-      "t": "…Relativos à Qualificação Técnica: a) Cadastro Nacional de Estabelecimento de Saúde – CNES da empresa; b) Comprovação do Registro da Empresa no CRM (Conselho Regional de Medicina) e Certidão de Regularidade junto ao Conselho; c) Cópia da Cédula de identidade e…"
-     },
-     {
-      "r": "RQE / título de especialista",
-      "t": "…ia e apresentação da documentação de habilitação (CRM e comprovação de especialidade/RQE), ficando sujeita à aprovação do Departamento Municipal de Saúde. O credenciado deverá disponibilizar e manter agenda compatível com a demanda encaminhada pelo TFD, info…"
+      "r": "Licença sanitária/alvará",
+      "t": "…te seja dispensada da AFE, deverá apresentar documento de comprovação da dispensa; e Licença Sanitária Estadual ou Municipal vigente, nos termos do artigo 21 da Lei n.º 5.991, de 17 de dezembro de 1973. Caso a licitante seja dispensada da Licença, deverá apresentar docume…"
      }
     ],
-    "emails": [
-     "compras@paraisodonorte.pr.gov.br",
-     "licitacao@paraisodonorte.pr.gov.br"
-    ],
+    "emails": [],
     "lidos": [
-     "Relatorio__Edital__WCO6211022420YPIDGLSXJYKTN8.pdf"
+     "232/2026.pdf"
     ],
     "conferencia_necessaria": true
    },
    "estr": {
-    "publico": 0,
+    "publico": 9,
     "filantropico": 1,
-    "olho": 0,
-    "privado": 1,
-    "total": 2,
+    "olho": 2,
+    "privado": 5,
+    "total": 20,
     "est": [
      {
-      "cnes": 253855,
-      "nome": "Ispas",
-      "tipo": "Hospital-dia",
+      "cnes": 10464,
+      "nome": "Hran",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "61 3254300"
+     },
+     {
+      "cnes": 10472,
+      "nome": "Hrg",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 10480,
+      "nome": "Hospital Regional De Ceilandia",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     },
+     {
+      "cnes": 10499,
+      "nome": "Hrt Hospital Regional De Taguatinga",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)20171700"
+     },
+     {
+      "cnes": 10502,
+      "nome": "Hrs",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)34879200"
+     },
+     {
+      "cnes": 10529,
+      "nome": "Hrpl",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61) 33899169"
+     },
+     {
+      "cnes": 10537,
+      "nome": "Hospital Materno Infantil Dr Antonio Lisboa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)34457500"
+     },
+     {
+      "cnes": 10545,
+      "nome": "Hrbz",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61) 3449-6392"
+     },
+     {
+      "cnes": 10561,
+      "nome": "Hfa",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": false,
+      "tel": "61 39662141"
+     },
+     {
+      "cnes": 10456,
+      "nome": "Hospital De Base Do Distrito Federal",
+      "tipo": "Hospital geral",
       "hosp": true,
       "nat": "filantrópico",
       "olho": false,
-      "sus": false,
-      "tel": "44 34311195"
+      "sus": true,
+      "tel": "6133151450"
      },
      {
-      "cnes": 2753979,
-      "nome": "Hospital Paraiso",
+      "cnes": 255416,
+      "nome": "Hodf",
       "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": true,
+      "tel": "61 37712020"
+     },
+     {
+      "cnes": 777153,
+      "nome": "Hospital Dos Olhos Do Gama",
+      "tipo": "Hospital-dia",
+      "hosp": true,
+      "nat": "privado",
+      "olho": true,
+      "sus": false,
+      "tel": "34424000"
+     },
+     {
+      "cnes": 10510,
+      "nome": "Hospital Universitario De Brasilia",
+      "tipo": "Hospital geral",
       "hosp": true,
       "nat": "privado",
       "olho": false,
       "sus": true,
-      "tel": "(44)34311661"
+      "tel": ""
+     },
+     {
+      "cnes": 49867,
+      "nome": "Hospital Aguas Claras",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "30474664"
+     },
+     {
+      "cnes": 223441,
+      "nome": "Hospital Santa Lucia Gama",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "61-37054000"
      }
     ],
     "data": "2026-11-18"
    },
    "chamada_diario": false,
-   "habitantes": 13728
+   "habitantes": 2996899
   },
   {
-   "id": "pncp:01617317000134/2026/5",
+   "id": "pncp:80673411000187/2026/461",
    "fonte": "PNCP",
-   "categoria": "Oftalmologia",
-   "uf": "PA",
-   "municipio": "Sapucaia",
-   "orgao": "MUNICIPIO DE SAPUCAIA",
-   "modalidade": "Credenciamento",
-   "objeto": "[Portal de Compras Públicas] - CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS NA ÁREA DA PEDIATRIA, UROLOGIA, CARDIOLOGIA, PSICOLOGIA, OFTALMOLOGIA, GINECOLOGIA, ORTOPEDIA, DERMATOLOGIA E CONTRATAÇÃO DE MÉDICOS E PLANTONISTAS, JUNTO A REDE MUNICIPAL DE SAÚDE DE SAPUCAIA/PA.",
-   "valor_total": 1676239.86,
+   "categoria": "Material/compra",
+   "uf": "SC",
+   "municipio": "Florianópolis",
+   "orgao": "FUNDO ESTADUAL DE SAUDE",
+   "modalidade": "Dispensa",
+   "objeto": "Contratação emergencial, por meio de Dispensa de Licitação amparada no art. 75, inciso VIII, da Lei nº 14.133/2021, e clínica especializada para fornecimento de\nAvaliação médica com oftalmologista especialista em córnea e lentes de contato RÍGIDAS ESCLERAIS (linhagás-permeável), com adaptação e fornecimento das lentes necessárias, em ambos os olhos, moldadas de acordo com a curvatura e topografia ",
+   "valor_total": null,
    "faco": null,
-   "abertura": "2026-02-20T17:15",
-   "encerramento": "2027-02-18T08:00",
-   "publicado": "2026-02-20",
+   "abertura": "",
+   "encerramento": "2026-11-25T10:00",
+   "publicado": "2026-11-19",
    "vencedores": [],
    "docs_resultado": [],
-   "plataforma": "https://portaldecompraspublicas.com.br/processos/PA/Prefeitura-Municipal-de-Sapucaia-2043/CRED-001-FMS-2026-2026-457180",
-   "link": "https://pncp.gov.br/app/editais/01617317000134/2026/5",
-   "dist_km": 1598,
-   "primeira_vez": "2026-10-17",
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/80673411000187/2026/461",
+   "dist_km": 704,
+   "primeira_vez": "2026-11-21",
    "termos": [
     "oftalmologia",
     "oftalmológico",
     "oftalmológicos",
-    "oftalmologista"
+    "oftalmologista",
+    "olhos",
+    "oftalmológica",
+    "oftalmológicas"
+   ],
+   "chamada_diario": false,
+   "habitantes": 587486
+  },
+  {
+   "id": "pncp:80673411000187/2026/460",
+   "fonte": "PNCP",
+   "categoria": "Material/compra",
+   "uf": "SC",
+   "municipio": "Florianópolis",
+   "orgao": "FUNDO ESTADUAL DE SAUDE",
+   "modalidade": "Dispensa",
+   "objeto": "Contratação   emergencial   de  clínica   especializada   para   fornecimento   de avaliação   médica   com   oftalmologista   especialista   em   córnea   e   lentes   de   contato RÍGIDA ESCLERAIS  (linha gás permeável),  com adaptação e fornecimento das lentes necessárias, EM AMBOS OS OLHOS, para atendimento de demanda judicial, autos n°0303008-19.2015.8.24.0073, paciente A. S., por meio de Dis",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "2026-11-25T09:00",
+   "publicado": "2026-11-19",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/80673411000187/2026/460",
+   "dist_km": 704,
+   "primeira_vez": "2026-11-21",
+   "termos": [
+    "oftalmologia",
+    "oftalmológico",
+    "oftalmológicos",
+    "oftalmologista",
+    "olhos",
+    "oftalmológica",
+    "oftalmológicas"
+   ],
+   "chamada_diario": false,
+   "habitantes": 587486
+  },
+  {
+   "id": "pncp:11503081000169/2026/47",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "PE",
+   "municipio": "São José do Egito",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DE SAO JOSE DO EGITO",
+   "modalidade": "Credenciamento",
+   "objeto": "[Portal de Compras Públicas] - Contratação de Empresa Especializada para prestação de serviços de Feira de Saúde Oftalmológica, contemplando Consultas Médicas Oftalmológicas, fornecimento de Óculos com lentes corretivas e Exames de apoio diagnóstico (Ultrassonografia de globo ocular/órbita e Retinografia colorida binocular), por período de 12 (doze) meses, visando atender ao Fundo Municipal de Saúde de São José do Egito/PE.",
+   "valor_total": 500000.0,
+   "faco": null,
+   "abertura": "2026-11-09T14:00",
+   "encerramento": "2026-11-25T07:00",
+   "publicado": "2026-11-09",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/PE/Fundo-Municipal-de-Saude-de-Sao-Jose-do-Egito-4920/CRED-009-2026-2026-523914",
+   "link": "https://pncp.gov.br/app/editais/11503081000169/2026/47",
+   "dist_km": 1951,
+   "primeira_vez": "2026-11-21",
+   "termos": [
+    "oftalmologia",
+    "oftalmológico",
+    "oftalmológicos",
+    "oftalmologista",
+    "oftalmológica",
+    "oftalmológicas"
    ],
    "req": {
     "status": "ok",
@@ -25969,20 +25534,33 @@
     "exige": [
      {
       "r": "CNES ativo",
-      "t": "…m o objeto licitado. b) Inscrição no Cadastro Nacional de Estabelecimento de Saúde – CNES, com lista de serviços que serão realizados pelo prestador, devidamente atualizado. c) Curriculum Vitae resumido do Diretor Clínico, com cópia do diploma, certificado de…"
+      "t": "…cumprimento dos requisitos para a habilitação e da proposta; 22. Registro da Empresa CNES; A falta de veracidade de qualquer das informações ora aqui prestadas pela empresa implicará no indeferimento de sua habilitação, independente das sanções cabíveis . Os…"
      },
      {
-      "r": "Atestado de capacidade técnica",
-      "t": "…comprovação de quantitativo mínimo de 4%, a apresentação e o somatório de diferentes atestados de capacidade técnica executados de forma concomitante. 11.1.2 Os atestados de capacidade técnica poderão ser apresentados em nome da matriz ou da filial da empresa licitante. GOVERNO DO PARÁ…"
+      "r": "Licença sanitária/alvará",
+      "t": "…ra em funcionamento no País, e ato de registro ou autorização para funcionamento; 3. Licença de Funcionamento (Alvará) atualizada; 4. Balanço patrimonial, demonstração de resultado de exercício e d emais demo nstrações contábeis dos dois ú ltimos exercícios sociais. Os referidos…"
+     },
+     {
+      "r": "RQE / título de especialista",
+      "t": "…serviços, contemplando no mínimo: médico(s) oftalmologista(s) com registro no CRM e Registro de Qualificação de Especialista (RQE); equipe de apoio para acolhimento, triagem e registro; tabela ou projetor de optotipo s; refr ator ou caixa de provas com armação de provas; lâmpada de fenda; tonô…"
      },
      {
       "r": "Balanço e índices financeiros",
-      "t": "…falência ou recuperação judicial expedida pelo distribuidor da sede do licitante; b) Balanço patrimonial e demonstrações contábeis dos últimos 02 (dois) exercícios sociais, e as demonstrações contábeis deverão ser apresentados por cópia do seu termo de abertura, documento c…"
+      "t": "…autorização para funcionamento; 3. Licença de Funcionamento (Alvará) atualizada; 4. Balanço patrimonial, demonstração de resultado de exercício e d emais demo nstrações contábeis dos dois ú ltimos exercícios sociais. Os referidos documentos limitar –se–ão ao último exercíc…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…á emitido e assinatura pelas partes, apenas após o decurso do prazo de observação ou vistoria, que comprove o atendimento das exigências contratuais, não podendo esse prazo ser superior a 90 (noventa) dias, salvo em ca sos excepcionais, devidamente justificados.…"
+     },
+     {
+      "r": "Aceita consórcio de empresas",
+      "t": "…eracional, de mais de um adjudicatário por lote; qu er seja na forma material, sendo permitida a participação de consórcio, nos termos da norma vigente, bem como ocorrer a autorização para a realização de subcontratação. 12.Resultados pretendidos A Administração almeja com a contratação da p…"
      }
     ],
     "emails": [],
     "lidos": [
-     "EDITAL DE LICITACAO - CREDENCIAMENTO-Ass.pdf"
+     "1._CREDENCIAMENTO_009.2026__parte_01_.pdf",
+     "2._CREDENCIAMENTO_N__009.2026_-_FEIRA_DE_SA_DE__parte_02_.pdf"
     ],
     "conferencia_necessaria": true
    },
@@ -25990,24 +25568,268 @@
     "publico": 1,
     "filantropico": 0,
     "olho": 0,
-    "privado": 0,
-    "total": 1,
+    "privado": 2,
+    "total": 3,
     "est": [
      {
-      "cnes": 3001083,
-      "nome": "Hospital Municipal De Sapucaia",
+      "cnes": 2715317,
+      "nome": "Hospital Maria Rafael De Siqueira",
       "tipo": "Hospital geral",
       "hosp": true,
       "nat": "público",
       "olho": false,
       "sus": true,
-      "tel": "94 3382 2142"
+      "tel": "(87)38441192"
+     },
+     {
+      "cnes": 2429543,
+      "nome": "Clips Ii",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "(81)38441209"
+     },
+     {
+      "cnes": 2635798,
+      "nome": "Clinica Santa Maria",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": "87 38441942"
+     }
+    ],
+    "data": "2026-11-07"
+   },
+   "chamada_diario": false,
+   "habitantes": 32508
+  },
+  {
+   "id": "pncp:15126437000305/2026/4687",
+   "fonte": "PNCP",
+   "categoria": "Material/compra",
+   "uf": "ES",
+   "municipio": "Vitória",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "modalidade": "Pregão - Eletrônico",
+   "objeto": "Aquisição de PRODUTOS PARA SAÚDE - DISPOSITIVOS MÉDICOS, LABORATORIAIS, APOIO CIRÚRGICO-OFTÁLMICO, MATERIAIS DE CONTENÇÃO DE RESÍDUOS​​​​​​​ E MEDICAMENTOS",
+   "valor_total": null,
+   "faco": null,
+   "abertura": "",
+   "encerramento": "2026-11-25T09:00",
+   "publicado": "2026-11-12",
+   "vencedores": [],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4687",
+   "dist_km": 857,
+   "primeira_vez": "2026-11-21",
+   "termos": [
+    "oftalmo"
+   ],
+   "chamada_diario": false,
+   "habitantes": 343378
+  },
+  {
+   "id": "pncp:23804149000129/2026/40",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "MG",
+   "municipio": "Ponte Nova",
+   "orgao": "MUNICIPIO DE PONTE NOVA",
+   "modalidade": "Credenciamento",
+   "objeto": "Credenciamento para contratação de estabelecimentos de saúde para realização de serviços oftalmológicos.",
+   "valor_total": 3256414.3,
+   "faco": null,
+   "abertura": "2026-01-05T17:12",
+   "encerramento": "2026-12-31T17:13",
+   "publicado": "2025-12-30",
+   "vencedores": [
+    "HOSPITAL DE OLHOS LUVERE LTDA",
+    "FUNDACAO FILANT E BENEF DE SAUDE ARNALDO GAVAZZA FILHO"
+   ],
+   "docs_resultado": [],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/23804149000129/2026/40",
+   "dist_km": 590,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "olhos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [
+     {
+      "r": "Exige estrutura própria (clínica/centro cirúrgico)",
+      "t": "…erviços deverá ser executada no Município de Ponte Nova de segunda à sexta-feira, em estabelecimento próprio da empresa credenciada, que atenda a todas as exigências legais para o tipo de empreendimento, inclusive de Vigilância Sanitária; 5.1.4. Os serviços contratados serão re…"
+     },
+     {
+      "r": "Atendimento no município/região",
+      "t": "…tos efetivamente realizados. 1.7. Os serviços deverão ser obrigatoriamente prestados no território do município, de forma a assegurar acessibilidade, resolutividade e continuidade do acompanhamento clínico dos usuários, observando horários, fluxos e capacidade operacional compatív…"
+     },
+     {
+      "r": "CNES ativo",
+      "t": "…ão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo do CNES (Cadastro Nacional de Estabelecimentos de Saúde) emitido no site https://cnes.datasus.gov.br Declarações 9.22. O credenciante deverá apresentar declarações, subscritas p…"
+     },
+     {
+      "r": "Licença sanitária/alvará",
+      "t": "…lência expedida pelo distribuidor da sede do fornecedor . Qualificação Técnica 9.20. Alvará Sanitário válido emitido pelo órgão municipal competente ou documento equivalente emitido por órgão Federal ou Estadual que comprove sua atividade comercial. 9.21. Registro ativo…"
+     },
+     {
+      "r": "Vistoria",
+      "t": "…tes da Lei nº 14.133, de 2021, pelas razões constantes do Estudo Técnico Preliminar. Vistoria 4.5. Não há necessidade de realização de avaliação prévia do local de execução dos serviços. 5. MODELO DE EXECUÇÃO DO OBJETO Condições de execução 5.1. A execução do obj…"
+     },
+     {
+      "r": "Empresa fornece LIO/insumos",
+      "t": "…oriedade do cumprimento das disposições contidas no Termo de Referência, assumindo o credenciado o compromisso de executar o objeto nos seus termos, bem como de fornecer os materiais, equipamentos, ferramentas e utensílios necessários, em quantidades e qualidades adequadas à perfeita execução contratual, promovendo, quando requerido, sua substituição…"
+     }
+    ],
+    "emails": [
+     "licitacao@pontenova.mg.gov.br",
+     "licitacao@pontenova.mg.gob.br"
+    ],
+    "lidos": [
+     "Edital 211-2025 Credenciamento servicos oftamologicos.docx.pdf",
+     "TR_Cred_Serv_Oftalmologicos.pdf",
+     "ETP_Cred_Serv_Oftalmologicos.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 0,
+    "filantropico": 2,
+    "olho": 0,
+    "privado": 1,
+    "total": 3,
+    "est": [
+     {
+      "cnes": 2111640,
+      "nome": "Hospital Nossa Senhora Das Dores",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "3138192600"
+     },
+     {
+      "cnes": 2206382,
+      "nome": "Hospital Arnaldo Gavazza Filho",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "filantrópico",
+      "olho": false,
+      "sus": true,
+      "tel": "31-38195000"
+     },
+     {
+      "cnes": 2217163,
+      "nome": "Mater Clinica Consultar",
+      "tipo": "Pronto-socorro",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": false,
+      "tel": "(31)38177000"
      }
     ],
     "data": "2026-11-18"
    },
    "chamada_diario": false,
-   "habitantes": 6212
+   "habitantes": 59638
+  },
+  {
+   "id": "pncp:00394452000103/2023/15471",
+   "fonte": "PNCP",
+   "categoria": "Oftalmologia",
+   "uf": "GO",
+   "municipio": "Cristalina",
+   "orgao": "COMANDO DO EXERCITO",
+   "modalidade": "Credenciamento",
+   "objeto": "Contratação dos serviços médico-hospitalares, fonoaudiologia, psicologia, nutrição, oftalmologia, fisioterapia, odontologia radiológica e exames laboratoriais prestados pelas Organizações Civis de Saúde (OCS), eventualmente credenciados no presente processo administrativo, se dará mediante adesão, por parte dos interessados neste credenciamento, aos parâmetros previamente autorizadas pela Diretoria de Saúde, órgão do Departamento-Geral do Pessoal (DGP), a quem compete estabelecer os valores a serem pagos pelos serviços prestados, conforme a região do país em que se localiza a Organização Milit",
+   "valor_total": 504835.44,
+   "faco": null,
+   "abertura": "2024-10-30T10:00",
+   "encerramento": "2029-10-30T16:00",
+   "publicado": "2024-10-29",
+   "vencedores": [
+    "CEME MEDICINE LTDA",
+    "HOSPITAL JOLART LTDA",
+    "SOCIEDADE MEDICA LUZIANIA LTDA",
+    "A F FREITAS CLINICA MEDICA LTDA",
+    "LABORATORIO SABIN DE ANALISES CLINICAS S.A.",
+    "KARINE DOS REIS SOARES - FISIOTERAPIA",
+    "AGILE RH & SAUDE OCUPACIONAL LTDA",
+    "ALINE VIEIRA FISIOTERAPIA LTDA",
+    "RIBEIRO E XAVIER LTDA",
+    "FISIOMOV LTDA",
+    "MG CLINICA DE OLHOS LTDA",
+    "QUALIMAGEM RADIOLOGIA LTDA",
+    "DEISY DA SILVA GONCALVES",
+    "CENTRUS - CENTRO DE TOMOGRAFIA COMPUTADORIZADA, RESSONANCIA MAGNETICA E ULTRA - SONOGRAFIA LTDA"
+   ],
+   "docs_resultado": [
+    "15 - MINUTA CONTRATO FISIO E FONO.docx",
+    "16 - MINUTA CONTRATO LAB.docx",
+    "17 - MINUTA CONTRATO PSICOLOGIA.docx",
+    "18 - MINUTA CONTRATO NUTRICAO.docx",
+    "19 - MINUTA CONTRATO CLINICAS MEDICAS ESPECIALIZADAS.docx"
+   ],
+   "plataforma": "",
+   "link": "https://pncp.gov.br/app/editais/00394452000103/2023/15471",
+   "dist_km": 509,
+   "primeira_vez": "2026-10-17",
+   "termos": [
+    "olhos"
+   ],
+   "req": {
+    "status": "ok",
+    "oferece": [],
+    "exige": [],
+    "emails": [],
+    "lidos": [
+     "1 - EDITAL.pdf",
+     "14 - ANEXO H - LISTA DE PARAMETROS DE REMUNERACAO DE SERVICOS HOSPITALARES -.pdf",
+     "2 - TERMO DE REFERENCIA.pdf"
+    ],
+    "conferencia_necessaria": true
+   },
+   "estr": {
+    "publico": 1,
+    "filantropico": 0,
+    "olho": 0,
+    "privado": 1,
+    "total": 2,
+    "est": [
+     {
+      "cnes": 2383896,
+      "nome": "Hospital Municipal De Cristalina Chaud Salles",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "público",
+      "olho": false,
+      "sus": true,
+      "tel": "(61)36121010"
+     },
+     {
+      "cnes": 6829228,
+      "nome": "Hospital Nossa Senhora Do Rosario",
+      "tipo": "Hospital geral",
+      "hosp": true,
+      "nat": "privado",
+      "olho": false,
+      "sus": true,
+      "tel": ""
+     }
+    ],
+    "data": "2026-11-21"
+   },
+   "chamada_diario": false,
+   "habitantes": 66827
   },
   {
    "id": "dou:https://data.queridodiario.ok.org.br/1721000/2026-10-29/28a51a82b4e141a70a6eae91157c84eb5af31d53.pdf",
@@ -28695,53 +28517,6 @@
    },
    "chamada_diario": false,
    "habitantes": 135369
-  },
-  {
-   "id": "priv:pcp:527417",
-   "fonte": "Plataforma privada",
-   "plataforma_nome": "Portal de Compras Públicas",
-   "categoria": "Oftalmologia",
-   "uf": "PI",
-   "municipio": "União",
-   "orgao": "PREFEITURA MUNICIPAL DE UNIÃO",
-   "modalidade": "Credenciamento 023/2026 · Recebendo Propostas",
-   "objeto": "CREDENCIAMENTO DE PESSOAS JURÍDICAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS MÉDICOS OFTALMOLÓGICOS, COM REALIZAÇÃO DE CIRURGIA DE PTERÍGIO MONOCULAR E CAPSULOTOMIA A LASER MONOCULAR, PARA ATENDER ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE...",
-   "valor_total": null,
-   "faco": null,
-   "abertura": "2026-11-24T14:00",
-   "encerramento": "2026-12-08T18:00",
-   "publicado": "2026-11-24",
-   "vencedores": [],
-   "docs_resultado": [],
-   "plataforma": "https://www.portaldecompraspublicas.com.br/processos/pi/prefeitura-municipal-de-uniao-2372/cred-023-2026-2026-527417",
-   "link": "https://www.portaldecompraspublicas.com.br/processos/pi/prefeitura-municipal-de-uniao-2372/cred-023-2026-2026-527417",
-   "dist_km": 1952,
-   "primeira_vez": "2026-11-24",
-   "termos": [
-    "oftalmol"
-   ],
-   "estr": {
-    "publico": 1,
-    "filantropico": 0,
-    "olho": 0,
-    "privado": 0,
-    "total": 1,
-    "est": [
-     {
-      "cnes": 2777681,
-      "nome": "Hosp Municipal De Uniao",
-      "tipo": "Hospital geral",
-      "hosp": true,
-      "nat": "público",
-      "olho": false,
-      "sus": true,
-      "tel": "(86) 2652048"
-     }
-    ],
-    "data": "2026-11-24"
-   },
-   "chamada_diario": false,
-   "habitantes": 47896
   },
   {
    "id": "priv:pcp:502535",
@@ -44356,12 +44131,13 @@
   {
    "nome": "PNCP (Portal Nacional de Contratações Públicas)",
    "ok": true,
-   "obs": "procura parcial: 4 de 99 consultas sem resposta",
-   "itens": 247
+   "obs": "procura parcial: 7 de 91 consultas sem resposta",
+   "itens": 248
   },
   {
    "nome": "Diários Oficiais municipais (Querido Diário)",
-   "ok": true,
+   "ok": false,
+   "erro": "Fonte indisponível; dados anteriores preservados",
    "itens": 13
   },
   {
@@ -44379,7 +44155,7 @@
   {
    "nome": "Portal de Compras Públicas",
    "ok": true,
-   "itens": 9
+   "itens": 8
   },
   {
    "nome": "BLL Compras",
@@ -44509,6 +44285,6 @@
    "itens": 0
   }
  ],
- "rodada": "45541822106",
- "concluido": "2026-11-25 01:37"
+ "rodada": "45625555742",
+ "concluido": "2026-11-25 11:26"
 }
