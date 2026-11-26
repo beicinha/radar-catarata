@@ -609,8 +609,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-25T20:08:54.095263-03:00",
-      "tentativas": 5,
+      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
+      "tentativas": 6,
       "aceitas": 0
     }
   },
@@ -623,8 +623,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-25T20:08:54.095263-03:00",
-      "tentativas": 4,
+      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
+      "tentativas": 5,
       "aceitas": 0
     }
   },
@@ -637,8 +637,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-25T20:08:54.095263-03:00",
-      "tentativas": 4,
+      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
+      "tentativas": 5,
       "aceitas": 0
     }
   },
@@ -653,6 +653,20 @@
       "status": "resposta_desconhecida",
       "ultima_tentativa": "2026-11-25T01:37:18.945377-03:00",
       "tentativas": 2,
+      "aceitas": 0
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/famep/materia/4047B17C": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
+      "tentativas": 1,
       "aceitas": 0
     }
   }
