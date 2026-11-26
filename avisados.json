@@ -609,8 +609,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
-      "tentativas": 6,
+      "ultima_tentativa": "2026-11-26T12:05:28.847874-03:00",
+      "tentativas": 7,
       "aceitas": 0
     }
   },
@@ -623,8 +623,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
-      "tentativas": 5,
+      "ultima_tentativa": "2026-11-26T12:05:28.847874-03:00",
+      "tentativas": 6,
       "aceitas": 0
     }
   },
@@ -637,8 +637,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
-      "tentativas": 5,
+      "ultima_tentativa": "2026-11-26T12:05:28.847874-03:00",
+      "tentativas": 6,
       "aceitas": 0
     }
   },
@@ -665,7 +665,21 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T02:23:29.230097-03:00",
+      "ultima_tentativa": "2026-11-26T12:05:28.847874-03:00",
+      "tentativas": 2,
+      "aceitas": 0
+    }
+  },
+  "priv:pcp:527748": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-26T12:05:28.847874-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-26T12:05:28.847874-03:00",
       "tentativas": 1,
       "aceitas": 0
     }
