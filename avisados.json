@@ -609,8 +609,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T20:46:49.839098-03:00",
-      "tentativas": 8,
+      "ultima_tentativa": "2026-11-27T03:01:29.302731-03:00",
+      "tentativas": 9,
       "aceitas": 0
     }
   },
@@ -623,8 +623,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T20:46:49.839098-03:00",
-      "tentativas": 7,
+      "ultima_tentativa": "2026-11-27T03:01:29.302731-03:00",
+      "tentativas": 8,
       "aceitas": 0
     }
   },
@@ -637,8 +637,8 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T20:46:49.839098-03:00",
-      "tentativas": 7,
+      "ultima_tentativa": "2026-11-27T03:01:29.302731-03:00",
+      "tentativas": 8,
       "aceitas": 0
     }
   },
@@ -693,7 +693,21 @@
     },
     "whatsapp": {
       "status": "resposta_desconhecida",
-      "ultima_tentativa": "2026-11-26T20:46:49.839098-03:00",
+      "ultima_tentativa": "2026-11-27T03:01:29.302731-03:00",
+      "tentativas": 2,
+      "aceitas": 0
+    }
+  },
+  "dou:https://www.diariomunicipal.com.br/ama/materia/EECF49B0": {
+    "email": {
+      "status": "enviado",
+      "ultima_tentativa": "2026-11-27T03:01:29.302731-03:00",
+      "tentativas": 1,
+      "aceitas": 0
+    },
+    "whatsapp": {
+      "status": "resposta_desconhecida",
+      "ultima_tentativa": "2026-11-27T03:01:29.302731-03:00",
       "tentativas": 1,
       "aceitas": 0
     }
